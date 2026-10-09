@@ -1,0 +1,11 @@
+{
+  "evidence_status": "FIXTURE_ONLY_REJECTED_VISUAL_RUNTIME",
+  "role": "visual_pool_fixture",
+  "windows": [
+    {
+      "evidence_ids": ["fixture_sheet_0"],
+      "observations": ["small-target risk may be present in upper tiles"],
+      "summary": "Compatibility fixture only; not valid visual evidence and not ground truth."
+    }
+  ]
+}

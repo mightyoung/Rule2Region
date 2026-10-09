@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "dataset": "VIRAT",
+      "source_url": null,
+      "version": null,
+      "license_or_terms_url": null,
+      "sha256": null,
+      "split": null,
+      "status": "NOT_BUNDLED_NOT_ACQUIRED"
+    },
+    {
+      "dataset": "CHOKEPOINT",
+      "source_url": null,
+      "version": null,
+      "license_or_terms_url": null,
+      "sha256": null,
+      "split": null,
+      "status": "NOT_BUNDLED_NOT_ACQUIRED"
+    }
+  ]
+}

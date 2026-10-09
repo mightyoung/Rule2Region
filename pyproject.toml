@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codecref-lite"
+version = "0.1.0"
+description = "Auditable codec-guided sparse evidence prototype"
+requires-python = ">=3.10,<3.14"
+dependencies = ["av>=17,<19", "numpy>=1.24", "pillow>=10,<13"]
+
+[project.optional-dependencies]
+demo = [
+  "gradio>=5,<7",
+  "opencv-python-headless>=4.10,<5",
+  "supervision>=0.25,<0.28",
+]
+
+[project.scripts]
+codecref-lite = "codecref_lite.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools.packages.find]
+include = ["codecref_lite*", "evidencegate*"]
