@@ -1,0 +1,49 @@
+{
+  "schema_version": "research-handoff.v1",
+  "project_id": "Rule2Region",
+  "task_id": "rule2region-handoff-20261009",
+  "source_repo": "https://github.com/mightyoung/Rule2Region",
+  "source_commit": "cf22ddd8e46ee83ddd9565b058e1df4e362377ea",
+  "owner": "repository-maintainer",
+  "status": "prepared",
+  "next_action": "Review the public handoff text; publication alone does not authorize execution.",
+  "artifacts": [
+    {
+      "artifact_id": "rule2region-human-reviewed-three-scenes-20261009",
+      "sha256": "3bd4be1bc0ff284e55634715660d20d81dee3b89119eb45ab96e92aa27cc2ac4",
+      "bytes": 105721,
+      "visibility": "private",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Private human-reviewed export; original asset bytes omitted.",
+        "license": "Redistribution not approved by this handoff.",
+        "split": "development; candidate-exposed",
+        "derivation": "AI-assisted human review; normalized polygon coordinates; original export unchanged."
+      }
+    }
+  ],
+  "review": {
+    "classification": "AI-assisted human-reviewed development reference",
+    "seen_candidates": true,
+    "independent_blind_gt": false
+  },
+  "claims": [
+    "Three scenes; eight reference images are not eight independent tasks.",
+    "All three shared scenes are human-reviewed v1; normalized polygon coordinates are in [0,1].",
+    "R2 is a screening ROI, not a physical floor mask; R1 and R3 retain unknown_scope.",
+    "Geometry and review status are checked; no detector accuracy or real violation labels are claimed."
+  ],
+  "execution": {
+    "claimed_status": "NO_NEW_EXPERIMENT",
+    "executed_status": "NO_NEW_EXPERIMENT",
+    "command": null,
+    "exit_code": null,
+    "output_sha256": null,
+    "authorization": "This PR publishes text only; no new execution is authorized."
+  },
+  "blockers": [],
+  "public_boundary": [
+    "No raw images, videos, original ZIP, private asset URLs or private conversation identifiers.",
+    "Private artifact entries are identifiers only; no external retrieval is implied."
+  ]
+}
