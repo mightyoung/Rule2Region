@@ -1,0 +1,70 @@
+{
+  "width": 1920,
+  "height": 1072,
+  "available_at": "0",
+  "portals": [
+    {
+      "reference_id": "G420-left-portal",
+      "door_id": "left",
+      "points": [
+        [
+          839,
+          386
+        ],
+        [
+          1119,
+          446
+        ],
+        [
+          1085,
+          744
+        ],
+        [
+          826,
+          675
+        ]
+      ]
+    },
+    {
+      "reference_id": "G420-right-portal",
+      "door_id": "right",
+      "points": [
+        [
+          1155,
+          453
+        ],
+        [
+          1459,
+          524
+        ],
+        [
+          1397,
+          835
+        ],
+        [
+          1119,
+          757
+        ]
+      ]
+    }
+  ],
+  "sill": {
+    "reference_id": "G420-P300-right-sill-fragment",
+    "door_id": "right",
+    "points": [
+      [
+        1144,
+        761
+      ],
+      [
+        1241,
+        790
+      ]
+    ],
+    "source_pts": 300,
+    "time_base": "1/30",
+    "available_at": "10",
+    "provenance": "AI_visible_fragment_not_physical_boundary",
+    "coordinate_tolerance_px": 6
+  }
+}

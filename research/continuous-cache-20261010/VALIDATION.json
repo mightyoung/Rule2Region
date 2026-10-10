@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pure_unit_tests": 64,
+  "public_fixture_replay": true,
+  "original_vs_public_derived_numeric_values_checked": 2432,
+  "numeric_values_equal": true,
+  "four_arm_summary_equal": true,
+  "historical_private_provenance_ids_not_compared": true,
+  "private_source_hash_intersection": 0,
+  "new_model_calls": 0
+}

@@ -1,0 +1,123 @@
+{
+  "detector_parameters": {
+    "model_id": "IDEA-Research/grounding-dino-tiny",
+    "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "prompt": "person.",
+    "box_threshold": 0.25,
+    "text_threshold": 0.25,
+    "classwise_nms_iou": 0.7,
+    "nms_convention": "suppress when IoU > threshold; confidence desc then prediction_id",
+    "max_detections": null,
+    "class_mapping": {
+      "person": "person"
+    },
+    "processor_size": {
+      "shortest_edge": 800,
+      "longest_edge": 1333
+    },
+    "processor_implementation": "GroundingDinoImageProcessor use_fast=False; bundled normalize/rescale/bilinear/pad",
+    "color_space": "PIL_RGB",
+    "bbox_coordinate_system": "continuous original image edges xyxy; raw preserved; clipping audited",
+    "device": "cpu",
+    "dtype": "float32",
+    "batch_size": 1,
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "seed": 0,
+    "warmup_calls": 0,
+    "image_read_window": "full_original",
+    "roi_masks_applied_to_detector": false,
+    "threshold_tuning": "none",
+    "network": "offline only",
+    "trust_remote_code": false
+  },
+  "expected_processor": {
+    "_processor_class": "GroundingDinoProcessor",
+    "image_processor_type": "GroundingDinoImageProcessor",
+    "format": "coco_detection",
+    "do_resize": true,
+    "size": {
+      "shortest_edge": 800,
+      "longest_edge": 1333
+    },
+    "resample": 2,
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_normalize": true,
+    "do_convert_annotations": true,
+    "image_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "image_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "do_pad": true,
+    "pad_size": null
+  },
+  "dependencies": {
+    "torch": "2.8.0+cpu",
+    "torchvision": "0.23.0+cpu",
+    "transformers": "4.57.1",
+    "safetensors": "0.6.2",
+    "numpy": "2.5.2",
+    "Pillow": "11.3.0",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.35.3",
+    "ultralytics": "8.4.175",
+    "opencv-python": "5.0.0.93",
+    "psutil": "7.2.2"
+  },
+  "batch": [
+    {
+      "sample_id": "G420-P375",
+      "actual_pts": 375,
+      "time_base": "1/30",
+      "seconds": 12.5,
+      "width": 1920,
+      "height": 1072,
+      "split": "posthoc_known_positive_development"
+    },
+    {
+      "sample_id": "G420-P405",
+      "actual_pts": 405,
+      "time_base": "1/30",
+      "seconds": 13.5,
+      "width": 1920,
+      "height": 1072,
+      "split": "posthoc_known_positive_development"
+    },
+    {
+      "sample_id": "G420-P435",
+      "actual_pts": 435,
+      "time_base": "1/30",
+      "seconds": 14.5,
+      "width": 1920,
+      "height": 1072,
+      "split": "posthoc_known_positive_development"
+    },
+    {
+      "sample_id": "G420-P465",
+      "actual_pts": 465,
+      "time_base": "1/30",
+      "seconds": 15.5,
+      "width": 1920,
+      "height": 1072,
+      "split": "posthoc_known_positive_development"
+    },
+    {
+      "sample_id": "G420-P480",
+      "actual_pts": 480,
+      "time_base": "1/30",
+      "seconds": 16.0,
+      "width": 1920,
+      "height": 1072,
+      "split": "posthoc_known_positive_development"
+    }
+  ],
+  "split": "posthoc_known_positive_development",
+  "independent_generalization_evidence": false
+}

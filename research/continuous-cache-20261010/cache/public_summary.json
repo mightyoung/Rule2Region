@@ -1,0 +1,95 @@
+{
+  "provenance_kind": "hashes_bind_public_fixture_files_not_original_images",
+  "frames": 6,
+  "observations": 62,
+  "candidate_relations": 531,
+  "accepted_hypothesis_relations": 1,
+  "unknown_relations": 530,
+  "computed_geometry_descriptors": 62,
+  "computed_motion_descriptors": 1,
+  "no_request_retrievals": 0,
+  "forced_diagnostic_requests": 62,
+  "no_read_recomputation": true,
+  "arms": {
+    "G": {
+      "requests": 62,
+      "valid_current_geometry": 62,
+      "direction_segment_available": 0,
+      "historical_distance_sequence_available": 0,
+      "direction_continuity_available": 0,
+      "three_point_distance_available": 0,
+      "event_unknown": 62,
+      "inference_missing_inputs_counts": {
+        "automatic_side_evidence": 62,
+        "qualified_accepted_history": 61
+      },
+      "evaluation_gaps": [
+        "independent_event_reference",
+        "real_negative_events"
+      ]
+    },
+    "G_DIR": {
+      "requests": 62,
+      "valid_current_geometry": 62,
+      "direction_segment_available": 1,
+      "historical_distance_sequence_available": 0,
+      "direction_continuity_available": 0,
+      "three_point_distance_available": 0,
+      "event_unknown": 62,
+      "inference_missing_inputs_counts": {
+        "automatic_side_evidence": 62,
+        "qualified_accepted_history": 61,
+        "qualified_nonzero_direction_segment": 61,
+        "two_consecutive_nonzero_direction_segments_same_anchor": 62
+      },
+      "evaluation_gaps": [
+        "independent_event_reference",
+        "real_negative_events"
+      ]
+    },
+    "G_DIST": {
+      "requests": 62,
+      "valid_current_geometry": 62,
+      "direction_segment_available": 0,
+      "historical_distance_sequence_available": 1,
+      "direction_continuity_available": 0,
+      "three_point_distance_available": 0,
+      "event_unknown": 62,
+      "inference_missing_inputs_counts": {
+        "associated_historical_distance_sequence": 61,
+        "automatic_side_evidence": 62,
+        "qualified_accepted_history": 61,
+        "three_associated_distance_observations": 62
+      },
+      "evaluation_gaps": [
+        "independent_event_reference",
+        "real_negative_events"
+      ]
+    },
+    "G_DIR_DIST": {
+      "requests": 62,
+      "valid_current_geometry": 62,
+      "direction_segment_available": 1,
+      "historical_distance_sequence_available": 1,
+      "direction_continuity_available": 0,
+      "three_point_distance_available": 0,
+      "event_unknown": 62,
+      "inference_missing_inputs_counts": {
+        "associated_historical_distance_sequence": 61,
+        "automatic_side_evidence": 62,
+        "qualified_accepted_history": 61,
+        "qualified_nonzero_direction_segment": 61,
+        "three_associated_distance_observations": 62,
+        "two_consecutive_nonzero_direction_segments_same_anchor": 62
+      },
+      "evaluation_gaps": [
+        "independent_event_reference",
+        "real_negative_events"
+      ]
+    }
+  },
+  "accuracy": null,
+  "new_model_calls": 0,
+  "source_clock_simulation_not_wall_clock": true,
+  "original_pixel_provenance_mapping_published": false
+}

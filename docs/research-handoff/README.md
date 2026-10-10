@@ -11,6 +11,12 @@ This directory exchanges reviewed text and artifact identities across research e
 - No project or third-party license is created or changed here. Unknown redistribution rights remain unknown.
 - This initial batch contains status snapshots and metadata only, except the explicitly identified synthetic-smoke text inputs in PCG. Publication approval is not execution approval.
 
+## Current research snapshot (2026-10-10)
+
+[Continuous cache and actual detection data](../../research/continuous-cache-20261010/README.md): portable code, 64 synthetic tests, actual boxes and numerical public-fixture replay. This supplements historical metadata-only snapshots. Hashes bind public fixture files, not original images; original-pixel provenance mapping is not distributed. AI correspondence and human review scope remain separate; no accuracy claim.
+
+Earlier entries below are historical snapshots:
+
 ## Latest progress snapshots
 
 - Current mainline: [Complete reference draft, first 2 of 16 frames](reports/full-reference-draft-batch01-20261010.md). Full-image AI drafts and a second AI visual check are available for two frames; 14 ordinary items and two mandatory box decisions are separated. Remaining frames and M0 geometry are open. Default-adopted AI labels are not human GT.
@@ -20,3 +26,4 @@ This directory exchanges reviewed text and artifact identities across research e
 - 2026-10-09: [Initial reviewed status](tasks/status-20261009.json), retained unchanged.
 
 Progress records on this review branch do not imply a merge to main or permission to distribute the underlying restricted artifacts.
+

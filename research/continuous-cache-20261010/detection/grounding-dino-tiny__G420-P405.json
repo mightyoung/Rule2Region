@@ -1,0 +1,311 @@
+{
+  "event": "completed",
+  "slot": "grounding-dino-tiny__G420-P405",
+  "model_id": "grounding-dino-tiny",
+  "sample_id": "G420-P405",
+  "actual_pts": 405,
+  "time_base": "1/30",
+  "seconds": 13.5,
+  "attempt": 2,
+  "utc": "2026-10-10T14:45:58.985077+00:00",
+  "input_shape": [
+    1,
+    3,
+    744,
+    1333
+  ],
+  "status": "success",
+  "forward_calls": 1,
+  "cache_reuse": false,
+  "timing": {
+    "preprocess_seconds": 0.1340369209938217,
+    "forward_seconds": 10.956475981001859,
+    "postprocess_save_seconds": 0.36616457300260663,
+    "frame_total_seconds": 11.471851284994045
+  },
+  "peak_rss_MiB": 2470.203125,
+  "predictions": [
+    {
+      "prediction_id": "G420-P405:query005",
+      "class": "person",
+      "bbox_xyxy": [
+        498.8153991699219,
+        633.2693481445312,
+        600.8024291992188,
+        853.9503784179688
+      ],
+      "confidence": 0.767172634601593
+    },
+    {
+      "prediction_id": "G420-P405:query002",
+      "class": "person",
+      "bbox_xyxy": [
+        1232.150390625,
+        620.0294799804688,
+        1361.9327392578125,
+        883.7131958007812
+      ],
+      "confidence": 0.5929617881774902
+    },
+    {
+      "prediction_id": "G420-P405:query001",
+      "class": "person",
+      "bbox_xyxy": [
+        1186.4739990234375,
+        516.4098510742188,
+        1283.026611328125,
+        800.4498901367188
+      ],
+      "confidence": 0.5803415179252625
+    },
+    {
+      "prediction_id": "G420-P405:query003",
+      "class": "person",
+      "bbox_xyxy": [
+        1305.4615478515625,
+        531.208740234375,
+        1427.91015625,
+        777.113037109375
+      ],
+      "confidence": 0.5235323309898376
+    },
+    {
+      "prediction_id": "G420-P405:query000",
+      "class": "person",
+      "bbox_xyxy": [
+        1009.762939453125,
+        448.2050476074219,
+        1107.987548828125,
+        717.63427734375
+      ],
+      "confidence": 0.5049545168876648
+    },
+    {
+      "prediction_id": "G420-P405:query004",
+      "class": "person",
+      "bbox_xyxy": [
+        1372.607177734375,
+        514.9822998046875,
+        1445.302734375,
+        713.3577270507812
+      ],
+      "confidence": 0.44201087951660156
+    },
+    {
+      "prediction_id": "G420-P405:query008",
+      "class": "person",
+      "bbox_xyxy": [
+        1007.1613159179688,
+        444.5721740722656,
+        1092.4501953125,
+        670.6278076171875
+      ],
+      "confidence": 0.3224182426929474
+    },
+    {
+      "prediction_id": "G420-P405:query022",
+      "class": "person",
+      "bbox_xyxy": [
+        1356.2398681640625,
+        519.3142700195312,
+        1430.0428466796875,
+        711.9690551757812
+      ],
+      "confidence": 0.27470502257347107
+    },
+    {
+      "prediction_id": "G420-P405:query007",
+      "class": "person",
+      "bbox_xyxy": [
+        1277.012939453125,
+        489.8104248046875,
+        1336.0323486328125,
+        627.0812377929688
+      ],
+      "confidence": 0.27291232347488403
+    }
+  ],
+  "raw_above_threshold": [
+    {
+      "prediction_id": "G420-P405:query000",
+      "query_index": 0,
+      "raw_bbox_xyxy": [
+        1009.762939453125,
+        448.2050476074219,
+        1107.987548828125,
+        717.63427734375
+      ],
+      "bbox_xyxy": [
+        1009.762939453125,
+        448.2050476074219,
+        1107.987548828125,
+        717.63427734375
+      ],
+      "confidence": 0.5049545168876648,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query001",
+      "query_index": 1,
+      "raw_bbox_xyxy": [
+        1186.4739990234375,
+        516.4098510742188,
+        1283.026611328125,
+        800.4498901367188
+      ],
+      "bbox_xyxy": [
+        1186.4739990234375,
+        516.4098510742188,
+        1283.026611328125,
+        800.4498901367188
+      ],
+      "confidence": 0.5803415179252625,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query002",
+      "query_index": 2,
+      "raw_bbox_xyxy": [
+        1232.150390625,
+        620.0294799804688,
+        1361.9327392578125,
+        883.7131958007812
+      ],
+      "bbox_xyxy": [
+        1232.150390625,
+        620.0294799804688,
+        1361.9327392578125,
+        883.7131958007812
+      ],
+      "confidence": 0.5929617881774902,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query003",
+      "query_index": 3,
+      "raw_bbox_xyxy": [
+        1305.4615478515625,
+        531.208740234375,
+        1427.91015625,
+        777.113037109375
+      ],
+      "bbox_xyxy": [
+        1305.4615478515625,
+        531.208740234375,
+        1427.91015625,
+        777.113037109375
+      ],
+      "confidence": 0.5235323309898376,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query004",
+      "query_index": 4,
+      "raw_bbox_xyxy": [
+        1372.607177734375,
+        514.9822998046875,
+        1445.302734375,
+        713.3577270507812
+      ],
+      "bbox_xyxy": [
+        1372.607177734375,
+        514.9822998046875,
+        1445.302734375,
+        713.3577270507812
+      ],
+      "confidence": 0.44201087951660156,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query005",
+      "query_index": 5,
+      "raw_bbox_xyxy": [
+        498.8153991699219,
+        633.2693481445312,
+        600.8024291992188,
+        853.9503784179688
+      ],
+      "bbox_xyxy": [
+        498.8153991699219,
+        633.2693481445312,
+        600.8024291992188,
+        853.9503784179688
+      ],
+      "confidence": 0.767172634601593,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query007",
+      "query_index": 7,
+      "raw_bbox_xyxy": [
+        1277.012939453125,
+        489.8104248046875,
+        1336.0323486328125,
+        627.0812377929688
+      ],
+      "bbox_xyxy": [
+        1277.012939453125,
+        489.8104248046875,
+        1336.0323486328125,
+        627.0812377929688
+      ],
+      "confidence": 0.27291232347488403,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query008",
+      "query_index": 8,
+      "raw_bbox_xyxy": [
+        1007.1613159179688,
+        444.5721740722656,
+        1092.4501953125,
+        670.6278076171875
+      ],
+      "bbox_xyxy": [
+        1007.1613159179688,
+        444.5721740722656,
+        1092.4501953125,
+        670.6278076171875
+      ],
+      "confidence": 0.3224182426929474,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P405:query022",
+      "query_index": 22,
+      "raw_bbox_xyxy": [
+        1356.2398681640625,
+        519.3142700195312,
+        1430.0428466796875,
+        711.9690551757812
+      ],
+      "bbox_xyxy": [
+        1356.2398681640625,
+        519.3142700195312,
+        1430.0428466796875,
+        711.9690551757812
+      ],
+      "confidence": 0.27470502257347107,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    }
+  ],
+  "nms_suppressed": []
+}
