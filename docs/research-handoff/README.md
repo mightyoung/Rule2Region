@@ -13,6 +13,9 @@ This directory exchanges reviewed text and artifact identities across research e
 
 ## Latest progress snapshots
 
+- Current mainline: [Complete reference draft, first 2 of 16 frames](reports/full-reference-draft-batch01-20261010.md). Full-image AI drafts and a second AI visual check are available for two frames; 14 ordinary items and two mandatory box decisions are separated. Remaining frames and M0 geometry are open. Default-adopted AI labels are not human GT.
+- Earlier review: [Five-image partial class/scope decisions](reports/partial-human-review-five-20261010.md); [fixed-view memory smoke checks and unresolved admission gates](reports/view-memory-rule-smoke-review-20261010.md). Memory rule expansion is paused while mainline annotation proceeds.
+
 - 2026-10-10: [Boundary-16 progress report](reports/progress-20261010-boundary16.md), [schema-valid task status](tasks/status-20261010-boundary16.json), [sanitized evidence index](evidence/boundary-16-20261010.json), and [documentation validation receipt](receipts/docs-progress-20261010.json). AI prelabels executed; human GT/geometry gates remain open.
 - 2026-10-09: [Initial reviewed status](tasks/status-20261009.json), retained unchanged.
 

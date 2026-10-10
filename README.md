@@ -4,7 +4,9 @@
 
 ## 最新研究进度（2026-10-10）
 
-[冻结16图边界支持批报告](docs/research-handoff/reports/progress-20261010-boundary16.md)：16图完成预标（14次新推理＋2张像素等同缓存复用），人工人员真值与ROI几何仍待审核，所有效果指标保持null。业务范围确认、失败/未知、证据哈希与下一步见报告。此更新位于研究交接审核分支，旧快照保留。
+[当前主线：完整参考标注首批2/16](docs/research-handoff/reports/full-reference-draft-batch01-20261010.md)：D06两图完成全图AI参考草稿及第二次AI目检，普通14项按默认采用处理、2项遮挡框逐项裁决；默认采用不等于人工GT。剩余14图与M0几何继续推进，原16图预测/阈值/ROI不变，完整GT效果指标仍为null。记忆规则扩展暂缓，先补齐主线标注。
+
+近期记录：[五图部分人审范围](docs/research-handoff/reports/partial-human-review-five-20261010.md) · [记忆规则检查与入口缺口](docs/research-handoff/reports/view-memory-rule-smoke-review-20261010.md) · [历史冻结16图预标](docs/research-handoff/reports/progress-20261010-boundary16.md)。当前更新位于研究交接审核分支，旧报告保留。
 
 ## 源码发布快照状态
 
