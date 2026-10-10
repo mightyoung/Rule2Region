@@ -10,3 +10,10 @@ This directory exchanges reviewed text and artifact identities across research e
 - Do not use repository transfers to evade denied network access. LFS and Release availability must be verified separately; neither is required by this protocol.
 - No project or third-party license is created or changed here. Unknown redistribution rights remain unknown.
 - This initial batch contains status snapshots and metadata only, except the explicitly identified synthetic-smoke text inputs in PCG. Publication approval is not execution approval.
+
+## Latest progress snapshots
+
+- 2026-10-10: [Boundary-16 progress report](reports/progress-20261010-boundary16.md), [schema-valid task status](tasks/status-20261010-boundary16.json), [sanitized evidence index](evidence/boundary-16-20261010.json), and [documentation validation receipt](receipts/docs-progress-20261010.json). AI prelabels executed; human GT/geometry gates remain open.
+- 2026-10-09: [Initial reviewed status](tasks/status-20261009.json), retained unchanged.
+
+Progress records on this review branch do not imply a merge to main or permission to distribute the underlying restricted artifacts.

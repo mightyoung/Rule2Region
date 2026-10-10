@@ -1,0 +1,57 @@
+{
+  "schema_version": "rule2region-docs-publication-check.v1",
+  "checked_at_utc": "2026-10-10T03:26:50.991263+00:00",
+  "documentation_base_commit": "688abfebc9cd6349f8c67c42fa59ea086300f421",
+  "branch": "task/research-handoff-v1",
+  "scope": "docs and sanitized evidence metadata only",
+  "status": "LOCAL_DOCUMENT_VALIDATION_PASSED; REMOTE_PUBLICATION_TO_BE_VERIFIED_SEPARATELY",
+  "checks": {
+    "status_matches_existing_manifest_schema": true,
+    "source_images_file_and_RGB_hashes_verified": 16,
+    "prediction_records": 16,
+    "candidate_route_rows": 140,
+    "forward_start_completion_pairs": 14,
+    "pixel_identical_cache_reuses": 2,
+    "H_missing_images": 12,
+    "M_missing_images": 2,
+    "all_GT_dependent_metrics_null": true,
+    "scope_confirmation_first_run_hashes_preserved": 5,
+    "archive_hashes_verified": 2,
+    "source_code_or_test_edits": 0,
+    "new_model_calls": 0,
+    "historical_test_suite_rerun": false,
+    "raw_media_or_private_records_published": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "afc7482feaab2f1e590ca13dbbd1071aefb00e8c09a7abc385f5bff94485e7bd",
+      "bytes": 3724
+    },
+    {
+      "path": "docs/research-handoff/README.md",
+      "sha256": "23344ff00e51964bac6aa4043f55a7bd0d898b91df4d52cdec9eef927ed56bd8",
+      "bytes": 2231
+    },
+    {
+      "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+      "sha256": "dc986ab2bb5fb8189632bb4a1ec9990697570d7b99b9f2832866e5a3c5185edf",
+      "bytes": 15227
+    },
+    {
+      "path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+      "sha256": "0de313cdab95e5233906800e50805b4dcfcd0de9a1d00256a76f4937ec7e716a",
+      "bytes": 5362
+    },
+    {
+      "path": "docs/research-handoff/tasks/status-20261010-boundary16.json",
+      "sha256": "5bc89ec7d16f6c1b945501d7d80c6b657fc6f87b1b3b8a91f42f2967297b8131",
+      "bytes": 4583
+    }
+  ],
+  "limits": [
+    "This is a documentation/data-consistency check, not human annotation or a detector-accuracy validation.",
+    "Repository CI is checked separately for the actual published commit; this receipt does not claim CI passed.",
+    "Historical source evidence is not changed. Underlying restricted artifacts are indexed, not uploaded."
+  ]
+}

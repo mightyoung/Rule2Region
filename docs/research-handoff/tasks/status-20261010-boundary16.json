@@ -1,0 +1,75 @@
+{
+  "schema_version": "research-handoff.v1",
+  "project_id": "Rule2Region",
+  "task_id": "rule2region-boundary-progress-20261010",
+  "source_repo": "https://github.com/mightyoung/Rule2Region",
+  "source_commit": "688abfebc9cd6349f8c67c42fa59ea086300f421",
+  "owner": "repository-maintainer",
+  "status": "blocked",
+  "next_action": "Review frozen ROI pixel geometry and exhaustively annotate all visible people in all 16 original full frames, including detector omissions and image-of-person negatives; then compute preregistered metrics. Preserve dev exposure and do not tune ROI to these predictions.",
+  "artifacts": [
+    {
+      "artifact_id": "boundary-expansion-review-archive",
+      "sha256": "5934e72dd58344c829de2c8af1e4a8cd44cc039d58e9046147045cf875e2da6e",
+      "bytes": 16737023,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen 16-image review subset and provenance; original media not published."
+      }
+    },
+    {
+      "artifact_id": "boundary-run-review-archive",
+      "sha256": "24f0717b67f65ae8dca703a710475a5ba95a811948e78a34f8c72764da4b4b67",
+      "bytes": 12852517,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen execution review archive; model weights excluded; bytes not published."
+      }
+    }
+  ],
+  "review": {
+    "classification": "Executed development AI prelabels; post-run C business scope confirmed; ROI geometry and person GT still pending",
+    "seen_candidates": true,
+    "independent_blind_gt": false
+  },
+  "claims": [
+    "The source_commit pins the documentation/handoff base; it is not a claim that the retained experiment code was executed from that repository commit.",
+    "16 inputs completed: 14 new full-frame forwards, 2 pixel-identical cache reuses, 0 warmups, 0 failed images.",
+    "F/H/M use the same full-frame prediction cache; 140 routing rows, no extra H/M model calls.",
+    "F: 16 images/58 candidates; H: 4 images/26 candidates; M: 14 images/56 candidates. Coverage differs, so totals are not an effectiveness comparison.",
+    "C business scope confirmed after first run: indoor people count; exterior platform/scaffold people excluded; indoor people overlapping the window retained. This does not confirm ROI pixels or individual person labels.",
+    "All 16 person GT annotations remain incomplete; 7 GT-dependent metrics, numerators/denominators and successful suppression count remain null.",
+    "5 scene/camera families are development-exposed; independent test camera families = 0."
+  ],
+  "execution": {
+    "claimed_status": "COMPLETED_AI_PRELABELS_AND_DESCRIPTIVE_ROUTES; HUMAN_GT_METRICS_NULL",
+    "executed_status": "RETAINED_EVIDENCE_VERIFIED; NO_NEW_MODEL_EXECUTION_IN_THIS_DOCS_SYNC",
+    "command": null,
+    "exit_code": null,
+    "output_sha256": "8b15a575094ee83da8a7bab7e43c67e1ca1424ab440d1ef55ea48e33a67d2a08",
+    "authorization": "This update publishes reviewed progress text and metadata only. Null command/exit means no raw execution receipt is included in the public record; it does not certify an unrecorded new run."
+  },
+  "blockers": [
+    {
+      "category": "missing_evidence",
+      "detail": "All 16 full-frame person GT annotations and frozen AI ROI pixel geometry review remain incomplete; do not report accuracy, recall or successful suppression."
+    },
+    {
+      "category": "missing_evidence",
+      "detail": "H missing for 12 images; M missing for 2 images. Candidate exterior evidence lacks a second independent new view; independent event count unknown."
+    }
+  ],
+  "public_boundary": [
+    "Only reviewed text and small metadata are published. No images, video, weights, raw predictions/tensors/logs, private conversation identifiers or private asset links.",
+    "Original artifacts remain restricted metadata-only entries. Hashes do not grant access or redistribute content.",
+    "Historical records and frozen execution files are preserved; later scope confirmation is an append-only interpretation."
+  ]
+}
