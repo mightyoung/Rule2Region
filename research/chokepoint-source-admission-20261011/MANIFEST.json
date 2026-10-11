@@ -1,0 +1,26 @@
+{
+  "scope": "public source/licence and no-image development-admission summaries only; excludes self; originals stay outside git",
+  "source_commit": "7b7a6a148980fb8e78c295109915a1f3bd1e27cb",
+  "files": [
+    {
+      "path": "research/chokepoint-source-admission-20261011/ASSET_DIGESTS.json",
+      "bytes": 40084,
+      "sha256": "6585e605e432d71170e8d52dab91963f4395a11458d7a9f93aba65321be5a1be"
+    },
+    {
+      "path": "research/chokepoint-source-admission-20261011/README.md",
+      "bytes": 6582,
+      "sha256": "009d4d0517206a3722f882e3cbe044d0827bc65fcd088b11d295d0065608f5be"
+    },
+    {
+      "path": "research/chokepoint-source-admission-20261011/RECEIPT.json",
+      "bytes": 1202,
+      "sha256": "454a265e61aaa8914fcfa8f7b8691cbf4b3af2d2ef396dddca1b68fed4ac2576"
+    },
+    {
+      "path": "research/chokepoint-source-admission-20261011/SOURCE.json",
+      "bytes": 4196,
+      "sha256": "e70d11d0199d3b81fc3bab6c4f01f5616ec2134147b67dc19cda3d6756429a0a"
+    }
+  ]
+}
