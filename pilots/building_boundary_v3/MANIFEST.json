@@ -2,6 +2,10 @@
   "scope": "bounded_I1_M1_synthetic_revision",
   "baseline_commit": "850b4f3f3f9fc1ac955b16eaa070493a2e453b4d",
   "files": {
+    "INDEPENDENT_CLOSURE.md": {
+      "bytes": 2097,
+      "sha256": "54006b8e48eadd8c0e3ae9a145110709aede77e3ecf42355b340338317763096"
+    },
     "PROTOCOL_V3.md": {
       "bytes": 2448,
       "sha256": "83ea533c337135a593a8e1b40c93b62f9ff5b699f749dfeda1ad8a104a1cda23"
@@ -60,5 +64,12 @@
     }
   },
   "manifest_excludes_itself": true,
-  "new_head_independent_review": "PENDING"
+  "new_head_independent_review": "CLOSED_IN_REVIEWED_AXIS_ALIGNED_RECTANGLE_SCOPE",
+  "independent_review_record": "INDEPENDENT_CLOSURE.md",
+  "reviewed_implementation_commit": "c2a80eeca69d5f11fc8fa6d2c12d50a32f5987df",
+  "independent_review_grade": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  }
 }
