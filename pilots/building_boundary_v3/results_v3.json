@@ -1,0 +1,3513 @@
+{
+  "admission_version": "building-boundary-admission-v3",
+  "scope": "bounded_synthetic_revision_not_admission_completeness",
+  "independent_review_of_850b4f3": {
+    "critical": 0,
+    "important": 1,
+    "minor": 1,
+    "software_tests_independent_passed": 38,
+    "v2_browser_checks": "10_author_evidence_only"
+  },
+  "reference_v3": {
+    "kind": "self_authored_coordinate_reference_not_image",
+    "revision": 2,
+    "views": {
+      "east_front": {
+        "door": "east",
+        "a_region": "O",
+        "b_region": "A",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "east_side": {
+        "door": "east",
+        "a_region": "O",
+        "b_region": "A",
+        "a_anchor": [
+          0.25,
+          0.5
+        ],
+        "b_anchor": [
+          0.75,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_min",
+          "b_face": "x_max",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "upper_front": {
+        "door": "upper",
+        "a_region": "O",
+        "b_region": "C",
+        "a_anchor": [
+          0.25,
+          0.5
+        ],
+        "b_anchor": [
+          0.75,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_min",
+          "b_face": "x_max",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "upper_side": {
+        "door": "upper",
+        "a_region": "O",
+        "b_region": "C",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "service_cam": {
+        "door": "service",
+        "a_region": "O",
+        "b_region": "B",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "room1_cam": {
+        "door": "room1",
+        "a_region": "A",
+        "b_region": "B",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "room2_cam": {
+        "door": "room2",
+        "a_region": "C",
+        "b_region": "D",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "stairs_cam": {
+        "door": "stairs",
+        "a_region": "A",
+        "b_region": "C",
+        "a_anchor": [
+          0.75,
+          0.5
+        ],
+        "b_anchor": [
+          0.25,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_max",
+          "b_face": "x_min",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      },
+      "lift_cam": {
+        "door": "lift",
+        "a_region": "B",
+        "b_region": "D",
+        "a_anchor": [
+          0.25,
+          0.5
+        ],
+        "b_anchor": [
+          0.75,
+          0.5
+        ],
+        "doorway_support_roi": [
+          0.45,
+          0.25,
+          0.55,
+          0.75
+        ],
+        "passage_corridor": {
+          "shape": "axis_aligned_rectangle",
+          "roi": [
+            0.45,
+            0.25,
+            0.55,
+            0.75
+          ],
+          "passage_axis": "x",
+          "barrier_faces": [
+            "y_min",
+            "y_max"
+          ],
+          "a_face": "x_min",
+          "b_face": "x_max",
+          "review_status": "AUTHOR_REVIEWED_SYNTHETIC_CORRIDOR"
+        }
+      }
+    }
+  },
+  "geometry_evidence_v3": {
+    "schema_version": "scene-evidence-v2",
+    "revision": 2,
+    "scope": "synthetic_fixture_only",
+    "review_status": "AUTHOR_REVIEWED_SYNTHETIC_REFERENCE",
+    "reviewer": "fixture_author_simulation_not_field_inspection",
+    "reference_sha256": "f83f711841673cba2c30675a84c854673561a85ef4eef22cd8f4146ef569bfc4",
+    "reference_kind": "self_authored_coordinate_reference_not_image",
+    "view_ids": [
+      "east_front",
+      "east_side",
+      "lift_cam",
+      "room1_cam",
+      "room2_cam",
+      "service_cam",
+      "stairs_cam",
+      "upper_front",
+      "upper_side"
+    ]
+  },
+  "strategies": {
+    "manual_truth": {
+      "admission_version": "building-boundary-admission-v3",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V3_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      }
+    },
+    "metadata_rule": {
+      "admission_version": "building-boundary-admission-v3",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V3_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      }
+    },
+    "door_only": {
+      "admission_version": "building-boundary-admission-v3",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/lift:DIRECTION_OR_MEMBERSHIP",
+        "building/room1:DIRECTION_OR_MEMBERSHIP",
+        "building/room2:DIRECTION_OR_MEMBERSHIP",
+        "building/stairs:DIRECTION_OR_MEMBERSHIP",
+        "building:BOUNDARY_COVERAGE",
+        "floor1/lift:DIRECTION_OR_MEMBERSHIP",
+        "floor1/room1:DIRECTION_OR_MEMBERSHIP",
+        "floor1/room2:DIRECTION_OR_MEMBERSHIP",
+        "floor1/stairs:DIRECTION_OR_MEMBERSHIP",
+        "floor1/upper:DIRECTION_OR_MEMBERSHIP",
+        "floor1:BOUNDARY_COVERAGE",
+        "floor2/east:DIRECTION_OR_MEMBERSHIP",
+        "floor2/room1:DIRECTION_OR_MEMBERSHIP",
+        "floor2/room2:DIRECTION_OR_MEMBERSHIP",
+        "floor2/service:DIRECTION_OR_MEMBERSHIP",
+        "floor2:BOUNDARY_COVERAGE"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "model_candidate": {
+      "status": "NOT_RUN",
+      "metrics": null
+    },
+    "model_plus_metadata_or_plan": {
+      "status": "NOT_RUN",
+      "metrics": null
+    }
+  },
+  "counterexamples": {
+    "short_finite_line": {
+      "v2_false_admission": {
+        "admission_version": "building-boundary-admission-v2",
+        "config_status": "QUALIFIED",
+        "session_status": "QUALIFIED",
+        "config_reasons": [],
+        "session_reasons": [],
+        "metrics": {
+          "building": {
+            "mae": 0.5,
+            "max_abs_error": 1,
+            "final_error": 1,
+            "event_tp": 3,
+            "event_fp": 0,
+            "event_fn": 3
+          },
+          "floor1": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 8,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor2": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_east": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 3,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_upper": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 2,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_service": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 1,
+            "event_fp": 0,
+            "event_fn": 0
+          }
+        },
+        "status": "SYNTHETIC_V2_ADMITTED",
+        "series": [
+          {
+            "step": 0,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 1,
+            "values": {
+              "building": 3,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor1": 1,
+              "net_east": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 2,
+            "values": {
+              "building": 3,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 3,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor2": 1
+            },
+            "outflow": {
+              "floor1": 1
+            }
+          },
+          {
+            "step": 4,
+            "values": {
+              "building": 3,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 5,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 6,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 7,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_service": 1
+            }
+          },
+          {
+            "step": 8,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 9,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 10,
+            "values": {
+              "building": 4,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 11,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          }
+        ],
+        "events": {
+          "building": [
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "floor1": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "floor2": [
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "net_east": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ]
+          ],
+          "net_upper": [
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "net_service": [
+            [
+              7,
+              "service",
+              -1
+            ]
+          ]
+        },
+        "config_sha256": "1bdfdb38609f73043fbe22de51d97646bf7067f480bf10c4d892a1010ae4ae20",
+        "config_review_sha256": "5b3d9e124a31b9a8541e8d48ec77fcaf891c4e3bfb1c0fc467db3e73ac57ba7a",
+        "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+        "session_review_sha256": "1a433d7ffb66ffe7977a482430217b3b6ca7d7306db9eba64d1c39da1ed933de",
+        "initial_source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5",
+        "t0": 0
+      },
+      "v3": {
+        "admission_version": "building-boundary-admission-v3",
+        "config_status": "REJECTED_OR_UNKNOWN",
+        "session_status": "QUALIFIED",
+        "config_reasons": [
+          "building/east:FINITE_LINE_DOES_NOT_SEPARATE_CORRIDOR"
+        ],
+        "session_reasons": [],
+        "metrics": null,
+        "status": "REJECTED_OR_UNKNOWN"
+      },
+      "candidate_config": {
+        "schema_version": "building-boundary-v1",
+        "strategy": "manual_truth",
+        "targets": {
+          "building": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.26
+                ],
+                [
+                  0.5,
+                  0.3
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            },
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ],
+          "floor1": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "stairs",
+              "owner_camera": "stairs_cam",
+              "delta_ab": -1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "lift",
+              "owner_camera": "lift_cam",
+              "delta_ab": -1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "floor2": [
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            },
+            {
+              "door": "stairs",
+              "owner_camera": "stairs_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "lift",
+              "owner_camera": "lift_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "net_east": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ],
+          "net_upper": [
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "net_service": [
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ]
+        }
+      },
+      "session": {
+        "schema_version": "initial-session-v2",
+        "session_id": "synthetic-session-001",
+        "revision": 1,
+        "t0": 0,
+        "time_basis": "synthetic_step",
+        "initial": {
+          "building": 3,
+          "floor1": 2,
+          "floor2": 1
+        },
+        "source_id": "fixture_author_independent_census",
+        "source_revision": 1,
+        "source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5"
+      },
+      "source": {
+        "schema_version": "initial-census-v2",
+        "revision": 1,
+        "scope": "synthetic_fixture_only",
+        "t0": 0,
+        "time_basis": "synthetic_step",
+        "source_id": "fixture_author_independent_census",
+        "status": "AUTHOR_RECORDED_NOT_REAL_FIELD_CENSUS",
+        "initial": {
+          "building": 3,
+          "floor1": 2,
+          "floor2": 1
+        }
+      }
+    },
+    "missing_source_id_and_revision": {
+      "v2_false_admission": {
+        "admission_version": "building-boundary-admission-v2",
+        "config_status": "QUALIFIED",
+        "session_status": "QUALIFIED",
+        "config_reasons": [],
+        "session_reasons": [],
+        "metrics": {
+          "building": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor1": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 8,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor2": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_east": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 3,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_upper": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 2,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_service": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 1,
+            "event_fp": 0,
+            "event_fn": 0
+          }
+        },
+        "status": "SYNTHETIC_V2_ADMITTED",
+        "series": [
+          {
+            "step": 0,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 1,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 2,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 3,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor2": 1
+            },
+            "outflow": {
+              "floor1": 1
+            }
+          },
+          {
+            "step": 4,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 5,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 6,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 7,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_service": 1
+            }
+          },
+          {
+            "step": 8,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 9,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 10,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 11,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          }
+        ],
+        "events": {
+          "building": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "floor1": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "floor2": [
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "net_east": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ]
+          ],
+          "net_upper": [
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "net_service": [
+            [
+              7,
+              "service",
+              -1
+            ]
+          ]
+        },
+        "config_sha256": "114faf6ae3e1181ca9986932e0cf3c6f460810543bfcdf70f48120f6858c85e3",
+        "config_review_sha256": "7c5ac80517ebec10bd819fae5f95a3856e43eaa02af961c64aa33ca0cac69b36",
+        "session_sha256": "a2450677e054e26cc5f9da8bcda7999f9e4070e86ba245e082c7ee969e847600",
+        "session_review_sha256": "c74887c62d6e9810a4568d8156ce4ddaaee7f807a990fa18fa51215521441612",
+        "initial_source_sha256": "ce26213be3cc90a719c14c0d36e0893edb87a7ee4c44291901caa576491c85c1",
+        "t0": 0
+      },
+      "v3": {
+        "admission_version": "building-boundary-admission-v3",
+        "config_status": "QUALIFIED",
+        "session_status": "REJECTED_OR_UNKNOWN",
+        "config_reasons": [],
+        "session_reasons": [
+          "SESSION_SOURCE_REQUIRED_ID_OR_REVISION",
+          "SOURCE_REQUIRED_ID_OR_REVISION"
+        ],
+        "metrics": null,
+        "status": "REJECTED_OR_UNKNOWN"
+      },
+      "candidate_config": {
+        "schema_version": "building-boundary-v1",
+        "strategy": "manual_truth",
+        "targets": {
+          "building": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            },
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ],
+          "floor1": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "stairs",
+              "owner_camera": "stairs_cam",
+              "delta_ab": -1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "lift",
+              "owner_camera": "lift_cam",
+              "delta_ab": -1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "floor2": [
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            },
+            {
+              "door": "stairs",
+              "owner_camera": "stairs_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            },
+            {
+              "door": "lift",
+              "owner_camera": "lift_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "net_east": [
+            {
+              "door": "east",
+              "owner_camera": "east_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ],
+          "net_upper": [
+            {
+              "door": "upper",
+              "owner_camera": "upper_front",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": 1
+            }
+          ],
+          "net_service": [
+            {
+              "door": "service",
+              "owner_camera": "service_cam",
+              "delta_ab": 1,
+              "line": [
+                [
+                  0.5,
+                  0.2
+                ],
+                [
+                  0.5,
+                  0.8
+                ]
+              ],
+              "roi": [
+                0.2,
+                0.1,
+                0.8,
+                0.9
+              ],
+              "a_side": -1
+            }
+          ]
+        }
+      },
+      "session": {
+        "schema_version": "initial-session-v2",
+        "session_id": "synthetic-session-001",
+        "revision": 1,
+        "t0": 0,
+        "time_basis": "synthetic_step",
+        "initial": {
+          "building": 3,
+          "floor1": 2,
+          "floor2": 1
+        },
+        "source_sha256": "ce26213be3cc90a719c14c0d36e0893edb87a7ee4c44291901caa576491c85c1"
+      },
+      "source": {
+        "schema_version": "initial-census-v2",
+        "scope": "synthetic_fixture_only",
+        "t0": 0,
+        "time_basis": "synthetic_step",
+        "status": "AUTHOR_RECORDED_NOT_REAL_FIELD_CENSUS",
+        "initial": {
+          "building": 3,
+          "floor1": 2,
+          "floor2": 1
+        }
+      }
+    }
+  },
+  "different_geometry_positive_controls": {
+    "wall_endpoint_cut": {
+      "line": [
+        [
+          0.49,
+          0.25
+        ],
+        [
+          0.51,
+          0.75
+        ]
+      ],
+      "run": {
+        "admission_version": "building-boundary-admission-v3",
+        "config_status": "QUALIFIED",
+        "session_status": "QUALIFIED",
+        "config_reasons": [],
+        "session_reasons": [],
+        "metrics": {
+          "building": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor1": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 8,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor2": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_east": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 3,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_upper": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 2,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_service": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 1,
+            "event_fp": 0,
+            "event_fn": 0
+          }
+        },
+        "status": "SYNTHETIC_V3_ADMITTED",
+        "series": [
+          {
+            "step": 0,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 1,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 2,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 3,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor2": 1
+            },
+            "outflow": {
+              "floor1": 1
+            }
+          },
+          {
+            "step": 4,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 5,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 6,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 7,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_service": 1
+            }
+          },
+          {
+            "step": 8,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 9,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 10,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 11,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          }
+        ],
+        "events": {
+          "building": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "floor1": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "floor2": [
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "net_east": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ]
+          ],
+          "net_upper": [
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "net_service": [
+            [
+              7,
+              "service",
+              -1
+            ]
+          ]
+        }
+      }
+    },
+    "tilted_full_cut": {
+      "line": [
+        [
+          0.46,
+          0.2
+        ],
+        [
+          0.54,
+          0.8
+        ]
+      ],
+      "run": {
+        "admission_version": "building-boundary-admission-v3",
+        "config_status": "QUALIFIED",
+        "session_status": "QUALIFIED",
+        "config_reasons": [],
+        "session_reasons": [],
+        "metrics": {
+          "building": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor1": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 8,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "floor2": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 6,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_east": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 3,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_upper": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 2,
+            "event_fp": 0,
+            "event_fn": 0
+          },
+          "net_service": {
+            "mae": 0.0,
+            "max_abs_error": 0,
+            "final_error": 0,
+            "event_tp": 1,
+            "event_fp": 0,
+            "event_fn": 0
+          }
+        },
+        "status": "SYNTHETIC_V3_ADMITTED",
+        "series": [
+          {
+            "step": 0,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 1,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 2,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 3,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor2": 1
+            },
+            "outflow": {
+              "floor1": 1
+            }
+          },
+          {
+            "step": 4,
+            "values": {
+              "building": 4,
+              "floor1": 3,
+              "floor2": 1,
+              "net_east": 1,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 5,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 0,
+              "net_service": 0
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 6,
+            "values": {
+              "building": 4,
+              "floor1": 2,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": 0
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {}
+          },
+          {
+            "step": 7,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_service": 1
+            }
+          },
+          {
+            "step": 8,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {},
+            "outflow": {}
+          },
+          {
+            "step": 9,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": 0,
+              "net_upper": 1,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          },
+          {
+            "step": 10,
+            "values": {
+              "building": 3,
+              "floor1": 1,
+              "floor2": 2,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "building": 1,
+              "floor2": 1,
+              "net_upper": 1
+            },
+            "outflow": {
+              "building": 1,
+              "floor1": 1,
+              "net_east": 1
+            }
+          },
+          {
+            "step": 11,
+            "values": {
+              "building": 3,
+              "floor1": 2,
+              "floor2": 1,
+              "net_east": -1,
+              "net_upper": 2,
+              "net_service": -1
+            },
+            "inflow": {
+              "floor1": 1
+            },
+            "outflow": {
+              "floor2": 1
+            }
+          }
+        ],
+        "events": {
+          "building": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "floor1": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              7,
+              "service",
+              -1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "floor2": [
+            [
+              3,
+              "lift",
+              1
+            ],
+            [
+              4,
+              "stairs",
+              -1
+            ],
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              9,
+              "lift",
+              -1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ],
+            [
+              11,
+              "stairs",
+              -1
+            ]
+          ],
+          "net_east": [
+            [
+              1,
+              "east",
+              1
+            ],
+            [
+              5,
+              "east",
+              -1
+            ],
+            [
+              10,
+              "east",
+              -1
+            ]
+          ],
+          "net_upper": [
+            [
+              6,
+              "upper",
+              1
+            ],
+            [
+              10,
+              "upper",
+              1
+            ]
+          ],
+          "net_service": [
+            [
+              7,
+              "service",
+              -1
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "real_visual": {
+    "status": "NOT_RUN",
+    "metrics": null
+  },
+  "new_head_independent_review": "PENDING"
+}

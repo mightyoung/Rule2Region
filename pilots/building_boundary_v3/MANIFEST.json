@@ -1,0 +1,64 @@
+{
+  "scope": "bounded_I1_M1_synthetic_revision",
+  "baseline_commit": "850b4f3f3f9fc1ac955b16eaa070493a2e453b4d",
+  "files": {
+    "PROTOCOL_V3.md": {
+      "bytes": 2448,
+      "sha256": "83ea533c337135a593a8e1b40c93b62f9ff5b699f749dfeda1ad8a104a1cda23"
+    },
+    "README.md": {
+      "bytes": 2401,
+      "sha256": "977dfbfbdfc0806aac141be71dad512dc5ffccf7b24b6839d7f5e3e66f26f1c2"
+    },
+    "RED_PHASE.txt": {
+      "bytes": 10334,
+      "sha256": "5137eb4fbf357a6d00ba00d216b25ced624ce7224ca8c02c0659313bcbfcdcbe"
+    },
+    "baseline.py": {
+      "bytes": 232,
+      "sha256": "a8f10a38c4860f28f21748f71634322c58feb4cc1c242d4a03440add6b2c1632"
+    },
+    "browser_check_v3.py": {
+      "bytes": 2161,
+      "sha256": "2251edacaef39aff38ab5352d693bfa15cd0489aafe0198a922bdbeab511495b"
+    },
+    "browser_checks.json": {
+      "bytes": 518,
+      "sha256": "86e06561be0be2c2a51ebc26a3fa8d021762d597c319aee120d19888a7ce2b68"
+    },
+    "build_report_v3.py": {
+      "bytes": 7436,
+      "sha256": "4ae34b28d830654f96c74ffc2458143c505da21e0a577bf18e7d53eb8c9ae55a"
+    },
+    "manifest_v3.py": {
+      "bytes": 1016,
+      "sha256": "57bb6e3486d758f491a0037e9a031bbfc3cae000095e0e5260373a2c02dab003"
+    },
+    "pilot_v3.py": {
+      "bytes": 6860,
+      "sha256": "87d20cb5cc37bb9a63a83ea4af6cd6ac72cb81be388c608665fe824819b5f303"
+    },
+    "report_v3.html": {
+      "bytes": 36770,
+      "sha256": "7efefdc981bb9f3985eb7bc7cfb9dfa33ac587ecdc5cec04694fc33a05882f02"
+    },
+    "results_v3.json": {
+      "bytes": 76724,
+      "sha256": "a3d66898fbd6e79ed2501489e4261832fae97ffb4ef21e0c73384bdb54912374"
+    },
+    "run_revision.py": {
+      "bytes": 3767,
+      "sha256": "ef88be1b2f2cf1562b71e5391c6bab93390effa472cfd1ffde94bc30bb97b9d8"
+    },
+    "software_checks.json": {
+      "bytes": 474,
+      "sha256": "4883c7e2512b7f022fa00f451f5740f71defdf50f7752fc2c110a7d5658d4a08"
+    },
+    "test_regressions.py": {
+      "bytes": 5245,
+      "sha256": "fdac1694c2c47b3ab4ddd873939d4fc9d072bc3c51df998425f57047d981df8e"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "new_head_independent_review": "PENDING"
+}

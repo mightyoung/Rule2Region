@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "evidence_role": "author_UI_checks_not_independent_review",
+  "checks": [
+    "review severity and pending new independent review displayed",
+    "preserved v2 false admissions and current no-score rejections displayed",
+    "short and two different full finite cuts interactive",
+    "uncalled models and bounded-completeness limitation visible",
+    "390px layout without document horizontal overflow"
+  ],
+  "page_errors": [],
+  "render_method": "local self-authored HTML via set_content"
+}

@@ -1,0 +1,139 @@
+test_different_full_corridor_cut_is_accepted (test_regressions.RegressionTests.test_different_full_corridor_cut_is_accepted) ... ok
+test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) ...
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='', revision=1) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='  ', revision=1) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id=None, revision=1) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id=42, revision=1) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=None) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=0) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=-1) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=True) ... FAIL
+  test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision='1') ... FAIL
+test_missing_source_id_and_revision_not_none_equal (test_regressions.RegressionTests.test_missing_source_id_and_revision_not_none_equal) ... FAIL
+test_short_finite_line_not_a_corridor_cut (test_regressions.RegressionTests.test_short_finite_line_not_a_corridor_cut) ... FAIL
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='', revision=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='  ', revision=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id=None, revision=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id=42, revision=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_empty_wrong_type_and_nonpositive_source_fields_rejected (test_regressions.RegressionTests.test_empty_wrong_type_and_nonpositive_source_fields_rejected) (source_id='source', revision='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 48, in test_empty_wrong_type_and_nonpositive_source_fields_rejected
+    self.assertEqual(self.run_gate()['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_source_id_and_revision_not_none_equal (test_regressions.RegressionTests.test_missing_source_id_and_revision_not_none_equal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 40, in test_missing_source_id_and_revision_not_none_equal
+    self.assertEqual(run['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+======================================================================
+FAIL: test_short_finite_line_not_a_corridor_cut (test_regressions.RegressionTests.test_short_finite_line_not_a_corridor_cut)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/building-boundary-pilot-20261011/pilots/building_boundary_v3/test_regressions.py", line 33, in test_short_finite_line_not_a_corridor_cut
+    self.assertEqual(run['status'],'REJECTED_OR_UNKNOWN')
+AssertionError: 'SYNTHETIC_V2_ADMITTED' != 'REJECTED_OR_UNKNOWN'
+- SYNTHETIC_V2_ADMITTED
++ REJECTED_OR_UNKNOWN
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.018s
+
+FAILED (failures=11)

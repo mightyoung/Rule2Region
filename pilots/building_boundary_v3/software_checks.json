@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "evidence_role": "author_software_verification",
+  "v3_tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "old_software_tests_rerun_passed": 38,
+  "red_phase_test_methods": 4,
+  "red_phase_failures_including_subtests": 11,
+  "new_head_independent_review": "PENDING",
+  "red_phase_original_log_sha256": "95a01360f7c63c8efd655491632c0162fddffe2b2d1b6598b5d18a4240dcd5d0",
+  "red_phase_log_normalization": "line-end whitespace only; failures preserved"
+}
