@@ -1,0 +1,15 @@
+{
+  "schema_version": "building-boundary-v1",
+  "status": "NOT_ACQUIRED_NOT_SCORED",
+  "source_url": null,
+  "license_review": null,
+  "media_manifest_sha256": null,
+  "space_id": null,
+  "boundary_review": null,
+  "initial_occupancy": null,
+  "independent_annotators": [],
+  "events": [],
+  "occupancy_checkpoints": [],
+  "ambiguities": [],
+  "note": "真实人工账本模板，空数组不表示真实零事件或零占用。需逐事件记录时间、物理门、方向、独立标注身份、证据帧与复核状态；严禁以执行器输出填GT。"
+}
