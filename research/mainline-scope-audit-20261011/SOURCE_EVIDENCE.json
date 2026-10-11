@@ -1,0 +1,55 @@
+{
+  "scope": "Published original material, not reconstructed private brief or frozen experiment bytes",
+  "evidence": [
+    {
+      "commit": "cf22ddd8e46ee83ddd9565b058e1df4e362377ea",
+      "path": "README.md",
+      "bytes": 3291,
+      "sha256": "02df047c6e8825113c99e89ee42e6f6c460c24cf0e409b9906176d0b985cb5d8",
+      "git_blob": "350338b096a6fe6068cdc6f45b5e967eef489a68"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "README.md",
+      "bytes": 4710,
+      "sha256": "1522044800debd804f132de13295062968e53eb0e6b574a0c82478f336374ac4",
+      "git_blob": "bc1592435358ebdf6765b390cc904ad2d550317a"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "docs/research-handoff/tasks/status-20261009.json",
+      "bytes": 2072,
+      "sha256": "4807962be03e16c3b4dabaaa95bfcd78c39c14f11d4e65cb8745fd23b9580db1",
+      "git_blob": "02795df49e028361ae7cd317d243294c4413232c"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "docs/research-handoff/tasks/status-20261010-boundary16.json",
+      "bytes": 4583,
+      "sha256": "5bc89ec7d16f6c1b945501d7d80c6b657fc6f87b1b3b8a91f42f2967297b8131",
+      "git_blob": "30d0db699acdfc25cc685af195cb42555ca5630b"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+      "bytes": 5362,
+      "sha256": "0de313cdab95e5233906800e50805b4dcfcd0de9a1d00256a76f4937ec7e716a",
+      "git_blob": "cb828e9e684e105b83fa9602fc089cf2a85f4c48"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "research/continuous-cache-20261010/README.md",
+      "bytes": 3166,
+      "sha256": "1a83b848b5e35b180c5d7f073ea817ebb4771d9b5b2bda7ecbcc602baa18ec61",
+      "git_blob": "c1baf5b8c17c20c03fe46a2afb4e3f363c81d3be"
+    },
+    {
+      "commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+      "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+      "bytes": 15227,
+      "sha256": "dc986ab2bb5fb8189632bb4a1ec9990697570d7b99b9f2832866e5a3c5185edf",
+      "git_blob": "20d3e815216049fde2c37e79b6e5449a50304cf8"
+    }
+  ],
+  "unavailable": "Original private full frozen experiment protocol and media bundles are metadata-only; no separate project brief or workspace AGENTS/skills instructions found during current scope audit. Public source snapshot lacks human-count prepublication history."
+}

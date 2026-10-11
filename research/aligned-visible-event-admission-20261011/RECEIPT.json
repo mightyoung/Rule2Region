@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "5d9554479e2e66c966d0272f7a04a7a1d0c291e0",
+  "status": "BOUNDED_SCREEN_COMPLETED_NO_QUALIFIED_CANDIDATE; FURTHER_DATA_EXPERIMENTS_PAUSED",
+  "runs_screened": 6,
+  "original_frames_screened": 30,
+  "original_archive_member_bytes_verified": 30,
+  "admitted_observable_candidates": 0,
+  "independent_human_labels": 0,
+  "physical_event_count": null,
+  "accuracy": null,
+  "efficiency_comparison": null,
+  "exhaustive_screen": false,
+  "exclusion_reason": "Physical before/after side evidence outside field of view or not established; source-index alignment was assumed for the same-camera screen. Missing native PTS was not used as an exclusion criterion.",
+  "A_B_status": "boundary/exclusion; unchanged unknown physical sides",
+  "new_model_forwards": 0,
+  "training_calls": 0,
+  "new_media_downloads": 0,
+  "Library_retry": false,
+  "public_media_or_person_level_results": false,
+  "trajectory_direction_status": "Image-plane progression is only evidence; no validated physical event direction or identity inferred.",
+  "next_action": "Preserve screen and audit original Rule2Region scope; separate event-decision branch remains a candidate, not a replacement mainline."
+}
