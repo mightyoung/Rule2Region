@@ -1,0 +1,25 @@
+{
+  "scope": "Only this public text directory, excluding manifest itself; no media or private source mapping",
+  "files": [
+    {
+      "path": "COUNTERFACTUAL_V2_ONE_PAGE.md",
+      "bytes": 3783,
+      "sha256": "0e2544c9382383c18c9e0c97ba2f4d534785fc82a3c024a74becd909d3a1ed50"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4206,
+      "sha256": "f700e6cb23b71a9b62f88531446b01237c727e65c8a3cca0f3a462d88cd8c36e"
+    },
+    {
+      "path": "V1_POSITION_AND_SHORTCUTS.md",
+      "bytes": 3677,
+      "sha256": "4c2928ed43f162156219903f36a69207d4016f4f307d1a8f3439406debde60d4"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1005,
+      "sha256": "60413f625c691e580b357949015ce926c030e86e941bc1c55ff555b71f4efd21"
+    }
+  ]
+}
