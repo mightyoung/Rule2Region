@@ -1,0 +1,39 @@
+{
+  "candidate_AI_drafts": 2,
+  "unique_evidence_frames_verified": 30,
+  "source_span": [
+    112,
+    332
+  ],
+  "source_member_axis_complete": true,
+  "physical_inside_outside_changes_confirmed": 0,
+  "confirmed_complete_physical_event_count": null,
+  "human_GT_created": false,
+  "seconds_generated": false,
+  "model_calls": 0,
+  "Library_retry": false,
+  "AI_draft_does_not_validate_human_truth": true,
+  "baseline": "7b5be31da91d4ccd012328c6e03c59fdc49c0f5d",
+  "source_recovery_commit": "1ba7d24fd9e36ed2840762f52b871952df67ef35",
+  "verified_source_JPEGs": 221,
+  "decoded_dimensions": [
+    800,
+    600
+  ],
+  "source_frame_manifest_sha256": "72214dff2cc99453cab65f478439912cd3980564ac6cff4450e763eac6fdea6f",
+  "source_archive_sha256": "23bb285929056603e387fc6898d56c0a5cdfa64ebd717e8060682d13afd36201",
+  "nominal_publisher_FPS": 30,
+  "actual_FPS_verified": false,
+  "native_PTS_available": false,
+  "event_seconds": null,
+  "newly_viewed_frames": 23,
+  "AI_drafts_exhaustive_for_all221_frames": false,
+  "independent_human_annotation_status": "221 pending rows preserved",
+  "physical_state_change_assignments": 0,
+  "physical_event_GT_labels": 0,
+  "architecture_status": "discussion pending, no cascade/unified-model choice",
+  "source_review_path": "research/chokepoint-contiguous-source-20261011/ANNOTATION_PLAN.md",
+  "Library_delivery": "pending; prior401 not retried",
+  "Mac_delivery_verified": false,
+  "private_person_outputs_public": false
+}
