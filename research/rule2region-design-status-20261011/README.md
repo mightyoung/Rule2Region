@@ -1,0 +1,11 @@
+# Decision-model architecture remains under discussion
+
+Baseline `1ba7d24fd9e36ed2840762f52b871952df67ef35`. This is a **design-status addendum**, not a model selection, training instruction or executed architecture experiment.
+
+The earlier [on-demand reassessment gate](../chokepoint-contiguous-source-20261011/REASSESSMENT_GATE.json) is preserved as the historical discussion state at that commit. It is **not the final user architecture**. The user has raised temporal consistency concerns with multiple models and is now comparing a unified temporal decision layer against an end-to-end perception-and-decision model. Scope, temporal inputs, labels/objective, uncertainty handling, training data and evaluation remain undecided. No cascade or unified model is promoted to the mainline, and no training, dependency/model acquisition or new inference is executed by this addendum.
+
+Architecture discussion does not interrupt the [real-source evidence preparation](../chokepoint-contiguous-source-20261011/README.md): original C1 indices 112–332 are restored and verified as 221 consecutive filename-index JPEGs; native source time remains unavailable. Pending human annotations, qualified within-clip association and physical-side/event observability are still missing. The existing four DINO outputs and all source images retain their original bytes. A future model choice cannot create the missing observations or change the existing physical-event GT definition by default.
+
+Centre/ROI membership remains candidate possible-condition evidence, never verified entry. Multi-person occlusion, incomplete field of view, time/association missingness and the distinction between disappearance and physical retreat remain evidence requirements under either proposed architecture. No GT, accuracy claim, trajectory or physical crossing is generated here. All previous receipts and the original gate are preserved; `STATUS.json` is the latest local research-design status for this discussion.
+
+Library delivery remains pending after the earlier HTTP401, without retries or alternate publication. Public changes are this status note only; media/raw outputs remain private. Continuous-frame and independent review preparation proceed with the existing evidence scope, rather than waiting for the architecture discussion to conclude.
