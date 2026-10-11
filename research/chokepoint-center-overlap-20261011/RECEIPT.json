@@ -1,0 +1,111 @@
+{
+  "baseline": "bb57669fb2c9df4e276e94091609b8af252baee1",
+  "protocol_sha256": "8039d871e070e0935db1aeb4d6b0fb34637d6398bbc286cebd84deaceaea6287",
+  "target_selection": "near-camera visible framing in P1E_S1_C1 as explicit Portal1-source development candidate",
+  "target_is_production_truth": false,
+  "source_portal_label_supported": true,
+  "physical_pixel_boundary_verified": false,
+  "input_frames": 4,
+  "input_model_boxes": 4,
+  "new_model_calls": 0,
+  "modified_model_boxes": 0,
+  "evaluations_per_predicate": 40,
+  "groups": {
+    "candidate_far_door_polygon": {
+      "centre_stability": {
+        "stable": 3,
+        "sensitive": 1,
+        "unknown": 0
+      },
+      "overlap_class_stability": {
+        "stable": 3,
+        "sensitive": 1,
+        "unknown": 0
+      },
+      "positive_overlap_stability": {
+        "stable": 3,
+        "sensitive": 1,
+        "unknown": 0
+      },
+      "nominal_center_inside": 1,
+      "nominal_overlap_class": {
+        "positive_full": 0,
+        "positive_partial": 4,
+        "zero_area_boundary_touch": 0,
+        "outside": 0,
+        "unknown": 0
+      },
+      "nominal_centre_outside_but_positive_box_overlap": 3,
+      "nominal_centre_inside_but_box_not_fully_inside": 1,
+      "finite_sweep_descriptive_overlap_fraction_range": [
+        0.0,
+        0.9497274933120593
+      ]
+    },
+    "candidate_near_frame_polygon": {
+      "centre_stability": {
+        "stable": 4,
+        "sensitive": 0,
+        "unknown": 0
+      },
+      "overlap_class_stability": {
+        "stable": 4,
+        "sensitive": 0,
+        "unknown": 0
+      },
+      "positive_overlap_stability": {
+        "stable": 4,
+        "sensitive": 0,
+        "unknown": 0
+      },
+      "nominal_center_inside": 4,
+      "nominal_overlap_class": {
+        "positive_full": 3,
+        "positive_partial": 1,
+        "zero_area_boundary_touch": 0,
+        "outside": 0,
+        "unknown": 0
+      },
+      "nominal_centre_outside_but_positive_box_overlap": 0,
+      "nominal_centre_inside_but_box_not_fully_inside": 1,
+      "finite_sweep_descriptive_overlap_fraction_range": [
+        0.8404464489900408,
+        1.0
+      ]
+    }
+  },
+  "accuracy_recall_or_error_rate": null,
+  "continuous_trajectory_constructed": false,
+  "event_classifier_executed": false,
+  "DS_implemented": false,
+  "Library_retry": false,
+  "future_evidence_interfaces": "source span/completeness, association, body/foot pose, optional physical threshold; declarations only",
+  "semantic_and_physical_unknown_pairs": 8,
+  "original_model_output_files_unchanged": true,
+  "interpretation": {
+    "origin": "explicit user clarification received during this bounded execution",
+    "centre_ROI_membership": "candidate trigger / possible presence of entry-exit conditions only",
+    "centre_membership_is_event_decision": false,
+    "stable_membership_is_verified_entry": false,
+    "sensitive_membership_rejects_composite_research_mainline": false,
+    "current_comparison_scope": "candidate-screening geometry stability/sensitivity only",
+    "positive_box_overlap": "alternate geometric candidate condition; no physical-event truth",
+    "future_composite_evidence": [
+      "qualified trajectory",
+      "direction",
+      "inside-outside position changes",
+      "body/foot pose if available",
+      "optional physical threshold"
+    ],
+    "missing_event_evidence": "unknown; never safe or verified exclusion",
+    "this_addendum_changes_raw_or_geometric_outputs": false,
+    "original_preexecution_protocol_and_raw_outputs_retained": true
+  },
+  "native_time_or_continuous_trajectory_claims": false,
+  "centre_is_candidate_trigger_only": true,
+  "near_camera_framing_is_official_pixel_GT": false,
+  "physical_Portal1_calibration_verified": false,
+  "near_candidate_localization_basis": "P1 source naming plus actually visible near-camera framing; explicit experimental selection, no official pixel annotation",
+  "private_delivery": "local cloud file bundle; previous Library HTTP401 not retried",
+  "mac_delivery_verified": false
+}

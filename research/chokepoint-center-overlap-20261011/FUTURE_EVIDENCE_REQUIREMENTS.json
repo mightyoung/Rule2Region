@@ -1,0 +1,25 @@
+{
+  "scope": "declarations for future existing-input evidence, no implementation or new framework",
+  "development_target": "Portal1-source near-frame candidate; uncalibrated",
+  "candidate_trigger": "bbox centre or positive rectangle overlap; possible conditions only",
+  "existing_evidence_slots": {
+    "source_span_and_original_member_completeness": null,
+    "source_clock_and_its_provenance": null,
+    "qualified_multi_person_endpoint_associations": null,
+    "trajectory_and_direction_support": null,
+    "physical_inside_outside_reference_and_changes": null,
+    "body_or_foot_pose_support_if_predicate_requires": null,
+    "optional_physical_threshold_support": null,
+    "independent_human_event_and_association_annotations": null
+  },
+  "slot_null_means": "not supplied by the current fixed sparse-frame experiment",
+  "threshold_required_for_all_events_or_research": false,
+  "native_PTS_required_for_all_geometry": false,
+  "native_PTS_recovered": false,
+  "nominal_filename_clock_must_be_declared_as_interpretation": true,
+  "missing_required_predicate_support": "unknown",
+  "frame_local_query_ID_is_tracking_identity": false,
+  "same_RGB_derived_features_independent": false,
+  "formal_test_split": "not available; current four frames development exposed",
+  "DS_or_new_runtime_interface_added": false
+}

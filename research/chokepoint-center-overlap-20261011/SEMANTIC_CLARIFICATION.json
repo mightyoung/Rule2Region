@@ -1,0 +1,13 @@
+{
+  "origin": "explicit user clarification received during this bounded execution",
+  "centre_ROI_membership": "candidate trigger / possible presence of entry-exit conditions only",
+  "centre_membership_is_event_decision": false,
+  "stable_membership_is_verified_entry": false,
+  "sensitive_membership_rejects_composite_research_mainline": false,
+  "current_comparison_scope": "candidate-screening geometry stability/sensitivity only",
+  "positive_box_overlap": "alternate geometric candidate condition; no physical-event truth",
+  "future_composite_evidence": ["qualified trajectory", "direction", "inside-outside position changes", "body/foot pose if available", "optional physical threshold"],
+  "missing_event_evidence": "unknown; never safe or verified exclusion",
+  "this_addendum_changes_raw_or_geometric_outputs": false,
+  "original_preexecution_protocol_and_raw_outputs_retained": true
+}
