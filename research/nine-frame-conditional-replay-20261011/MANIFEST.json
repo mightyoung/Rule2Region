@@ -1,0 +1,93 @@
+{
+  "scope": "public code/method/summary receipt; no original pixels, private HSV or human GT; excludes self",
+  "source_commit": "1e434a82ed163d1c6579efe6eed3c29cdbc67d58",
+  "files": [
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/README.md",
+      "bytes": 8070,
+      "sha256": "29ae58294295ce1b5b97c7369896095bb36d69fb1f268f9814dfb0366711de8e"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/VALIDATION.json",
+      "bytes": 3995,
+      "sha256": "d5a7fd7a08df09baeb0b7e1c02a729dbf59c718dc94e587d2cf65354bad0db10"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/conditional_replay.py",
+      "bytes": 8472,
+      "sha256": "7833c280c83434ab7b565d7c7b4e03517e5ba62da33923fe0ecf3a32022f8588"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/conditional_results.json",
+      "bytes": 99271,
+      "sha256": "e9907f0c9e6342f7631d311f626eb5ab228bcbc818f0f87c337ed9da202d746a"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/repository-test-statuses.json",
+      "bytes": 74789,
+      "sha256": "134d202cf2390f46dbe13d079e8d7b52d290d0821cc7ef2e82f8da0ee733d1c4"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/test_conditional_replay.py",
+      "bytes": 2987,
+      "sha256": "aba58f460095fd66a1960e83b1d8c6ccb81b4579e0775dcce850598389f35c25"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/continuous-cache-20261010/cache/ablation.py",
+      "bytes": 2901,
+      "sha256": "9524fb06c22bfd9edb9d680741eb5bcb32a06cc9c519b47b7ddfe5e25f7797d9"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/bbox_fixture.json",
+      "bytes": 12707,
+      "sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/continuous_cache.py",
+      "bytes": 19449,
+      "sha256": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/geometry_fixture.json",
+      "bytes": 1070,
+      "sha256": "5297d0c3a6e6e6f7ea73cef3c1bfb282a155f561936d2d41123e048ff23cbbab"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/relation_fixture.json",
+      "bytes": 67933,
+      "sha256": "30e93a8dd54bba5a4882b61e8bcb8a9e2309c94d9a6e992933d6cdc41acae0ee"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P375.json",
+      "bytes": 12484,
+      "sha256": "5813529e30be3ce4cfe2cf36a46cab1ee6de1153a7d1cd33d15c6c9c920dd57f"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P405.json",
+      "bytes": 7474,
+      "sha256": "f47ac64343fd42dde0c287468e3f3076ec5b717f1b962b6356a2fe11e8a47783"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P435.json",
+      "bytes": 8108,
+      "sha256": "d6ab13cf6f48ac33aa32e22b155b6c051c10b97c7c5104b09e2c87f7e6d69d0a"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P465.json",
+      "bytes": 6690,
+      "sha256": "4b371cac778fe34a78a716ffe4f768f6c433c6e15a5d0513f4e2fb52e6119a05"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P480.json",
+      "bytes": 5971,
+      "sha256": "8657da50a73b8944667c9156ac2f424ccaf3ef5b922879568e632c04a6e4ec83"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/nine_frame_bbox_inventory.json",
+      "bytes": 26793,
+      "sha256": "64c1e48e329d55a535413e6e09035312569e6fb1f19a828530dc730d37562623"
+    }
+  ]
+}
