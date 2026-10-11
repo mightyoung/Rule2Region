@@ -1,0 +1,35 @@
+{
+  "scope": "companion code, software tests and redacted sample metadata only; no original media/private geometry/person coordinates/host paths",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5574,
+      "sha256": "474fd2c011dc7c3cd72e0fd516877c2e75f6afdd620527cb8f95ce6c644bd80c"
+    },
+    {
+      "path": "REAL_FOUR_SAMPLE_INDEX.json",
+      "bytes": 8569,
+      "sha256": "32878d3f503410247e10f243657faa86ecd89f67d41a6a009c94895d8a1f2148"
+    },
+    {
+      "path": "RECEIPT.json",
+      "bytes": 2924,
+      "sha256": "774a4575ee6a4c154e89d778f4bf9ff33aee7017ccaa67169be890aacf79fd17"
+    },
+    {
+      "path": "__init__.py",
+      "bytes": 86,
+      "sha256": "af36886ec5f0d3c8c53c9f9c7adc5651afcfa8a6f060892fd9f5232662a29eb0"
+    },
+    {
+      "path": "admission.py",
+      "bytes": 12625,
+      "sha256": "fcdfcd93ff06331de1682a8da8b28e5824871e58e242c18997834c399112d1f2"
+    },
+    {
+      "path": "tests/test_admission.py",
+      "bytes": 12573,
+      "sha256": "db61f1d3ecadb5618d130c2bed951335a21ff3716ec38775d18049d1e414be16"
+    }
+  ]
+}

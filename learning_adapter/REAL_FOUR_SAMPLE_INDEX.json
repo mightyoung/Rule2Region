@@ -1,0 +1,260 @@
+{
+  "kind": "public-preparation-index",
+  "formal_manifest": false,
+  "learning_base_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "samples": [
+    {
+      "sample_id": "chokepoint:P1E_S1:C1:F00000000",
+      "frame_index": 0,
+      "source_sha256": "67ebae5828a20b540cfd0241789ea5881c00c244a838f649f59b21228b4bc998",
+      "source_component": {
+        "dataset": "ChokePoint",
+        "sequence": "P1E_S1"
+      },
+      "camera": "C1",
+      "versions": {
+        "evidence": "chokepoint-P1E-S1-C1-original-and-existing-person-v1-20261011",
+        "labels": "private-visible-geometry-AI-v1-20261011",
+        "rules": "private-annotation-preparation-v1-20261011"
+      },
+      "split": null,
+      "door_candidate_ids": [
+        "rear_door_candidate",
+        "near_passage_candidate"
+      ],
+      "candidate_kinds": {
+        "rear_door_candidate": "AI_visible_door_frame_panel_candidate",
+        "near_passage_candidate": "AI_visible_passage_frame_screening_ROI_not_door_detection"
+      },
+      "AI_labels": {
+        "relations": {
+          "r_rear": "unknown",
+          "r_near": "unknown"
+        },
+        "matches": {},
+        "sufficiency": {
+          "r_rear": "insufficient",
+          "r_near": "insufficient"
+        }
+      },
+      "AI_revision": {
+        "model_revision": null,
+        "revision_status": "unknown",
+        "origin": "AI visual candidate, not person detector door output"
+      },
+      "person_detector": {
+        "model_id": "IDEA-Research/grounding-dino-tiny",
+        "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+        "revision_status": "known",
+        "prompt": "person.",
+        "box_threshold": 0.25,
+        "text_threshold": 0.25,
+        "nms_iou": 0.7,
+        "kept_count": 0,
+        "is_GT": false,
+        "door_detection": false
+      },
+      "building_exterior_status": "unknown",
+      "human_review_status": "pending",
+      "truth_available": false,
+      "blockers": [
+        "missing_verified_group_identity",
+        "split_not_assigned",
+        "human_review_pending",
+        "formal_source_permission_not_recorded",
+        "AI_revision_unknown_labels_kept_in_sidecar"
+      ],
+      "supervision_ready": false
+    },
+    {
+      "sample_id": "chokepoint:P1E_S1:C1:F00000142",
+      "frame_index": 142,
+      "source_sha256": "844b5958a991569fe06a3d7bed80610fb686fc2bb211a2614e2568eb82f3359a",
+      "source_component": {
+        "dataset": "ChokePoint",
+        "sequence": "P1E_S1"
+      },
+      "camera": "C1",
+      "versions": {
+        "evidence": "chokepoint-P1E-S1-C1-original-and-existing-person-v1-20261011",
+        "labels": "private-visible-geometry-AI-v1-20261011",
+        "rules": "private-annotation-preparation-v1-20261011"
+      },
+      "split": null,
+      "door_candidate_ids": [
+        "rear_door_candidate",
+        "near_passage_candidate"
+      ],
+      "candidate_kinds": {
+        "rear_door_candidate": "AI_visible_door_frame_panel_candidate",
+        "near_passage_candidate": "AI_visible_passage_frame_screening_ROI_not_door_detection"
+      },
+      "AI_labels": {
+        "relations": {
+          "r_rear": "unknown",
+          "r_near": "unknown"
+        },
+        "matches": {},
+        "sufficiency": {
+          "r_rear": "insufficient",
+          "r_near": "insufficient"
+        }
+      },
+      "AI_revision": {
+        "model_revision": null,
+        "revision_status": "unknown",
+        "origin": "AI visual candidate, not person detector door output"
+      },
+      "person_detector": {
+        "model_id": "IDEA-Research/grounding-dino-tiny",
+        "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+        "revision_status": "known",
+        "prompt": "person.",
+        "box_threshold": 0.25,
+        "text_threshold": 0.25,
+        "nms_iou": 0.7,
+        "kept_count": 1,
+        "is_GT": false,
+        "door_detection": false
+      },
+      "building_exterior_status": "unknown",
+      "human_review_status": "pending",
+      "truth_available": false,
+      "blockers": [
+        "missing_verified_group_identity",
+        "split_not_assigned",
+        "human_review_pending",
+        "formal_source_permission_not_recorded",
+        "AI_revision_unknown_labels_kept_in_sidecar"
+      ],
+      "supervision_ready": false
+    },
+    {
+      "sample_id": "chokepoint:P1E_S1:C1:F00000262",
+      "frame_index": 262,
+      "source_sha256": "4e0d06fe623a4ea60f71c255b919b58020b13b573d6895ebc97b60fa2b374917",
+      "source_component": {
+        "dataset": "ChokePoint",
+        "sequence": "P1E_S1"
+      },
+      "camera": "C1",
+      "versions": {
+        "evidence": "chokepoint-P1E-S1-C1-original-and-existing-person-v1-20261011",
+        "labels": "private-visible-geometry-AI-v1-20261011",
+        "rules": "private-annotation-preparation-v1-20261011"
+      },
+      "split": null,
+      "door_candidate_ids": [
+        "rear_door_candidate",
+        "near_passage_candidate"
+      ],
+      "candidate_kinds": {
+        "rear_door_candidate": "AI_visible_door_frame_panel_candidate",
+        "near_passage_candidate": "AI_visible_passage_frame_screening_ROI_not_door_detection"
+      },
+      "AI_labels": {
+        "relations": {
+          "r_rear": "unknown",
+          "r_near": "unknown"
+        },
+        "matches": {},
+        "sufficiency": {
+          "r_rear": "insufficient",
+          "r_near": "insufficient"
+        }
+      },
+      "AI_revision": {
+        "model_revision": null,
+        "revision_status": "unknown",
+        "origin": "AI visual candidate, not person detector door output"
+      },
+      "person_detector": {
+        "model_id": "IDEA-Research/grounding-dino-tiny",
+        "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+        "revision_status": "known",
+        "prompt": "person.",
+        "box_threshold": 0.25,
+        "text_threshold": 0.25,
+        "nms_iou": 0.7,
+        "kept_count": 2,
+        "is_GT": false,
+        "door_detection": false
+      },
+      "building_exterior_status": "unknown",
+      "human_review_status": "pending",
+      "truth_available": false,
+      "blockers": [
+        "missing_verified_group_identity",
+        "split_not_assigned",
+        "human_review_pending",
+        "formal_source_permission_not_recorded",
+        "AI_revision_unknown_labels_kept_in_sidecar"
+      ],
+      "supervision_ready": false
+    },
+    {
+      "sample_id": "chokepoint:P1E_S1:C1:F00000312",
+      "frame_index": 312,
+      "source_sha256": "29e65f888c2cfe315a1f855850354130eab49b7484f55d1f518617f5206aef3a",
+      "source_component": {
+        "dataset": "ChokePoint",
+        "sequence": "P1E_S1"
+      },
+      "camera": "C1",
+      "versions": {
+        "evidence": "chokepoint-P1E-S1-C1-original-and-existing-person-v1-20261011",
+        "labels": "private-visible-geometry-AI-v1-20261011",
+        "rules": "private-annotation-preparation-v1-20261011"
+      },
+      "split": null,
+      "door_candidate_ids": [
+        "rear_door_candidate",
+        "near_passage_candidate"
+      ],
+      "candidate_kinds": {
+        "rear_door_candidate": "AI_visible_door_frame_panel_candidate",
+        "near_passage_candidate": "AI_visible_passage_frame_screening_ROI_not_door_detection"
+      },
+      "AI_labels": {
+        "relations": {
+          "r_rear": "unknown",
+          "r_near": "unknown"
+        },
+        "matches": {},
+        "sufficiency": {
+          "r_rear": "insufficient",
+          "r_near": "insufficient"
+        }
+      },
+      "AI_revision": {
+        "model_revision": null,
+        "revision_status": "unknown",
+        "origin": "AI visual candidate, not person detector door output"
+      },
+      "person_detector": {
+        "model_id": "IDEA-Research/grounding-dino-tiny",
+        "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+        "revision_status": "known",
+        "prompt": "person.",
+        "box_threshold": 0.25,
+        "text_threshold": 0.25,
+        "nms_iou": 0.7,
+        "kept_count": 1,
+        "is_GT": false,
+        "door_detection": false
+      },
+      "building_exterior_status": "unknown",
+      "human_review_status": "pending",
+      "truth_available": false,
+      "blockers": [
+        "missing_verified_group_identity",
+        "split_not_assigned",
+        "human_review_pending",
+        "formal_source_permission_not_recorded",
+        "AI_revision_unknown_labels_kept_in_sidecar"
+      ],
+      "supervision_ready": false
+    }
+  ],
+  "note": "Metadata-only index is not training input or human truth; original media stays private."
+}

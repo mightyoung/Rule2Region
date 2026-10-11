@@ -1,0 +1,87 @@
+{
+  "learning_base_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "python": "3.12.14",
+  "execution_scope": "standard-library admission/index checks; no torch import/optimizer/model/feature/media generation",
+  "adapter_tests": {
+    "pass": 23,
+    "fail": 0,
+    "skip": 0,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "learning_adapter/tests",
+      "-v"
+    ]
+  },
+  "original_learning_suite_this_run": {
+    "pass": 16,
+    "fail": 0,
+    "skip": 4,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "learning/tests",
+      "-v"
+    ],
+    "skip_reason": "Chosen interpreter has no torch, so no software optimizer steps executed; existing separate torch environment and prior dynamic results remain intact."
+  },
+  "original_learning_manifest": {
+    "verified_files": 23,
+    "sha256": "e22ee8ffa5c4a658a7db65c99bb73685fb6d90fb68d8ffd308e44e3cdfd78f95"
+  },
+  "real_preparation": {
+    "mapped_original_frames": 4,
+    "frame_indices": [
+      0,
+      142,
+      262,
+      312
+    ],
+    "same_source_components": 1,
+    "camera_groups": 1,
+    "splits_assigned": 0,
+    "truth_labels_created": 0,
+    "admission_rejected_as_expected": 4,
+    "eligible_supervision_samples": 0,
+    "source_private_manifest_sha256": "74f12d0333c39f4110cfaf85098a86e58a5d062a909230188e28eed3ef97f16c",
+    "person_model_kept_counts": [
+      0,
+      1,
+      2,
+      1
+    ]
+  },
+  "test_first_history": {
+    "initial_expected_assertion_failures": 20,
+    "initial_test_exit": 1,
+    "additional_declared_split_expected_failure": 1,
+    "additional_test_exit": 1,
+    "final_adapter_test_exit": 0,
+    "raw_failure_logs": "retained privately; not published"
+  },
+  "trained_models": 0,
+  "training_steps": 0,
+  "model_forwards": 0,
+  "new_installs": 0,
+  "new_downloads": 0,
+  "paid_calls": 0,
+  "raw_media_or_model_predictions_published": false,
+  "original_learning_files_modified": false,
+  "original_16_frame_protocol_modified": false,
+  "private_log_hashes": {
+    "adapter_final.log": "d8667dffbbb554f82aa33f82d197abe7b59083404f8e961d497c2009eaeb8761",
+    "adapter_full.log": "68572d9af782d9eadadca0868b808d4286e70370d78d2ea76673dd628f93be34",
+    "f23_source_manifest.log": "2d967feae779c8a83096df05b619116bcfa2917efd750a1504cbc8c5a5e7a418",
+    "rule2region-adapter-first-green.log": "a1bf3902f23b80fefe28f1b52bcebbb4c5974f56ea79d945eb642c380363bf06",
+    "rule2region-adapter-red-confirmed.log": "0a266dbf05eecdd0ac39c9b686a545efcd9dc7c8f8d1cddad367451669850979",
+    "rule2region-adapter-split-binding-red.log": "b640c328924b4ce25b572973f82274749f2113baf004bea7a16ff9231460c24c",
+    "rule2region-adapter-test-first.log": "0a266dbf05eecdd0ac39c9b686a545efcd9dc7c8f8d1cddad367451669850979",
+    "unchanged_learning_full_no_torch.log": "3e0a62372fd9f36d6f3b7ff24b02b536c59a48661ea7d3d3118719b437c5be0d"
+  }
+}
