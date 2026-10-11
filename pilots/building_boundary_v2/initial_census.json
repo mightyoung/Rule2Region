@@ -1,0 +1,14 @@
+{
+  "schema_version": "initial-census-v2",
+  "revision": 1,
+  "scope": "synthetic_fixture_only",
+  "t0": 0,
+  "time_basis": "synthetic_step",
+  "source_id": "fixture_author_independent_census",
+  "status": "AUTHOR_RECORDED_NOT_REAL_FIELD_CENSUS",
+  "initial": {
+    "building": 3,
+    "floor1": 2,
+    "floor2": 1
+  }
+}

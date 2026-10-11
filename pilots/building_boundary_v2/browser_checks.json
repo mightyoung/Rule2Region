@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "browser": "installed Chromium via installed Playwright",
+  "render_method": "local HTML via set_content; file URL policy blocks direct navigation",
+  "checks": [
+    "default six targets v2 admitted and independent GT shown",
+    "retained v1 max 2/1/27 counterexamples and v2 layer table visible",
+    "equivalent-direction and alternative-supported-geometry positive controls visible",
+    "step 10 simultaneous GT transitions visible",
+    "same door two views with unique owner visible",
+    "uncalled model has no predictions or scores",
+    "rejected v2 arms have no predictions or scores; legacy diagnostics are separate",
+    "timeline and topology click update controls",
+    "nine failure gates and three official sources visible",
+    "390px mobile layout has no document horizontal overflow"
+  ],
+  "page_errors": [],
+  "screenshots": "local /tmp only; self-authored synthetic report"
+}

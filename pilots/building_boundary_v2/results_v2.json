@@ -1,0 +1,1999 @@
+{
+  "admission_version": "building-boundary-admission-v2",
+  "scope": "synthetic_software_only_no_model",
+  "baseline_commit": "40f0240b6929c13c6ce9bad62b25a5111ec49e85",
+  "fixed_v1_executor_sha256": "d183e375a59a3a0967ea8136ec8f511860880b0c8c87bb9dd8e35cb995f8fc56",
+  "example_fixture_receipts": {
+    "config_review": {
+      "receipt_version": "config-review-v2",
+      "scope": "synthetic_fixture_only",
+      "reviewer": "fixture_author_simulation",
+      "binding": {
+        "admission_version": "building-boundary-admission-v2",
+        "config_sha256": "114faf6ae3e1181ca9986932e0cf3c6f460810543bfcdf70f48120f6858c85e3",
+        "topology_sha256": "162a89dc1c0fcd6bb433727933ebe8c8716e1a5d2bf7157aa026548a07d46cc8",
+        "goals_contract_sha256": "48126e7cc5fc3ddf50f59b96dcc584dca7f6ed8bce020af42d74d0522e7b18ee",
+        "geometry_evidence_sha256": "2cc313e2436f25457e51525e723dccc3dd64524c30cc2329e2fa4703755f51d3",
+        "reference_sha256": "3e5cbf751b1c67e8fb2d1aa9f2793faa94027fd835e739ca7197e1b9a29a2789"
+      }
+    },
+    "session_qualification": {
+      "receipt_version": "session-review-v2",
+      "scope": "synthetic_fixture_only",
+      "reviewer": "fixture_author_simulation",
+      "admission_version": "building-boundary-admission-v2",
+      "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+      "config_review_sha256": "1e48713be5e7de279750850b2f8c4a27766b65cd3682b2a4f8c762a94b79e031"
+    }
+  },
+  "strategies": {
+    "manual_truth": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V2_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      },
+      "config_sha256": "114faf6ae3e1181ca9986932e0cf3c6f460810543bfcdf70f48120f6858c85e3",
+      "config_review_sha256": "1e48713be5e7de279750850b2f8c4a27766b65cd3682b2a4f8c762a94b79e031",
+      "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+      "session_review_sha256": "1b0b0098d7060980e6cecbe26b40460479b9637924ea6fb9081484a75ada5853",
+      "initial_source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5",
+      "t0": 0
+    },
+    "metadata_rule": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V2_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      },
+      "config_sha256": "8d11d393e072f6d99852e3294dde706dfd24918cbe3e10739d41ba642783c484",
+      "config_review_sha256": "099eef00dd7456febb44073a058f9004f473aabf9aae696d26a8ed0f92ad675e",
+      "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+      "session_review_sha256": "22e05b9e920340d4a2e02196d6751f1068fa369ec3dfa983516a65c54d859b07",
+      "initial_source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5",
+      "t0": 0
+    },
+    "door_only": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/lift:DIRECTION_OR_MEMBERSHIP",
+        "building/room1:DIRECTION_OR_MEMBERSHIP",
+        "building/room2:DIRECTION_OR_MEMBERSHIP",
+        "building/stairs:DIRECTION_OR_MEMBERSHIP",
+        "building:BOUNDARY_COVERAGE",
+        "floor1/lift:DIRECTION_OR_MEMBERSHIP",
+        "floor1/room1:DIRECTION_OR_MEMBERSHIP",
+        "floor1/room2:DIRECTION_OR_MEMBERSHIP",
+        "floor1/stairs:DIRECTION_OR_MEMBERSHIP",
+        "floor1/upper:DIRECTION_OR_MEMBERSHIP",
+        "floor1:BOUNDARY_COVERAGE",
+        "floor2/east:DIRECTION_OR_MEMBERSHIP",
+        "floor2/room1:DIRECTION_OR_MEMBERSHIP",
+        "floor2/room2:DIRECTION_OR_MEMBERSHIP",
+        "floor2/service:DIRECTION_OR_MEMBERSHIP",
+        "floor2:BOUNDARY_COVERAGE"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "model_candidate": {
+      "status": "NOT_RUN",
+      "metrics": null
+    },
+    "model_plus_metadata_or_plan": {
+      "status": "NOT_RUN",
+      "metrics": null
+    }
+  },
+  "counterexamples_v1": {
+    "reverse_line_only": {
+      "status": "SYNTHETIC_ADMITTED",
+      "metrics": {
+        "building": {
+          "mae": 1.0,
+          "max_abs_error": 2,
+          "final_error": 2,
+          "event_tp": 3,
+          "event_fp": 3,
+          "event_fn": 3
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      }
+    },
+    "displaced_valid_roi": {
+      "status": "SYNTHETIC_ADMITTED",
+      "metrics": {
+        "building": {
+          "mae": 0.5,
+          "max_abs_error": 1,
+          "final_error": 1,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 3
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      }
+    },
+    "changed_initial_old_approval": {
+      "status": "SYNTHETIC_ADMITTED",
+      "metrics": {
+        "building": {
+          "mae": 27.0,
+          "max_abs_error": 27,
+          "final_error": 27,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 18.0,
+          "max_abs_error": 18,
+          "final_error": 18,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 9.0,
+          "max_abs_error": 9,
+          "final_error": 9,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      }
+    }
+  },
+  "failures_v2": {
+    "reverse_line_only": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/east:DIRECTED_LINE_REGION_SIDE_CONFLICT"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "displaced_valid_roi": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/east:LINE_ROI_INCONSISTENT",
+        "building/east:ROI_MISSES_REVIEWED_PORTAL_SUPPORT"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "changed_initial_old_approval": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "REJECTED_OR_UNKNOWN",
+      "config_reasons": [],
+      "session_reasons": [
+        "MISSING_OR_STALE_SESSION_QUALIFICATION",
+        "UNKNOWN_OR_INCONSISTENT_INITIAL_SOURCE"
+      ],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "missing_scene_evidence": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "MISSING_OR_STALE_CONFIG_REVIEW",
+        "UNKNOWN_OR_STALE_SCENE_EVIDENCE"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "modified_reference": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "MISSING_OR_STALE_CONFIG_REVIEW",
+        "UNKNOWN_OR_STALE_SCENE_EVIDENCE"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "line_roi_consistent_wrong_portal": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/east:DIRECTED_LINE_REGION_SIDE_CONFLICT",
+        "building/east:LINE_MISSES_REVIEWED_PORTAL_SUPPORT",
+        "building/east:ROI_MISSES_REVIEWED_PORTAL_SUPPORT"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "roi_intersects_but_incomplete_portal": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "building/east:ROI_MISSES_REVIEWED_PORTAL_SUPPORT"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "changed_t0": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "REJECTED_OR_UNKNOWN",
+      "config_reasons": [],
+      "session_reasons": [
+        "MISSING_OR_STALE_SESSION_QUALIFICATION",
+        "UNKNOWN_OR_INCONSISTENT_INITIAL_SOURCE",
+        "UNSUPPORTED_OR_UNKNOWN_T0"
+      ],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "changed_source": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "REJECTED_OR_UNKNOWN",
+      "config_reasons": [],
+      "session_reasons": [
+        "MISSING_OR_STALE_SESSION_QUALIFICATION",
+        "UNKNOWN_OR_INCONSISTENT_INITIAL_SOURCE"
+      ],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "changed_session_revision": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "REJECTED_OR_UNKNOWN",
+      "config_reasons": [],
+      "session_reasons": [
+        "MISSING_OR_STALE_SESSION_QUALIFICATION"
+      ],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "stale_config_after_line_change": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "REJECTED_OR_UNKNOWN",
+      "session_status": "QUALIFIED",
+      "config_reasons": [
+        "MISSING_OR_STALE_CONFIG_REVIEW"
+      ],
+      "session_reasons": [],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    },
+    "missing_session_review": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "REJECTED_OR_UNKNOWN",
+      "config_reasons": [],
+      "session_reasons": [
+        "MISSING_OR_STALE_SESSION_QUALIFICATION"
+      ],
+      "metrics": null,
+      "status": "REJECTED_OR_UNKNOWN"
+    }
+  },
+  "non_oracle_positive_controls": {
+    "reverse_line_and_side": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V2_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      },
+      "config_sha256": "4f791fb9a5a3fc513fa84f2c3ef956c32eb02f831b35d324d9d8af990fc48a04",
+      "config_review_sha256": "8a965c38268b02998ee1a07cebfa0719c494ee388f895f94a86096d5ce9000a2",
+      "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+      "session_review_sha256": "964e72a0026f5f7cf254464987430bd1f63f5a73ccfd2c42afd4f5ea66cfe452",
+      "initial_source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5",
+      "t0": 0
+    },
+    "alternative_supported_line": {
+      "admission_version": "building-boundary-admission-v2",
+      "config_status": "QUALIFIED",
+      "session_status": "QUALIFIED",
+      "config_reasons": [],
+      "session_reasons": [],
+      "metrics": {
+        "building": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor1": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 8,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "floor2": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 6,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_east": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 3,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_upper": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 2,
+          "event_fp": 0,
+          "event_fn": 0
+        },
+        "net_service": {
+          "mae": 0.0,
+          "max_abs_error": 0,
+          "final_error": 0,
+          "event_tp": 1,
+          "event_fp": 0,
+          "event_fn": 0
+        }
+      },
+      "status": "SYNTHETIC_V2_ADMITTED",
+      "series": [
+        {
+          "step": 0,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 1,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 2,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 3,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor2": 1
+          },
+          "outflow": {
+            "floor1": 1
+          }
+        },
+        {
+          "step": 4,
+          "values": {
+            "building": 4,
+            "floor1": 3,
+            "floor2": 1,
+            "net_east": 1,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 5,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 0,
+            "net_service": 0
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 6,
+          "values": {
+            "building": 4,
+            "floor1": 2,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": 0
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {}
+        },
+        {
+          "step": 7,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_service": 1
+          }
+        },
+        {
+          "step": 8,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {},
+          "outflow": {}
+        },
+        {
+          "step": 9,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": 0,
+            "net_upper": 1,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        },
+        {
+          "step": 10,
+          "values": {
+            "building": 3,
+            "floor1": 1,
+            "floor2": 2,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "building": 1,
+            "floor2": 1,
+            "net_upper": 1
+          },
+          "outflow": {
+            "building": 1,
+            "floor1": 1,
+            "net_east": 1
+          }
+        },
+        {
+          "step": 11,
+          "values": {
+            "building": 3,
+            "floor1": 2,
+            "floor2": 1,
+            "net_east": -1,
+            "net_upper": 2,
+            "net_service": -1
+          },
+          "inflow": {
+            "floor1": 1
+          },
+          "outflow": {
+            "floor2": 1
+          }
+        }
+      ],
+      "events": {
+        "building": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "floor1": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            7,
+            "service",
+            -1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "floor2": [
+          [
+            3,
+            "lift",
+            1
+          ],
+          [
+            4,
+            "stairs",
+            -1
+          ],
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            9,
+            "lift",
+            -1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ],
+          [
+            11,
+            "stairs",
+            -1
+          ]
+        ],
+        "net_east": [
+          [
+            1,
+            "east",
+            1
+          ],
+          [
+            5,
+            "east",
+            -1
+          ],
+          [
+            10,
+            "east",
+            -1
+          ]
+        ],
+        "net_upper": [
+          [
+            6,
+            "upper",
+            1
+          ],
+          [
+            10,
+            "upper",
+            1
+          ]
+        ],
+        "net_service": [
+          [
+            7,
+            "service",
+            -1
+          ]
+        ]
+      },
+      "config_sha256": "1d3da02955c3d2528f1080e7926c9efc1acc94b1996d29226ed6b55a9033e366",
+      "config_review_sha256": "178469f19f808d23d2baeec8225646a9bde6977c7f83c2ada6f67bef829378d2",
+      "session_sha256": "4853ddbfb9e33a1462a4296ab3c2ab69eecc06267be4b62bacefa1b368b2c64f",
+      "session_review_sha256": "a2204ffe7faa07dfd44dcd46296a5828c31b6ca9e033e2b5e5b47c719577a6ab",
+      "initial_source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5",
+      "t0": 0
+    }
+  },
+  "real_visual": {
+    "status": "NOT_RUN",
+    "metrics": null
+  }
+}

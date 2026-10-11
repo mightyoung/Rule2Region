@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "python_version": "3.12.14",
+  "v2_tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "v1_tests_rerun_passed": 20,
+  "incremental_failure_scenarios": 12,
+  "non_oracle_geometry_positive_controls": 2
+}

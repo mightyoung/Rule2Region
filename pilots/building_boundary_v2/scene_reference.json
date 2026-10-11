@@ -1,0 +1,177 @@
+{
+  "kind": "self_authored_coordinate_reference_not_image",
+  "revision": 1,
+  "views": {
+    "east_front": {
+      "door": "east",
+      "a_region": "O",
+      "b_region": "A",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "east_side": {
+      "door": "east",
+      "a_region": "O",
+      "b_region": "A",
+      "a_anchor": [
+        0.25,
+        0.5
+      ],
+      "b_anchor": [
+        0.75,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "upper_front": {
+      "door": "upper",
+      "a_region": "O",
+      "b_region": "C",
+      "a_anchor": [
+        0.25,
+        0.5
+      ],
+      "b_anchor": [
+        0.75,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "upper_side": {
+      "door": "upper",
+      "a_region": "O",
+      "b_region": "C",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "service_cam": {
+      "door": "service",
+      "a_region": "O",
+      "b_region": "B",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "room1_cam": {
+      "door": "room1",
+      "a_region": "A",
+      "b_region": "B",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "room2_cam": {
+      "door": "room2",
+      "a_region": "C",
+      "b_region": "D",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "stairs_cam": {
+      "door": "stairs",
+      "a_region": "A",
+      "b_region": "C",
+      "a_anchor": [
+        0.75,
+        0.5
+      ],
+      "b_anchor": [
+        0.25,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    },
+    "lift_cam": {
+      "door": "lift",
+      "a_region": "B",
+      "b_region": "D",
+      "a_anchor": [
+        0.25,
+        0.5
+      ],
+      "b_anchor": [
+        0.75,
+        0.5
+      ],
+      "doorway_support_roi": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ]
+    }
+  }
+}

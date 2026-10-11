@@ -1,0 +1,20 @@
+{
+  "schema_version": "scene-evidence-v2",
+  "revision": 1,
+  "scope": "synthetic_fixture_only",
+  "review_status": "AUTHOR_REVIEWED_SYNTHETIC_REFERENCE",
+  "reviewer": "fixture_author_simulation_not_field_inspection",
+  "reference_sha256": "3e5cbf751b1c67e8fb2d1aa9f2793faa94027fd835e739ca7197e1b9a29a2789",
+  "reference_kind": "self_authored_coordinate_reference_not_image",
+  "view_ids": [
+    "east_front",
+    "east_side",
+    "lift_cam",
+    "room1_cam",
+    "room2_cam",
+    "service_cam",
+    "stairs_cam",
+    "upper_front",
+    "upper_side"
+  ]
+}

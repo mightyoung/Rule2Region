@@ -1,0 +1,15 @@
+{
+  "schema_version": "initial-session-v2",
+  "session_id": "synthetic-session-001",
+  "revision": 1,
+  "t0": 0,
+  "time_basis": "synthetic_step",
+  "initial": {
+    "building": 3,
+    "floor1": 2,
+    "floor2": 1
+  },
+  "source_id": "fixture_author_independent_census",
+  "source_revision": 1,
+  "source_sha256": "893e01a4c39fbf366e174a95d49e5087cccf78bb471a6db5d546b96f4372cde5"
+}
