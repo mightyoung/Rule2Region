@@ -1,0 +1,58 @@
+{
+  "scope": "public synthetic code/process/summary only; excludes self",
+  "source_commit": "2baf16615b61bd7c04193b7c8b06b81b056aa06d",
+  "files": [
+    {
+      "path": "research/cache-boundary-mutations-20261011/README.md",
+      "bytes": 4967,
+      "sha256": "e7af453d8665a91789d27a05d721bf8bb5b188019ff7fcccecd1f480ee230474"
+    },
+    {
+      "path": "research/cache-boundary-mutations-20261011/VALIDATION.json",
+      "bytes": 3630,
+      "sha256": "15fb6ed8d5d173e34d8359102d56827381e7aacb4950e6722d08f37c90cd25f9"
+    },
+    {
+      "path": "research/cache-boundary-mutations-20261011/mutation_check.py",
+      "bytes": 5386,
+      "sha256": "43fe3f0ba8b95f7273be6476dc7c57e6f48a4e583be8d887d6cfd7e9b473620f"
+    },
+    {
+      "path": "research/cache-boundary-mutations-20261011/mutation_results.json",
+      "bytes": 5171,
+      "sha256": "c42ac17d5a19aca5127aa07d61e5dd3b9a94a452d6e49aac0c6ea9b3a1df5ce1"
+    },
+    {
+      "path": "research/cache-boundary-mutations-20261011/test_boundaries.py",
+      "bytes": 6405,
+      "sha256": "1ae6a461a939f53d43814a3d3228e3ee364da82445fb23430e64fcdc12d4fe1a"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/cache-diagnostics-dev-20261011/development_cache.py",
+      "bytes": 5622,
+      "sha256": "d73d761d1fe504d91aff588a0bc485800c7b611d7f115155ce67bc333eebb9bc"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/continuous_cache.py",
+      "bytes": 19449,
+      "sha256": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/base_cache.py",
+      "bytes": 10657,
+      "sha256": "ee43f450f070629245d4c04c09ae212214a76bef56f67462158f0db34c0eb254"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_continuous_cache.py",
+      "bytes": 11503,
+      "sha256": "086c593810eb565b40a91940c2ef9f9d6515019a9a40e54c2833fa71ae12413e"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/ablation.py",
+      "bytes": 2901,
+      "sha256": "9524fb06c22bfd9edb9d680741eb5bcb32a06cc9c519b47b7ddfe5e25f7797d9"
+    }
+  ]
+}

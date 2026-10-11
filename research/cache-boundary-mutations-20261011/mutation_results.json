@@ -1,0 +1,129 @@
+{
+  "scope": "finite hand-authored in-memory software mutants, not exhaustive mutation coverage or recognition validation",
+  "source_commit": "2baf16615b61bd7c04193b7c8b06b81b056aa06d",
+  "baseline_boundary_methods": 8,
+  "baseline_pass": true,
+  "mutants": [
+    {
+      "mutation": "unknown_as_accepted",
+      "layer": "adapter",
+      "protects": "unknown cannot become accepted",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_unknown_cannot_upgrade_by_query_or_conflicting_resubmission"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "endpoint_cleanup_omitted",
+      "layer": "adapter",
+      "protects": "deleted endpoints cannot leave dependent records",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_TTL_exact_boundary_then_one_tick_expires_without_read_renewal",
+        "test_deletion_classes_and_root_causes_do_not_bleed_between_operations (status='unknown')",
+        "test_deletion_classes_and_root_causes_do_not_bleed_between_operations (status='accepted_hypothesis')",
+        "test_removed_endpoint_cannot_survive_in_evidence_or_descriptor (endpoint='a')",
+        "test_removed_endpoint_cannot_survive_in_evidence_or_descriptor (endpoint='b')",
+        "test_total_capacity_removes_other_view_dependencies_without_cross_view_export"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "sampling_adjacency_ignored",
+      "layer": "kernel",
+      "protects": "dense samples cannot silently become continuous links",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=1)",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=2)",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=5)"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "read_renews_source_time",
+      "layer": "adapter",
+      "protects": "query cannot extend source TTL",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_TTL_exact_boundary_then_one_tick_expires_without_read_renewal",
+        "test_late_evidence_query_cutoff_is_not_receipt_now",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=0)",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=1)",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=2)",
+        "test_sampling_density_changes_qualification_never_identity_chain (middle_count=5)"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "query_maintenance_omitted",
+      "layer": "kernel",
+      "protects": "valid query must actually delete expired internal evidence",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_TTL_exact_boundary_then_one_tick_expires_without_read_renewal"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "late_hypothesis_leaks",
+      "layer": "adapter",
+      "protects": "query cutoff controls evidence availability",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_late_evidence_query_cutoff_is_not_receipt_now"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "candidate_diagnostic_accepted",
+      "layer": "adapter",
+      "protects": "deletion diagnostic must preserve association class",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_deletion_classes_and_root_causes_do_not_bleed_between_operations (status='unknown')"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "capacity_reported_as_TTL",
+      "layer": "adapter",
+      "protects": "capacity and source TTL causes stay separate",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_deletion_classes_and_root_causes_do_not_bleed_between_operations (status='unknown')",
+        "test_deletion_classes_and_root_causes_do_not_bleed_between_operations (status='accepted_hypothesis')"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    },
+    {
+      "mutation": "endpoint_export_alias",
+      "layer": "adapter",
+      "protects": "exported evidence must not rebind internal sources",
+      "executed_methods": 8,
+      "assertion_failure_tests": [
+        "test_export_mutation_cannot_rebind_internal_endpoint_source"
+      ],
+      "unexpected_errors": [],
+      "detected_by_assertion": true
+    }
+  ],
+  "all_detected_by_assertion": true,
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "adapter": "d73d761d1fe504d91aff588a0bc485800c7b611d7f115155ce67bc333eebb9bc",
+    "frozen_kernel": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b"
+  },
+  "new_model_calls": 0,
+  "accuracy": null,
+  "human_GT_available": false
+}
