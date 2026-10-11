@@ -1,0 +1,68 @@
+{
+  "scope": "public-code and summary-only files; no raw pixels, private HSV, GT or source mapping; excludes this manifest",
+  "source_commit": "6b12baa67e72a544a1c445c546ebc73da1ddfdb4",
+  "files": [
+    {
+      "path": "research/public-coverage-audit-20261011/README.md",
+      "bytes": 2915,
+      "sha256": "8715581faee6146ab148783a9b7cb21e78aee22e62a9c3033509185f6ef05440"
+    },
+    {
+      "path": "research/public-coverage-audit-20261011/coverage_audit.py",
+      "bytes": 7626,
+      "sha256": "80ecf59158d7870af8b4422608fd2248832c4d005461340b9168973141a53d1c"
+    },
+    {
+      "path": "research/public-coverage-audit-20261011/coverage_results.json",
+      "bytes": 5229,
+      "sha256": "a693143d23320c264b89b08692a1b32d118db0eb448a03934a8fb001c2b0e733"
+    },
+    {
+      "path": "research/public-coverage-audit-20261011/test_coverage_audit.py",
+      "bytes": 4204,
+      "sha256": "40f5a623d40d7ae9422b256969bc6d59a122f0d14325924c5573adc7aff4b441"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/continuous-cache-20261010/cache/bbox_fixture.json",
+      "bytes": 12707,
+      "sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/nine_frame_bbox_inventory.json",
+      "bytes": 26793,
+      "sha256": "64c1e48e329d55a535413e6e09035312569e6fb1f19a828530dc730d37562623"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/configuration.json",
+      "bytes": 3227,
+      "sha256": "4a9d24595964d5b268fb96192fdf35467748e2745990d05c87ed3f636a66cf31"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P375.json",
+      "bytes": 12484,
+      "sha256": "5813529e30be3ce4cfe2cf36a46cab1ee6de1153a7d1cd33d15c6c9c920dd57f"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P405.json",
+      "bytes": 7474,
+      "sha256": "f47ac64343fd42dde0c287468e3f3076ec5b717f1b962b6356a2fe11e8a47783"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P435.json",
+      "bytes": 8108,
+      "sha256": "d6ab13cf6f48ac33aa32e22b155b6c051c10b97c7c5104b09e2c87f7e6d69d0a"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P465.json",
+      "bytes": 6690,
+      "sha256": "4b371cac778fe34a78a716ffe4f768f6c433c6e15a5d0513f4e2fb52e6119a05"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P480.json",
+      "bytes": 5971,
+      "sha256": "8657da50a73b8944667c9156ac2f424ccaf3ef5b922879568e632c04a6e4ec83"
+    }
+  ]
+}

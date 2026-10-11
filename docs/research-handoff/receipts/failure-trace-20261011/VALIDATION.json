@@ -1,0 +1,81 @@
+{
+  "source_commit": "6b12baa67e72a544a1c445c546ebc73da1ddfdb4",
+  "date_utc": "2026-10-11",
+  "history_query": {
+    "remote_branches": {
+      "main": "cf22ddd8e46ee83ddd9565b058e1df4e362377ea",
+      "task/research-handoff-v1": "6b12baa67e72a544a1c445c546ebc73da1ddfdb4"
+    },
+    "remote_tags": [],
+    "fetch_all_branches_exit": 0,
+    "repository_not_shallow": true,
+    "reachable_commits_examined": 9,
+    "restore_candidates_with_committed_bytes": 0
+  },
+  "root_pytest": {
+    "command": "python -m pytest --continue-on-collection-errors --junitxml=<local_receipt>",
+    "exit_code": 1,
+    "passed": 409,
+    "failed": 52,
+    "collection_errors": 2,
+    "skipped": 0,
+    "case_identity_and_status_set_equal_to_previous_receipt": true,
+    "failure_set_unchanged": true,
+    "failures_resolved": 0,
+    "unexecuted_functions": 6
+  },
+  "additional_pytest": {
+    "passed": 22,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "cache_unittests": {
+    "old_cache_passed": 64,
+    "qualification_passed": 13,
+    "new_coverage_passed": 12,
+    "all_exit_codes": 0
+  },
+  "replays": {
+    "old_public_replay_exit_code": 0,
+    "qualification_replay_exit_code": 0,
+    "coverage_replay_exit_code": 0,
+    "history_probe_replay_exit_code": 0
+  },
+  "overall_executed_cases": 572,
+  "overall_passed": 520,
+  "overall_failed": 52,
+  "existing_manifest_entries_verified": 43,
+  "existing_manifests_unchanged": [
+    "research/continuous-cache-20261010/PUBLIC_MANIFEST.json",
+    "research/cache-qualification-20261011/MANIFEST.json",
+    "docs/research-handoff/receipts/recovery-full-suite-20261011/MANIFEST.json"
+  ],
+  "development_failures": [
+    {
+      "stage": "initial_import",
+      "reason": "new coverage module absent before implementation"
+    },
+    {
+      "stage": "missing_implementation",
+      "reason": "all 12 tests failed with NotImplementedError before implementation"
+    }
+  ],
+  "raw_local_log_sha256": {
+    "failure-trace-root": "200d2738d1af4debbb2a1e8fb9af4355a90f4b6c65b4340654d2a84d645fb03a",
+    "failure-trace-additional": "e2289c230135b682d66e48107f8caab30f5b37878e8daf2e9fb92df9aebb1375",
+    "failure-trace-cache": "0965ba2c298fb4a7f6a0c345f67c6f3142a813a2e33a0882c085296f9355fb81",
+    "failure-trace-qualification": "6771fdab62754f8be8c8dcca20417c7948c7fedddd1331ea659f15836d9d968f",
+    "coverage-red": "0e18eb26d95167faec130142295429c0085b094498fa6ba2fd5c062936e2671e",
+    "coverage-green": "1bea7e57143a4faee13b2f5ec442fa3aeb7d628c0069eb299debc3f1204a8bc8"
+  },
+  "authorization_limits": {
+    "no_assertion_or_gate_changes": true,
+    "restored_historical_files": 0,
+    "original_pixel_bytes_available": false,
+    "new_model_calls": 0,
+    "composite_queries": 0,
+    "paid_calls": 0,
+    "private_material_uploads": 0
+  },
+  "scope": "failure dependency diagnosis and public fixture consistency; unknown remains unknown, no recognition gain"
+}
