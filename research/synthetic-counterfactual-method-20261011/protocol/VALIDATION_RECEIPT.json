@@ -1,0 +1,28 @@
+{
+  "scope": "software protocol and empty development templates only",
+  "tests_passed": 34,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "initial_red_test_count": 28,
+  "initial_red_error": "NotImplementedError before implementation; no image/model run",
+  "template_validation": {
+    "status": "pass",
+    "records": 16,
+    "declared_source_components": 4,
+    "independent_sample_count": null,
+    "reviewed_images": 0,
+    "decisions": 0,
+    "training_admitted": 0,
+    "effect_rows": 0,
+    "declared_unique_rgb_hash_count": 0,
+    "classification": "software protocol checks only, not visual performance"
+  },
+  "profile_exports_record_count": 16,
+  "input_profiles_per_record": 4,
+  "new_rendered_images": 0,
+  "new_model_runs": 0,
+  "new_training_runs": 0,
+  "new_upload_attempts": 0,
+  "media_delivery_status": "Library HTTP401 unresolved; parent has not reviewed actual v1 images",
+  "truth_fields": "All source memberships unknown; image evidence unreviewed; all profile decisions null"
+}

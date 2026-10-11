@@ -1,0 +1,1491 @@
+{
+  "schema_version": "r2r-counterfactual-empty-dev-v2",
+  "stage": "empty_development_templates",
+  "definitions": {
+    "S": {
+      "meaning": "physical building-envelope volume; an open door does not erase its enclosed interior volume",
+      "business_confirmed": false
+    },
+    "B": {
+      "meaning": "user-selected union of regions for population accounting; not inferred from S",
+      "business_confirmed": false,
+      "selected_region_union": null,
+      "auto_include_yards_or_walkways": false
+    }
+  },
+  "independent_sample_count": null,
+  "training_admitted_ids": [],
+  "effect_rows": [],
+  "planned_record_count": 16,
+  "planned_unique_rgb_upper_bound": 14,
+  "pair_contracts": {
+    "A": "narrow_roof_shortcut_test_not_forced_observability",
+    "B": "narrow_sky_shortcut_test_no_forced_S_opposition",
+    "C": "invariance_only_if_key_evidence_equally_sufficient",
+    "D": "policy_response_S_unchanged_same_RGB_I0_nonidentifiable"
+  },
+  "source_registry": {
+    "planned_A": {
+      "origin": "planned",
+      "parents": [],
+      "v1_source_group": null
+    },
+    "planned_B": {
+      "origin": "planned",
+      "parents": [],
+      "v1_source_group": null
+    },
+    "planned_C": {
+      "origin": "planned",
+      "parents": [],
+      "v1_source_group": null
+    },
+    "planned_D": {
+      "origin": "planned",
+      "parents": [],
+      "v1_source_group": null
+    }
+  },
+  "records": [
+    {
+      "sample_id": "4c965db31c0ea57c5049",
+      "pair": {
+        "family": "A",
+        "condition": 0,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_A",
+        "topology_family_id": "planned_A",
+        "physical_door_lineage_id": "planned_A_door",
+        "rgb_reuse_id": "planned_A_0_0"
+      },
+      "component_group": "component-40bea9ada6e00d073e709f385d4f12c5bd823b555bf118b018ec09cb1d9b5fb4",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "dee682d55bb9b5d9160f",
+      "pair": {
+        "family": "A",
+        "condition": 0,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_A",
+        "topology_family_id": "planned_A",
+        "physical_door_lineage_id": "planned_A_door",
+        "rgb_reuse_id": "planned_A_0_1"
+      },
+      "component_group": "component-40bea9ada6e00d073e709f385d4f12c5bd823b555bf118b018ec09cb1d9b5fb4",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "018a2d4f7f5e198e4294",
+      "pair": {
+        "family": "A",
+        "condition": 1,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_A",
+        "topology_family_id": "planned_A",
+        "physical_door_lineage_id": "planned_A_door",
+        "rgb_reuse_id": "planned_A_1_0"
+      },
+      "component_group": "component-40bea9ada6e00d073e709f385d4f12c5bd823b555bf118b018ec09cb1d9b5fb4",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "325d951b6d614a2fafe4",
+      "pair": {
+        "family": "A",
+        "condition": 1,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_A",
+        "topology_family_id": "planned_A",
+        "physical_door_lineage_id": "planned_A_door",
+        "rgb_reuse_id": "planned_A_1_1"
+      },
+      "component_group": "component-40bea9ada6e00d073e709f385d4f12c5bd823b555bf118b018ec09cb1d9b5fb4",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "7855fb0003d53dfec8ab",
+      "pair": {
+        "family": "B",
+        "condition": 0,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_B",
+        "topology_family_id": "planned_B",
+        "physical_door_lineage_id": "planned_B_door",
+        "rgb_reuse_id": "planned_B_0_0"
+      },
+      "component_group": "component-9464cb8fad51b451f74e40ab2a7ee11e6562e20405c63974c7379547cba62ffa",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "e0e0e2500dd42b81d157",
+      "pair": {
+        "family": "B",
+        "condition": 0,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_B",
+        "topology_family_id": "planned_B",
+        "physical_door_lineage_id": "planned_B_door",
+        "rgb_reuse_id": "planned_B_0_1"
+      },
+      "component_group": "component-9464cb8fad51b451f74e40ab2a7ee11e6562e20405c63974c7379547cba62ffa",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "0d18c25621da7e8dfe39",
+      "pair": {
+        "family": "B",
+        "condition": 1,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_B",
+        "topology_family_id": "planned_B",
+        "physical_door_lineage_id": "planned_B_door",
+        "rgb_reuse_id": "planned_B_1_0"
+      },
+      "component_group": "component-9464cb8fad51b451f74e40ab2a7ee11e6562e20405c63974c7379547cba62ffa",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "6c8265c4028e0fa16041",
+      "pair": {
+        "family": "B",
+        "condition": 1,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_B",
+        "topology_family_id": "planned_B",
+        "physical_door_lineage_id": "planned_B_door",
+        "rgb_reuse_id": "planned_B_1_1"
+      },
+      "component_group": "component-9464cb8fad51b451f74e40ab2a7ee11e6562e20405c63974c7379547cba62ffa",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "be975441f50c6ecf2683",
+      "pair": {
+        "family": "C",
+        "condition": 0,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_C",
+        "topology_family_id": "planned_C",
+        "physical_door_lineage_id": "planned_C_door",
+        "rgb_reuse_id": "planned_C_0_0"
+      },
+      "component_group": "component-321d2ad7e782b64e48125d425b0393785c140bbae88f78a19fef46b065fdf111",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "69de08976f697a4148e0",
+      "pair": {
+        "family": "C",
+        "condition": 0,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_C",
+        "topology_family_id": "planned_C",
+        "physical_door_lineage_id": "planned_C_door",
+        "rgb_reuse_id": "planned_C_0_1"
+      },
+      "component_group": "component-321d2ad7e782b64e48125d425b0393785c140bbae88f78a19fef46b065fdf111",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "724c41b55902ceea3d79",
+      "pair": {
+        "family": "C",
+        "condition": 1,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_C",
+        "topology_family_id": "planned_C",
+        "physical_door_lineage_id": "planned_C_door",
+        "rgb_reuse_id": "planned_C_1_0"
+      },
+      "component_group": "component-321d2ad7e782b64e48125d425b0393785c140bbae88f78a19fef46b065fdf111",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "5335b22624c296c61adb",
+      "pair": {
+        "family": "C",
+        "condition": 1,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_C",
+        "topology_family_id": "planned_C",
+        "physical_door_lineage_id": "planned_C_door",
+        "rgb_reuse_id": "planned_C_1_1"
+      },
+      "component_group": "component-321d2ad7e782b64e48125d425b0393785c140bbae88f78a19fef46b065fdf111",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "6bc199e1094a92f8182f",
+      "pair": {
+        "family": "D",
+        "condition": 0,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_D",
+        "topology_family_id": "planned_D",
+        "physical_door_lineage_id": "planned_D_door",
+        "rgb_reuse_id": "planned_D_0_0"
+      },
+      "component_group": "component-c788933159876a55c00c79b75b7fed3ec3a6848ab9ca1ec4c13905207249e82d",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "c48228e4e0e03263df22",
+      "pair": {
+        "family": "D",
+        "condition": 0,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_D",
+        "topology_family_id": "planned_D",
+        "physical_door_lineage_id": "planned_D_door",
+        "rgb_reuse_id": "planned_D_0_1"
+      },
+      "component_group": "component-c788933159876a55c00c79b75b7fed3ec3a6848ab9ca1ec4c13905207249e82d",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "350ad7c3bfbbdbe50947",
+      "pair": {
+        "family": "D",
+        "condition": 1,
+        "side": 0
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_D",
+        "topology_family_id": "planned_D",
+        "physical_door_lineage_id": "planned_D_door",
+        "rgb_reuse_id": "planned_D_0_0"
+      },
+      "component_group": "component-c788933159876a55c00c79b75b7fed3ec3a6848ab9ca1ec4c13905207249e82d",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    },
+    {
+      "sample_id": "1445701e5fab5c50c8a6",
+      "pair": {
+        "family": "D",
+        "condition": 1,
+        "side": 1
+      },
+      "source_links": {
+        "layout_lineage_id": "planned_D",
+        "topology_family_id": "planned_D",
+        "physical_door_lineage_id": "planned_D_door",
+        "rgb_reuse_id": "planned_D_0_1"
+      },
+      "component_group": "component-c788933159876a55c00c79b75b7fed3ec3a6848ab9ca1ec4c13905207249e82d",
+      "split": null,
+      "usage": "development_only",
+      "input": {
+        "rgb": {
+          "reference": null,
+          "decoded_rgb_sha256": null
+        },
+        "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+        "neutral_door_roi": null
+      },
+      "context": {
+        "I1-R": {
+          "map": null,
+          "B_config": null,
+          "camera_registration": null
+        },
+        "I1-E": null
+      },
+      "source_geometry_truth": {
+        "S_version": null,
+        "endpoint_S_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "physical_adjacency": null,
+        "enclosure_features": null,
+        "review_status": "pending"
+      },
+      "source_policy_truth": {
+        "B_version": null,
+        "endpoint_B_membership": [
+          "unknown",
+          "unknown"
+        ],
+        "count_boundary_crossing": "unknown",
+        "review_status": "pending"
+      },
+      "image_evidence": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "key_evidence_sufficiency": null,
+        "observations": []
+      },
+      "input_available": {
+        "I0": {
+          "rgb": false,
+          "generic_task": true,
+          "neutral_door_roi": false
+        },
+        "I1-R": {
+          "map": false,
+          "B_config": false,
+          "camera_registration": false
+        },
+        "I1-E": {
+          "configuration": false,
+          "endpoint_membership_known": false
+        },
+        "I1-E-no-RGB": {
+          "configuration": false,
+          "endpoint_membership_known": false,
+          "rgb": false
+        }
+      },
+      "decision": {
+        "I0": null,
+        "I1-R": null,
+        "I1-E": null,
+        "I1-E-no-RGB": null
+      },
+      "temporal_evidence": {
+        "trajectory": null,
+        "direction": null,
+        "status": "unavailable_static_plan"
+      }
+    }
+  ]
+}

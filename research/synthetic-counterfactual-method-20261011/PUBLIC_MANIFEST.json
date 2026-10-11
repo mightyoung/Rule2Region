@@ -1,5 +1,5 @@
 {
-  "scope": "Only this public text directory, excluding manifest itself; no media or private source mapping",
+  "scope": "Only public text, protocol code and empty development JSON in this directory recursively; excludes manifest itself; no media or private source mapping",
   "files": [
     {
       "path": "COUNTERFACTUAL_V2_ONE_PAGE.md",
@@ -7,9 +7,14 @@
       "sha256": "0e2544c9382383c18c9e0c97ba2f4d534785fc82a3c024a74becd909d3a1ed50"
     },
     {
+      "path": "PROTOCOL_REVISION_V2.md",
+      "bytes": 3003,
+      "sha256": "12e9995e8e0f74a4b289791a51f619773da14c5f4ed060f79ace95a70a0fc1dd"
+    },
+    {
       "path": "README.md",
-      "bytes": 4206,
-      "sha256": "f700e6cb23b71a9b62f88531446b01237c727e65c8a3cca0f3a462d88cd8c36e"
+      "bytes": 4702,
+      "sha256": "2597361907f439fc32de9b6c2641b55a53ea5d4e7ed6c702b169e261d3c0db2a"
     },
     {
       "path": "V1_POSITION_AND_SHORTCUTS.md",
@@ -18,8 +23,38 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 1005,
-      "sha256": "60413f625c691e580b357949015ce926c030e86e941bc1c55ff555b71f4efd21"
+      "bytes": 1693,
+      "sha256": "83af7abb15765bf60939da97b8c181edf1f8079bee30d3def76919e9be2f5b92"
+    },
+    {
+      "path": "protocol/DEV_TEMPLATES_16.json",
+      "bytes": 40589,
+      "sha256": "bdb44439b8993d783530286d9497504935f6b51faa97e1e4cccb72d4386cb65b"
+    },
+    {
+      "path": "protocol/EMPTY_PROFILE_EXPORTS_16.json",
+      "bytes": 24396,
+      "sha256": "fa111c81e55731dd812a417d236d7d107855a0da7c9f53f71dbd57493230e309"
+    },
+    {
+      "path": "protocol/README.md",
+      "bytes": 2681,
+      "sha256": "a86366ab87a951f3582dde9becd3b0d265a7abba6e19859c36f6dc7c18258713"
+    },
+    {
+      "path": "protocol/VALIDATION_RECEIPT.json",
+      "bytes": 1003,
+      "sha256": "c065159ab19ed48bc830a79c5b663801a4c8371d910eeea085e274c331a9d9f8"
+    },
+    {
+      "path": "protocol/protocol.py",
+      "bytes": 15523,
+      "sha256": "dfd871a7162bcfa930cb054ff381d0f93caec4a2ddaa6384d0fa56869624a729"
+    },
+    {
+      "path": "protocol/test_protocol.py",
+      "bytes": 8939,
+      "sha256": "cd6eb9bbfd5b51ce82a622980b2bdc6ec8c358d849b2aee134111f4ab3e45252"
     }
   ]
 }
