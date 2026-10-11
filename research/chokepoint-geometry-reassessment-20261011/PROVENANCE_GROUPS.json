@@ -1,0 +1,64 @@
+{
+  "original_source": {
+    "group": "C1_RGB_SHARED",
+    "author_release": "Zenodo 815657 / DOI 10.5281/zenodo.815657",
+    "package": "P1E_S1 / C1",
+    "indices": [
+      0,
+      142,
+      262,
+      312
+    ],
+    "license_scope": "noncommercial research; original official licence notice accompanies private media",
+    "source_integrity": "original hashes match prior admission and actual model receipts"
+  },
+  "actual_person_model": {
+    "group": "C1_RGB_SHARED",
+    "model": "IDEA-Research/grounding-dino-tiny",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "prompt": "person.",
+    "upstream": "original RGB -> immutable raw logits/boxes -> fixed thresholds/NMS -> box centres",
+    "confidence_is_event_probability": false
+  },
+  "ROI_method": {
+    "group": "C1_RGB_SHARED",
+    "method": "separate prior AI illustration; no model door detection",
+    "families": [
+      "rear interior doorway projection",
+      "near-camera framing projection"
+    ],
+    "horizontal_insets_px": [
+      -16,
+      -8,
+      0,
+      8,
+      16
+    ],
+    "variant_plausibility_human_confirmed": false,
+    "physical_sill": null,
+    "independent_method_is_independent_source": false
+  },
+  "source_axis": {
+    "group": "C1_ARCHIVE_METADATA",
+    "method": "original member filename indices, not native PTS",
+    "source_gaps_and_sampling_omissions_separate": true,
+    "all_selected_pairs_nonadjacent": true,
+    "continuous_trajectory_qualified": false
+  },
+  "scene_history": {
+    "group": "C1_RGB_SHARED",
+    "first100": "publisher background candidates; only selected samples visually reviewed; not independent negative GT"
+  },
+  "ground_truth": {
+    "group": null,
+    "independent_human_GT_available": false,
+    "AI_illustrations_are_GT": false,
+    "cross_research_truth_shared": false
+  },
+  "fusion": {
+    "DS_implemented": false,
+    "mass_assignments": null,
+    "independence_assumed": false
+  }
+}

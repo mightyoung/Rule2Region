@@ -1,0 +1,25 @@
+{
+  "baseline": "ebfa9c0f5048c32ec2b8315999c74faa568dc11d",
+  "files": [
+    {
+      "name": "PROVENANCE_GROUPS.json",
+      "bytes": 2029,
+      "sha256": "1522a1bbbdd8219002aeeff1ccab5214356960a51beb9ddedc0efd5458c959ae"
+    },
+    {
+      "name": "README.md",
+      "bytes": 6332,
+      "sha256": "dec3dd5d37e43fc3861a77969d7ccf3815f16dda53bac123c0785eb427d6b539"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 2878,
+      "sha256": "d6e318620cad3ec652c0730864d56c3f28d3e06d6a503567784c5a767c49c0b3"
+    },
+    {
+      "name": "adapt_private_results.py",
+      "bytes": 10399,
+      "sha256": "7d0ce994830aa873847e855b2c778ea9ea0a47949b8b45d6f794dae00d3694f6"
+    }
+  ]
+}

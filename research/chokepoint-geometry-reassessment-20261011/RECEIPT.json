@@ -1,0 +1,84 @@
+{
+  "source": "same four admitted originals and immutable DINO attempt01; no inference rerun",
+  "input_frames": 4,
+  "model_boxes": 4,
+  "verified_model_query_scores_and_boxes": 4,
+  "model_boxes_modified": 0,
+  "model_calls": 0,
+  "confidence_threshold_changed": false,
+  "AI_comparison_pairs": 4,
+  "unmatched_AI_illustrations": 0,
+  "unmatched_model_queries": 0,
+  "illustration_match_is_accuracy_or_identity": false,
+  "accuracy_and_miss_rate": null,
+  "ROI_variants_per_family": 5,
+  "horizontal_deltas_px": [
+    -16,
+    -8,
+    0,
+    8,
+    16
+  ],
+  "ROI_membership_evaluations": 40,
+  "ROI_sources": "separate AI illustration and uncalibrated fixed sensitivity envelope; human review pending",
+  "ROI_families": {
+    "candidate_far_door_polygon": {
+      "stable_inside": 0,
+      "stable_outside": 3,
+      "sensitive_unknown": 1
+    },
+    "candidate_near_frame_polygon": {
+      "stable_inside": 4,
+      "stable_outside": 0,
+      "sensitive_unknown": 0
+    }
+  },
+  "truncated_or_image_bottom_proximity_queries": 2,
+  "frames_with_positive_pair_bbox_overlap": 1,
+  "frame_gaps": [
+    {
+      "from_index": 0,
+      "to_index": 142,
+      "source_index_distance": 142,
+      "absent_archive_members": 12,
+      "unselected_existing_intermediate_members": 129,
+      "continuous_trajectory_eligible": false,
+      "native_pts_recovered": false,
+      "identity_association_supplied": false
+    },
+    {
+      "from_index": 142,
+      "to_index": 262,
+      "source_index_distance": 120,
+      "absent_archive_members": 0,
+      "unselected_existing_intermediate_members": 119,
+      "continuous_trajectory_eligible": false,
+      "native_pts_recovered": false,
+      "identity_association_supplied": false
+    },
+    {
+      "from_index": 262,
+      "to_index": 312,
+      "source_index_distance": 50,
+      "absent_archive_members": 0,
+      "unselected_existing_intermediate_members": 49,
+      "continuous_trajectory_eligible": false,
+      "native_pts_recovered": false,
+      "identity_association_supplied": false
+    }
+  ],
+  "continuous_trajectory_eligible_count": 0,
+  "event_classifier_executed": false,
+  "physical_entry_or_exit": "unknown_unassessed",
+  "evidence_correlation": "person boxes/scores/centers and AI ROI originate from same RGB camera; derived features not independent sources",
+  "DS_implemented": false,
+  "Library_retry": false,
+  "public_media": false,
+  "original_model_output_files_unchanged": true,
+  "baseline": "ebfa9c0f5048c32ec2b8315999c74faa568dc11d",
+  "private_delivery": "local cloud files only; Library blocked HTTP401; not retried",
+  "mac_delivery_verified": false,
+  "semantic_physical_unknown_box_ROI_pairs": 8,
+  "human_reasonableness_of_ROI_variants": "pending",
+  "user_review_item": "Frame142: is the business target the rear interior door or near-camera Portal1? Scope confirmation, not event/person truth."
+}
