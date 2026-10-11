@@ -1,0 +1,124 @@
+{
+  "baseline_commit": "3529dfb2395b6f3311dcbca0c0c71bf4dbb87481",
+  "status": "BLOCKED_BEFORE_MODEL_LOAD_OR_INFERENCE",
+  "model": {
+    "model_id": "IDEA-Research/grounding-dino-tiny",
+    "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "prompt": "person.",
+    "box_threshold": 0.25,
+    "text_threshold": 0.25,
+    "classwise_nms_iou": 0.7,
+    "nms_convention": "suppress when IoU > threshold; confidence desc then prediction_id",
+    "max_detections": null,
+    "class_mapping": {
+      "person": "person"
+    },
+    "processor_size": {
+      "shortest_edge": 800,
+      "longest_edge": 1333
+    },
+    "processor_implementation": "GroundingDinoImageProcessor use_fast=False; bundled normalize/rescale/bilinear/pad",
+    "color_space": "PIL_RGB",
+    "bbox_coordinate_system": "continuous original image edges xyxy; raw preserved; clipping audited",
+    "device": "cpu",
+    "dtype": "float32",
+    "batch_size": 1,
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "seed": 0,
+    "warmup_calls": 0,
+    "image_read_window": "full_original",
+    "roi_masks_applied_to_detector": false,
+    "threshold_tuning": "none",
+    "network": "offline only",
+    "trust_remote_code": false
+  },
+  "python": "3.12.14",
+  "hardware": {
+    "cpu": "Intel Xeon Platinum 8573C",
+    "logical_cpus_visible": 5,
+    "torch_cuda_available": false
+  },
+  "packages": {
+    "torch": {
+      "installed_version": "2.8.0+cpu",
+      "baseline_version": "2.8.0+cpu",
+      "import_available": true
+    },
+    "torchvision": {
+      "installed_version": null,
+      "baseline_version": "0.23.0+cpu",
+      "import_available": false
+    },
+    "transformers": {
+      "installed_version": null,
+      "baseline_version": "4.57.1",
+      "import_available": false
+    },
+    "safetensors": {
+      "installed_version": null,
+      "baseline_version": "0.6.2",
+      "import_available": false
+    },
+    "tokenizers": {
+      "installed_version": null,
+      "baseline_version": "0.22.2",
+      "import_available": false
+    },
+    "huggingface-hub": {
+      "installed_version": null,
+      "baseline_version": "0.35.3",
+      "import_available": false
+    },
+    "Pillow": {
+      "installed_version": "12.3.0",
+      "baseline_version": "11.3.0",
+      "import_available": true
+    },
+    "numpy": {
+      "installed_version": "2.5.4",
+      "baseline_version": "2.5.2",
+      "import_available": true
+    }
+  },
+  "weights_found": false,
+  "searched_weight_locations": [
+    "workspace",
+    "default Hugging Face cache directories",
+    "runtime installation directory"
+  ],
+  "preflight_error": {
+    "phase": "preflight_import_only",
+    "type": "ModuleNotFoundError",
+    "message": "No module named 'transformers'"
+  },
+  "preflight_import_elapsed_seconds": 0.00033421099942643195,
+  "official_weight": {
+    "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/model.safetensors",
+    "size_approx_decimal_MB": 689,
+    "publisher_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "local_weight_sha256": null,
+    "metadata_checked_only": true,
+    "downloaded": false
+  },
+  "missing_dependencies": [
+    "torchvision",
+    "transformers",
+    "safetensors",
+    "tokenizers",
+    "huggingface-hub"
+  ],
+  "minimal_replenishment": "Prefer transfer of original pinned local snapshot and original environment; otherwise acquire only safetensors+config+processor+tokenizer files at pinned author revision and documented official runtime packages. No acquisition/installation performed. Extra dependency bytes not measured.",
+  "input_count": 4,
+  "raw_inference_outputs_count": 0,
+  "detections": null,
+  "cold_start_seconds": null,
+  "steady_state_seconds": null,
+  "precision_recall_accuracy": null,
+  "model_calls": 0,
+  "credentials_read_or_configured": false,
+  "paid_calls": 0,
+  "new_service_media_upload": false,
+  "door_model_output": null,
+  "door_capability_status": "Not exercised: frozen prompt person. supplies no door detection output; independent AI ROI cannot be called model door detection."
+}
