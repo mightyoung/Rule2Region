@@ -8,8 +8,8 @@
     },
     {
       "path": "EXECUTION_RECEIPT.json",
-      "bytes": 1670,
-      "sha256": "1e1495c422ec01d1ba1163a473048a49ce45287e0e4f30b98197027346d1f7df"
+      "bytes": 1923,
+      "sha256": "384177794004fbaf44cce3ef04a788fb8e17fcb99cc8d781705e19ec35158077"
     },
     {
       "path": "README.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "SAMPLE_SUMMARY.csv",
-      "bytes": 2571,
-      "sha256": "9d694172593dd9cafe03a2a26b1b132ee79be364f0d8a2161ed14e5b93e05037"
+      "bytes": 2554,
+      "sha256": "b7d5c36b76e8f8871223023af2d906181cd1e420171e1432ea40bd781b50551c"
     },
     {
       "path": "check_available_bytes.py",

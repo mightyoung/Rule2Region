@@ -28,5 +28,9 @@
     "command": "python research/mainline-recovery-checklist-20261011/verify_checklist.py",
     "exit_code": 0,
     "status": "PASS identities, pinned source bytes, original coverage/counts and public manifest; no private byte or GT restoration"
+  },
+  "format_validation_history": {
+    "initial_git_diff_check": "CSV writer used CRLF; git flagged trailing whitespace. No research data change.",
+    "correction": "CSV line endings normalized to LF; public hashes updated; subsequent check clean."
   }
 }
