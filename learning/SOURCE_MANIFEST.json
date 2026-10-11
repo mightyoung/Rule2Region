@@ -1,12 +1,12 @@
 {
   "files": {
     "README.md": {
-      "bytes": 5989,
-      "sha256": "3f994d9e8c535be29e53115bd6c3d9a494e755d2b7bd2cf459788735bd9c6028"
+      "bytes": 6563,
+      "sha256": "f86cf59ffe551c3bf58cc396581035bfb065d0403d281dee158b4510f6c5f87f"
     },
     "VERIFICATION.md": {
-      "bytes": 2603,
-      "sha256": "293f639b3df58c8db5f456418f05ac3ae18637c870793bd7a5e32097c137a605"
+      "bytes": 4191,
+      "sha256": "bb70ba16c4e8bb5e118081da884e1dbf08a2e884610d0ea09edfa09854f8a0fa"
     },
     "__init__.py": {
       "bytes": 73,
@@ -45,8 +45,8 @@
       "sha256": "5e421bd16a64ec84e5758a05cff1bec2304e7db7ef6fec1032ed922712cfe309"
     },
     "evaluate.py": {
-      "bytes": 4369,
-      "sha256": "6b22dcdcb2cefba6f75ad58b1b73a96ad05bb3cbf79e7261f6e015724226e1ce"
+      "bytes": 6037,
+      "sha256": "bef7f1f9fb6eeb6e46bd8699a4b45b359c4a35481f51069edb785a4008e31eae"
     },
     "features.py": {
       "bytes": 1660,
@@ -57,8 +57,8 @@
       "sha256": "078faf4cb58dc4b2d92dc49d71535c112c464d2212b45a58aa6eb2aca1272d91"
     },
     "metrics.py": {
-      "bytes": 1956,
-      "sha256": "24f87a72d35e3480db57dc33cb654e02b462089f8a5d7278ee78868bb6360507"
+      "bytes": 2086,
+      "sha256": "173ff28b1d6b6abf2fd80092b85ec238d1a27a2a66788ecfa0502858fe224033"
     },
     "model.py": {
       "bytes": 2032,
@@ -73,12 +73,16 @@
       "sha256": "db503dc795cd425ed3f717d61ff0bfccb26fcac481329cce09e75cc903e3fa16"
     },
     "tests/test_contract.py": {
-      "bytes": 7563,
-      "sha256": "12429c12f7f0b0a12ee54a3ee3dbd1be071819aebd9674edf82c67f01b3019fa"
+      "bytes": 7648,
+      "sha256": "e2ea3fa481815e6590dcb3b9d4f2d52fd24ad4150dfd9f19be6fa31bbcbc1672"
+    },
+    "tests/test_review_fixes.py": {
+      "bytes": 3299,
+      "sha256": "0999543cb59a68cf85b407d0bcc58638bccd16bc35962b5c901979b8258dde4a"
     },
     "tests/test_torch.py": {
-      "bytes": 3108,
-      "sha256": "a23efcca9cf073f6da303d334792ddc2ae9b03858433dfc87bf08bbd25e35e78"
+      "bytes": 5488,
+      "sha256": "10b22d019ff689035d556462b3668806e8d6617f0e2ebbb79aa25edf05e5f9fc"
     },
     "train.py": {
       "bytes": 4728,

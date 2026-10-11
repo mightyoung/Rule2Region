@@ -7,12 +7,48 @@ from .contract import exact, fingerprint, require
 from .metrics import choose_threshold, selective_metrics
 
 
+TASKS = ("relations", "matches", "sufficiency")
+
+
+def fit_task_thresholds(probabilities, targets, max_risk):
+    exact(probabilities, TASKS, "task probabilities")
+    exact(targets, TASKS, "task targets")
+    require(0 <= max_risk <= 1, "risk criteria")
+    require(any(targets.values()), "no applicable calibration tasks")
+    thresholds, statuses = {}, {}
+    for task in TASKS:
+        require(len(probabilities[task]) == len(targets[task]), "metric length: " + task)
+        if not targets[task]:
+            thresholds[task] = None
+            statuses[task] = "not_applicable_no_candidates"
+            continue
+        threshold = choose_threshold("calibration", probabilities[task], targets[task], max_risk)
+        require(threshold is not None, "no feasible calibration policy: " + task + "; do not evaluate test")
+        thresholds[task] = threshold
+        statuses[task] = "calibrated"
+    return thresholds, statuses
+
+
+def task_report(probabilities, targets, threshold):
+    require(len(probabilities) == len(targets), "metric length")
+    if not targets:
+        return {"status": "not_applicable_no_candidates", "n": 0, "accepted": None, "coverage": None, "risk": None}
+    require(threshold is not None, "task not calibrated; do not score test candidates")
+    return {"status": "evaluated", **selective_metrics(probabilities, targets, threshold)}
+
+
 def policy_for_test(policy, manifest_sha, checkpoint_sha):
-    exact(policy, ("fit_split", "manifest_sha256", "checkpoint_sha256", "thresholds", "max_risk"), "policy")
+    exact(policy, ("fit_split", "manifest_sha256", "checkpoint_sha256", "thresholds", "task_statuses", "max_risk"), "policy")
     require(policy["fit_split"] == "calibration", "test requires calibration policy")
     require(policy["manifest_sha256"] == manifest_sha and policy["checkpoint_sha256"] == checkpoint_sha, "policy artifact mismatch")
     exact(policy["thresholds"], ("relations", "matches", "sufficiency"), "thresholds")
-    require(all(type(x) in (int, float) and 0 <= x <= 1 for x in policy["thresholds"].values()), "thresholds invalid")
+    exact(policy["task_statuses"], TASKS, "task statuses")
+    for task in TASKS:
+        threshold, status = policy["thresholds"][task], policy["task_statuses"][task]
+        require((status == "not_applicable_no_candidates" and threshold is None) or
+                (status == "calibrated" and type(threshold) in (int, float) and 0 <= threshold <= 1),
+                "policy status/threshold mismatch")
+    require(any(s == "calibrated" for s in policy["task_statuses"].values()), "no calibrated tasks")
     require(type(policy["max_risk"]) in (int, float) and 0 <= policy["max_risk"] <= 1, "policy risk")
     return policy["thresholds"]
 
@@ -52,15 +88,14 @@ def main():
                 targets[task].extend(truth[task].tolist())
     ck_sha = hashlib.sha256(args.checkpoint.read_bytes()).hexdigest()
     if args.split == "calibration":
-        thresholds = {k: choose_threshold(args.split, probabilities[k], targets[k], args.max_risk) for k in targets}
-        require(all(v is not None for v in thresholds.values()), "no feasible calibration policy; do not evaluate test")
+        thresholds, statuses = fit_task_thresholds(probabilities, targets, args.max_risk)
         require(not args.policy.exists(), "policy already exists: use new version path")
         args.policy.parent.mkdir(parents=True, exist_ok=True)
-        args.policy.write_text(json.dumps({"fit_split": "calibration", "manifest_sha256": fingerprint(manifest), "checkpoint_sha256": ck_sha, "thresholds": thresholds, "max_risk": args.max_risk}, indent=2) + "\n")
+        args.policy.write_text(json.dumps({"fit_split": "calibration", "manifest_sha256": fingerprint(manifest), "checkpoint_sha256": ck_sha, "thresholds": thresholds, "task_statuses": statuses, "max_risk": args.max_risk}, indent=2) + "\n")
     else:
         thresholds = policy_for_test(json.loads(args.policy.read_text()), fingerprint(manifest), ck_sha)
-    result = {k: selective_metrics(probabilities[k], targets[k], thresholds[k]) for k in targets}
-    curves = {k: [{"threshold": t, **selective_metrics(probabilities[k], targets[k], t)} for t in (0, 0.5, 0.75, 0.9, 1)] for k in targets}
+    result = {k: task_report(probabilities[k], targets[k], thresholds[k]) for k in targets}
+    curves = {k: [{"threshold": t, **selective_metrics(probabilities[k], targets[k], t)} for t in (0, 0.5, 0.75, 0.9, 1)] if targets[k] else [] for k in targets}
     print(json.dumps({"kind": "software_test_only" if args.software_test else "task_evaluation", "split": args.split, "thresholds": thresholds, "metrics": result, "descriptive_risk_coverage": curves, "warning": "task marginals only; no complete-boundary or occupancy claim; test curves must not tune policy"}, allow_nan=False))
 
 

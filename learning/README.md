@@ -52,3 +52,5 @@ python -m learning.evaluate LOCAL_MANIFEST.json LOCAL_FEATURES.json LOCAL_CHECKP
 阈值仅在 calibration 上拟合；test 不接受 max-risk/调阈值参数，只加载绑定 manifest/checkpoint SHA 的冻结 policy。无可行策略就失败，不能临时调 test。风险上限须用户在校准前版本化，代码没有虚构默认上限。软件模式可额外传 `--software-test`，输出始终 software_test_only；随机头不保证校准能找到策略。
 
 评估输出为任务边际 selective risk/coverage、unknown 及描述性曲线；sufficiency 的 insufficient 是有效任务判断，但不会许可边界部署。真正 relation 接受还必须证据 sufficient、候选完整/拓扑完整、同门去重与后续准入全部通过。本轮没有 joint deployment evaluator，不将独立任务指标说成边界完整覆盖/人数漂移；这些必须按计划接入真实 GT 和固定计数器后再测。测试曲线不得用于再调策略。
+
+增量复核修正：校准 policy 增加 `task_statuses`；无候选任务保存 `threshold=null` 和 `not_applicable_no_candidates`，评估该任务不产生接受数或风险成绩。只要任务有候选就必须有完整标签并存在可行校准覆盖；全任务为空拒绝校准。若某任务仅在 test 出现且校准未适用，则拒绝为该任务评分。旧无状态 policy 不再通过校验，应在 calibration 重新生成新版本 policy，禁止在 test 补阈值。最高分 known/unknown 并列以 unknown 处理，known/known 并列也拒判。

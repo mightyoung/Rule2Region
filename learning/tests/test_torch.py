@@ -55,3 +55,40 @@ class TorchSoftwareTests(unittest.TestCase):
             bad.seed = 1
             with self.assertRaisesRegex(ValueError, "resume config"):
                 run(bad)
+
+    def test_relation_only_evaluation_cli(self):
+        import subprocess
+        import sys
+        import torch
+        from learning.contract import fingerprint
+        from learning.train import run
+        manifest, features = load("software_manifest.json"), load("software_features.json")
+        for row in manifest["samples"]:
+            row["input"]["view_pairs"] = []
+            row["truth"]["matches"] = {}
+            features["samples"][row["id"]]["input_sha256"] = fingerprint(row["input"])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mp, fp, cp, pp = (root / name for name in ("manifest.json", "features.json", "head.pt", "policy.json"))
+            mp.write_text(json.dumps(manifest))
+            fp.write_text(json.dumps(features))
+            run(SimpleNamespace(manifest=mp, features=fp, checkpoint=cp, resume=False, steps=1, seed=20261011, hidden=16, lr=.001, device="cpu", software_test=True))
+            # Force a known class on this software-only head so CLI calibration
+            # has coverage. This is a regression fixture, never model evidence.
+            state = torch.load(cp, weights_only=True)
+            for name, tensor in state["model"].items():
+                tensor.zero_()
+                if name.endswith("2.bias"):
+                    tensor[1] = 2
+            torch.save(state, cp)
+            base = [sys.executable, "-m", "learning.evaluate", str(mp), str(fp), str(cp), "--software-test", "--policy", str(pp)]
+            for split, extra in (("calibration", ["--max-risk", "1"]), ("test", [])):
+                result = subprocess.run(base + ["--split", split] + extra, check=True, capture_output=True, text=True, cwd=Path(__file__).resolve().parents[2])
+                report = json.loads(result.stdout)
+                self.assertEqual(report["kind"], "software_test_only")
+                self.assertIsNone(report["thresholds"]["matches"])
+                self.assertEqual(report["metrics"]["matches"]["status"], "not_applicable_no_candidates")
+                self.assertEqual(report["descriptive_risk_coverage"]["matches"], [])
+                self.assertEqual(report["metrics"]["relations"]["status"], "evaluated")
+            policy = json.loads(pp.read_text())
+            self.assertEqual(policy["task_statuses"]["matches"], "not_applicable_no_candidates")

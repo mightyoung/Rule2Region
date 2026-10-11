@@ -11,11 +11,13 @@ def selective_metrics(probabilities, targets, threshold):
     for probs, target in zip(probabilities, targets):
         require(len(probs) == 3 and all(math.isfinite(v) and 0 <= v <= 1 for v in probs) and abs(sum(probs) - 1) < 1e-5, "probabilities")
         require(target in (0, 1, 2), "target")
-        predicted = max(range(3), key=lambda i: probs[i])
+        maximum = max(probs)
+        # Unknown wins top ties; known-known top ties also abstain below.
+        predicted = 2 if probs[2] == maximum else max(range(2), key=lambda i: probs[i])
         semantic_unknown += predicted == 2
         unknown += target == 2
-        # Predicted unknown, low confidence, or a known-class tie abstains.
-        act = predicted != 2 and probs[predicted] >= threshold and probs[0] != probs[1]
+        # Act only on a unique known maximum above the calibrated threshold.
+        act = predicted != 2 and maximum >= threshold and probs.count(maximum) == 1
         if act:
             accepted += 1
             errors += predicted != target

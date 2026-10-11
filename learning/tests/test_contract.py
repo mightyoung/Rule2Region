@@ -113,7 +113,7 @@ class ContractTests(unittest.TestCase):
             choose_threshold("test", [[.1, .8, .1]], [1], .1)
         self.assertIsNotNone(choose_threshold("calibration", [[.1, .8, .1]], [1], .1))
         self.assertIsNone(choose_threshold("calibration", [[.1, .8, .1]], [2], 0))
-        policy = {"fit_split": "calibration", "manifest_sha256": fingerprint(self.m), "checkpoint_sha256": "a" * 64, "thresholds": {k: .9 for k in ("relations", "matches", "sufficiency")}, "max_risk": .1}
+        policy = {"fit_split": "calibration", "manifest_sha256": fingerprint(self.m), "checkpoint_sha256": "a" * 64, "thresholds": {k: .9 for k in ("relations", "matches", "sufficiency")}, "task_statuses": {k: "calibrated" for k in ("relations", "matches", "sufficiency")}, "max_risk": .1}
         policy_for_test(policy, fingerprint(self.m), "a" * 64)
         with self.assertRaisesRegex(ValueError, "artifact mismatch"):
             policy_for_test(policy, fingerprint(self.m), "b" * 64)
