@@ -1,0 +1,25 @@
+{
+  "scope": "Public code, AI audit narrative and aggregate receipts only; no media/private paths/hidden per-image geometry labels",
+  "files": [
+    {
+      "path": "AUDIT_RECEIPT.json",
+      "bytes": 1393,
+      "sha256": "e6d821cd085af416bc54d6cfdaff2a6aeb21bdb60aac00dc1ba1186ba3e04670"
+    },
+    {
+      "path": "CACHED_REPLAY_RECEIPT.json",
+      "bytes": 2008,
+      "sha256": "38a5f3529ea096cb591f5e4af6ccce8841ab516fe3a1164aaf21e2fa3e4da4bc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5890,
+      "sha256": "9328fa84813ecb2e1e2107e3c18f8ceafc475c0d500d85bf624b342f2bed84a6"
+    },
+    {
+      "path": "replay_saved_tensors.py",
+      "bytes": 3889,
+      "sha256": "722b3002dd34740eb02bbe19ced4014022da6cddd7c7ced056c2b4d3b4f4bda9"
+    }
+  ]
+}

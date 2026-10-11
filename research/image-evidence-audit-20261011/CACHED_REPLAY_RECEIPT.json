@@ -1,0 +1,65 @@
+{
+  "status": "match_saved_model_receipts",
+  "method": "Read saved F32 tensor bytes, sigmoid max and existing threshold, transform normalized boxes; compare with historical receipts. No new forward/NMS/model inference.",
+  "records": [
+    {
+      "frame_index": 0,
+      "source_byte_binding": "match",
+      "queries": 900,
+      "original_threshold": 0.25,
+      "cached_pre_nms_count": 0,
+      "cached_kept_count": 0,
+      "max_score_absolute_error": 0.0,
+      "max_box_absolute_error_pixels": 0.0,
+      "event_decision": "unknown",
+      "identity_verified": false,
+      "trajectory": "unknown",
+      "direction": "unknown"
+    },
+    {
+      "frame_index": 142,
+      "source_byte_binding": "match",
+      "queries": 900,
+      "original_threshold": 0.25,
+      "cached_pre_nms_count": 1,
+      "cached_kept_count": 1,
+      "max_score_absolute_error": 5.960464477539063e-08,
+      "max_box_absolute_error_pixels": 0.0,
+      "event_decision": "unknown",
+      "identity_verified": false,
+      "trajectory": "unknown",
+      "direction": "unknown"
+    },
+    {
+      "frame_index": 262,
+      "source_byte_binding": "match",
+      "queries": 900,
+      "original_threshold": 0.25,
+      "cached_pre_nms_count": 2,
+      "cached_kept_count": 2,
+      "max_score_absolute_error": 5.960464477539063e-08,
+      "max_box_absolute_error_pixels": 0.0,
+      "event_decision": "unknown",
+      "identity_verified": false,
+      "trajectory": "unknown",
+      "direction": "unknown"
+    },
+    {
+      "frame_index": 312,
+      "source_byte_binding": "match",
+      "queries": 900,
+      "original_threshold": 0.25,
+      "cached_pre_nms_count": 1,
+      "cached_kept_count": 1,
+      "max_score_absolute_error": 5.960464477539063e-08,
+      "max_box_absolute_error_pixels": 0.0,
+      "event_decision": "unknown",
+      "identity_verified": false,
+      "trajectory": "unknown",
+      "direction": "unknown"
+    }
+  ],
+  "new_forward_passes": 0,
+  "new_training_runs": 0,
+  "GT_accuracy_claim": null
+}
