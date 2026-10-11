@@ -1,0 +1,32 @@
+{
+  "baseline_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+  "scan_tool": "check_available_bytes.py",
+  "scan_tool_sha256": "e30a5b70438a1417b258114cb9d24e9901b03f0ad1425bb15145deb9f13b93ea",
+  "actual_scan_scope": "authorized workspace and temporary-storage standalone regular files; no symlinks; installed runtimes, hidden credential/config directories and synthetic pytest output directories excluded",
+  "regular_files_examined": 1245,
+  "eligible_files_hashed": 554,
+  "expected_records": 36,
+  "exact_byte_matches": 0,
+  "published_original_images_checked": 16,
+  "published_frozen_artifacts_checked": 14,
+  "published_partial_receipts_checked": 6,
+  "decoded_RGB_method": "Pillow convert RGB then row-major tobytes SHA256; published full decoding convention unavailable",
+  "images_decoded": 377,
+  "decoded_RGB_candidate_matches": 0,
+  "scan_error_count": 1,
+  "scan_error_summary": "One service-owned temporary daemon directory was unreadable; no escalation or bypass attempted. Not a research-data source.",
+  "archive_content_exhaustive_search": false,
+  "all_storage_absence_claim": false,
+  "new_media_downloads": 0,
+  "new_model_calls": 0,
+  "training_calls": 0,
+  "new_GT": 0,
+  "existing_tracked_files_modified": false,
+  "metrics_remain_null": true,
+  "private_path_level_search_record": "Retained privately; not published; no Mac/Library delivery implied.",
+  "public_checklist_validation": {
+    "command": "python research/mainline-recovery-checklist-20261011/verify_checklist.py",
+    "exit_code": 0,
+    "status": "PASS identities, pinned source bytes, original coverage/counts and public manifest; no private byte or GT restoration"
+  }
+}

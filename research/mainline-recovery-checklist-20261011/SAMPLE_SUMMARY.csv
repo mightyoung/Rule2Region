@@ -1,0 +1,17 @@
+sample,F_candidates,F_cache,H_historical,M_historical,original_local,geometry_local,complete_GT,partial_reference,exact_source_member
+D13-S120,2,new_full_original_forward,False,True,not_received,not_received,pending,A included and B excluded: scope-only confirmation,inspacecam163_2016_04_13_13_52_12.jpg
+D13-S06,2,new_full_original_forward,False,True,not_received,not_received,pending,A included and B excluded: scope-only confirmation,inspacecam163_2016_04_13_13_10_28.jpg
+D13-S05,1,new_full_original_forward,False,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D13-S121,1,new_full_original_forward,False,True,not_received,not_received,pending,uncertain likely-person context; not single-frame GT,inspacecam163_2016_04_13_13_56_31.jpg
+D13-S02,1,new_full_original_forward,False,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D13-S130,1,new_full_original_forward,False,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+CAV-F0100,6,reused_identical_decoded_RGB,True,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+CAV-F0300,7,reused_identical_decoded_RGB,True,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+CAV-F0075,6,new_full_original_forward,True,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+CAV-F0150,7,new_full_original_forward,True,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D06-S05,9,new_full_original_forward,False,True,not_received,not_received,pending,2 live and 7 nonlive candidate classes confirmed; precise boxes not confirmed,not_published
+D06-S09,9,new_full_original_forward,False,True,not_received,not_received,pending,2 live candidate classes confirmed; orange nonlive cross-frame inference not this-frame human confirmation,not_published
+D20-S06,2,new_full_original_forward,False,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D20-S35,2,new_full_original_forward,False,True,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D15-S02,1,new_full_original_forward,False,False,not_received,not_received,pending,No per-sample human confirmation published,not_published
+D15-S08,1,new_full_original_forward,False,False,not_received,not_received,pending,No per-sample human confirmation published,not_published

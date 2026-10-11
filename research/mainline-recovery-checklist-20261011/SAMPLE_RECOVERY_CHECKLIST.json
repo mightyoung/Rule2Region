@@ -1,0 +1,1066 @@
+{
+  "baseline_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+  "public_evidence_bindings": [
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+      "sha256": "dc986ab2bb5fb8189632bb4a1ec9990697570d7b99b9f2832866e5a3c5185edf",
+      "bytes": 15227,
+      "git_blob": "20d3e815216049fde2c37e79b6e5449a50304cf8"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+      "sha256": "5d60406f687bf2702751b66ed6eebe084116d238c725dea48fb1720e77c039db",
+      "bytes": 4744,
+      "git_blob": "a3ed9e5829e20ca77de23629c7602f985da7c002"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/tasks/status-20261010-boundary16.json",
+      "sha256": "5bc89ec7d16f6c1b945501d7d80c6b657fc6f87b1b3b8a91f42f2967297b8131",
+      "bytes": 4583,
+      "git_blob": "30d0db699acdfc25cc685af195cb42555ca5630b"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+      "sha256": "0de313cdab95e5233906800e50805b4dcfcd0de9a1d00256a76f4937ec7e716a",
+      "bytes": 5362,
+      "git_blob": "cb828e9e684e105b83fa9602fc089cf2a85f4c48"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/reports/full-reference-draft-batch01-20261010.md",
+      "sha256": "66c24126c3635adb6d24bf0b0c4460de847e9f9d12f590bcdb05c70598b22f86",
+      "bytes": 3602,
+      "git_blob": "c471aa1c40deea9da00cc2d14ed10a3cdd358776"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "docs/research-handoff/reports/partial-human-review-five-20261010.md",
+      "sha256": "e18b97f40e6a526c9c4450806f657bbdafc07c4880a892fdd3722c8a3cf83a76",
+      "bytes": 2180,
+      "git_blob": "c007636853a48a33f34e6036db08c1bb2119a654"
+    },
+    {
+      "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+      "path": "README.md",
+      "sha256": "1522044800debd804f132de13295062968e53eb0e6b574a0c82478f336374ac4",
+      "bytes": 4710,
+      "git_blob": "bc1592435358ebdf6765b390cc904ad2d550317a"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "D13-S120",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "219f771156d662d26489ccfce27b1c5bae058a96e9ec65cce89f760cf7f2d918",
+        "expected_decoded_RGB_sha256": "68c1e868d01d671213619d5f4c80b9e45fa5ff67972a49cc21232d8101616f8b",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "exact_public_source_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/",
+          "original_filename": "inspacecam163_2016_04_13_13_52_12.jpg",
+          "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+          "tar_header_offset": 1598816768,
+          "tar_data_offset": 1598817280,
+          "source_clock_timestamp": "2016-04-13_13_52_12",
+          "timezone": "unknown",
+          "PTS": null,
+          "PTS_reason": "source is JPEG archive; no video PTS supplied",
+          "source_receipt": "targeted_acquisition_receipt.json"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 2,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "A included and B excluded: scope-only confirmation",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D13-S06",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "99cbd66e58c5a6d25fc5d0a8a6b23ce93c56cc1b18f6da0046789593bf87e5c3",
+        "expected_decoded_RGB_sha256": "a0184831b3006668f4e44d7e753d31ad7f4f728ad9c9ba498e8b6db98dba39e9",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "exact_public_source_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/",
+          "original_filename": "inspacecam163_2016_04_13_13_10_28.jpg",
+          "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+          "tar_header_offset": 1383068160,
+          "tar_data_offset": 1383068672,
+          "source_clock_timestamp": "2016-04-13_13_10_28",
+          "timezone": "unknown",
+          "PTS": null,
+          "PTS_reason": "source is JPEG archive; no video PTS supplied",
+          "source_receipt": "public_acquisition_receipt.json"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 2,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "A included and B excluded: scope-only confirmation",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D13-S05",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "580461556b75698d1349adc8679470e081c914c84c32a141ffd4c4b308fa46fa",
+        "expected_decoded_RGB_sha256": "67399a7d69c9a0d4ba6ebee7741e1023d042b8a47b5381a6d02cca46313f397b",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D13-S121",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "ff3c74e06940fc554d69797113907aef30323611f6bcfc2572818770fb07b0e6",
+        "expected_decoded_RGB_sha256": "a3412eeeb6f3512744347cb093d3ab47fe964e087d160a7807ba54ed7e76e128",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "exact_public_source_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/",
+          "original_filename": "inspacecam163_2016_04_13_13_56_31.jpg",
+          "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+          "tar_header_offset": 1621120000,
+          "tar_data_offset": 1621120512,
+          "source_clock_timestamp": "2016-04-13_13_56_31",
+          "timezone": "unknown",
+          "PTS": null,
+          "PTS_reason": "source is JPEG archive; no video PTS supplied",
+          "source_receipt": "targeted_acquisition_receipt.json"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "uncertain likely-person context; not single-frame GT",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D13-S02",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "8d7ebc75c9b1b434a2436aaa9976eb5a717f05d9857bfdb122f094c1c522a5c4",
+        "expected_decoded_RGB_sha256": "18d22af63122609fcd23ea19500df284d5540c05d841ac49ca733e2c1c429560",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D13-S130",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "c4d7cf8930ff0d34992f35164f4de11cb5bda28482c74a6b8ba132c2718cbf67",
+        "expected_decoded_RGB_sha256": "44cf659f71ff826191893e1da852184f0dddd699e39c59d888ef87ef733a017d",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "CAV-F0100",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "eb24623d12ee3f930b74af4bae7ecf70b31f4078e4a558d214220df30b9f78e4",
+        "expected_decoded_RGB_sha256": "fb395d3c3e3d12ae18a79088325bdd12200358f9ca014b33001982f13e56f6df",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "existing CAVIAR material; original sequence/frame mapping unavailable",
+          "source_url": null
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 6,
+        "cache_mode": "reused_identical_decoded_RGB",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": true,
+        "state": "historical_present_bytes_not_received",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": "frozen-run-config"
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "CAV-F0300",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "434769d0ceca025fbcac8514fb20766f3a67fa339415984f2dccfbd85def66f4",
+        "expected_decoded_RGB_sha256": "ab39b1cf81237096337a6accf7a34037e4cb98b0a7a280da86b3143bef73fcfa",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "existing CAVIAR material; original sequence/frame mapping unavailable",
+          "source_url": null
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 7,
+        "cache_mode": "reused_identical_decoded_RGB",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": true,
+        "state": "historical_present_bytes_not_received",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": "frozen-run-config"
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "CAV-F0075",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "e81cba3256c0238c7ad0ed2083d3ba6052d7998ee3ca3657c5965bcb7834922f",
+        "expected_decoded_RGB_sha256": "e9c28660c1d3b9e582429bb822bf0326c73188767e1c5701b9c5b98cd590ac78",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "existing CAVIAR material; original sequence/frame mapping unavailable",
+          "source_url": null
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 6,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": true,
+        "state": "historical_present_bytes_not_received",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": "frozen-run-config"
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "CAV-F0150",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "cc362d728c8cb442b9b5b0cadc1454c8d933603a32f2c8275127c2006b6ff318",
+        "expected_decoded_RGB_sha256": "43aba8a718466c424a609ffe750611f836c9c085c154d1aa4d9df9023c544d05",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "existing CAVIAR material; original sequence/frame mapping unavailable",
+          "source_url": null
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 7,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": true,
+        "state": "historical_present_bytes_not_received",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": "frozen-run-config"
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D06-S05",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "974da484fa52a06886b84e9f8e88f79f9829f4a5faab29c488bde2da92d70257",
+        "expected_decoded_RGB_sha256": "87e29235809e339ff69315df0d256770f7e5551b076a3d39097569301ba2ff1c",
+        "expected_bytes": null,
+        "expected_dimensions": [
+          1280,
+          720
+        ],
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 9,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "2 live and 7 nonlive candidate classes confirmed; precise boxes not confirmed",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": true,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D06-S09",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "10eac71f8651fe6a5a409054e4b23def22109fcfe215b13228a8a88c70354eff",
+        "expected_decoded_RGB_sha256": "a49b3c89c2da4f23af404a0db25db3089d0e7c6eeeec8c19e8857770800575d2",
+        "expected_bytes": null,
+        "expected_dimensions": [
+          1280,
+          720
+        ],
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 9,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "2 live candidate classes confirmed; orange nonlive cross-frame inference not this-frame human confirmation",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": true,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D20-S06",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "008044865eab02f0975f96d9d871683429bfecff14321e644ba804ef5cc76e71",
+        "expected_decoded_RGB_sha256": "b98f7037844f02cc625e71fd236715b43a5f6d29a7162aea113689bb81fb2987",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 2,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D20-S35",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "dddd51d1c924a4af4ccb0838afed8777363acf85da2f72dfca2668f5bbad3100",
+        "expected_decoded_RGB_sha256": "ada8bd92418409067e295d5d313177cb91980d3a803fb5cf1889907847a43fdc",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 2,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": true,
+        "state": "historical_AI_geometry_bytes_not_received_unconfirmed",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": "frozen-run-config",
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D15-S02",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "af7314e6c54466b1cfae9f7b80c5fa5b8cdfbfe3d436ec0527c6eb162f4d12bb",
+        "expected_decoded_RGB_sha256": "588e39c74b895aa4a7c5d8d1110256f9d5284c63795d1bcbb82ca49f7feee926",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": null,
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    },
+    {
+      "sample_id": "D15-S08",
+      "original_image": {
+        "historical_identity_published": true,
+        "expected_file_sha256": "ace657b78841e4623c6d8a2f1f829a6881b2ac6fd751b1294eb5b777a690c925",
+        "expected_decoded_RGB_sha256": "ccc825ac93daa3e950aa803e690e44b53c63b3f61b9e16fc2682fa0abde8e1cd",
+        "expected_bytes": null,
+        "expected_dimensions": null,
+        "local_exact_file_received": false,
+        "local_RGB_candidate_match": false,
+        "source_locator": {
+          "type": "collection_lead_only_not_exact_member",
+          "evidence_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+          "evidence_path": "docs/research-handoff/reports/progress-20261010-boundary16.md",
+          "source_collection": "Edinburgh OFFICEDATA; exact per-sample member not published in this index",
+          "source_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/"
+        }
+      },
+      "fixed_full_frame_F": {
+        "historically_present": true,
+        "candidate_count": 1,
+        "cache_mode": "new_full_original_forward",
+        "local_prediction_bytes_verified": false,
+        "restore_artifact": "predictions",
+        "individual_prediction_hash_published": false
+      },
+      "human_ROI_H": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "restore_artifact": null
+      },
+      "candidate_ROI_M_M0": {
+        "historically_available": false,
+        "state": "historical_missing_do_not_fill",
+        "local_geometry_bytes_verified": false,
+        "per_sample_geometry_hash_published": false,
+        "restore_artifact": null,
+        "human_pixel_geometry_confirmed": false
+      },
+      "F_H_M_routing": {
+        "historical_artifact": "routing",
+        "local_exact_bytes_verified": false,
+        "candidate_total_is_not_effect": true
+      },
+      "human_reference": {
+        "complete": false,
+        "precise_box_confirmation_available": false,
+        "historical_partial_scope": "No per-sample human confirmation published",
+        "partial_receipt_bytes_received": false,
+        "full_image_AI_draft_reported": false,
+        "AI_draft_bytes_received": false,
+        "exposure": "development_candidate_exposed; AI-assisted existing review, not blind GT"
+      },
+      "complete_original_protocol": {
+        "availability": "not_located_as_complete_protocol",
+        "full_protocol_hash_published": false,
+        "public_constraints_available": true,
+        "run_config_is_not_proof_of_full_protocol": true
+      }
+    }
+  ],
+  "interpretation": "Historical availability is separate from local received bytes, human validity and historical absence. M/M0 is candidate geometry, not confirmed physical floor truth."
+}
