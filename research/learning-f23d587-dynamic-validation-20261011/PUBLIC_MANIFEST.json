@@ -1,0 +1,30 @@
+{
+  "scope": "sanitized software verification only; no raw logs/media/private checkpoint/actual host or user paths",
+  "files": [
+    {
+      "path": "CLI_REJECTIONS.json",
+      "bytes": 3517,
+      "sha256": "78ab7e2a2f565a07f844b0752f8bc938e1fdd088a0b932a507f6f4ded059c5c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4571,
+      "sha256": "e7ddca115f806115b0722d338354636ff90a6069a191e6bf277086642d56ae2b"
+    },
+    {
+      "path": "RECEIPT.json",
+      "bytes": 3480,
+      "sha256": "daf6d7b852028c69e0412e05856905d8bcbd7b7a2e28463e47e030f79407a937"
+    },
+    {
+      "path": "WRAPPER_FAILURE_SUMMARY.json",
+      "bytes": 911,
+      "sha256": "64f45247facacecf01e636323517abd7479c25a65983a49514d9df6c9ff7246b"
+    },
+    {
+      "path": "reproduce_cli_rejections.py",
+      "bytes": 4093,
+      "sha256": "32adc891d34c3e52f1f5ad223ba5db2ac6570a8e2673de2144ab563d1b279efc"
+    }
+  ]
+}

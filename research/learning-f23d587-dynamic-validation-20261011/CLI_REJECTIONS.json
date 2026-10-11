@@ -1,0 +1,121 @@
+{
+  "source_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "kind": "software_test_only",
+  "purpose": "Additional CLI negative behavior checks; generated small manifest and fake forced logits, no media/real encoder",
+  "positive_calibration_checks": 1,
+  "expected_rejection_checks": 4,
+  "unexpected_failures": 0,
+  "records": [
+    {
+      "name": "cli_calibration_matches_empty",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_error": null,
+      "log_sha256": "09d21b26d3674465aec3c0ce628661492862d2e534284fb4f90b4fff61be2685",
+      "command_template": [
+        "python",
+        "-m",
+        "learning.evaluate",
+        "PROBE_DIR/manifest.json",
+        "PROBE_DIR/features.json",
+        "PROBE_DIR/software-head.pt",
+        "--software-test",
+        "--split",
+        "calibration",
+        "--max-risk",
+        "1",
+        "--policy",
+        "PROBE_DIR/policy.json"
+      ],
+      "raw_log_published": false
+    },
+    {
+      "name": "cli_negative_uncalibrated_test_task",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_error": "task not calibrated; do not score test candidates",
+      "log_sha256": "2852029e20d0fd4aa51fec442ef7cad713c1f5fc15a1e246c56c0c935094e744",
+      "command_template": [
+        "python",
+        "-m",
+        "learning.evaluate",
+        "PROBE_DIR/manifest.json",
+        "PROBE_DIR/features.json",
+        "PROBE_DIR/software-head.pt",
+        "--software-test",
+        "--split",
+        "test",
+        "--policy",
+        "PROBE_DIR/policy.json"
+      ],
+      "raw_log_published": false
+    },
+    {
+      "name": "cli_negative_test_tuning",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_error": "test may not tune",
+      "log_sha256": "bdf49d41cfd027b745affa1126daeb26654801b496966e85a00f5bfcb6008055",
+      "command_template": [
+        "python",
+        "-m",
+        "learning.evaluate",
+        "PROBE_DIR/manifest.json",
+        "PROBE_DIR/features.json",
+        "PROBE_DIR/software-head.pt",
+        "--software-test",
+        "--split",
+        "test",
+        "--max-risk",
+        "1",
+        "--policy",
+        "PROBE_DIR/policy.json"
+      ],
+      "raw_log_published": false
+    },
+    {
+      "name": "cli_negative_forged_task_status",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_error": "policy status/threshold mismatch",
+      "log_sha256": "8bb9ac217a232e362ac7f0630b1196a98f66336121a64d03ebb1466b99eae788",
+      "command_template": [
+        "python",
+        "-m",
+        "learning.evaluate",
+        "PROBE_DIR/manifest.json",
+        "PROBE_DIR/features.json",
+        "PROBE_DIR/software-head.pt",
+        "--software-test",
+        "--split",
+        "test",
+        "--policy",
+        "PROBE_DIR/bad-policy.json"
+      ],
+      "raw_log_published": false
+    },
+    {
+      "name": "cli_negative_all_top_ties_no_coverage",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_error": "no feasible calibration policy: relations",
+      "log_sha256": "11a17a74f1501341719e108e49903c64b753275683643df6061de0c6014aab98",
+      "command_template": [
+        "python",
+        "-m",
+        "learning.evaluate",
+        "PROBE_DIR/manifest.json",
+        "PROBE_DIR/features.json",
+        "PROBE_DIR/software-head.pt",
+        "--software-test",
+        "--split",
+        "calibration",
+        "--max-risk",
+        "1",
+        "--policy",
+        "PROBE_DIR/tie-policy.json"
+      ],
+      "raw_log_published": false
+    }
+  ]
+}

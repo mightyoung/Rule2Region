@@ -1,0 +1,11 @@
+{
+  "kind": "validation_receipt_wrapper_failure_not_source_failure",
+  "wrapper_exit_code": 1,
+  "actual_source_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "incorrect_assert_literal": "f23d58797207d453d58f47757de00e59398b57bb",
+  "cause": "Short prefix replaced before full commit literal during wrapper construction, corrupting expected literal. All six subprocess checks had already completed with exit 0.",
+  "resolution": "Preserve original failed wrapper; independently verify actual Git HEAD; correct future wrapper literal and assemble receipt from executed subprocess logs/tool outputs; no source edit or test-result substitution.",
+  "original_failed_wrapper_sha256": "344d19b860927b203515ad9e414e6edf8245e8488675ef12e7aff811e0e6273e",
+  "original_failed_wrapper_publication": "not published: contains environment paths; original retained privately unchanged",
+  "source_test_failures": 0
+}

@@ -1,0 +1,110 @@
+{
+  "source_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "python": "3.12.14",
+  "torch": "2.8.0+cpu",
+  "cuda_available": false,
+  "pytest": "9.1.1",
+  "threads": 1,
+  "checks": [
+    {
+      "name": "dependency_versions",
+      "command": [
+        "python",
+        "-c",
+        "import sys,torch,pytest,json; print(json.dumps({\"python\":sys.version,\"executable\":sys.executable,\"torch\":torch.__version__,\"torch_file\":torch.__file__,\"cuda_available\":torch.cuda.is_available(),\"torch_threads\":torch.get_num_threads(),\"pytest\":pytest.__version__}))"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "73fc6bee6f893ab60d78f543d1db7ca16024b1b2e820ccf0d707f12b8bf0672e",
+      "raw_log_published": false
+    },
+    {
+      "name": "source_manifest",
+      "command": [
+        "python",
+        "-m",
+        "learning.manifest"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "2d967feae779c8a83096df05b619116bcfa2917efd750a1504cbc8c5a5e7a418",
+      "raw_log_published": false
+    },
+    {
+      "name": "validate_real_empty",
+      "command": [
+        "python",
+        "-m",
+        "learning.validate",
+        "learning/data/real_manifest.json"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "3b9925366cec908fdc6a7290acbf2c84b815fd2182f593129b21dcabc0a26ead",
+      "raw_log_published": false
+    },
+    {
+      "name": "validate_software",
+      "command": [
+        "python",
+        "-m",
+        "learning.validate",
+        "learning/data/software_manifest.json"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "4f1b6b8c8c52b4e6ce903aa10c6c2ac4b601ba03f9762c3ef4ea0c0878155fdf",
+      "raw_log_published": false
+    },
+    {
+      "name": "dynamic_torch_tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "learning.tests.test_torch",
+        "-v"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "16229f004a66b15c0b56a3294796b5e6f45f37133d168388d4931c1b2f3943ab",
+      "raw_log_published": false
+    },
+    {
+      "name": "all_learning_tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "learning/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "private_log_sha256": "e8826e1e1101136cd0e4e71667f1c3e3532588c4ad88c0c28e626fd64c2414d9",
+      "raw_log_published": false
+    }
+  ],
+  "dynamic_tests": {
+    "pass": 4,
+    "fail": 0,
+    "skip": 0
+  },
+  "all_learning_tests": {
+    "pass": 20,
+    "fail": 0,
+    "skip": 0,
+    "includes_dynamic_four": true
+  },
+  "manifest": {
+    "files": 23,
+    "sha256": "e22ee8ffa5c4a658a7db65c99bb73685fb6d90fb68d8ffd308e44e3cdfd78f95"
+  },
+  "receipt_wrapper_history": "WRAPPER_FAILURE_SUMMARY.json separately records the local wrapper final assertion error. Source test subprocesses exited 0; no learning source fix.",
+  "scope": "Software-only fake 8D tensors and small optimizer/checkpoint fixtures, no real model/media or research training; no installation, weight download, task-tree edit or paid call.",
+  "parent_task_baseline": "6282877e41b15bbb5382ca7ba3056ac3d4722cf8",
+  "publication_scope": "Sanitized execution summary, hashes and software reproduction only. No media, user/host paths, original logs, model weights or private checkpoint.",
+  "environment_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  }
+}
