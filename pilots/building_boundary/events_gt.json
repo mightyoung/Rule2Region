@@ -1,0 +1,89 @@
+{
+  "provenance": "manual_physical_crossing_ledger_not_counter_output",
+  "events": [
+    {
+      "step": 1,
+      "person": "p4",
+      "door": "east",
+      "source": "O",
+      "destination": "A"
+    },
+    {
+      "step": 2,
+      "person": "p1",
+      "door": "room1",
+      "source": "A",
+      "destination": "B"
+    },
+    {
+      "step": 3,
+      "person": "p2",
+      "door": "lift",
+      "source": "B",
+      "destination": "D"
+    },
+    {
+      "step": 4,
+      "person": "p3",
+      "door": "stairs",
+      "source": "C",
+      "destination": "A"
+    },
+    {
+      "step": 5,
+      "person": "p4",
+      "door": "east",
+      "source": "A",
+      "destination": "O"
+    },
+    {
+      "step": 6,
+      "person": "p5",
+      "door": "upper",
+      "source": "O",
+      "destination": "C"
+    },
+    {
+      "step": 7,
+      "person": "p1",
+      "door": "service",
+      "source": "B",
+      "destination": "O"
+    },
+    {
+      "step": 8,
+      "person": "p5",
+      "door": "room2",
+      "source": "C",
+      "destination": "D"
+    },
+    {
+      "step": 9,
+      "person": "p2",
+      "door": "lift",
+      "source": "D",
+      "destination": "B"
+    },
+    {
+      "step": 10,
+      "person": "p3",
+      "door": "east",
+      "source": "A",
+      "destination": "O"
+    },
+    {
+      "step": 10,
+      "person": "p4",
+      "door": "upper",
+      "source": "O",
+      "destination": "C"
+    },
+    {
+      "step": 11,
+      "person": "p4",
+      "door": "stairs",
+      "source": "C",
+      "destination": "A"
+    }
+  ]
+}

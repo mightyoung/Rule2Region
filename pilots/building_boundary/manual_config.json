@@ -1,0 +1,304 @@
+{
+  "schema_version": "building-boundary-v1",
+  "strategy": "manual_truth",
+  "targets": {
+    "building": [
+      {
+        "door": "east",
+        "owner_camera": "east_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      },
+      {
+        "door": "upper",
+        "owner_camera": "upper_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": 1
+      },
+      {
+        "door": "service",
+        "owner_camera": "service_cam",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      }
+    ],
+    "floor1": [
+      {
+        "door": "east",
+        "owner_camera": "east_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      },
+      {
+        "door": "service",
+        "owner_camera": "service_cam",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      },
+      {
+        "door": "stairs",
+        "owner_camera": "stairs_cam",
+        "delta_ab": -1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      },
+      {
+        "door": "lift",
+        "owner_camera": "lift_cam",
+        "delta_ab": -1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": 1
+      }
+    ],
+    "floor2": [
+      {
+        "door": "upper",
+        "owner_camera": "upper_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": 1
+      },
+      {
+        "door": "stairs",
+        "owner_camera": "stairs_cam",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      },
+      {
+        "door": "lift",
+        "owner_camera": "lift_cam",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": 1
+      }
+    ],
+    "net_east": [
+      {
+        "door": "east",
+        "owner_camera": "east_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      }
+    ],
+    "net_upper": [
+      {
+        "door": "upper",
+        "owner_camera": "upper_front",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": 1
+      }
+    ],
+    "net_service": [
+      {
+        "door": "service",
+        "owner_camera": "service_cam",
+        "delta_ab": 1,
+        "line": [
+          [
+            0.5,
+            0.2
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "roi": [
+          0.2,
+          0.1,
+          0.8,
+          0.9
+        ],
+        "a_side": -1
+      }
+    ]
+  }
+}

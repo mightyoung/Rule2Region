@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "browser": "installed Chromium via installed Playwright",
+  "render_method": "local HTML via set_content; file URL policy blocks direct navigation",
+  "checks": [
+    "default six targets admitted and independent GT shown",
+    "step 10 simultaneous GT transitions visible",
+    "same door two views with unique owner visible",
+    "uncalled model has no predictions or scores",
+    "rejected door-only scores hidden until explicit diagnostic toggle",
+    "timeline and topology click update controls",
+    "nine failure gates and three official sources visible",
+    "390px mobile layout has no document horizontal overflow"
+  ],
+  "page_errors": [],
+  "screenshots": "local /tmp only; self-authored synthetic report"
+}

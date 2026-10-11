@@ -1,0 +1,252 @@
+{
+  "provenance": "hand_authored_per_camera_coordinate_segments_no_pixels",
+  "observations": [
+    {
+      "step": 1,
+      "camera": "east_front",
+      "track_id": "east_front_local_1",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 1,
+      "camera": "east_side",
+      "track_id": "east_side_local_1",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 2,
+      "camera": "room1_cam",
+      "track_id": "room1_cam_local_2",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 3,
+      "camera": "lift_cam",
+      "track_id": "lift_cam_local_3",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 4,
+      "camera": "stairs_cam",
+      "track_id": "stairs_cam_local_4",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 5,
+      "camera": "east_front",
+      "track_id": "east_front_local_5",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 5,
+      "camera": "east_side",
+      "track_id": "east_side_local_5",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 6,
+      "camera": "upper_front",
+      "track_id": "upper_front_local_6",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 6,
+      "camera": "upper_side",
+      "track_id": "upper_side_local_6",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 7,
+      "camera": "service_cam",
+      "track_id": "service_cam_local_7",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 8,
+      "camera": "room2_cam",
+      "track_id": "room2_cam_local_8",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 9,
+      "camera": "lift_cam",
+      "track_id": "lift_cam_local_9",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 10,
+      "camera": "east_front",
+      "track_id": "east_front_local_10",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 10,
+      "camera": "east_side",
+      "track_id": "east_side_local_10",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 10,
+      "camera": "upper_front",
+      "track_id": "upper_front_local_10",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 10,
+      "camera": "upper_side",
+      "track_id": "upper_side_local_10",
+      "prev": [
+        0.7,
+        0.5
+      ],
+      "next": [
+        0.30000000000000004,
+        0.5
+      ]
+    },
+    {
+      "step": 11,
+      "camera": "stairs_cam",
+      "track_id": "stairs_cam_local_11",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "step": 2,
+      "camera": "east_front",
+      "track_id": "pass_by",
+      "prev": [
+        0.3,
+        0.5
+      ],
+      "next": [
+        0.35,
+        0.6
+      ]
+    },
+    {
+      "step": 6,
+      "camera": "east_front",
+      "track_id": "outside_roi",
+      "prev": [
+        0.3,
+        0.95
+      ],
+      "next": [
+        0.7,
+        0.95
+      ]
+    }
+  ]
+}

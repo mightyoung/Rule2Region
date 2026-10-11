@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "python -m unittest discover -s pilots/building_boundary -p 'test_*.py' -v",
+  "python_version": "3.12.14",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "building_boundary_pilot_only"
+}

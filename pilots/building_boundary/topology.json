@@ -1,0 +1,234 @@
+{
+  "schema_version": "building-boundary-v1",
+  "source": "self_authored_no_visual_model",
+  "complete_channels_asserted_by": "synthetic_fixture_author",
+  "regions": {
+    "O": null,
+    "A": 1,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "doors": {
+    "east": {
+      "a": "O",
+      "b": "A",
+      "kind": "external",
+      "cameras": {
+        "east_front": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        },
+        "east_side": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": 1
+        }
+      }
+    },
+    "upper": {
+      "a": "O",
+      "b": "C",
+      "kind": "external",
+      "cameras": {
+        "upper_front": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": 1
+        },
+        "upper_side": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        }
+      }
+    },
+    "service": {
+      "a": "O",
+      "b": "B",
+      "kind": "external",
+      "cameras": {
+        "service_cam": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        }
+      }
+    },
+    "room1": {
+      "a": "A",
+      "b": "B",
+      "kind": "internal",
+      "cameras": {
+        "room1_cam": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        }
+      }
+    },
+    "room2": {
+      "a": "C",
+      "b": "D",
+      "kind": "internal",
+      "cameras": {
+        "room2_cam": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        }
+      }
+    },
+    "stairs": {
+      "a": "A",
+      "b": "C",
+      "kind": "stairs",
+      "cameras": {
+        "stairs_cam": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": -1
+        }
+      }
+    },
+    "lift": {
+      "a": "B",
+      "b": "D",
+      "kind": "elevator",
+      "cameras": {
+        "lift_cam": {
+          "line": [
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.5,
+              0.8
+            ]
+          ],
+          "roi": [
+            0.2,
+            0.1,
+            0.8,
+            0.9
+          ],
+          "a_side": 1
+        }
+      }
+    }
+  }
+}

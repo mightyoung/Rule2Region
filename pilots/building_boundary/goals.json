@@ -1,0 +1,64 @@
+{
+  "schema_version": "building-boundary-v1",
+  "business_rules": "统计整栋及两层占用；逐外门净流量；同层换房不改变层/栋总数；全通道覆盖。",
+  "initial": {
+    "building": 3,
+    "floor1": 2,
+    "floor2": 1
+  },
+  "goals": {
+    "building": {
+      "kind": "occupancy",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "floor1": {
+      "kind": "occupancy",
+      "regions": [
+        "A",
+        "B"
+      ]
+    },
+    "floor2": {
+      "kind": "occupancy",
+      "regions": [
+        "C",
+        "D"
+      ]
+    },
+    "net_east": {
+      "kind": "external_net",
+      "door": "east",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "net_upper": {
+      "kind": "external_net",
+      "door": "upper",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "net_service": {
+      "kind": "external_net",
+      "door": "service",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  }
+}

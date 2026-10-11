@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-10-11",
+  "method": "official_document_read_only",
+  "large_packages_downloaded": false,
+  "complete_real_building_bundle_verified": false,
+  "datasets": [
+    {"name":"CAVIAR","source_url":"https://groups.inf.ed.ac.uk/vision/DATASETS/CAVIAR/CAVIARDATA1/","document_status":"VERIFIED","asset_sha256":null,"task_status":"NOT_ADMITTED","future_subtask":"shop_portal_direction_and_view_responsibility","limitation":"shop_portal_not_building_boundary; full occupancy GT absent from verified documents"},
+    {"name":"ChokePoint","source_url":"https://arma.sourceforge.net/chokepoint/","document_status":"VERIFIED","asset_sha256":null,"task_status":"NOT_ADMITTED","future_subtask":"single_portal_multiview_responsibility","limitation":"face identity/eye locations not full-building occupancy; portal recordings not one continuous building flow"},
+    {"name":"ProcTHOR-10K","source_url":"https://github.com/allenai/procthor-10k","document_status":"VERIFIED","asset_sha256":null,"task_status":"NOT_ACQUIRED","future_subtask":"layout_graph_contract","limitation":"house layouts not existing pedestrian flow simulator or real occupancy benchmark"}
+  ]
+}
