@@ -1,0 +1,399 @@
+{
+  "schema_version": "boundary-v1",
+  "purpose": "software_test_only",
+  "samples": [
+    {
+      "id": "software-0",
+      "kind": "software_tensor",
+      "split": "train",
+      "identity": {
+        "building_id": "software-0",
+        "layout_family_id": "software-0",
+        "physical_door_ids": [
+          "software-0door"
+        ],
+        "source_plan_sha256": null,
+        "variant_family_id": "software-0"
+      },
+      "source": {
+        "url": "self-authored:software_tensor",
+        "license": "self-authored software fixture; no third-party media",
+        "access_date": "2026-10-11",
+        "permission_status": "verified"
+      },
+      "versions": {
+        "evidence": "software-v1",
+        "labels": "software-v1",
+        "rules": "cut-spec-v1"
+      },
+      "input": {
+        "views": [
+          {
+            "id": "v0",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "5fe189b8e7c494341e34ce47e7fa33a58941fa234aff88873f9b32476ed01898"
+          },
+          {
+            "id": "v1",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "e880463e6252ac7e3644b62a99b24e32a9c9508240dc82a5894e37833fb48202"
+          }
+        ],
+        "allowed_context": "Self-authored tensor fixture; no real scene, image, or building.",
+        "regions": [
+          {
+            "id": "a",
+            "description": "tensor A"
+          },
+          {
+            "id": "b",
+            "description": "tensor B"
+          },
+          {
+            "id": "c",
+            "description": "tensor C"
+          }
+        ],
+        "door_candidates": [
+          {
+            "id": "d0",
+            "view_id": "v0",
+            "box": [
+              0.1,
+              0.1,
+              0.5,
+              0.8
+            ]
+          },
+          {
+            "id": "d1",
+            "view_id": "v1",
+            "box": [
+              0.2,
+              0.1,
+              0.6,
+              0.9
+            ]
+          }
+        ],
+        "region_pairs": [
+          {
+            "id": "r0",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "b"
+          },
+          {
+            "id": "r1",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "c"
+          },
+          {
+            "id": "r2",
+            "door_id": "d1",
+            "region_a": "a",
+            "region_b": "b"
+          }
+        ],
+        "view_pairs": [
+          {
+            "id": "m0",
+            "door_a": "d0",
+            "door_b": "d1"
+          }
+        ]
+      },
+      "ai_preannotation": null,
+      "review": {
+        "status": "confirmed",
+        "reviewer": "software_fixture_generator_not_human_gt",
+        "evidence_refs": [
+          "software_tensor_contract_only"
+        ],
+        "versions": {
+          "evidence": "software-v1",
+          "labels": "software-v1",
+          "rules": "cut-spec-v1"
+        }
+      },
+      "truth": {
+        "relations": {
+          "r0": "connected",
+          "r1": "not_connected",
+          "r2": "unknown"
+        },
+        "matches": {
+          "m0": "same"
+        },
+        "sufficiency": {
+          "r0": "sufficient",
+          "r1": "sufficient",
+          "r2": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "software-1",
+      "kind": "software_tensor",
+      "split": "calibration",
+      "identity": {
+        "building_id": "software-1",
+        "layout_family_id": "software-1",
+        "physical_door_ids": [
+          "software-1door"
+        ],
+        "source_plan_sha256": null,
+        "variant_family_id": "software-1"
+      },
+      "source": {
+        "url": "self-authored:software_tensor",
+        "license": "self-authored software fixture; no third-party media",
+        "access_date": "2026-10-11",
+        "permission_status": "verified"
+      },
+      "versions": {
+        "evidence": "software-v1",
+        "labels": "software-v1",
+        "rules": "cut-spec-v1"
+      },
+      "input": {
+        "views": [
+          {
+            "id": "v0",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "897188c2525aa7a05c54e98344d12d1677ff43ec14f28eb318776673b1f2c52d"
+          },
+          {
+            "id": "v1",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "d118b6c7f00958872e93c54a22c2e9281b6f0a07a3dade1d80af63e85373a3c2"
+          }
+        ],
+        "allowed_context": "Self-authored tensor fixture; no real scene, image, or building.",
+        "regions": [
+          {
+            "id": "a",
+            "description": "tensor A"
+          },
+          {
+            "id": "b",
+            "description": "tensor B"
+          },
+          {
+            "id": "c",
+            "description": "tensor C"
+          }
+        ],
+        "door_candidates": [
+          {
+            "id": "d0",
+            "view_id": "v0",
+            "box": [
+              0.1,
+              0.1,
+              0.5,
+              0.8
+            ]
+          },
+          {
+            "id": "d1",
+            "view_id": "v1",
+            "box": [
+              0.2,
+              0.1,
+              0.6,
+              0.9
+            ]
+          }
+        ],
+        "region_pairs": [
+          {
+            "id": "r0",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "b"
+          },
+          {
+            "id": "r1",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "c"
+          },
+          {
+            "id": "r2",
+            "door_id": "d1",
+            "region_a": "a",
+            "region_b": "b"
+          }
+        ],
+        "view_pairs": [
+          {
+            "id": "m0",
+            "door_a": "d0",
+            "door_b": "d1"
+          }
+        ]
+      },
+      "ai_preannotation": null,
+      "review": {
+        "status": "confirmed",
+        "reviewer": "software_fixture_generator_not_human_gt",
+        "evidence_refs": [
+          "software_tensor_contract_only"
+        ],
+        "versions": {
+          "evidence": "software-v1",
+          "labels": "software-v1",
+          "rules": "cut-spec-v1"
+        }
+      },
+      "truth": {
+        "relations": {
+          "r0": "connected",
+          "r1": "not_connected",
+          "r2": "unknown"
+        },
+        "matches": {
+          "m0": "same"
+        },
+        "sufficiency": {
+          "r0": "sufficient",
+          "r1": "sufficient",
+          "r2": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "software-2",
+      "kind": "software_tensor",
+      "split": "test",
+      "identity": {
+        "building_id": "software-2",
+        "layout_family_id": "software-2",
+        "physical_door_ids": [
+          "software-2door"
+        ],
+        "source_plan_sha256": null,
+        "variant_family_id": "software-2"
+      },
+      "source": {
+        "url": "self-authored:software_tensor",
+        "license": "self-authored software fixture; no third-party media",
+        "access_date": "2026-10-11",
+        "permission_status": "verified"
+      },
+      "versions": {
+        "evidence": "software-v1",
+        "labels": "software-v1",
+        "rules": "cut-spec-v1"
+      },
+      "input": {
+        "views": [
+          {
+            "id": "v0",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "023bd2f71bd6eef9feb8351767ae2296cddd523f8aac687cfaf89746b55bee05"
+          },
+          {
+            "id": "v1",
+            "asset_ref": "software_tensor:no_media",
+            "sha256": "14e4d2fc7b9b76da30b82a9ac3b3d625c837cccb2d15f64acec58cbcad305ce3"
+          }
+        ],
+        "allowed_context": "Self-authored tensor fixture; no real scene, image, or building.",
+        "regions": [
+          {
+            "id": "a",
+            "description": "tensor A"
+          },
+          {
+            "id": "b",
+            "description": "tensor B"
+          },
+          {
+            "id": "c",
+            "description": "tensor C"
+          }
+        ],
+        "door_candidates": [
+          {
+            "id": "d0",
+            "view_id": "v0",
+            "box": [
+              0.1,
+              0.1,
+              0.5,
+              0.8
+            ]
+          },
+          {
+            "id": "d1",
+            "view_id": "v1",
+            "box": [
+              0.2,
+              0.1,
+              0.6,
+              0.9
+            ]
+          }
+        ],
+        "region_pairs": [
+          {
+            "id": "r0",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "b"
+          },
+          {
+            "id": "r1",
+            "door_id": "d0",
+            "region_a": "a",
+            "region_b": "c"
+          },
+          {
+            "id": "r2",
+            "door_id": "d1",
+            "region_a": "a",
+            "region_b": "b"
+          }
+        ],
+        "view_pairs": [
+          {
+            "id": "m0",
+            "door_a": "d0",
+            "door_b": "d1"
+          }
+        ]
+      },
+      "ai_preannotation": null,
+      "review": {
+        "status": "confirmed",
+        "reviewer": "software_fixture_generator_not_human_gt",
+        "evidence_refs": [
+          "software_tensor_contract_only"
+        ],
+        "versions": {
+          "evidence": "software-v1",
+          "labels": "software-v1",
+          "rules": "cut-spec-v1"
+        }
+      },
+      "truth": {
+        "relations": {
+          "r0": "connected",
+          "r1": "not_connected",
+          "r2": "unknown"
+        },
+        "matches": {
+          "m0": "same"
+        },
+        "sufficiency": {
+          "r0": "sufficient",
+          "r1": "sufficient",
+          "r2": "insufficient"
+        }
+      }
+    }
+  ]
+}

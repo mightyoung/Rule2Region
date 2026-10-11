@@ -1,0 +1,526 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "purpose",
+    "samples"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "boundary-v1"
+      ]
+    },
+    "purpose": {
+      "enum": [
+        "real_research",
+        "software_test_only"
+      ]
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "split",
+          "identity",
+          "source",
+          "versions",
+          "input",
+          "ai_preannotation",
+          "review",
+          "truth"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "real",
+              "software_tensor"
+            ]
+          },
+          "split": {
+            "enum": [
+              "train",
+              "calibration",
+              "test"
+            ]
+          },
+          "identity": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "building_id",
+              "layout_family_id",
+              "physical_door_ids",
+              "source_plan_sha256",
+              "variant_family_id"
+            ],
+            "properties": {
+              "building_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "layout_family_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "physical_door_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_plan_sha256": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "variant_family_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "license",
+              "access_date",
+              "permission_status"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "license": {
+                "type": "string",
+                "minLength": 1
+              },
+              "access_date": {
+                "type": "string",
+                "minLength": 1
+              },
+              "permission_status": {
+                "enum": [
+                  "verified",
+                  "pending"
+                ]
+              }
+            }
+          },
+          "versions": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "evidence",
+              "labels",
+              "rules"
+            ],
+            "properties": {
+              "evidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "labels": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rules": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "input": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "views",
+              "allowed_context",
+              "regions",
+              "door_candidates",
+              "region_pairs",
+              "view_pairs"
+            ],
+            "properties": {
+              "views": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "asset_ref",
+                    "sha256"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "asset_ref": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  }
+                }
+              },
+              "allowed_context": {
+                "type": "string"
+              },
+              "regions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "description"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "door_candidates": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "view_id",
+                    "box"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "view_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "box": {
+                      "type": "array",
+                      "minItems": 4,
+                      "maxItems": 4,
+                      "items": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      }
+                    }
+                  }
+                }
+              },
+              "region_pairs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "door_id",
+                    "region_a",
+                    "region_b"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "door_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "region_a": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "region_b": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              },
+              "view_pairs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "door_a",
+                    "door_b"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "door_a": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "door_b": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "ai_preannotation": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "model_revision",
+                  "status",
+                  "risk",
+                  "labels",
+                  "versions"
+                ],
+                "properties": {
+                  "model_revision": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "proposed",
+                      "default_adopted_pending_review"
+                    ]
+                  },
+                  "risk": {
+                    "enum": [
+                      "high",
+                      "normal"
+                    ]
+                  },
+                  "labels": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "relations",
+                      "matches",
+                      "sufficiency"
+                    ],
+                    "properties": {
+                      "relations": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "enum": [
+                            "not_connected",
+                            "connected",
+                            "unknown"
+                          ]
+                        }
+                      },
+                      "matches": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "enum": [
+                            "different",
+                            "same",
+                            "unknown"
+                          ]
+                        }
+                      },
+                      "sufficiency": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "enum": [
+                            "insufficient",
+                            "sufficient",
+                            "unknown"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "versions": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "evidence",
+                      "labels",
+                      "rules"
+                    ],
+                    "properties": {
+                      "evidence": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "labels": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "rules": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "review": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "status",
+              "reviewer",
+              "evidence_refs",
+              "versions"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "pending",
+                  "confirmed",
+                  "corrected"
+                ]
+              },
+              "reviewer": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "versions": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "evidence",
+                      "labels",
+                      "rules"
+                    ],
+                    "properties": {
+                      "evidence": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "labels": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "rules": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          },
+          "truth": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "relations",
+                  "matches",
+                  "sufficiency"
+                ],
+                "properties": {
+                  "relations": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "enum": [
+                        "not_connected",
+                        "connected",
+                        "unknown"
+                      ]
+                    }
+                  },
+                  "matches": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "enum": [
+                        "different",
+                        "same",
+                        "unknown"
+                      ]
+                    }
+                  },
+                  "sufficiency": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "enum": [
+                        "insufficient",
+                        "sufficient",
+                        "unknown"
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rule2region:boundary-v1",
+  "description": "Structural schema. learning.contract additionally enforces references, review/version consistency and cross-split leakage. Input context/provenance still requires independent audit."
+}

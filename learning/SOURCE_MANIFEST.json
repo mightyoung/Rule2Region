@@ -1,0 +1,93 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 5989,
+      "sha256": "3f994d9e8c535be29e53115bd6c3d9a494e755d2b7bd2cf459788735bd9c6028"
+    },
+    "VERIFICATION.md": {
+      "bytes": 2603,
+      "sha256": "293f639b3df58c8db5f456418f05ac3ae18637c870793bd7a5e32097c137a605"
+    },
+    "__init__.py": {
+      "bytes": 73,
+      "sha256": "9acf439c17d446f86f249c6f8f5610b77fad59d52d10d135ff77f5d6aa23c687"
+    },
+    "annotation-guide.md": {
+      "bytes": 4891,
+      "sha256": "31889300268483e85f1b7f40958d289bd6ef550eb9c7dd3cc2f4d0eb60e6e7f4"
+    },
+    "contract.py": {
+      "bytes": 8138,
+      "sha256": "650db244ca93d73f2991655e3c77b55452f00457e501d41b5d426bbea1c35543"
+    },
+    "data/acquisition_checklist.json": {
+      "bytes": 4934,
+      "sha256": "b5719e0ba46a9880cb3b1d4604fe15da0349ee83cc6304a8cc8631830f3a0eb9"
+    },
+    "data/manifest.schema.json": {
+      "bytes": 15097,
+      "sha256": "3d7dcf3f64f49af3b934b28114f8a165106ba763b82f1c19fdc59310e11f236f"
+    },
+    "data/real_manifest.json": {
+      "bytes": 72,
+      "sha256": "7c95c91079757017967f11c9d9826f62e9dcc9c92c628cf1208b7b85a6f405d8"
+    },
+    "data/software_features.json": {
+      "bytes": 4808,
+      "sha256": "dc65336a2a7074ce8cf79c8ea9b4c2c6b01df49483f94364ca43011b9b2976f8"
+    },
+    "data/software_manifest.json": {
+      "bytes": 9751,
+      "sha256": "9ebb9fe1aee813be1e9c38153dd6d860f37996d44c4be9a4083953c60fc1d5d3"
+    },
+    "dataset.py": {
+      "bytes": 2084,
+      "sha256": "5e421bd16a64ec84e5758a05cff1bec2304e7db7ef6fec1032ed922712cfe309"
+    },
+    "evaluate.py": {
+      "bytes": 4369,
+      "sha256": "6b22dcdcb2cefba6f75ad58b1b73a96ad05bb3cbf79e7261f6e015724226e1ce"
+    },
+    "features.py": {
+      "bytes": 1660,
+      "sha256": "746164d77e4743c8637c677c7b1c95add63b42fa13a8cfa164cacbcb2286c0df"
+    },
+    "manifest.py": {
+      "bytes": 1370,
+      "sha256": "078faf4cb58dc4b2d92dc49d71535c112c464d2212b45a58aa6eb2aca1272d91"
+    },
+    "metrics.py": {
+      "bytes": 1956,
+      "sha256": "24f87a72d35e3480db57dc33cb654e02b462089f8a5d7278ee78868bb6360507"
+    },
+    "model.py": {
+      "bytes": 2032,
+      "sha256": "7374ab526987245ea4c9762321259a852f3b2e46b0a1957181351ace0dc37a91"
+    },
+    "plans/2026-10-11-boundary-learning-v1.md": {
+      "bytes": 10890,
+      "sha256": "ca825c49aab77e3bcf48507bb5ed87fc64fa41e28c32b6944eb0c22b7797b3f5"
+    },
+    "review.py": {
+      "bytes": 665,
+      "sha256": "db503dc795cd425ed3f717d61ff0bfccb26fcac481329cce09e75cc903e3fa16"
+    },
+    "tests/test_contract.py": {
+      "bytes": 7563,
+      "sha256": "12429c12f7f0b0a12ee54a3ee3dbd1be071819aebd9674edf82c67f01b3019fa"
+    },
+    "tests/test_torch.py": {
+      "bytes": 3108,
+      "sha256": "a23efcca9cf073f6da303d334792ddc2ae9b03858433dfc87bf08bbd25e35e78"
+    },
+    "train.py": {
+      "bytes": 4728,
+      "sha256": "b186c941f8a43433868d511308f859a1e764c7088b710e0c5c46abbe7f55fb7b"
+    },
+    "validate.py": {
+      "bytes": 519,
+      "sha256": "ac6d07ebf6018e625fad1016a4618bae15b4f4c96104e17bd60e8dcc177ad80b"
+    }
+  },
+  "version": "learning-source-v1"
+}

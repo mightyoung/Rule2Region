@@ -1,0 +1,92 @@
+{
+  "version": "acquisition-v1-20261011",
+  "official_pages_checked_utc": "2026-10-11",
+  "acquisition_performed": false,
+  "real_whole_building_complete_gt_found": false,
+  "note": "Public metadata only. No media, weights, credentials or paid API use. Recheck exact version/asset terms before acquisition.",
+  "items": [
+    {
+      "id": "laya-text-only",
+      "source_url": "https://huggingface.co/convaiinnovations/laya",
+      "license_observed": "Apache-2.0 (official model card)",
+      "role": "Text/JSON auxiliary decision baseline; no visual encoder",
+      "status": "not_acquired",
+      "next_gate": "Pin actual weight revision and license; only input-derived text, never GT graph; no download in this phase"
+    },
+    {
+      "id": "smolvlm2-500m",
+      "source_url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "license_observed": "Apache-2.0 (official model card)",
+      "role": "Existing visual baseline / frozen encoder candidate, conditional LoRA later",
+      "status": "not_acquired",
+      "next_gate": "Pin weights/preprocessor revision; inspect model card use limits and dependencies; profile actual local adapter later"
+    },
+    {
+      "id": "internvl3-1b",
+      "source_url": "https://huggingface.co/OpenGVLab/InternVL3-1B",
+      "license_observed": "MIT project/model card; Qwen2.5 component Apache-2.0",
+      "role": "Existing visual baseline / frozen encoder candidate",
+      "status": "not_acquired",
+      "next_gate": "Pin revisions and component licenses; audit any remote model code before local execution; no download now"
+    },
+    {
+      "id": "caviar-lisbon-shop-portal",
+      "source_url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/",
+      "license_observed": "Official page states Creative Commons BY-SA and project acknowledgement; exact CC version not established here",
+      "role": "Real shop-door/region evidence and local multi-view subtasks only",
+      "status": "not_acquired",
+      "candidate_units": [
+        "EnterExitCrossingPaths1 corridor/front",
+        "OneLeaveShop1 corridor/front"
+      ],
+      "missing_truth": [
+        "complete building graph",
+        "physical door and region labels for this research",
+        "independent occupancy and initial count"
+      ],
+      "next_gate": "Resolve exact BY-SA version and derivative requirements; choose small lawful subset later; label only evidence-supported relations; all Lisbon same building/layout grouped together, not split by sequence"
+    },
+    {
+      "id": "chokepoint-portals",
+      "source_url": "https://arma.sourceforge.net/chokepoint/",
+      "license_observed": "NICTA non-commercial scientific research; attribution, derivative notices and original license retention; no commercial gain",
+      "role": "Real portal multi-view correspondence subtask, not whole-building topology",
+      "status": "not_acquired",
+      "candidate_units": [
+        "P1E_S1_C1/C2/C3",
+        "P2E_S1_C1/C2/C3"
+      ],
+      "missing_truth": [
+        "complete building graph",
+        "all two-sided region identity",
+        "whole-building occupancy"
+      ],
+      "next_gate": "Confirm intended use is permitted; do not expose media on public site; establish building/layout identity across portals, conservatively group whole source if unresolved; do not reuse face verification split as topology split"
+    },
+    {
+      "id": "procthor-layouts",
+      "source_url": "https://github.com/allenai/procthor",
+      "project_url": "https://procthor.allenai.org/",
+      "license_url": "https://raw.githubusercontent.com/allenai/procthor/main/LICENSE",
+      "license_observed": "Generator and ProcTHOR-10K dataset official repositories both mark Apache-2.0; specific version/files and rendering asset terms require separate review",
+      "role": "Optional synthetic layout topology; not real media or real full-building GT",
+      "status": "not_acquired",
+      "missing_truth": [
+        "rendered fixed-camera views",
+        "human flow/events",
+        "real transfer validation"
+      ],
+      "next_gate": "Pin layout/generator/asset versions and licenses; family/seed/base layout grouping before rendering/augmentation; render flow only in later authorized phase",
+      "dataset_url": "https://github.com/allenai/procthor-10k",
+      "dataset_license_url": "https://raw.githubusercontent.com/allenai/procthor-10k/main/LICENSE"
+    },
+    {
+      "id": "user-authorized-real-building",
+      "source_url": "pending:user-supplied-authorized-source",
+      "license_observed": "Not provided",
+      "role": "Independent full topology/occupancy validation once material exists",
+      "status": "awaiting_minimal_materials",
+      "next_gate": "Provide permitted camera views/context separately from independently verified graph, target sets, completeness and events/count references; establish building/layout identity; no raw media in Git"
+    }
+  ]
+}
