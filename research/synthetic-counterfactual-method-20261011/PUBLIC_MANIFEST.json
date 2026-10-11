@@ -1,10 +1,15 @@
 {
-  "scope": "Only public text, protocol code and empty development JSON recursively, including frozen v2 and separate v3; excludes manifest itself; no media/private source mapping",
+  "scope": "Public method text and frozen v2/v3 protocol code/empty JSON only; excludes manifest itself; no media/private source mapping",
   "files": [
     {
       "path": "COUNTERFACTUAL_V2_ONE_PAGE.md",
       "bytes": 3783,
       "sha256": "0e2544c9382383c18c9e0c97ba2f4d534785fc82a3c024a74becd909d3a1ed50"
+    },
+    {
+      "path": "HANDOFF_AFTER_INDEPENDENT_REVIEW.md",
+      "bytes": 3294,
+      "sha256": "6aee20fc974b3e269d42eb31144c9b309b37d160e5ca681a81b6959ab124890a"
     },
     {
       "path": "PROTOCOL_REVISION_V2.md",
@@ -18,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5035,
-      "sha256": "411e3616e4eef69d339c7a4e340d3b35702ad09851c6b7875e543fb846cff989"
+      "bytes": 5379,
+      "sha256": "d6ef1f1f51f1c145b19953206a7b87daf7a8caeba8a88e3af9026c2770f43e3d"
     },
     {
       "path": "V1_POSITION_AND_SHORTCUTS.md",
