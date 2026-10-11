@@ -1,0 +1,31 @@
+{
+  "scope": "public-code and summary-only files; no raw pixels, private HSV, GT or source mapping; excludes this manifest",
+  "source_commit": "6b12baa67e72a544a1c445c546ebc73da1ddfdb4",
+  "files": [
+    {
+      "path": "docs/research-handoff/receipts/failure-trace-20261011/README.md",
+      "bytes": 7897,
+      "sha256": "5b7f2c1a7b5e4086f06782f84764b9a7151fa050f5c001ec6d2c28846560180c"
+    },
+    {
+      "path": "docs/research-handoff/receipts/failure-trace-20261011/VALIDATION.json",
+      "bytes": 2890,
+      "sha256": "59db99fdbb7c677aa2153c41cfbd85a005f362e626d8de1b2a8f98be8bf4e838"
+    },
+    {
+      "path": "docs/research-handoff/receipts/failure-trace-20261011/history_probe_results.json",
+      "bytes": 18723,
+      "sha256": "91852312383807e7e1212df89d972ebb8f4073c4562ffbc129bbeee256a28380"
+    },
+    {
+      "path": "docs/research-handoff/receipts/failure-trace-20261011/input-requirements.json",
+      "bytes": 8799,
+      "sha256": "448a329d8a6de396f5f3709585b70ab8af6a7ad0bd32faf62ea60b4aac22bdc4"
+    },
+    {
+      "path": "docs/research-handoff/receipts/failure-trace-20261011/probe_history.py",
+      "bytes": 5083,
+      "sha256": "2b31a4b5723f76685d7f0686aef74d9b4affb1af8dfbca784710555922466024"
+    }
+  ]
+}

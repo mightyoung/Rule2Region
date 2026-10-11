@@ -1,0 +1,20 @@
+{
+  "baseline": "5b79179660422c6976768f3e190482e90c73554d",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 6163,
+      "sha256": "308a6059770e1561f318833777afd346ff4a43d31b9347df6e908da8a67631d8"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 3933,
+      "sha256": "0a1e30f536d2636c75c77a0503c173a2203e2f0541e8210ec06d98dcafed39cf"
+    },
+    {
+      "name": "check_private_inputs.py",
+      "bytes": 2753,
+      "sha256": "228c7c56dc72a071d8fa118cc0a2a5625248c84d023120e9ef1c519c38c19d9f"
+    }
+  ]
+}

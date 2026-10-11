@@ -1,0 +1,38 @@
+{
+  "scope": "document and source/verification metadata only; no implementation, experiments, PDFs or private input; excludes self",
+  "source_commit": "ed6485e1dc6393b99803f64f617423e6562515e8",
+  "files": [
+    {
+      "path": "research/bounded-evidence-contract-20261011/CONTRACT.md",
+      "bytes": 20613,
+      "sha256": "91d0ebf3e8a9d77155e509ab99ea1fa87008cc2a9cf5e25d7a4a612fdbfb5db6"
+    },
+    {
+      "path": "research/bounded-evidence-contract-20261011/RECEIPT.json",
+      "bytes": 1555,
+      "sha256": "633bb79f486a335fc1678951b9d02cff26839c8605afedfad833924a7892e6b7"
+    },
+    {
+      "path": "research/bounded-evidence-contract-20261011/SOURCES.json",
+      "bytes": 3124,
+      "sha256": "648d23c36c67bac92bb35fac8afee5e11f08a01e647fcb57f6ea31d9eb714a48"
+    }
+  ],
+  "prior_evidence": [
+    {
+      "path": "research/retention-budget-trial-20261011/README.md",
+      "bytes": 8491,
+      "sha256": "27646a022124ff8bb0196cc9467200b6fcc0178433a09b370181e2ca3ba2b272"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/trial_results.json",
+      "bytes": 56168,
+      "sha256": "cf8f007cca02d31e512530e20d233941d47b5227db9b3551a2125a4e91cf3c5c"
+    },
+    {
+      "path": "research/evidence-loss-attribution-20261011/attribution_results.json",
+      "bytes": 4746,
+      "sha256": "2cfe03ed932a60cfa244334636c9eb4d71fe66dfd140086120774e47f68a64c6"
+    }
+  ]
+}

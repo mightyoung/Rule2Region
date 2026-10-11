@@ -1,0 +1,249 @@
+{
+  "event": "completed",
+  "slot": "grounding-dino-tiny__G420-P480",
+  "model_id": "grounding-dino-tiny",
+  "sample_id": "G420-P480",
+  "actual_pts": 480,
+  "time_base": "1/30",
+  "seconds": 16.0,
+  "attempt": 5,
+  "utc": "2026-10-10T14:46:31.545664+00:00",
+  "input_shape": [
+    1,
+    3,
+    744,
+    1333
+  ],
+  "status": "success",
+  "forward_calls": 1,
+  "cache_reuse": false,
+  "timing": {
+    "preprocess_seconds": 0.08632042299723253,
+    "forward_seconds": 7.996791916986695,
+    "postprocess_save_seconds": 0.3156847810023464,
+    "frame_total_seconds": 8.410930665995693
+  },
+  "peak_rss_MiB": 2470.203125,
+  "predictions": [
+    {
+      "prediction_id": "G420-P480:query000",
+      "class": "person",
+      "bbox_xyxy": [
+        1008.4472045898438,
+        431.82293701171875,
+        1086.1717529296875,
+        659.5639038085938
+      ],
+      "confidence": 0.7245045900344849
+    },
+    {
+      "prediction_id": "G420-P480:query001",
+      "class": "person",
+      "bbox_xyxy": [
+        883.1640014648438,
+        531.7560424804688,
+        975.3370361328125,
+        785.123291015625
+      ],
+      "confidence": 0.7172454595565796
+    },
+    {
+      "prediction_id": "G420-P480:query003",
+      "class": "person",
+      "bbox_xyxy": [
+        1289.107421875,
+        550.0084228515625,
+        1405.0755615234375,
+        791.263916015625
+      ],
+      "confidence": 0.5321570038795471
+    },
+    {
+      "prediction_id": "G420-P480:query002",
+      "class": "person",
+      "bbox_xyxy": [
+        1234.3092041015625,
+        509.787353515625,
+        1301.9044189453125,
+        726.1549072265625
+      ],
+      "confidence": 0.4467688202857971
+    },
+    {
+      "prediction_id": "G420-P480:query004",
+      "class": "person",
+      "bbox_xyxy": [
+        1310.8582763671875,
+        493.49658203125,
+        1364.7889404296875,
+        608.7767944335938
+      ],
+      "confidence": 0.37306201457977295
+    },
+    {
+      "prediction_id": "G420-P480:query029",
+      "class": "person",
+      "bbox_xyxy": [
+        1346.4139404296875,
+        505.23529052734375,
+        1406.7353515625,
+        726.23193359375
+      ],
+      "confidence": 0.2956761121749878
+    },
+    {
+      "prediction_id": "G420-P480:query273",
+      "class": "person",
+      "bbox_xyxy": [
+        1309.9423828125,
+        495.1331787109375,
+        1367.0556640625,
+        726.8961791992188
+      ],
+      "confidence": 0.2750076651573181
+    }
+  ],
+  "raw_above_threshold": [
+    {
+      "prediction_id": "G420-P480:query000",
+      "query_index": 0,
+      "raw_bbox_xyxy": [
+        1008.4472045898438,
+        431.82293701171875,
+        1086.1717529296875,
+        659.5639038085938
+      ],
+      "bbox_xyxy": [
+        1008.4472045898438,
+        431.82293701171875,
+        1086.1717529296875,
+        659.5639038085938
+      ],
+      "confidence": 0.7245045900344849,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query001",
+      "query_index": 1,
+      "raw_bbox_xyxy": [
+        883.1640014648438,
+        531.7560424804688,
+        975.3370361328125,
+        785.123291015625
+      ],
+      "bbox_xyxy": [
+        883.1640014648438,
+        531.7560424804688,
+        975.3370361328125,
+        785.123291015625
+      ],
+      "confidence": 0.7172454595565796,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query002",
+      "query_index": 2,
+      "raw_bbox_xyxy": [
+        1234.3092041015625,
+        509.787353515625,
+        1301.9044189453125,
+        726.1549072265625
+      ],
+      "bbox_xyxy": [
+        1234.3092041015625,
+        509.787353515625,
+        1301.9044189453125,
+        726.1549072265625
+      ],
+      "confidence": 0.4467688202857971,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query003",
+      "query_index": 3,
+      "raw_bbox_xyxy": [
+        1289.107421875,
+        550.0084228515625,
+        1405.0755615234375,
+        791.263916015625
+      ],
+      "bbox_xyxy": [
+        1289.107421875,
+        550.0084228515625,
+        1405.0755615234375,
+        791.263916015625
+      ],
+      "confidence": 0.5321570038795471,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query004",
+      "query_index": 4,
+      "raw_bbox_xyxy": [
+        1310.8582763671875,
+        493.49658203125,
+        1364.7889404296875,
+        608.7767944335938
+      ],
+      "bbox_xyxy": [
+        1310.8582763671875,
+        493.49658203125,
+        1364.7889404296875,
+        608.7767944335938
+      ],
+      "confidence": 0.37306201457977295,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query029",
+      "query_index": 29,
+      "raw_bbox_xyxy": [
+        1346.4139404296875,
+        505.23529052734375,
+        1406.7353515625,
+        726.23193359375
+      ],
+      "bbox_xyxy": [
+        1346.4139404296875,
+        505.23529052734375,
+        1406.7353515625,
+        726.23193359375
+      ],
+      "confidence": 0.2956761121749878,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    },
+    {
+      "prediction_id": "G420-P480:query273",
+      "query_index": 273,
+      "raw_bbox_xyxy": [
+        1309.9423828125,
+        495.1331787109375,
+        1367.0556640625,
+        726.8961791992188
+      ],
+      "bbox_xyxy": [
+        1309.9423828125,
+        495.1331787109375,
+        1367.0556640625,
+        726.8961791992188
+      ],
+      "confidence": 0.2750076651573181,
+      "raw_label": "person",
+      "canonical_class": "person",
+      "clipping_applied": false
+    }
+  ],
+  "nms_suppressed": []
+}

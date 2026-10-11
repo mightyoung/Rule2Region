@@ -1,0 +1,27 @@
+{
+  "baseline": "5d9554479e2e66c966d0272f7a04a7a1d0c291e0",
+  "research_question": "accuracy and efficiency of unified multiple-criterion decision under already-aligned time and visible required evidence",
+  "scope_excludes": ["solving temporal misalignment", "solving visually unclear or unavailable required evidence"],
+  "candidate_screening_roi_or_detector_box_is_event_GT": false,
+  "existing_A_B_status": "boundary/exclusion records for unresolved physical-side changes; preserve all prior drafts",
+  "primary_target": "previously declared Portal1-source near-camera framing; uncalibrated",
+  "other_portal_admission": "must be separately named and have independently observable physical sides; never silently replace primary portal",
+  "source_scope": "already downloaded original ChokePoint P1E_S1 archive, existing C1 source, no new media download or inference",
+  "temporal_order_requirements": ["single-camera original member order", "no missing original indices inside a proposed event span", "no cross-camera alignment task or invented seconds"],
+  "time_alignment_assumption_is_verified_native_PTS": false,
+  "observable_event_requirements": [
+    "fixed identifiable physical doorway and visible side reference",
+    "body or required ground-contact evidence sufficiently visible before and after",
+    "physical inside/outside transition supported rather than projected bbox overlap or visibility disappearance",
+    "association resolvable without face matching or unresolved multi-person ambiguity in the decisive interval",
+    "independent human review still required before final event GT"
+  ],
+  "admission_states": ["visible candidate pending independent human labels", "excluded for missing required observability", "not assessed"],
+  "main_experiment_inclusion_requires": "observable qualified candidate plus independent labels; no AI unknown relabelled as positive",
+  "bounded_screen": "six new representative original C1 runs across full source axis; five indices per run; no full-run dense extraction or broad inference",
+  "first_run_rear_door_check": "may inspect already restored originals as separately named control, without redefining A/B near-target labels",
+  "exhaustiveness_claim": "bounded original-source screening only, not exhaustive event GT annotation of 2292 frames",
+  "training_or_model_forward_calls": 0,
+  "Library_retry": false,
+  "no_sample_found_action": "stop main-sample admission and report concrete missing evidence plus primary-source alternative leads; do not expand a framework around unknown"
+}

@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4622,
+      "sha256": "846b0e8c763054a23d26f87fc94fad12497bc2031f7e6b166214675761e3966a"
+    },
+    {
+      "path": "SOURCE_EVIDENCE.json",
+      "bytes": 2482,
+      "sha256": "ace8065e0b343c4a2e6241ff2f53e31eb9d18d499362e1694b63bdb6289a4bfb"
+    }
+  ],
+  "scope": "Only public methods, aggregate receipt and source-scope evidence; no private media or person-level labels."
+}

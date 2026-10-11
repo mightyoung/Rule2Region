@@ -1,0 +1,17 @@
+{
+  "provenance": "AI original-pixel visual correspondence only",
+  "selected_new_candidates": {
+    "375": "query000",
+    "405": "query001",
+    "435": "query002",
+    "465": "query002",
+    "480": "query002"
+  },
+  "automatic_links_created": 0,
+  "new_earliest_sampled_center_hit_seconds": 12.5,
+  "previous_sampled_earliest_seconds": 13,
+  "true_first_trigger_seconds": null,
+  "all_five_raw_overlay_images_actually_viewed": true,
+  "all_five_target_candidate_centers_in_right_portal": true,
+  "image_bytes": 777208
+}

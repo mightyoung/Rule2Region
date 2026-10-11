@@ -1,0 +1,75 @@
+{
+  "date_utc": "2026-10-11",
+  "scope": "original papers only; paraphrases/inferences separated in CONTRACT.md; PDFs not republished",
+  "sources": [
+    {
+      "id": "dataflow",
+      "title": "The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing",
+      "authors": "Tyler Akidau et al.",
+      "year": 2015,
+      "url": "https://web.stanford.edu/class/cs245/readings/dataflow-model.pdf",
+      "read_sections": [
+        "1.3 Time Domains",
+        "2.2 Windowing",
+        "2.3 Triggers"
+      ],
+      "access": "original PDF via web read",
+      "supported_source_facts": [
+        "event and processing time are distinct",
+        "watermarks may be heuristic progress estimates"
+      ],
+      "Rule2Region_inference_not_paper_theorem": [
+        "a watermark cannot recover discarded evidence",
+        "a source cursor is not a completeness certificate"
+      ]
+    },
+    {
+      "id": "abqs",
+      "title": "A Novel Framework for Online Amnesic Trajectory Compression in Resource-constrained Environments",
+      "authors": "Jiajun Liu et al.",
+      "version": "arXiv:1605.02337v1",
+      "year": 2016,
+      "url": "https://arxiv.org/pdf/1605.02337",
+      "read_sections": [
+        "3.3 definitions 3.3 and 3.6",
+        "5 Progressive BQS and ABQS"
+      ],
+      "access": "original PDF via web read",
+      "supported_source_facts": [
+        "point-to-segment deviation bound",
+        "progressive compression includes prior uncertainty",
+        "storage management trades aged precision for storage"
+      ],
+      "Rule2Region_inference_not_paper_theorem": [
+        "geometric deviation does not alone certify event crossing, continuous dwell or event order",
+        "no ABQS guarantee is claimed for the proposed fragment"
+      ]
+    },
+    {
+      "id": "cacheflow",
+      "title": "CacheFlow: Dependency-Aware Rule-Caching for Software-Defined Networks",
+      "authors": "Naga Katta, Omid Alipourfard, Jennifer Rexford, David Walker",
+      "year": 2016,
+      "doi": "10.1145/2890955.2890969",
+      "url": "https://www.cs.princeton.edu/~dpw/papers/cacheflow16.pdf",
+      "read_sections": [
+        "2 rule dependencies",
+        "3.2 dependent-set",
+        "3.3 cover-set splicing",
+        "4.1 software cache-miss processing"
+      ],
+      "access": "web follow-up returned HTTP 403; same original URL downloaded successfully and read with existing pdftotext; no workaround credentials or install",
+      "original_pdf_bytes": 1354177,
+      "original_pdf_sha256": "e4b954550eaf2fb72b5c147aaebb3cb14a0cccddd39be26065e091d5b930bdbf",
+      "supported_source_facts": [
+        "dependency-aware rule placement",
+        "splicing forwards relevant traffic to software",
+        "each software switch stores the entire policy"
+      ],
+      "Rule2Region_inference_not_paper_theorem": [
+        "without complete online evidence slow path, dependency awareness does not transfer policy-equivalence guarantees",
+        "missing dependencies force uncertainty or invalidation"
+      ]
+    }
+  ]
+}

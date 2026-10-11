@@ -1,0 +1,38 @@
+{
+  "source_commit": "87b4c11fbebf820e5368e0d9ac93b341db523959",
+  "date_utc": "2026-10-11",
+  "scope": "evidence-loss attribution on existing public no-request replay",
+  "actual_command": "PYTHONDONTWRITEBYTECODE=1 python3 research/evidence-loss-attribution-20261011/attribute_loss.py",
+  "frozen_no_request_replay_exact_match": true,
+  "diagnostic_result_repeat_exact": true,
+  "prior_manifest_entries_verified": 69,
+  "original_code_configuration_results_changed": false,
+  "causal_findings": {
+    "accepted_relation_removed_by_observation_capacity": 1,
+    "accepted_relation_direct_capacity_deletions": 0,
+    "accepted_relation_TTL_deletions": 0,
+    "direct_capacity_candidate_deletions": 13,
+    "motion_qualification_failure_before_deletion": "nonadjacent_frames"
+  },
+  "prior_repository_failures": {
+    "full_suite_rerun_this_step": false,
+    "failed": 52,
+    "collection_errors": 2,
+    "receipt": "research/cache-boundary-mutations-20261011/VALIDATION.json",
+    "assertions_gates_or_failures_modified": false
+  },
+  "raw_local_log_sha256": {
+    "r2r-attribution-final-generate.log": "24514e0c7e30b6b909308689ce5920273e80fd907bab55324ae0149be60aca12",
+    "r2r-attribution-generate.log": "24514e0c7e30b6b909308689ce5920273e80fd907bab55324ae0149be60aca12",
+    "r2r-attribution-replay.log": "24514e0c7e30b6b909308689ce5920273e80fd907bab55324ae0149be60aca12"
+  },
+  "limits": {
+    "model_calls_new_installs_paid_calls_media_downloads": 0,
+    "private_material_publications": 0,
+    "new_GT_or_identity_links": 0,
+    "counterfactual_configuration_runs": 0,
+    "accuracy": null,
+    "recognition_or_innovation_claim": false,
+    "Mac_save_claimed": false
+  }
+}

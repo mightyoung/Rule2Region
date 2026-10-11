@@ -1,0 +1,115 @@
+{
+  "geometry_schema_checks_passed": 8,
+  "physical_boundary_verified": false,
+  "pairs": [
+    {
+      "from_index": 98,
+      "to_index": 99,
+      "missing_source_members_count": 0,
+      "source_adjacent": true,
+      "continuous_motion_eligible": false,
+      "reasons": [
+        "native_timestamps_unavailable",
+        "no_verified_identity_association"
+      ],
+      "event_decision": "unknown"
+    },
+    {
+      "from_index": 99,
+      "to_index": 112,
+      "missing_source_members_count": 12,
+      "source_adjacent": false,
+      "continuous_motion_eligible": false,
+      "reasons": [
+        "source_axis_gap",
+        "source_endpoints_not_adjacent",
+        "native_timestamps_unavailable",
+        "no_verified_identity_association"
+      ],
+      "event_decision": "unknown"
+    },
+    {
+      "from_index": 112,
+      "to_index": 122,
+      "missing_source_members_count": 0,
+      "source_adjacent": false,
+      "continuous_motion_eligible": false,
+      "reasons": [
+        "source_endpoints_not_adjacent",
+        "native_timestamps_unavailable",
+        "no_verified_identity_association"
+      ],
+      "event_decision": "unknown"
+    },
+    {
+      "from_index": 142,
+      "to_index": 262,
+      "missing_source_members_count": 0,
+      "source_adjacent": false,
+      "continuous_motion_eligible": false,
+      "reasons": [
+        "source_endpoints_not_adjacent",
+        "native_timestamps_unavailable",
+        "no_verified_identity_association"
+      ],
+      "event_decision": "unknown"
+    },
+    {
+      "from_index": 262,
+      "to_index": 312,
+      "missing_source_members_count": 0,
+      "source_adjacent": false,
+      "continuous_motion_eligible": false,
+      "reasons": [
+        "source_endpoints_not_adjacent",
+        "native_timestamps_unavailable",
+        "no_verified_identity_association"
+      ],
+      "event_decision": "unknown"
+    }
+  ],
+  "continuous_motion_eligible_count": 0,
+  "identity_verified": false,
+  "native_timestamps_recovered": false,
+  "recognition_metrics": null,
+  "new_model_calls": 0,
+  "baseline": "5b79179660422c6976768f3e190482e90c73554d",
+  "source_record": "Zenodo 815657 / P1E_S1_C1",
+  "original_image_count": 4,
+  "original_dimensions": [
+    800,
+    600
+  ],
+  "originals_unmodified": true,
+  "private_figure_saved_to_library": true,
+  "public_media_count": 0,
+  "mac_delivery_verified": false,
+  "frozen_checks": {
+    "tests_passed": 64,
+    "public_replay": "passed",
+    "observations": 62,
+    "relations": 531,
+    "geometry_records": 62,
+    "motion_records": 1,
+    "four_arm_events": "all_unknown"
+  },
+  "old_failure_status": "unchanged: 52 historical failures and 2 collection errors; full suite not rerun in this task",
+  "private_input_sha256": {
+    "proposals": "b92d2a20be2b134946b6ada813c27469745d1cbf75e1c529d51f9c9b6caefa59",
+    "original_member_axis": "2e1e125e8ee3bb09f1e7758117ebff60dbd1dab5dc64fad820c3b64a41211613"
+  },
+  "trajectory": "same research; actual-source projected-geometry discussion and gap admission, not recognition gain",
+  "direction": "unknown; no verified endpoint association",
+  "publication_gate": "second batch and HSV unchanged/pending",
+  "threshold_required_for_entire_research": false,
+  "missing_threshold_effect": "unknown only for predicates depending on that threshold",
+  "evidence_channels": {
+    "projected_doorway": "AI illustrated candidates, schema valid; semantic calibration unconfirmed",
+    "trajectory_direction": "unknown; no qualified association; preserve gaps",
+    "body_pose_and_feet": "visible image material only; no estimator or independent foot/pose truth",
+    "scene_history": "source background candidates and sparse later samples; no independent negative GT"
+  },
+  "ds_status": "possible ambiguity-reassessment ablation under separate coordinator research; not implemented",
+  "shared_rgb_features_independent": false,
+  "cross_research_shared_truth": false
+}

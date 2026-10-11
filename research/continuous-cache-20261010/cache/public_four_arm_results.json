@@ -1,0 +1,3342 @@
+[
+  {
+    "observation_id": "G420-P300:query000",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query002",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query001",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query003",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query005",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query007",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query008",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query006",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query004",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query009",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query014",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query010",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query012",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P300:query040",
+    "pts": 300,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query000",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query002",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query001",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query004",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query003",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query006",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query007",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query008",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query005",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query012",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query010",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P330:query147",
+    "pts": 330,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query001",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query000",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query002",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query003",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query004",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query005",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query006",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query036",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query008",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P360:query040",
+    "pts": 360,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query000",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query002",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query001",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query003",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": true,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": true,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query006",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query005",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query004",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query036",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P390:query041",
+    "pts": 390,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query000",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query003",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query001",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query002",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query004",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query006",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query007",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query005",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P420:query009",
+    "pts": 420,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query001",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query000",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query002",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query003",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query004",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query005",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query008",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  },
+  {
+    "observation_id": "G420-P450:query010",
+    "pts": 450,
+    "arms": {
+      "G": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history"
+        ]
+      },
+      "G_DIR": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      },
+      "G_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "three_associated_distance_observations"
+        ]
+      },
+      "G_DIR_DIST": {
+        "event_status": "unknown",
+        "direction_segment_available": false,
+        "direction_continuity_available": false,
+        "three_point_distance_available": false,
+        "missing_inputs": [
+          "associated_historical_distance_sequence",
+          "automatic_side_evidence",
+          "qualified_accepted_history",
+          "qualified_nonzero_direction_segment",
+          "three_associated_distance_observations",
+          "two_consecutive_nonzero_direction_segments_same_anchor"
+        ]
+      }
+    }
+  }
+]

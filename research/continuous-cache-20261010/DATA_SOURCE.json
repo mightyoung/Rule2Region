@@ -1,0 +1,13 @@
+{
+  "dataset": "Multiview Extended Video with Activities (MEVA)",
+  "attribution": "Kitware Inc. and Intelligence Advanced Research Projects Activity (IARPA)",
+  "license": "CC BY 4.0",
+  "license_url": "https://mevadata.org/resources/MEVA-data-license.txt",
+  "public_source_urls": [
+    "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-07/16/2018-03-07.16-50-00.16-55-00.school.G419.r13.avi",
+    "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-07/16/2018-03-07.16-50-01.16-55-01.school.G420.r13.avi",
+    "https://mevadata.org/resources/MEVA-data-license.txt"
+  ],
+  "changes": "Derived detector boxes, geometry and machine replay results. No source images/videos, original-file hashes, internal artifact names or provenance mapping distributed.",
+  "exposure": "posthoc known-positive development; no held-out generalization claim"
+}

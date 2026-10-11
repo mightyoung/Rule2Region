@@ -1,0 +1,193 @@
+{
+  "scope": "consistency_of_already_public_inventory_and_NMS_records",
+  "summary": {
+    "frames": 9,
+    "observations": 83,
+    "old_fixture_matches": 36,
+    "five_detector_record_matches": 47,
+    "raw_threshold_candidates": 50,
+    "nms_suppressed": 3,
+    "nms_kept": 47,
+    "unmatched_observations": 0,
+    "event_unknown": 83,
+    "confirmed_real_negative_events": 0,
+    "accuracy": null,
+    "new_model_calls": 0,
+    "composite_queries": 0
+  },
+  "frames": [
+    {
+      "sample_id": "G420-P360",
+      "pts": 360,
+      "time_base": "1/30",
+      "observations": 10,
+      "old_matches": 10,
+      "new_record_matches": 0,
+      "old_confidence_verifiable": false,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P375",
+      "pts": 375,
+      "time_base": "1/30",
+      "observations": 14,
+      "old_matches": 0,
+      "new_record_matches": 14,
+      "old_confidence_verifiable": null,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P390",
+      "pts": 390,
+      "time_base": "1/30",
+      "observations": 9,
+      "old_matches": 9,
+      "new_record_matches": 0,
+      "old_confidence_verifiable": false,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P405",
+      "pts": 405,
+      "time_base": "1/30",
+      "observations": 9,
+      "old_matches": 0,
+      "new_record_matches": 9,
+      "old_confidence_verifiable": null,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P420",
+      "pts": 420,
+      "time_base": "1/30",
+      "observations": 9,
+      "old_matches": 9,
+      "new_record_matches": 0,
+      "old_confidence_verifiable": false,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P435",
+      "pts": 435,
+      "time_base": "1/30",
+      "observations": 9,
+      "old_matches": 0,
+      "new_record_matches": 9,
+      "old_confidence_verifiable": null,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P450",
+      "pts": 450,
+      "time_base": "1/30",
+      "observations": 8,
+      "old_matches": 8,
+      "new_record_matches": 0,
+      "old_confidence_verifiable": false,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P465",
+      "pts": 465,
+      "time_base": "1/30",
+      "observations": 8,
+      "old_matches": 0,
+      "new_record_matches": 8,
+      "old_confidence_verifiable": null,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    },
+    {
+      "sample_id": "G420-P480",
+      "pts": 480,
+      "time_base": "1/30",
+      "observations": 7,
+      "old_matches": 0,
+      "new_record_matches": 7,
+      "old_confidence_verifiable": null,
+      "trajectory_status": "unknown",
+      "direction_continuity_status": "unknown",
+      "physical_side": "unknown",
+      "event_status": "unknown"
+    }
+  ],
+  "nms": [
+    {
+      "sample_id": "G420-P375",
+      "threshold_candidates": 16,
+      "kept": 14,
+      "suppressed": [
+        {
+          "prediction_id": "G420-P375:query035",
+          "suppressed_by": "G420-P375:query011",
+          "iou": 0.7441310407674824
+        },
+        {
+          "prediction_id": "G420-P375:query125",
+          "suppressed_by": "G420-P375:query004",
+          "iou": 0.7768862171379661
+        }
+      ]
+    },
+    {
+      "sample_id": "G420-P405",
+      "threshold_candidates": 9,
+      "kept": 9,
+      "suppressed": []
+    },
+    {
+      "sample_id": "G420-P435",
+      "threshold_candidates": 10,
+      "kept": 9,
+      "suppressed": [
+        {
+          "prediction_id": "G420-P435:query029",
+          "suppressed_by": "G420-P435:query001",
+          "iou": 0.7032622612851579
+        }
+      ]
+    },
+    {
+      "sample_id": "G420-P465",
+      "threshold_candidates": 8,
+      "kept": 8,
+      "suppressed": []
+    },
+    {
+      "sample_id": "G420-P480",
+      "threshold_candidates": 7,
+      "kept": 7,
+      "suppressed": []
+    }
+  ],
+  "limits": [
+    "No original pixels or model forwards verified",
+    "Old fixture omits confidence; 36 old confidence values cannot be cross-checked",
+    "Raw text-token scores absent; text-threshold filtering cannot be replayed",
+    "Synthetic corruptions are not independent real negative events",
+    "No association, physical side, human GT or recognition improvement inferred"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "review_batch": "five-image-chat-review-v1",
+  "reviewed_images": 5,
+  "confirmed_candidate_entity_classes": 11,
+  "class_breakdown": {
+    "D06-S05": {
+      "live_person": 2,
+      "nonlive_photo_or_printed_image": 7
+    },
+    "D06-S09": {
+      "live_person": 2,
+      "orange_nonlive_this_frame_confirmed": 0,
+      "orange_AI_cross_frame_inferred": 7
+    }
+  },
+  "confirmed_candidate_inclusion_decisions": 4,
+  "inclusion_breakdown": {
+    "D13-S120": {
+      "A": true,
+      "B": false
+    },
+    "D13-S06": {
+      "A": true,
+      "B": false
+    }
+  },
+  "uncertain_assessments": {
+    "D13-S121-W02": "likely_person_with_cross_frame_context; not_single_frame_GT"
+  },
+  "complete_frame_GT_count": 0,
+  "precise_bbox_confirmed_count": 0,
+  "M0_geometry_confirmed": false,
+  "new_inference_calls": 0,
+  "model_outputs_or_ROI_changed": false,
+  "all_GT_metrics_stay_null": true,
+  "source_time_order_correction": {
+    "S120_minus_S06": 2504,
+    "S121_minus_S120": 259,
+    "S121_minus_S06": 2763
+  },
+  "schema_version": "rule2region-partial-human-review-summary-v1",
+  "status": "PARTIAL_LABELS_ONLY_NO_METRIC_UPDATE",
+  "base_docs_ref": "ffac141",
+  "receipt_artifacts": [
+    {
+      "artifact": "D06-S05_candidate_classes_v1.json",
+      "sha256": "1f920ad54341d5ccaf9700ac63eabacbb6fee0cd9eef99154b54e3d0734df1c4",
+      "availability": "private_metadata_only"
+    },
+    {
+      "artifact": "D06-S09_green_classes_v1.json",
+      "sha256": "4d604d101b9afb4d4e23836cbc5a3a9923b597cfcde80007b8e0ca5eedb3b132",
+      "availability": "private_metadata_only"
+    },
+    {
+      "artifact": "D13-S06_inclusion_v1.json",
+      "sha256": "bffde460c7a19e986805c20d824bf89a2b18822966f7386f2a1499b87c789143",
+      "availability": "private_metadata_only"
+    },
+    {
+      "artifact": "D13-S120_inclusion_v1.json",
+      "sha256": "0955d40e38b943b6e090b891af17364732ac003131f46f39366fe6c1a5f7919a",
+      "availability": "private_metadata_only"
+    },
+    {
+      "artifact": "D13-S121_uncertain_assessment_v1.json",
+      "sha256": "f2111bc1019a869cfa22bb41e9b3d088b3c0712d7bc894595a685094ae353cc6",
+      "availability": "private_metadata_only"
+    },
+    {
+      "artifact": "source_order_audit_v1.json",
+      "sha256": "34fe0b2cc30a65dde95e1bab48d3ec69bd420668bddc8e97ebaad2e706a9d14d",
+      "availability": "private_metadata_only"
+    }
+  ],
+  "source_chronology": [
+    {
+      "sample_id": "D13-S06",
+      "original_filename": "inspacecam163_2016_04_13_13_10_28.jpg",
+      "source_clock_timestamp": "2016-04-13_13_10_28",
+      "timezone": "unknown",
+      "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+      "tar_header_offset": 1383068160,
+      "tar_data_offset": 1383068672,
+      "sha256": "99cbd66e58c5a6d25fc5d0a8a6b23ce93c56cc1b18f6da0046789593bf87e5c3",
+      "source_copy_and_frozen_copy_sha_match": true,
+      "media_type": "original_JPEG_from_TAR",
+      "PTS": null,
+      "PTS_reason": "source is JPEG archive; no video PTS supplied",
+      "source_receipt": "public_acquisition_receipt.json"
+    },
+    {
+      "sample_id": "D13-S120",
+      "original_filename": "inspacecam163_2016_04_13_13_52_12.jpg",
+      "source_clock_timestamp": "2016-04-13_13_52_12",
+      "timezone": "unknown",
+      "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+      "tar_header_offset": 1598816768,
+      "tar_data_offset": 1598817280,
+      "sha256": "219f771156d662d26489ccfce27b1c5bae058a96e9ec65cce89f760cf7f2d918",
+      "source_copy_and_frozen_copy_sha_match": true,
+      "media_type": "original_JPEG_from_TAR",
+      "PTS": null,
+      "PTS_reason": "source is JPEG archive; no video PTS supplied",
+      "source_receipt": "targeted_acquisition_receipt.json"
+    },
+    {
+      "sample_id": "D13-S121",
+      "original_filename": "inspacecam163_2016_04_13_13_56_31.jpg",
+      "source_clock_timestamp": "2016-04-13_13_56_31",
+      "timezone": "unknown",
+      "source_archive_url": "https://homepages.inf.ed.ac.uk/rbf/OFFICEDATA/TAR/day_13.tar",
+      "tar_header_offset": 1621120000,
+      "tar_data_offset": 1621120512,
+      "sha256": "ff3c74e06940fc554d69797113907aef30323611f6bcfc2572818770fb07b0e6",
+      "source_copy_and_frozen_copy_sha_match": true,
+      "media_type": "original_JPEG_from_TAR",
+      "PTS": null,
+      "PTS_reason": "source is JPEG archive; no video PTS supplied",
+      "source_receipt": "targeted_acquisition_receipt.json"
+    }
+  ],
+  "display_order": [
+    "D13-S120",
+    "D13-S06",
+    "D13-S121"
+  ],
+  "chronological_order": [
+    "D13-S06",
+    "D13-S120",
+    "D13-S121"
+  ],
+  "public_boundary": "No images, original boxes, private chat text/identifiers, private paths or private download URLs."
+}

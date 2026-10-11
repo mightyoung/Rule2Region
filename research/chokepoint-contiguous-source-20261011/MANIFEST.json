@@ -1,0 +1,30 @@
+{
+  "baseline": "3068fe1e41903d7d73e9e5effd0bbad6ae9b426d",
+  "files": [
+    {
+      "name": "ANNOTATION_PLAN.md",
+      "bytes": 6101,
+      "sha256": "7017b70701a49d306b0e59e480d6d2fe7b547a1dbfdae1158d14a2d94ef0f2a6"
+    },
+    {
+      "name": "README.md",
+      "bytes": 5717,
+      "sha256": "0820b03062e5cc6f3f33c23f3dbfd74a337a4b8bd60420787423e812aacf8df4"
+    },
+    {
+      "name": "REASSESSMENT_GATE.json",
+      "bytes": 956,
+      "sha256": "5e6e6f48626c87b63f5e63cce89835ca3d1f997a524e13ee29fdc97d974c30f9"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 3123,
+      "sha256": "70629259f4f5b811f5f9ea970a132a920cd544d8a2c3e111ccf2d8ec215e9a67"
+    },
+    {
+      "name": "recover_original_span.py",
+      "bytes": 4306,
+      "sha256": "a7ed10b9ba6b7d7b83d46e5a327ffa1d46647416897e9919523d8d34a22f1e78"
+    }
+  ]
+}

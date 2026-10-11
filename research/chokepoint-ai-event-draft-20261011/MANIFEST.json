@@ -1,0 +1,20 @@
+{
+  "baseline": "7b5be31da91d4ccd012328c6e03c59fdc49c0f5d",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 3660,
+      "sha256": "16011f17929734ff8d9fd1e667627ea8033884f330a86b8525ac96544f0996ff"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 1466,
+      "sha256": "250503e2131a3ab1d0fa1a53eae01b4c284c5e4ec9deda50c669bcd8cb2d49d1"
+    },
+    {
+      "name": "check_private_drafts.py",
+      "bytes": 1962,
+      "sha256": "1dcd971b3bf8416cf3d588352076ec8be473557104588548f2dc586d97dffcce"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date_utc": "2026-10-11",
+  "verified_source_commit": "95242a7529f1d1581b760b370216191b711d12d2",
+  "environment": "isolated Python 3.12.14 venv; no system packages upgraded",
+  "dependency_installation": [
+    {
+      "command": "python -m pip install . pytest",
+      "exit_code": 0,
+      "source": "PyPI; base dependencies constrained by pyproject.toml"
+    },
+    {
+      "command": "python -m pip install 'opencv-python-headless>=4.10,<5' scikit-learn",
+      "exit_code": 0,
+      "source": "PyPI; OpenCV range from declared demo extra, scikit-learn required by existing research_tools import, not listed in pyproject"
+    },
+    {
+      "command": "python -m pip install 'torch==2.8.0' --index-url https://download.pytorch.org/whl/cpu",
+      "exit_code": 0,
+      "source": "Official CPU wheel index; version matches existing public detection/configuration.json; runtime only, no weights"
+    }
+  ],
+  "pip_check": {
+    "exit_code": 0,
+    "result": "No broken requirements found"
+  },
+  "attempts": [
+    {
+      "stage": "base_install_root_collection",
+      "exit_code": 2,
+      "collection_errors": 4,
+      "executed_tests": 0,
+      "missing_modules": [
+        "cv2",
+        "sklearn",
+        "research_tools.remote (two files)"
+      ]
+    },
+    {
+      "stage": "supplemented_continue_collection",
+      "exit_code": 1,
+      "passed": 407,
+      "failed": 54,
+      "collection_errors": 2,
+      "torch_missing_failures": 2
+    },
+    {
+      "stage": "final_with_cpu_torch",
+      "exit_code": 1,
+      "passed": 409,
+      "failed": 52,
+      "collection_errors": 2,
+      "skipped": 0,
+      "executed_test_cases": 461
+    }
+  ],
+  "outside_default_testpaths": {
+    "additional_pytest_passed": 22,
+    "old_cache_unittest_passed": 64,
+    "qualification_unittest_passed": 13,
+    "both_public_replays_passed": true
+  },
+  "overall": {
+    "executed_test_cases": 560,
+    "passed": 508,
+    "failed": 52,
+    "unexecuted_module_collection_errors": 2,
+    "unexecuted_functions_in_those_modules": 6,
+    "skipped": 0,
+    "whole_repository_passed": false
+  },
+  "failure_categories": {
+    "missing_historical_files": 51,
+    "missing_G0_scope_gate_rejection": 1,
+    "missing_unpublished_remote_code_collection": 2
+  },
+  "test_file_coverage": {
+    "test_files_present": 125,
+    "default_test_files": 117,
+    "successfully_collected_default_modules": 115,
+    "additional_tool_files": 2,
+    "cache_unittest_files": 6,
+    "all_test_files_attempted": true
+  },
+  "raw_local_output_sha256": {
+    "validation-install": "226960c8f0935e323c82b516c85eb3c1e671b59ca2357ecc79056ebac19f08d1",
+    "validation-extra-install": "f23c5923e4a91154bed1e5c5dbf55fd471ab8576c82f4de850ca778eeaca80f1",
+    "validation-torch-install": "d98a88e54d97c1f668266272fe266edb93fa5836992c7428a06928defc6941c6",
+    "pytest-first": "36b43a46124b57a1fae43a3736b5670145f09b7abbc312c706e4953bf3ffb1e7",
+    "pytest-complete": "b42ca6b87e964f0e121a9fd58445436312619e1e7fbd96daf3dc7e2692dd7348",
+    "pytest-final": "26a9b73f4f78ef7b857c15fc91d630ad68acab461200fa10fbf98122b47052fa",
+    "additional-tests": "e2289c230135b682d66e48107f8caab30f5b37878e8daf2e9fb92df9aebb1375",
+    "old-cache-final": "c376219eeeb83d79ef2a7dffc75a11e3bf225a8aefa9003325f36aaf32cb6a8f",
+    "qualification-final": "da8888eea7c04b2e0a1f875acc431b36d14d8fd691e68ff70a65786ab99c14ee"
+  },
+  "new_model_calls": 0,
+  "weights_downloaded": false,
+  "paid_API_calls": 0,
+  "private_material_uploaded": false,
+  "assertions_or_gates_modified": false,
+  "reproduction_note": "HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1 and PYTHONDONTWRITEBYTECODE=1 used; Qwen teacher test uses existing stub loader, torch tests use synthetic tensors; no transformers installation",
+  "scope_limit": "Software and public fixture validation; no historical model-inference or accuracy claim"
+}

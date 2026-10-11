@@ -1,0 +1,35 @@
+{
+  "baseline": "bb57669fb2c9df4e276e94091609b8af252baee1",
+  "files": [
+    {
+      "name": "FUTURE_EVIDENCE_REQUIREMENTS.json",
+      "bytes": 1321,
+      "sha256": "dc5019802d458ae9510286a12b7f1b3523cfeec28a78c479fff9e6260c13f3f0"
+    },
+    {
+      "name": "PROTOCOL.json",
+      "bytes": 1628,
+      "sha256": "8039d871e070e0935db1aeb4d6b0fb34637d6398bbc286cebd84deaceaea6287"
+    },
+    {
+      "name": "README.md",
+      "bytes": 7362,
+      "sha256": "44636c8568641b2507b0d7b924f18b19c0622221f12cf48f8e0a1d116b1a662b"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 4043,
+      "sha256": "07437a8084e6e448abd3ba39f0cfe2e00508681ecf494830d8a0c7f9a72d6ec9"
+    },
+    {
+      "name": "SEMANTIC_CLARIFICATION.json",
+      "bytes": 897,
+      "sha256": "e9c1a4fe050a33825d20a15850d74ba70ecd9f18bafe150e99f2e79839a55c83"
+    },
+    {
+      "name": "compare_private_geometry.py",
+      "bytes": 7096,
+      "sha256": "82b8ecb8f2ed8bfc7b607190eb4105c8e35b17b91d6f67af533c2e3de49cd173"
+    }
+  ]
+}

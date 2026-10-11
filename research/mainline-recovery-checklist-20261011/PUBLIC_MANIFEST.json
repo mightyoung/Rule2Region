@@ -1,0 +1,40 @@
+{
+  "scope": "public identity-only checklist, aggregate scan receipt and read-only offline validation tools; no media, precise boxes, private paths or recovered GT",
+  "files": [
+    {
+      "path": "ARTIFACT_RECOVERY_CHECKLIST.json",
+      "bytes": 18533,
+      "sha256": "2ea9a96c0316cd1546b02fe05c39dc69c54a2e02bc141213166671422878dbf3"
+    },
+    {
+      "path": "EXECUTION_RECEIPT.json",
+      "bytes": 1923,
+      "sha256": "384177794004fbaf44cce3ef04a788fb8e17fcb99cc8d781705e19ec35158077"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6366,
+      "sha256": "8412082c201c5a6b9ec1aee847890d2a8656690e5f53a888af24a5e31e1c042a"
+    },
+    {
+      "path": "SAMPLE_RECOVERY_CHECKLIST.json",
+      "bytes": 46395,
+      "sha256": "9064e21ec3171d6a6af8f2184de0593bf0eca068fd1d37f3ba6df7ac3f7969f9"
+    },
+    {
+      "path": "SAMPLE_SUMMARY.csv",
+      "bytes": 2554,
+      "sha256": "b7d5c36b76e8f8871223023af2d906181cd1e420171e1432ea40bd781b50551c"
+    },
+    {
+      "path": "check_available_bytes.py",
+      "bytes": 5939,
+      "sha256": "e30a5b70438a1417b258114cb9d24e9901b03f0ad1425bb15145deb9f13b93ea"
+    },
+    {
+      "path": "verify_checklist.py",
+      "bytes": 3478,
+      "sha256": "b7c3db0ebfd8aee729e73628ebfd7d4786b88ead793bcee960936a28b9b08779"
+    }
+  ]
+}

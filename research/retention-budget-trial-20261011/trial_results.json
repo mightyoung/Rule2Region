@@ -1,0 +1,1750 @@
+{
+  "scope": "fixed-budget exposed-development comparison; not recognition or human truth",
+  "baseline_commit": "5977bd4267ae0c75c480b90b63cbd6701fd671ab",
+  "protocol_commit": "e66ca5f",
+  "budget": {
+    "per_view_observations": 64,
+    "per_view_relations": 512,
+    "ttl_source_seconds": 3,
+    "protected_quota_per_view": 16
+  },
+  "public_replay": {
+    "baseline": {
+      "losses": [
+        {
+          "kind": "descriptor",
+          "reason": "endpoint_removed_descriptor",
+          "root_cause": "capacity",
+          "association_class": null,
+          "count": 6
+        },
+        {
+          "kind": "descriptor",
+          "reason": "endpoint_removed_descriptor",
+          "root_cause": "source_ttl",
+          "association_class": null,
+          "count": 18
+        },
+        {
+          "kind": "observation",
+          "reason": "evicted_observation",
+          "root_cause": "capacity",
+          "association_class": null,
+          "count": 6
+        },
+        {
+          "kind": "observation",
+          "reason": "expired_observation",
+          "root_cause": "source_ttl",
+          "association_class": null,
+          "count": 18
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "capacity",
+          "association_class": "accepted_hypothesis",
+          "count": 1
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "capacity",
+          "association_class": "unscored_candidate",
+          "count": 74
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "source_ttl",
+          "association_class": "unscored_candidate",
+          "count": 179
+        },
+        {
+          "kind": "relation",
+          "reason": "evicted_relation",
+          "root_cause": "capacity",
+          "association_class": "unscored_candidate",
+          "count": 13
+        }
+      ],
+      "ordinary_capacity_losses": 0,
+      "other_goal_capacity_losses": 5,
+      "ordinary_zero_source_time_dwell_capacity_losses": 0,
+      "post_operation_highwater": {
+        "observations": 64,
+        "relations": 512,
+        "descriptors": 64
+      },
+      "event_hook_transient_highwater": {
+        "observations": 65,
+        "relations": 513,
+        "descriptors": 65
+      },
+      "computed_protection_highwater_global_quota": 0,
+      "computed_protection_highwater_per_view_quota": 0,
+      "live_end": {
+        "observations": 59,
+        "relations": 435,
+        "descriptors": 59
+      },
+      "retained_accepted_relations": 0,
+      "expired_observation_retained": 0,
+      "frozen_baseline_exact_match": true,
+      "accepted_deletion": {
+        "kind": "relation",
+        "reason": "endpoint_removed_relation",
+        "root_cause": "capacity",
+        "association_class": "accepted_hypothesis",
+        "source_seconds": "15"
+      },
+      "accepted_capacity_loss_before_TTL_expiry": true,
+      "accepted_last_loss_age_from_previous_source": "3",
+      "strict_remaining_TTL_at_capacity_loss_seconds": "0",
+      "accepted_motion_qualification_unchanged": true,
+      "event_unknown": 83,
+      "motion_computed": 0,
+      "queries_on_bounded_state_copies": {
+        "at_15": {
+          "event_status": "unknown",
+          "identity_verified": false,
+          "qualified_history": 0,
+          "motion_descriptors": 0,
+          "accepted_endpoint_hypotheses": 0,
+          "evidence_sources": [],
+          "model_calls": 0,
+          "query_is_diagnostic_state_copy": true
+        },
+        "one_tick_after_15": {
+          "event_status": "unknown",
+          "identity_verified": false,
+          "qualified_history": 0,
+          "motion_descriptors": 0,
+          "accepted_endpoint_hypotheses": 0,
+          "evidence_sources": [],
+          "model_calls": 0,
+          "query_is_diagnostic_state_copy": true
+        }
+      }
+    },
+    "candidate": {
+      "losses": [
+        {
+          "kind": "descriptor",
+          "reason": "endpoint_removed_descriptor",
+          "root_cause": "capacity",
+          "association_class": null,
+          "count": 6
+        },
+        {
+          "kind": "descriptor",
+          "reason": "endpoint_removed_descriptor",
+          "root_cause": "source_ttl",
+          "association_class": null,
+          "count": 18
+        },
+        {
+          "kind": "observation",
+          "reason": "evicted_observation",
+          "root_cause": "capacity",
+          "association_class": null,
+          "count": 6
+        },
+        {
+          "kind": "observation",
+          "reason": "expired_observation",
+          "root_cause": "source_ttl",
+          "association_class": null,
+          "count": 18
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "capacity",
+          "association_class": "unscored_candidate",
+          "count": 74
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "source_ttl",
+          "association_class": "accepted_hypothesis",
+          "count": 1
+        },
+        {
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "source_ttl",
+          "association_class": "unscored_candidate",
+          "count": 178
+        },
+        {
+          "kind": "relation",
+          "reason": "evicted_relation",
+          "root_cause": "capacity",
+          "association_class": "unscored_candidate",
+          "count": 14
+        }
+      ],
+      "ordinary_capacity_losses": 0,
+      "other_goal_capacity_losses": 6,
+      "ordinary_zero_source_time_dwell_capacity_losses": 0,
+      "post_operation_highwater": {
+        "observations": 64,
+        "relations": 512,
+        "descriptors": 64
+      },
+      "event_hook_transient_highwater": {
+        "observations": 65,
+        "relations": 513,
+        "descriptors": 65
+      },
+      "computed_protection_highwater_global_quota": 2,
+      "computed_protection_highwater_per_view_quota": 2,
+      "live_end": {
+        "observations": 59,
+        "relations": 435,
+        "descriptors": 59
+      },
+      "retained_accepted_relations": 0,
+      "expired_observation_retained": 0,
+      "frozen_baseline_exact_match": true,
+      "accepted_deletion": {
+        "kind": "relation",
+        "reason": "endpoint_removed_relation",
+        "root_cause": "source_ttl",
+        "association_class": "accepted_hypothesis",
+        "source_seconds": "31/2"
+      },
+      "accepted_capacity_loss_before_TTL_expiry": false,
+      "accepted_last_loss_age_from_previous_source": "7/2",
+      "strict_remaining_TTL_at_capacity_loss_seconds": null,
+      "accepted_motion_qualification_unchanged": true,
+      "event_unknown": 83,
+      "motion_computed": 0,
+      "queries_on_bounded_state_copies": {
+        "at_15": {
+          "event_status": "unknown",
+          "identity_verified": false,
+          "qualified_history": 0,
+          "motion_descriptors": 0,
+          "accepted_endpoint_hypotheses": 1,
+          "evidence_sources": [
+            {
+              "relation_sha256": "30e93a8dd54bba5a4882b61e8bcb8a9e2309c94d9a6e992933d6cdc41acae0ee",
+              "endpoints": [
+                {
+                  "pts": 360,
+                  "time_base": "1/30",
+                  "source_sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920"
+                },
+                {
+                  "pts": 390,
+                  "time_base": "1/30",
+                  "source_sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920"
+                }
+              ],
+              "motion_status": "unknown_motion",
+              "missing_inputs": [
+                "nonadjacent_frames"
+              ]
+            }
+          ],
+          "model_calls": 0,
+          "query_is_diagnostic_state_copy": true
+        },
+        "one_tick_after_15": {
+          "event_status": "unknown",
+          "identity_verified": false,
+          "qualified_history": 0,
+          "motion_descriptors": 0,
+          "accepted_endpoint_hypotheses": 0,
+          "evidence_sources": [],
+          "model_calls": 0,
+          "query_is_diagnostic_state_copy": true
+        }
+      }
+    },
+    "capacity_victim_set_difference": {
+      "candidate_only_victims": 1,
+      "baseline_only_victims": 1
+    },
+    "accepted_deletion_event_delay_sampled_seconds": "1/2"
+  },
+  "public_positive_continuous_valid_query_interval_gain_demonstrated": false,
+  "public_boundary_checkpoint_only": true,
+  "synthetic_scenarios": {
+    "crowding": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 1,
+          "descriptors": 64
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 1,
+          "descriptors": 66
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 64,
+          "relations": 0,
+          "descriptors": 64
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          }
+        ],
+        "ordinary_capacity_losses": 18,
+        "other_goal_capacity_losses": 18,
+        "ordinary_zero_source_time_dwell_capacity_losses": 18,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 1,
+          "descriptors": 65
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 1,
+          "descriptors": 66
+        },
+        "computed_protection_highwater_global_quota": 2,
+        "computed_protection_highwater_per_view_quota": 2,
+        "live_end": {
+          "observations": 64,
+          "relations": 1,
+          "descriptors": 65
+        },
+        "retained_accepted_relations": 1,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            }
+          ],
+          "ordinary_capacity_losses": 18,
+          "other_goal_capacity_losses": 18,
+          "ordinary_zero_source_time_dwell_capacity_losses": 18,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 2,
+          "computed_protection_highwater_per_view_quota": 2,
+          "live_end": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "retained_accepted_relations": 1,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      }
+    },
+    "quota_multi_target": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 16
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 48
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 48
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 16
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 16,
+          "descriptors": 64
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 16,
+          "descriptors": 81
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 64,
+          "relations": 0,
+          "descriptors": 64
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 16
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 48
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 48
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 16
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 16,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 16,
+            "descriptors": 81
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 8
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 48
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 48
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 8
+          }
+        ],
+        "ordinary_capacity_losses": 32,
+        "other_goal_capacity_losses": 32,
+        "ordinary_zero_source_time_dwell_capacity_losses": 32,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 16,
+          "descriptors": 72
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 16,
+          "descriptors": 81
+        },
+        "computed_protection_highwater_global_quota": 32,
+        "computed_protection_highwater_per_view_quota": 16,
+        "live_end": {
+          "observations": 64,
+          "relations": 8,
+          "descriptors": 72
+        },
+        "retained_accepted_relations": 8,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 8
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 48
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 48
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 8
+            }
+          ],
+          "ordinary_capacity_losses": 32,
+          "other_goal_capacity_losses": 32,
+          "ordinary_zero_source_time_dwell_capacity_losses": 32,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 16,
+            "descriptors": 72
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 16,
+            "descriptors": 81
+          },
+          "computed_protection_highwater_global_quota": 32,
+          "computed_protection_highwater_per_view_quota": 16,
+          "live_end": {
+            "observations": 64,
+            "relations": 8,
+            "descriptors": 72
+          },
+          "retained_accepted_relations": 8,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      }
+    },
+    "unknown_flood": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "unscored_candidate",
+            "count": 512
+          },
+          {
+            "kind": "relation",
+            "reason": "evicted_relation",
+            "root_cause": "capacity",
+            "association_class": "unscored_candidate",
+            "count": 512
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 512,
+          "descriptors": 64
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 513,
+          "descriptors": 65
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 64,
+          "relations": 0,
+          "descriptors": 64
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "unscored_candidate",
+              "count": 512
+            },
+            {
+              "kind": "relation",
+              "reason": "evicted_relation",
+              "root_cause": "capacity",
+              "association_class": "unscored_candidate",
+              "count": 512
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 512,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 513,
+            "descriptors": 65
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "unscored_candidate",
+            "count": 512
+          },
+          {
+            "kind": "relation",
+            "reason": "evicted_relation",
+            "root_cause": "capacity",
+            "association_class": "unscored_candidate",
+            "count": 512
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 512,
+          "descriptors": 64
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 513,
+          "descriptors": 65
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 64,
+          "relations": 0,
+          "descriptors": 64
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "unscored_candidate",
+              "count": 512
+            },
+            {
+              "kind": "relation",
+              "reason": "evicted_relation",
+              "root_cause": "capacity",
+              "association_class": "unscored_candidate",
+              "count": 512
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 512,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 513,
+            "descriptors": 65
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      }
+    },
+    "unverified_accepted_pressure": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 32
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 32
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 32,
+          "descriptors": 96
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 32,
+          "descriptors": 97
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 64,
+          "relations": 0,
+          "descriptors": 64
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 32
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 32
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 32,
+            "descriptors": 96
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 32,
+            "descriptors": 97
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 24
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 80
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 24
+          }
+        ],
+        "ordinary_capacity_losses": 32,
+        "other_goal_capacity_losses": 32,
+        "ordinary_zero_source_time_dwell_capacity_losses": 32,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 32,
+          "descriptors": 96
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 32,
+          "descriptors": 97
+        },
+        "computed_protection_highwater_global_quota": 64,
+        "computed_protection_highwater_per_view_quota": 16,
+        "live_end": {
+          "observations": 64,
+          "relations": 8,
+          "descriptors": 72
+        },
+        "retained_accepted_relations": 8,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 24
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 80
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 24
+            }
+          ],
+          "ordinary_capacity_losses": 32,
+          "other_goal_capacity_losses": 32,
+          "ordinary_zero_source_time_dwell_capacity_losses": 32,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 32,
+            "descriptors": 96
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 32,
+            "descriptors": 97
+          },
+          "computed_protection_highwater_global_quota": 64,
+          "computed_protection_highwater_per_view_quota": 16,
+          "live_end": {
+            "observations": 64,
+            "relations": 8,
+            "descriptors": 72
+          },
+          "retained_accepted_relations": 8,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      }
+    },
+    "expiry_reads": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "source_ttl",
+            "association_class": null,
+            "count": 64
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "observation",
+            "reason": "expired_observation",
+            "root_cause": "source_ttl",
+            "association_class": null,
+            "count": 64
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          }
+        ],
+        "ordinary_capacity_losses": 16,
+        "other_goal_capacity_losses": 16,
+        "ordinary_zero_source_time_dwell_capacity_losses": 16,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 1,
+          "descriptors": 64
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 1,
+          "descriptors": 66
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 0,
+          "relations": 0,
+          "descriptors": 0
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": []
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "source_ttl",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "source_ttl",
+            "association_class": null,
+            "count": 64
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 18
+          },
+          {
+            "kind": "observation",
+            "reason": "expired_observation",
+            "root_cause": "source_ttl",
+            "association_class": null,
+            "count": 64
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "source_ttl",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          }
+        ],
+        "ordinary_capacity_losses": 18,
+        "other_goal_capacity_losses": 18,
+        "ordinary_zero_source_time_dwell_capacity_losses": 18,
+        "post_operation_highwater": {
+          "observations": 64,
+          "relations": 1,
+          "descriptors": 65
+        },
+        "event_hook_transient_highwater": {
+          "observations": 65,
+          "relations": 1,
+          "descriptors": 66
+        },
+        "computed_protection_highwater_global_quota": 2,
+        "computed_protection_highwater_per_view_quota": 2,
+        "live_end": {
+          "observations": 0,
+          "relations": 0,
+          "descriptors": 0
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            }
+          ],
+          "ordinary_capacity_losses": 18,
+          "other_goal_capacity_losses": 18,
+          "ordinary_zero_source_time_dwell_capacity_losses": 18,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 2,
+          "computed_protection_highwater_per_view_quota": 2,
+          "live_end": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "retained_accepted_relations": 1,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 1,
+            "motion_descriptors": 1,
+            "accepted_endpoint_hypotheses": 1,
+            "evidence_sources": [
+              {
+                "relation_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "endpoints": [
+                  {
+                    "pts": 0,
+                    "time_base": "1/1",
+                    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  {
+                    "pts": 1,
+                    "time_base": "1/1",
+                    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                  }
+                ],
+                "motion_status": "qualified_hypothesis",
+                "missing_inputs": []
+              }
+            ],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          },
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 1,
+            "motion_descriptors": 1,
+            "accepted_endpoint_hypotheses": 1,
+            "evidence_sources": [
+              {
+                "relation_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "endpoints": [
+                  {
+                    "pts": 0,
+                    "time_base": "1/1",
+                    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  {
+                    "pts": 1,
+                    "time_base": "1/1",
+                    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                  }
+                ],
+                "motion_status": "qualified_hypothesis",
+                "missing_inputs": []
+              }
+            ],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          },
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ]
+      }
+    },
+    "two_views": {
+      "baseline": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          },
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 34
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 34
+          },
+          {
+            "kind": "relation",
+            "reason": "endpoint_removed_relation",
+            "root_cause": "capacity",
+            "association_class": "accepted_hypothesis",
+            "count": 1
+          }
+        ],
+        "ordinary_capacity_losses": 32,
+        "other_goal_capacity_losses": 32,
+        "ordinary_zero_source_time_dwell_capacity_losses": 32,
+        "post_operation_highwater": {
+          "observations": 128,
+          "relations": 1,
+          "descriptors": 128
+        },
+        "event_hook_transient_highwater": {
+          "observations": 129,
+          "relations": 1,
+          "descriptors": 129
+        },
+        "computed_protection_highwater_global_quota": 0,
+        "computed_protection_highwater_per_view_quota": 0,
+        "live_end": {
+          "observations": 128,
+          "relations": 0,
+          "descriptors": 128
+        },
+        "retained_accepted_relations": 0,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            },
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "relation",
+              "reason": "endpoint_removed_relation",
+              "root_cause": "capacity",
+              "association_class": "accepted_hypothesis",
+              "count": 1
+            }
+          ],
+          "ordinary_capacity_losses": 16,
+          "other_goal_capacity_losses": 16,
+          "ordinary_zero_source_time_dwell_capacity_losses": 16,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 64
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 0,
+          "computed_protection_highwater_per_view_quota": 0,
+          "live_end": {
+            "observations": 64,
+            "relations": 0,
+            "descriptors": 64
+          },
+          "retained_accepted_relations": 0,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ],
+        "global_pressure_limit": "two active views can admit at most 128 observations, below total 256; global overflow infeasible with this declared scenario"
+      },
+      "candidate": {
+        "losses": [
+          {
+            "kind": "descriptor",
+            "reason": "endpoint_removed_descriptor",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 34
+          },
+          {
+            "kind": "observation",
+            "reason": "evicted_observation",
+            "root_cause": "capacity",
+            "association_class": null,
+            "count": 34
+          }
+        ],
+        "ordinary_capacity_losses": 34,
+        "other_goal_capacity_losses": 34,
+        "ordinary_zero_source_time_dwell_capacity_losses": 34,
+        "post_operation_highwater": {
+          "observations": 128,
+          "relations": 1,
+          "descriptors": 129
+        },
+        "event_hook_transient_highwater": {
+          "observations": 129,
+          "relations": 1,
+          "descriptors": 130
+        },
+        "computed_protection_highwater_global_quota": 2,
+        "computed_protection_highwater_per_view_quota": 2,
+        "live_end": {
+          "observations": 128,
+          "relations": 1,
+          "descriptors": 129
+        },
+        "retained_accepted_relations": 1,
+        "expired_observation_retained": 0,
+        "pre_expiry_or_second_view": {
+          "losses": [
+            {
+              "kind": "descriptor",
+              "reason": "endpoint_removed_descriptor",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            },
+            {
+              "kind": "observation",
+              "reason": "evicted_observation",
+              "root_cause": "capacity",
+              "association_class": null,
+              "count": 18
+            }
+          ],
+          "ordinary_capacity_losses": 18,
+          "other_goal_capacity_losses": 18,
+          "ordinary_zero_source_time_dwell_capacity_losses": 18,
+          "post_operation_highwater": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "event_hook_transient_highwater": {
+            "observations": 65,
+            "relations": 1,
+            "descriptors": 66
+          },
+          "computed_protection_highwater_global_quota": 2,
+          "computed_protection_highwater_per_view_quota": 2,
+          "live_end": {
+            "observations": 64,
+            "relations": 1,
+            "descriptors": 65
+          },
+          "retained_accepted_relations": 1,
+          "expired_observation_retained": 0
+        },
+        "timestamps_unchanged": true,
+        "diagnostic_queries": [
+          {
+            "event_status": "unknown",
+            "identity_verified": false,
+            "qualified_history": 0,
+            "motion_descriptors": 0,
+            "accepted_endpoint_hypotheses": 0,
+            "evidence_sources": [],
+            "model_calls": 0,
+            "query_is_diagnostic_state_copy": true
+          }
+        ],
+        "global_pressure_limit": "two active views can admit at most 128 observations, below total 256; global overflow infeasible with this declared scenario"
+      }
+    }
+  },
+  "new_models_installs_paid_calls_media": 0,
+  "accuracy": null,
+  "production_default_changed": false
+}

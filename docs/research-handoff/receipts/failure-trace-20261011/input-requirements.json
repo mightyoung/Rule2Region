@@ -1,0 +1,209 @@
+{
+  "scope": "Checklists only; no missing bytes, event labels or historical outputs supplied or invented",
+  "source_only_restore_candidates": [
+    {
+      "path": "research_tools/remote/build_codec_derivatives.py",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/remote/build_development_video_receipt.py",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/remote/bootstrap_yolo26_depth_runtime.sh",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/remote/launch_single_pass_spatial_threshold.sh",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/remote/launch_yolo26_native_batch_feasibility.sh",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/execution_policy/skills/file_browse/SKILL.md",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    },
+    {
+      "path": "research_tools/execution_policy/skills/count_schedule/SKILL.md",
+      "required": [
+        "original_author_revision",
+        "actual_file_bytes",
+        "byte_length_and_sha256",
+        "compatible_interface_and_intent",
+        "applicable_publication_rights"
+      ],
+      "current_status": "missing_in_all_nine_pinned_commits"
+    }
+  ],
+  "historical_primary_blockers": [
+    ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g0/g0-execution-scope-v2.json",
+    ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g0/g0-video-scope.json",
+    ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g1/g1-execution-config-v6.json",
+    ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g2/g2-formal-execution-config-v8.json",
+    ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g2/g2-prompt-adjustment-v1.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/camera-catalog-010111-v1/decision-catalog.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/camera-catalog-010204-v1/decision-catalog.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/candidate-config-catalog-v1/catalog.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/evidence-router-010204-v2/proposal-evidence.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-blind-v1/blind-cards.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-v1/business-cards.json",
+    ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-v1/profile-registry.json",
+    "artifacts/data/dataset-expansion-audit-20260820-v4/inventory.json",
+    "artifacts/data/virat-official-diva-kpf-missing-20260820-v1/package/manifest.json",
+    "artifacts/data/virat-videos00-media-audit-development-20260820-v1/result.json",
+    "artifacts/sceneconfig/e2-20260813-v2/e2-result.json",
+    "docs/handoff/paper-eval-dossier-20260819/16-results-and-claims-ledger.md",
+    "docs/plans/2026-08-19-camera-execution-stack-preregistration.md",
+    "docs/plans/2026-08-19-h1-rehearsal-gate-confirmatory.md",
+    "docs/plans/2026-08-20-future-qualification-v6-preregistration.md",
+    "research_tools/execution_policy/skills/file_browse/SKILL.md",
+    "research_tools/remote/bootstrap_yolo26_depth_runtime.sh",
+    "research_tools/remote/launch_single_pass_spatial_threshold.sh",
+    "research_tools/remote/launch_yolo26_native_batch_feasibility.sh"
+  ],
+  "historical_package_limit": "Primary first-blocker paths are not a complete transitive input pack; preserve manifest dependencies and original frozen versions. No replacement from test expected values.",
+  "active_research_pixels": {
+    "camera": "G420",
+    "samples": [
+      {
+        "sample_id": "G420-P360",
+        "expected_pts": 360,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P375",
+        "expected_pts": 375,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P390",
+        "expected_pts": 390,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P405",
+        "expected_pts": 405,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P420",
+        "expected_pts": 420,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P435",
+        "expected_pts": 435,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P450",
+        "expected_pts": 450,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P465",
+        "expected_pts": 465,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      },
+      {
+        "sample_id": "G420-P480",
+        "expected_pts": 480,
+        "expected_time_base_representation": "1/30",
+        "original_bytes_received_and_verified": false
+      }
+    ],
+    "required_for_each": [
+      "authorized_private_access_to_original_full_frame",
+      "sha256_of_actual_received_original_bytes_and_byte_length",
+      "original_video_PTS_and_time_base",
+      "decoded_dimensions_and_coordinate_convention",
+      "fixed_view_id_and_version",
+      "explicit_binding_to_frozen_detector_prediction_IDs"
+    ],
+    "continuous_time_requirement": "Only if continuous crossing time is assessed: existing source segment spanning before/at/after crossing; no interpolated pixels or extra model inference."
+  },
+  "independent_human_reference": {
+    "required": [
+      "full_frame_person_and_image_of_person_negative_boxes",
+      "occlusion_and_uncertainty_explicit",
+      "person_association_labels_or_unknown",
+      "physically_reviewed_door_and_sill_geometry",
+      "physical_side_labels_or_unknown",
+      "event_and_crossing_time_labels_or_unknown",
+      "first_pass_without_AI_prelabels_or_system_decisions",
+      "annotation_author_and_source_pixel_hash_binding",
+      "adjudication_and_exposure_receipt"
+    ],
+    "current_status": "missing; AI prelabels and default adoption are not substitutes"
+  },
+  "real_negative_gate": {
+    "required_existing_complete_types": [
+      "parallel_pass_without_crossing",
+      "turn_back_before_crossing"
+    ],
+    "confirmed_current_count": 0,
+    "post_exit_turn_back_qualifies": false,
+    "if_unavailable": "Keep missing gate and null precision/false-exclusion claims; no expanded acquisition."
+  },
+  "authorization_boundary": {
+    "private_use_and_publication_are_separate": true,
+    "new_media_or_scene_collection_authorized": false,
+    "private_second_batch_publication": "pending_separate_confirmation",
+    "HSV_publication": "pending_separate_confirmation",
+    "new_model_calls": 0,
+    "paid_calls": 0
+  },
+  "current_decision": "unknown_is_not_safe_no_recognition_gain_claimed"
+}

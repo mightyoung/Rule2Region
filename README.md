@@ -2,7 +2,19 @@
 
 业务规则 → 候选监控 ROI 与配置。研究目标是让 LLM 根据规则和固定摄像机场景提出可审查的区域建议，由人确认后交给固定检测器执行。示例场景包括消防通道杂物、室内吸烟与工作区手机使用；这些是目标场景，本仓库尚未验证其检测能力。
 
-## 当前状态
+## 当前研究进度（2026-10-10）
+
+[持续缓存与实际检测公开数据](research/continuous-cache-20261010/README.md)：代码、64项纯测试、62框/531候选关系的公开fixture回放、五帧47个检测观察及九帧83框库存。四臂事件均保持unknown；AI对应与人审scope分开。包内hash只验证公开文件，未公开原像素溯源映射，不构成完整模型推理复现或精度提升。
+
+以下为历史进度入口，原报告与数值保留：
+
+## 历史研究进度（2026-10-10）
+
+[当前主线：完整参考标注首批2/16](docs/research-handoff/reports/full-reference-draft-batch01-20261010.md)：D06两图完成全图AI参考草稿及第二次AI目检，普通14项按默认采用处理、2项遮挡框逐项裁决；默认采用不等于人工GT。剩余14图与M0几何继续推进，原16图预测/阈值/ROI不变，完整GT效果指标仍为null。记忆规则扩展暂缓，先补齐主线标注。
+
+近期记录：[五图部分人审范围](docs/research-handoff/reports/partial-human-review-five-20261010.md) · [记忆规则检查与入口缺口](docs/research-handoff/reports/view-memory-rule-smoke-review-20261010.md) · [历史冻结16图预标](docs/research-handoff/reports/progress-20261010-boundary16.md)。当前更新位于研究交接审核分支，旧报告保留。
+
+## 源码发布快照状态
 
 这是从 `human-count` 提取的源码发布快照。现有工程主要是人员计数、场景配置、ROI 校验、稀疏视觉证据和失败闭合工具，保留 `codecref_lite`、`evidencegate` 等内部名称以避免破坏导入。旧的计数和配置实验不等于上述三个业务场景已经实现；当前没有可据此宣称的跨场景效果、正式科研验证或生产就绪结论。
 
@@ -35,8 +47,9 @@ python -m pytest -q tests/test_selectors.py tests/test_features.py tests/test_ad
 
 ## 数据与研究边界
 
-本仓库不带 `.env`、凭据、原始视频、数据集、模型权重、运行输出、私有会话或论文全文。外部资产按 [数据说明](docs/external-assets.md) 登记与获取；发布文件哈希见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)。未发布的实验结果不得由源码、测试或占位配置推定。
+本仓库不带 `.env`、凭据、原始视频、数据集媒体、模型权重、私有会话或论文全文；当前研究入口另提供已审查的非媒体检测/派生运行输出。外部资产按 [数据说明](docs/external-assets.md) 登记与获取；发布文件哈希见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)。未发布的实验结果不得由源码、测试或占位配置推定。
 
 下一步是冻结业务规则与人工确认接口，构建可追溯 ROI 候选合同，在独立数据上检验区域覆盖、配置时间、误报漏报和拒绝建议边界。
 
 本次未新指定项目许可证；第三方依赖与数据遵循各自许可。
+

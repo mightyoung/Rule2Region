@@ -1,0 +1,123 @@
+{
+  "counts": {
+    "tests": 22,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 22
+  },
+  "items": [
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_equal_camera_estimand_weights_sources_not_windows",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_bootstrap_is_deterministic_and_seeded",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_sign_flip_exact_small_camera_fixture",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_holm_adjust_preserves_original_order_and_monotonicity",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_calibration_fwer_boundary[0.039999-False]",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_calibration_fwer_boundary[0.04-True]",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_calibration_fwer_boundary[0.06-True]",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_calibration_fwer_boundary[0.060001-False]",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_cal_acc4_and_int2_are_separate_and_reproducible",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_calibration_rejects_wrong_family_schema",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_failure_rate_one_percent_is_eligible_but_above_is_invalid",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_power_requires_exact_formal_structure_and_blinded_pilot",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.statistical_gates.test_engine",
+      "test": "test_non_boolean_fixture_result_counts_as_failure",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_fixed_revisions_are_full_commit_hashes",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_valid_receipt_passes",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_model_substitution_fails",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_revision_drift_fails",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_loader_only_receipt_fails",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_missing_vram_fails",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_failed_check_fails",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_full_two_model_two_precision_matrix_passes",
+      "status": "passed"
+    },
+    {
+      "module": "research_tools.model_compatibility.test_harness",
+      "test": "test_missing_matrix_cell_fails",
+      "status": "passed"
+    }
+  ],
+  "command": "python -m pytest -q research_tools/statistical_gates/test_engine.py research_tools/model_compatibility/test_harness.py",
+  "exit_code": 0
+}

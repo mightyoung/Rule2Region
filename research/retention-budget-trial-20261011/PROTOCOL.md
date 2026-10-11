@@ -1,0 +1,31 @@
+# Frozen development protocol: same-budget endpoint retention
+
+Baseline code/attribution commit: `5977bd4267ae0c75c480b90b63cbd6701fd671ab`. This protocol is committed before implementing or running the candidate. One declared candidate; no parameter search, post-result quota tuning or production default changes.
+
+## Arms and fixed budget
+
+Baseline is the existing `DevelopmentCache` with frozen default eviction rules. Candidate is a separate experimental subclass overriding observation victim selection only. Both retain defaults: 64 observations/512 relations/128 descriptors per view, 256 total observations/2048 relations/512 descriptors, three-source-second TTL, motion gap 2, and bounded audit ring 256. Relation/descriptor selection, source admission, motion/identity/event qualification, query availability and TTL maintenance stay unchanged.
+
+Candidate protection is a computed set, not an extra evidence archive. Only live accepted-hypothesis relations admitted with exact source/endpoint bindings are eligible. Unknown candidates, reads and unverifiable/stale endpoint bindings never create protection. Source provenance is not human truth and accepted is not a measured importance score.
+
+At each observation-capacity deletion, select eligible accepted pairs in ascending relation insertion sequence (deterministic tie by relation key). Add a pair only if both endpoints fit within a protection quota of **floor(scope observation capacity / 4)**; never partially protect a pair. Per-view overflow uses that view and quota 16; total overflow uses all eligible views and quota 64. Each endpoint must remain live under its own view clock/TTL and bindings. Select the oldest unprotected observation by the baseline ordering for that scope (per-view source time/key; total insertion sequence/key). The quota leaves at least three quarters of capacity outside protection; a defensive fallback selects baseline victim if no unprotected candidate exists. Do not change capacity, TTL, timestamps or add associations when protecting. Once a relation or endpoint expires/is deleted, its protection disappears automatically.
+
+This is bounded sharing, not a guarantee of per-person fairness: identities are unverified. Oldest accepted pairs may consume the protected slice until expiration. Unknown observations share the remaining slice and may be displaced sooner. Sustained overload can starve observations of useful dwell time; under fixed capacity no policy can guarantee all within-TTL observations remain queryable. The trial must report these costs, including malicious accepted-source pressure, rather than asserting fairness from the quota alone.
+
+## Runs frozen before execution
+
+1. Existing published nine-frame 83-observation / 701 unknown-candidate replay with its one unchanged accepted sparse endpoint hypothesis. Instrument both arms with deletion sink; baseline output must exactly equal the frozen no-request result. Report the accepted relation's deletion cause/time, capacity-preempted lifetime, motion/identity/event status, other observations' capacity deletions and changed victim count. No private box/HSV/source identifier output.
+2. Synthetic overcrowding: one accepted pair plus 80 unrelated observations within TTL. Report relation loss, displaced other observations, occupancy bounds and denied/dropped observations.
+3. Synthetic multi-target quota saturation: 16 disjoint accepted pairs (32 synthetic endpoints), then 80 unrelated observations. Report how many accepted relations survive/fail before TTL and which roles bear eviction. No true identity is inferred.
+4. Synthetic malicious unknown pressure: up to 32×32 unscored relations under the relation limit plus later observation pressure. Unknown candidate flood must never get endpoint protection; relation bounds/cascades must hold.
+5. Synthetic provenance-valid but unverified accepted pressure: 32 disjoint accepted pairs followed by 80 ordinary observations, while interleaving capacity maintenance. Report protected-slice domination, loss of later accepted pairs, ordinary dwell/drop behavior and limits of source-only eligibility. No claim accepted inputs are honest or important.
+6. Synthetic expiry/read sequence: repeated valid delayed reads at exact TTL boundary then one source tick past it, plus final maintenance past all source times. Protection/reads must not renew timestamps; no expired dependency may survive and outputs must remain unknown.
+7. Synthetic two-view global pressure: ordinary observations from a second registered view with total limit unchanged. Report cross-view eviction/retention and quota/global-cap bounds.
+
+All synthetic records use a 100×100 test geometry and clearly synthetic ids/hashes. Timing and cardinality may be encoded mechanically in the runner to implement these declared scenarios; any infeasible admission caused by capacity is reported instead of relaxing the limits or inventing retained endpoints. A protocol amendment must be recorded before an additional arm or tuning run.
+
+## Metrics and decision bounds
+
+Record source-time lifetime/pre-TTL deletion of the one published sparse hypothesis; accepted/unknown relation losses by observation capacity, direct relation capacity and TTL; capacity victims from other goals; synthetic ordinary/accepted-role losses and immediate drops; maximum post-operation live observations/relations/descriptors; timestamp/expiry correctness; and query evidence source bindings, unknown event/identity/direction qualification. Capture aggregate roles/times/hashes, not public raw private material.
+
+The candidate is interesting only if it extends the existing hypothesis's availability without violating fixed bounds/TTL/qualification and with explicitly measured displacement costs. Even if it does, that supports a retention-mechanism development conclusion only. It cannot demonstrate detection accuracy, identity correctness, real negatives, safe events, innovation, optimal fairness, hard latency guarantees or a validated deployment policy. Default production strategy is not changed. Existing real results and the 52 failures/two collection errors are retained. Pure software only: no model, pixels, installs, paid APIs or private uploads. Compute in cloud; Mac transfer remains a separate pending task.

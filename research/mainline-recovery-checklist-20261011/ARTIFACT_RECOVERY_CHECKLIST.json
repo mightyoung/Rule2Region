@@ -1,0 +1,386 @@
+{
+  "baseline_commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+  "frozen_artifacts": [
+    {
+      "artifact_id": "boundary-expansion-review-archive",
+      "sha256": "5934e72dd58344c829de2c8af1e4a8cd44cc039d58e9046147045cf875e2da6e",
+      "bytes": 16737023,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen 16-image review subset and provenance; original media not published."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "boundary-expansion-review-archive"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "minimum_existing_bundle"
+    },
+    {
+      "artifact_id": "boundary-run-review-archive",
+      "sha256": "24f0717b67f65ae8dca703a710475a5ba95a811948e78a34f8c72764da4b4b67",
+      "bytes": 12852517,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen execution review archive; model weights excluded; bytes not published."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "boundary-run-review-archive"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "minimum_existing_bundle"
+    },
+    {
+      "artifact_id": "frozen-candidate-manifest",
+      "sha256": "f02bf27a42dbe5cec1448b969c29d447cd469a6bc2b2fda218b5e7e51acb3578",
+      "bytes": 44660,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen selection/source identities, 16 development images."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "frozen-candidate-manifest"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "frozen-run-config",
+      "sha256": "89c7d95dcf331aaf9569db5928b2087f0f20c9c3d86eeb637886544bd88639f5",
+      "bytes": 90011,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Original detector/ROI/input configuration, including private runtime paths; contents withheld."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "frozen-run-config"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "run-manifest",
+      "sha256": "8b15a575094ee83da8a7bab7e43c67e1ca1424ab440d1ef55ea48e33a67d2a08",
+      "bytes": 3219,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Execution summary as recorded before appended business-scope confirmation."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "run-manifest"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "predictions",
+      "sha256": "52087e347fd3e650664a445e6d595c0f990428cfbfabda68f3aab954155f5862",
+      "bytes": 25646,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "16 full-frame prediction records; AI prelabels, not GT."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "predictions"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "routing",
+      "sha256": "69e19e63198a448d1a26c5abb7afeaa32b2a4b5e1d4ec64723525e29c0a66e43",
+      "bytes": 144761,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "140 unchanged first-run F/H/M candidate routing records."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "routing"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "metrics",
+      "sha256": "9017fef7c5c3dec252b627f974587c7f0afb8f8f1d83422fa7e9c1dae3ac997d",
+      "bytes": 2521,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Descriptive counts and null GT-dependent metrics."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "metrics"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "verification-summary",
+      "sha256": "2bbfcb405c61933b24a4e2c53bfdcd8a36d3245fe7216640b2067992616a34b2",
+      "bytes": 6373,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Original validation receipt, not a new experiment."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "verification-summary"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "supporting_history"
+    },
+    {
+      "artifact_id": "independent-review",
+      "sha256": "693dc69979c152e62a839cded07f3226a85026ea182b8610ff2ace2a0cfe64ea",
+      "bytes": 5811,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "AI execution/method audit; not human GT."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "independent-review"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "supporting_history"
+    },
+    {
+      "artifact_id": "scope-confirmation",
+      "sha256": "8c35fbcaca5d280fd8aeacba32663b226b6a26bc21f3f40a896bea02442b39a2",
+      "bytes": 2221,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Post-run business-scope evidence; private conversation details withheld."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "scope-confirmation"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "supporting_history"
+    },
+    {
+      "artifact_id": "post-scope-interpretations",
+      "sha256": "83d5dd282f4f75788dbea44edbafd3072e3cda7e12858e3cd704b312f91e9079",
+      "bytes": 5375,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Appended interpretation; frozen raw routing preserved."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "post-scope-interpretations"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "supporting_history"
+    },
+    {
+      "artifact_id": "unknowns-and-failures",
+      "sha256": "9fd1027dd4e082128dfba7c9f48edc6a9a8cc735942ad19fc22812848a6f63fd",
+      "bytes": 1341,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Historical first-run unknowns; C scope later confirmed separately."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "unknowns-and-failures"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "freeze_binding"
+    },
+    {
+      "artifact_id": "site-batch-receipt",
+      "sha256": "647ff7c5c2eda6d9a679b01aa47d57cbd15b8b178db0f28e2b09b84f9b9ce5d2",
+      "bytes": 1768,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Read-back receipt for owner-only site assets; private URLs/IDs withheld."
+      },
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/boundary-16-20261010.json",
+        "artifact_id": "site-batch-receipt"
+      },
+      "private_retrieval_location": "not published; retained original owner/environment required",
+      "priority": "supporting_history"
+    }
+  ],
+  "partial_human_receipts": [
+    {
+      "artifact": "D06-S05_candidate_classes_v1.json",
+      "sha256": "1f920ad54341d5ccaf9700ac63eabacbb6fee0cd9eef99154b54e3d0734df1c4",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "D06-S05_candidate_classes_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    },
+    {
+      "artifact": "D06-S09_green_classes_v1.json",
+      "sha256": "4d604d101b9afb4d4e23836cbc5a3a9923b597cfcde80007b8e0ca5eedb3b132",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "D06-S09_green_classes_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    },
+    {
+      "artifact": "D13-S06_inclusion_v1.json",
+      "sha256": "bffde460c7a19e986805c20d824bf89a2b18822966f7386f2a1499b87c789143",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "D13-S06_inclusion_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    },
+    {
+      "artifact": "D13-S120_inclusion_v1.json",
+      "sha256": "0955d40e38b943b6e090b891af17364732ac003131f46f39366fe6c1a5f7919a",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "D13-S120_inclusion_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    },
+    {
+      "artifact": "D13-S121_uncertain_assessment_v1.json",
+      "sha256": "f2111bc1019a869cfa22bb41e9b3d088b3c0712d7bc894595a685094ae353cc6",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "D13-S121_uncertain_assessment_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    },
+    {
+      "artifact": "source_order_audit_v1.json",
+      "sha256": "34fe0b2cc30a65dde95e1bab48d3ec69bd420668bddc8e97ebaad2e706a9d14d",
+      "availability": "private_metadata_only",
+      "local_exact_bytes_status": "not_found_in_scanned_regular_files",
+      "public_locator": {
+        "commit": "674e5b3d6f7ea45b089bb0d9d2487865d3a11a86",
+        "path": "docs/research-handoff/evidence/partial-human-review-five-20261010.json",
+        "artifact": "source_order_audit_v1.json"
+      },
+      "private_retrieval_location": "not published"
+    }
+  ],
+  "complete_protocol": {
+    "exact_identity": null,
+    "status": "unlocated; no explicit full-protocol artifact in public index",
+    "required": "Recover original version plus hash, byte length, metric definitions, source/split/geometry/routing rules and execution-code binding; append gaps if no original survives. Never infer full protocol from general legacy tests or run config alone."
+  },
+  "AI_full_raster_draft_two_frames": {
+    "reported_samples": [
+      "D06-S05",
+      "D06-S09"
+    ],
+    "exact_artifact_identity": null,
+    "status": "report present; structured coordinate-level bytes omitted; not full human GT"
+  }
+}

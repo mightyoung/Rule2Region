@@ -1,0 +1,256 @@
+{
+  "scope": "posthoc AI visual correspondence only; NEVER automatic trajectory input",
+  "rows": [
+    {
+      "pts": 360,
+      "seconds": 12.0,
+      "prediction_id": "G420-P360:query002",
+      "bbox": [
+        1054.3619384765625,
+        561.4453735351562,
+        1165.64404296875,
+        861.1235961914062
+      ],
+      "center": [
+        1110.0029907226562,
+        711.2844848632812
+      ],
+      "prediction_source": "old_frozen",
+      "bottom_proxy": [
+        1110.0029907226562,
+        861.1235961914062
+      ],
+      "signed_bottom_proxy_sill_line_px": 105.66634525843965,
+      "direction": null
+    },
+    {
+      "pts": 375,
+      "seconds": 12.5,
+      "prediction_id": "G420-P375:query000",
+      "bbox": [
+        1118.8140869140625,
+        533.4444580078125,
+        1234.3656005859375,
+        811.9677734375
+      ],
+      "center": [
+        1176.58984375,
+        672.7061157226562
+      ],
+      "prediction_source": "new_five_forward",
+      "bottom_proxy": [
+        1176.58984375,
+        811.9677734375
+      ],
+      "signed_bottom_proxy_sill_line_px": 39.49702051616546,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 66.58685302734375,
+        "dy": -38.578369140625,
+        "norm_px": 76.9551789136729,
+        "angle_degrees": -30.086679622723178
+      }
+    },
+    {
+      "pts": 390,
+      "seconds": 13.0,
+      "prediction_id": "G420-P390:query001",
+      "bbox": [
+        1148.197998046875,
+        519.636474609375,
+        1270.0450439453125,
+        797.8182983398438
+      ],
+      "center": [
+        1209.1215209960938,
+        658.7273864746094
+      ],
+      "prediction_source": "old_frozen",
+      "bottom_proxy": [
+        1209.1215209960938,
+        797.8182983398438
+      ],
+      "signed_bottom_proxy_sill_line_px": 16.622015716144933,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 32.53167724609375,
+        "dy": -13.978729248046875,
+        "norm_px": 35.407836644367514,
+        "angle_degrees": -23.252999808077202
+      }
+    },
+    {
+      "pts": 405,
+      "seconds": 13.5,
+      "prediction_id": "G420-P405:query001",
+      "bbox": [
+        1186.4739990234375,
+        516.4098510742188,
+        1283.026611328125,
+        800.4498901367188
+      ],
+      "center": [
+        1234.7503051757812,
+        658.4298706054688
+      ],
+      "prediction_source": "new_five_forward",
+      "bottom_proxy": [
+        1234.7503051757812,
+        800.4498901367188
+      ],
+      "signed_bottom_proxy_sill_line_px": 11.802188275574022,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 25.6287841796875,
+        "dy": -0.297515869140625,
+        "norm_px": 25.630511001956062,
+        "angle_degrees": -0.6650974096984971
+      }
+    },
+    {
+      "pts": 420,
+      "seconds": 14.0,
+      "prediction_id": "G420-P420:query001",
+      "bbox": [
+        1197.0892333984375,
+        501.4736328125,
+        1290.9747314453125,
+        780.6861572265625
+      ],
+      "center": [
+        1244.031982421875,
+        641.0798950195312
+      ],
+      "prediction_source": "old_frozen",
+      "bottom_proxy": [
+        1244.031982421875,
+        780.6861572265625
+      ],
+      "signed_bottom_proxy_sill_line_px": -9.792057265525262,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 9.28167724609375,
+        "dy": -17.3499755859375,
+        "norm_px": 19.67666601163118,
+        "angle_degrees": -61.85465580332663
+      }
+    },
+    {
+      "pts": 435,
+      "seconds": 14.5,
+      "prediction_id": "G420-P435:query002",
+      "bbox": [
+        1214.507080078125,
+        497.93011474609375,
+        1318.28076171875,
+        773.5795288085938
+      ],
+      "center": [
+        1266.3939208984375,
+        635.7548217773438
+      ],
+      "prediction_source": "new_five_forward",
+      "bottom_proxy": [
+        1266.3939208984375,
+        773.5795288085938
+      ],
+      "signed_bottom_proxy_sill_line_px": -23.006290726529308,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 22.3619384765625,
+        "dy": -5.3250732421875,
+        "norm_px": 22.9872290079563,
+        "angle_degrees": -13.39444281013118
+      }
+    },
+    {
+      "pts": 450,
+      "seconds": 15.0,
+      "prediction_id": "G420-P450:query002",
+      "bbox": [
+        1235.535888671875,
+        488.7359924316406,
+        1322.925048828125,
+        756.214111328125
+      ],
+      "center": [
+        1279.23046875,
+        622.4750518798828
+      ],
+      "prediction_source": "old_frozen",
+      "bottom_proxy": [
+        1279.23046875,
+        756.214111328125
+      ],
+      "signed_bottom_proxy_sill_line_px": -43.32097851327651,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": 12.8365478515625,
+        "dy": -13.279769897460938,
+        "norm_px": 18.46968460139381,
+        "angle_degrees": -45.972277762826785
+      }
+    },
+    {
+      "pts": 465,
+      "seconds": 15.5,
+      "prediction_id": "G420-P465:query002",
+      "bbox": [
+        1233.0928955078125,
+        481.940185546875,
+        1315.205322265625,
+        732.3341064453125
+      ],
+      "center": [
+        1274.1491088867188,
+        607.1371459960938
+      ],
+      "prediction_source": "new_five_forward",
+      "bottom_proxy": [
+        1274.1491088867188,
+        732.3341064453125
+      ],
+      "signed_bottom_proxy_sill_line_px": -64.74484371326525,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": -5.08135986328125,
+        "dy": -15.337905883789062,
+        "norm_px": 16.15770945895911,
+        "angle_degrees": -108.32973624923746
+      }
+    },
+    {
+      "pts": 480,
+      "seconds": 16.0,
+      "prediction_id": "G420-P480:query002",
+      "bbox": [
+        1234.3092041015625,
+        509.787353515625,
+        1301.9044189453125,
+        726.1549072265625
+      ],
+      "center": [
+        1268.1068115234375,
+        617.9711303710938
+      ],
+      "prediction_source": "new_five_forward",
+      "bottom_proxy": [
+        1268.1068115234375,
+        726.1549072265625
+      ],
+      "signed_bottom_proxy_sill_line_px": -68.93435510479355,
+      "direction": {
+        "dt_seconds": 0.5,
+        "dx": -6.04229736328125,
+        "dy": 10.833984375,
+        "norm_px": 12.405022162981398,
+        "angle_degrees": 119.14915136865373
+      }
+    }
+  ],
+  "actual_identity_verified": false,
+  "automatic_links_created": 0,
+  "new_model_calls_by_this_script": 0,
+  "thresholds_tuned": false,
+  "interpretation": "half-second bbox center chords are not physical heading or constant-speed ground trajectory"
+}

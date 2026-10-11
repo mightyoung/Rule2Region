@@ -1,0 +1,82 @@
+{
+  "date_utc": "2026-10-11",
+  "baseline_commit": "5977bd4267ae0c75c480b90b63cbd6701fd671ab",
+  "protocol_commit": "e66ca5f0f463d3d1a2f79d4ecde52392faaf1c2b",
+  "protocol_frozen_before_implementation_and_trial": true,
+  "protocol_byte_unchanged": true,
+  "candidate_is_opt_in_only": true,
+  "initial_negative_guards": {
+    "passed_existing": 2,
+    "expected_assertion_failures": 3,
+    "pre_assertion_first_run_query_errors": 1
+  },
+  "final_guardrails_passed": 5,
+  "trial_repeat_exact": true,
+  "baseline_matches_frozen_real_output": true,
+  "prior_manifest_entries_verified": 73,
+  "root_pytest": {
+    "passed": 409,
+    "failed": 52,
+    "collection_errors": 2,
+    "unexecuted_functions": 6,
+    "same_module_test_status_set": true,
+    "exit": 1,
+    "failure_identity_reference": "research/nine-frame-conditional-replay-20261011/repository-test-statuses.json"
+  },
+  "additional_tool_tests_passed": 22,
+  "existing_unittests_passed": [
+    64,
+    13,
+    12,
+    7,
+    17,
+    8
+  ],
+  "ordinary_executed_methods_cases": 609,
+  "ordinary_passed": 557,
+  "ordinary_failed": 52,
+  "raw_local_log_sha256": {
+    "r2r-retention-extra.log": "f28be7f18e2b7bf83b5bb090f030fdd528ef6657b602b983e70665dfda687606",
+    "r2r-retention-final-generate.log": "abc2ba3e9ab8708f8d7600957ef11b12300c4564592b2adc547304aa37901926",
+    "r2r-retention-generate.log": "abc2ba3e9ab8708f8d7600957ef11b12300c4564592b2adc547304aa37901926",
+    "r2r-retention-green.log": "01011f346aff8763a67520e0aa0961dfcdb7469ab7fdf92a65ab2c29e21cecf4",
+    "r2r-retention-measured-generate.log": "abc2ba3e9ab8708f8d7600957ef11b12300c4564592b2adc547304aa37901926",
+    "r2r-retention-measured-repeat.log": "abc2ba3e9ab8708f8d7600957ef11b12300c4564592b2adc547304aa37901926",
+    "r2r-retention-red-assertions.log": "00ff61a556d8f6a55ef3c2acf22b5c0c8cc2f3e6d318539c5cfb1b31ef865d8e",
+    "r2r-retention-red.log": "66af42890635762dd2cf6b52e43919b545aa9882d06a3076b3a3491ae96406ea",
+    "r2r-retention-repeat.log": "abc2ba3e9ab8708f8d7600957ef11b12300c4564592b2adc547304aa37901926",
+    "r2r-retention-root.log": "bae3ad1341ec5eab70463d1fda5b9e127089fcc8ec0225ce07f4b4c9b4bea761",
+    "r2r-retention-suite-0.log": "ffe72fa8438a15a99e0ff50e6b5fdaf873c0945c9f54ca4c757f0c7c43727494",
+    "r2r-retention-suite-1.log": "eaa57412da51ad18a51da4cfcfedf43b6f2b4a659c35025b3e75075a1e0600f3",
+    "r2r-retention-suite-2.log": "74ff6b9402dfd3ea53431bdae383050718c9a64e0bc70fc5c4a7f26cf78da0d2",
+    "r2r-retention-suite-3.log": "e1487ea592eb9018a8617f4eb1ecc80b158618ad9f3976e191dd932c83ada048",
+    "r2r-retention-suite-4.log": "c60a20ecfbe6c7ea2263d16c3468d9288d5e47d83548bb9dc7582a99e752a7ef",
+    "r2r-retention-suite-5.log": "8ac9b9e95166a45b61ce6de03234972de3a790a5015492ae17e1d48eddf15043",
+    "r2r-retention-suite-6.log": "01011f346aff8763a67520e0aa0961dfcdb7469ab7fdf92a65ab2c29e21cecf4"
+  },
+  "initial_result_sha256": "6a0846708fb6f00d14927fed2fa8e8584cebc3c13086e9d4ab5bff67816741c1",
+  "important_negative_results": {
+    "public_continuous_valid_query_duration_gain_demonstrated": false,
+    "public_changed_other_goal_capacity_victim": 1,
+    "synthetic_overcrowding_ordinary_loss_baseline_candidate": [
+      16,
+      18
+    ],
+    "synthetic_quota_saturation_ordinary_loss_baseline_candidate": [
+      16,
+      32
+    ],
+    "all_within_TTL_availability_guaranteed": false,
+    "source_bound_accepted_status_proves_truth": false,
+    "global_overflow_independently_exercised": false,
+    "strict_transient_storage_bound_claimed": false
+  },
+  "limits": {
+    "production_defaults_or_old_code_outputs_changed": false,
+    "new_models_installs_paid_calls_media_downloads": 0,
+    "private_material_publications": 0,
+    "new_truth_or_identity_links": 0,
+    "accuracy": null,
+    "Mac_persistence_claimed": false
+  }
+}

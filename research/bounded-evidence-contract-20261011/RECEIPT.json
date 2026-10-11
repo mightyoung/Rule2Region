@@ -1,0 +1,37 @@
+{
+  "date_utc": "2026-10-11",
+  "source_commit": "ed6485e1dc6393b99803f64f617423e6562515e8",
+  "deliverable": "single preregistered missing-aware fragment contract",
+  "candidate_count": 1,
+  "implemented": false,
+  "new_experiment_runs": 0,
+  "new_test_runs": 0,
+  "new_model_or_paid_API_calls": 0,
+  "new_installs": 0,
+  "private_material_publications": 0,
+  "source_papers_read": 3,
+  "source_facts_vs_research_inferences_separated": true,
+  "prior_manifest_entries_verified": 80,
+  "budget_arithmetic_verified": {
+    "descriptor_slots_per_view": 26,
+    "ordinary_descriptor_slots_remaining": 102,
+    "planned_packed_candidate_bytes_per_view": 13952,
+    "planned_global_candidate_specific_packed_bytes": 57856,
+    "physical_byte_envelope_B_established": false,
+    "physical_memory_or_minimum_retention_guarantee_claimed": false
+  },
+  "entry_gate_status": "NOT READY: original provenance/continuous pixels, independent truth, disjoint validation, physical byte budget/utility registry and predicate proof missing",
+  "stop_rules": [
+    "predicate preservation not certified",
+    "only transfers losses",
+    "no useful valid availability beyond deletion delay",
+    "all predicates remain unknown",
+    "uncharged memory or expiry/dependency violation"
+  ],
+  "previous_repository_failure_receipt": "research/retention-budget-trial-20261011/VALIDATION.json",
+  "previous_failed": 52,
+  "previous_collection_errors": 2,
+  "prior_failures_or_assertions_modified": false,
+  "default_strategy_modified": false,
+  "Mac_persistence_claimed": false
+}

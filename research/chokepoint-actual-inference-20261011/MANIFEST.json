@@ -1,0 +1,25 @@
+{
+  "baseline": "6f21b83f719712d855c36227a1044c7eeadeeaf7",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 6410,
+      "sha256": "050ef6ed2da4265252c0dbce0434b4c9601756693f84d07bb04d79425250a350"
+    },
+    {
+      "name": "RECEIPT.json",
+      "bytes": 8902,
+      "sha256": "c5d113f128d61cf4eb60a70c1c8a54af0c0487f4d0322bd18594b3836d2d2732"
+    },
+    {
+      "name": "requirements-additions.lock",
+      "bytes": 1256,
+      "sha256": "868b55e737bdb22f29905b2b4ffc5f6db850903de4eae992818f225be4d69ac5"
+    },
+    {
+      "name": "run_private_inference.py",
+      "bytes": 10786,
+      "sha256": "713ae0f7ff6c0a8ab9c0a3f31b0c4526fce36467116b688fd9f87a9ae0d74fb5"
+    }
+  ]
+}

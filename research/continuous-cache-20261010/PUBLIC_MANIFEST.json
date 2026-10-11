@@ -1,0 +1,197 @@
+{
+  "scope": "Hashes of public files only; original image or private artifact hashes/mapping excluded; excludes this manifest itself",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4710,
+      "sha256": "1522044800debd804f132de13295062968e53eb0e6b574a0c82478f336374ac4",
+      "git_blob_sha1": "bc1592435358ebdf6765b390cc904ad2d550317a"
+    },
+    {
+      "path": "docs/research-handoff/README.md",
+      "bytes": 3393,
+      "sha256": "6de702bd495a70f3ffb5c3e4ef1d58795278c1cb79aed847254b2ef7a0d6a5d7",
+      "git_blob_sha1": "524f6c0e71afa320c25fe0deae0dad409572dec8"
+    },
+    {
+      "path": "research/continuous-cache-20261010/DATA_SOURCE.json",
+      "bytes": 875,
+      "sha256": "ce7649ef849f9a2edead0e1abbbf360c4a9005b8a55ce52b5df99fe34a1705c9",
+      "git_blob_sha1": "87c46f97c9779110706ec952e0c4e51393a545db"
+    },
+    {
+      "path": "research/continuous-cache-20261010/MEVA-data-license.txt",
+      "bytes": 19055,
+      "sha256": "bdeedfb765049c87f92a2450369ad70882fca3371190b2a6b7e560e103c922e8",
+      "git_blob_sha1": "4521ae45f01c76cbf9afff6ac8f8217aa3fd42ba"
+    },
+    {
+      "path": "research/continuous-cache-20261010/README.md",
+      "bytes": 3166,
+      "sha256": "1a83b848b5e35b180c5d7f073ea817ebb4771d9b5b2bda7ecbcc602baa18ec61",
+      "git_blob_sha1": "c1baf5b8c17c20c03fe46a2afb4e3f363c81d3be"
+    },
+    {
+      "path": "research/continuous-cache-20261010/VALIDATION.json",
+      "bytes": 333,
+      "sha256": "b25b9bfd3bf8d2407dc458ea2ae90936436726b526602342da34b57d22a41f61",
+      "git_blob_sha1": "894b58d5416eea5d992e010269c9002a22b17559"
+    },
+    {
+      "path": "research/continuous-cache-20261010/ai-visual-diagnostic/dense_visual_candidate.v1.json",
+      "bytes": 6536,
+      "sha256": "27e3d25cb2f61883b68dbcccb3423b6af35b74305f50835a6de77cbad0dacd5a",
+      "git_blob_sha1": "ff78e7d5ec340ff4140532b181762e12e35bacc5"
+    },
+    {
+      "path": "research/continuous-cache-20261010/ai-visual-diagnostic/visual_candidate_addendum.v1.json",
+      "bytes": 522,
+      "sha256": "fc9995539e7bab0836cacc766cc604ddb86f3c1cd1db0b82c9d9a56020855563",
+      "git_blob_sha1": "2356270c2d5482bddc20b07b4e04ad01b69f9b22"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/ablation.py",
+      "bytes": 2901,
+      "sha256": "9524fb06c22bfd9edb9d680741eb5bcb32a06cc9c519b47b7ddfe5e25f7797d9",
+      "git_blob_sha1": "37f7c2717b69c884c4e2a633d87a537ebf3c7a13"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/bbox_fixture.json",
+      "bytes": 12707,
+      "sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920",
+      "git_blob_sha1": "2c73e2da2fb208103b264f9f8eb5e183199d9d9b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/continuous_cache.py",
+      "bytes": 19449,
+      "sha256": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b",
+      "git_blob_sha1": "67680d014d5fc36fabfa69347cfde744dcce3c35"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/geometry_fixture.json",
+      "bytes": 1070,
+      "sha256": "5297d0c3a6e6e6f7ea73cef3c1bfb282a155f561936d2d41123e048ff23cbbab",
+      "git_blob_sha1": "0620a33e42b4f6b031c5c1ca975308a05d5b6071"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/public_descriptors.json",
+      "bytes": 355795,
+      "sha256": "43ac261cf5f161fa030bf5be56a807f2517da2bb1e7eeb5afdc0ecddc041d60b",
+      "git_blob_sha1": "cee497905aae240d3d26ab6de8e81dafb3a04538"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/public_four_arm_results.json",
+      "bytes": 111857,
+      "sha256": "f1f56fb578f2eb0c65fa50c396a7c1c02d3bed9d0693e92543c12c80c7b8fb08",
+      "git_blob_sha1": "44f2962bb2c810369a6ff80d1fcb3eca71e42506"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/public_summary.json",
+      "bytes": 3099,
+      "sha256": "574a846f7fc08f6f51d245b65c2f169c4ab99c5ec364de9826b18eb4cd2ff75e",
+      "git_blob_sha1": "7ccac8375261d164f5c192f74bc3e8b3b51b75ab"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/relation_fixture.json",
+      "bytes": 67933,
+      "sha256": "30e93a8dd54bba5a4882b61e8bcb8a9e2309c94d9a6e992933d6cdc41acae0ee",
+      "git_blob_sha1": "e1a6c01fb6c625e351dba731a2a0eb44af2f5cb1"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/replay.py",
+      "bytes": 4197,
+      "sha256": "5d7abb1994651ef2c57db3a404abe38944ba2e6e7eea7a941967c61dd6679f7b",
+      "git_blob_sha1": "e28d6c12e9e190e66a4d66900f496e89f4502e4d"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/replay_public.py",
+      "bytes": 3978,
+      "sha256": "dde8c21982c6605729724b3f4d5cc6e56087f141ef18dc7e00ce170155f83cfe",
+      "git_blob_sha1": "99d6114abcab102f1d7fd3daab89b63916d14b1e"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_ablation.py",
+      "bytes": 2129,
+      "sha256": "b73cfa337af0e73a33ff8907d34bb16cc0d8f83779c870674f80e14a177e62db",
+      "git_blob_sha1": "fe12558ccb566caf6a5ea91af7788d58703c6968"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_continuous_cache.py",
+      "bytes": 11503,
+      "sha256": "086c593810eb565b40a91940c2ef9f9d6515019a9a40e54c2833fa71ae12413e",
+      "git_blob_sha1": "8d5b93155069b15f427fbc7448b7edcd9c6888f8"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_evidence_separation.py",
+      "bytes": 714,
+      "sha256": "a8ea910df0164e38346ce3a9ba2cf22eec027dbf3a9f32b5a76a5838e6771392",
+      "git_blob_sha1": "be1b4e587dcece62be1127c9103acfdc79a223f1"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_legacy_cache.py",
+      "bytes": 8553,
+      "sha256": "dd220665eb381fbcea5fd65aa727bee5e7b1a21bdec6267dec82bbabcc506c1a",
+      "git_blob_sha1": "db2126dfe40bcd04623ede6dea9f9c00963cc4ff"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_numeric_atomicity.py",
+      "bytes": 945,
+      "sha256": "c9c4d41ebff522319a560672798b662ea21a08927e118eb5bfc6fc342f80def1",
+      "git_blob_sha1": "8f70568a3e7f1e4cabcd490a11924d6f9ed267ff"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/base_cache.py",
+      "bytes": 10657,
+      "sha256": "ee43f450f070629245d4c04c09ae212214a76bef56f67462158f0db34c0eb254",
+      "git_blob_sha1": "fac69ee3f4fc0eb867404d2889b11567b59bcaef"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/roi_core.py",
+      "bytes": 13063,
+      "sha256": "1a49e7ed3188f5cc1a9c0253cd3d9eaa0bd48bb7d389e37e5f088de2160fa2b0",
+      "git_blob_sha1": "85ad41ba1eff8876ce8354ef622396c2450ecd55"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/configuration.json",
+      "bytes": 3227,
+      "sha256": "4a9d24595964d5b268fb96192fdf35467748e2745990d05c87ed3f636a66cf31",
+      "git_blob_sha1": "d2792a3eb04a649281804071a20d8a947e986577"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P375.json",
+      "bytes": 12484,
+      "sha256": "5813529e30be3ce4cfe2cf36a46cab1ee6de1153a7d1cd33d15c6c9c920dd57f",
+      "git_blob_sha1": "ef8069697cd75ac609314ff6e93e2c100a779e99"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P405.json",
+      "bytes": 7474,
+      "sha256": "f47ac64343fd42dde0c287468e3f3076ec5b717f1b962b6356a2fe11e8a47783",
+      "git_blob_sha1": "dfbba0f11e02a2c70349e82348f68f53222213c0"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P435.json",
+      "bytes": 8108,
+      "sha256": "d6ab13cf6f48ac33aa32e22b155b6c051c10b97c7c5104b09e2c87f7e6d69d0a",
+      "git_blob_sha1": "47e7b2a2ec380319aafa22730c7ef12d122915d5"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P465.json",
+      "bytes": 6690,
+      "sha256": "4b371cac778fe34a78a716ffe4f768f6c433c6e15a5d0513f4e2fb52e6119a05",
+      "git_blob_sha1": "ef0a7d8de16ee5eac2ef41c69518e50940163d1e"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/grounding-dino-tiny__G420-P480.json",
+      "bytes": 5971,
+      "sha256": "8657da50a73b8944667c9156ac2f424ccaf3ef5b922879568e632c04a6e4ec83",
+      "git_blob_sha1": "42283266ca4b18c106d8d8660164fcd022b93480"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/nine_frame_bbox_inventory.json",
+      "bytes": 26793,
+      "sha256": "64c1e48e329d55a535413e6e09035312569e6fb1f19a828530dc730d37562623",
+      "git_blob_sha1": "8a4cb84bd9bdd2d43571a8f7da4fa834e252518d"
+    }
+  ]
+}

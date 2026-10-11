@@ -1,0 +1,73 @@
+{
+  "source_archive_sha256": "23bb285929056603e387fc6898d56c0a5cdfa64ebd717e8060682d13afd36201",
+  "source_axis_sha256": "2e1e125e8ee3bb09f1e7758117ebff60dbd1dab5dc64fad820c3b64a41211613",
+  "span_first_index": 112,
+  "span_last_index": 332,
+  "original_JPEG_count": 221,
+  "decoded_dimensions": [
+    800,
+    600
+  ],
+  "original_filename_axis_contiguous": true,
+  "missing_indices_within_span": [],
+  "next_original_gap_after_parent_run": [
+    347,
+    455
+  ],
+  "parent_contiguous_original_member_run": [
+    112,
+    346
+  ],
+  "original_image_bytes": 11461582,
+  "images_transformed": false,
+  "seconds_or_duration_reconstructed": null,
+  "native_pts_available": false,
+  "time_base_available": false,
+  "actual_source_fps_verified": false,
+  "publisher_nominal_fps": 30,
+  "frame_axis_is_native_time": false,
+  "actual_acquisition_continuity_verified": false,
+  "original_frame_manifest_sha256": "72214dff2cc99453cab65f478439912cd3980564ac6cff4450e763eac6fdea6f",
+  "model_calls": 0,
+  "model_outputs_modified": false,
+  "GT_created": false,
+  "physical_event_label": null,
+  "extraction_elapsed_seconds": 5.715419100000872,
+  "baseline": "3068fe1e41903d7d73e9e5effd0bbad6ae9b426d",
+  "preceding_missing_original_interval": [
+    100,
+    111
+  ],
+  "GT_annotation_rows_pending": 221,
+  "all_pending_objects_and_events_null": true,
+  "visible_cycle_support": "limited AI viewing supports selection rationale only; no verified association",
+  "physical_approach_pass_retreat_verified": false,
+  "away_after_disappearance_observed": false,
+  "trajectory_status": "unknown pending qualified association/dense independent review",
+  "direction_status": "unknown pending qualified trajectory/scene-side evidence",
+  "reassessment_gate": {
+    "origin": "explicit user research-design clarification",
+    "implementation_scope": "future gate declaration only; no new model, framework, full-span inference or training",
+    "normal_evidence_case": "direct rule evaluation when required observations are sufficient and mutually consistent",
+    "conflicting_or_ambiguous_case": "optional on-demand reassessment layer; never default all-frame calls",
+    "missing_observation_case": "unknown remains allowed; a model verdict does not manufacture missing observations",
+    "current_source_and_event_work_waits_for_new_model": false,
+    "physical_event_GT_definition_changed": false,
+    "model_prediction_is_human_event_GT": false,
+    "model_choice_committed": null,
+    "new_model_calls_in_this_step": 0,
+    "training_started": false,
+    "source_trajectory_direction_or_side_evidence_missing": "unknown pending qualified association/independent review",
+    "same_RGB_features_treated_as_independent_sources": false
+  },
+  "Library_retry": false,
+  "private_delivery": "pending; cloud files only; previous Library401 not retried",
+  "mac_delivered": false,
+  "source_metadata_nominal_30fps_is_actual_time": false,
+  "selection_probe_extra_original_indices_outside_selected_span": [
+    342,
+    346
+  ],
+  "first_pass_originals_only_private_bundle_prepared": true,
+  "first_pass_AI_or_model_outputs_included": false
+}

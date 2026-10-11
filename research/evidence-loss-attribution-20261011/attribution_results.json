@@ -1,0 +1,146 @@
+{
+  "scope": "one unchanged public nine-frame no-request replay with deletion sink; evidence accounting only",
+  "source_commit": "87b4c11fbebf820e5368e0d9ac93b341db523959",
+  "frozen_result_exact_match": true,
+  "configuration_changed": false,
+  "configuration": {
+    "per_view_observations": 64,
+    "total_observations": 256,
+    "per_view_relations": 512,
+    "total_relations": 2048,
+    "per_view_descriptors": 128,
+    "ttl_source_seconds": "3"
+  },
+  "inputs": {
+    "frames": 9,
+    "observations": 83,
+    "unscored_candidate_relations": 701,
+    "accepted_sparse_hypotheses": 1
+  },
+  "accepted_hypothesis_lifecycle": {
+    "label": "existing_public_sparse_endpoint_hypothesis",
+    "previous_source_seconds": "12",
+    "current_source_seconds": "13",
+    "qualification_at_ingest": "unknown_motion",
+    "qualification_missing_inputs": [
+      "nonadjacent_frames"
+    ],
+    "motion_computed": 0,
+    "removed_source_seconds": "15",
+    "removed_source_pts": 450,
+    "time_base": "1/30",
+    "reason": "endpoint_removed_relation",
+    "root_cause": "capacity",
+    "root_reason": "evicted_observation",
+    "relation_counts_at_actual_deletion": {
+      "before": 454,
+      "after": 453
+    },
+    "relation_limit_not_reached_at_accepted_deletion": true,
+    "deletion_precedes_all_direct_relation_capacity_deletions": true,
+    "observation_counts_at_root_deletion": {
+      "before": 65,
+      "after": 64
+    },
+    "single_view_per_view_observation_limit_reached": true,
+    "prior_endpoint_age_seconds_at_deletion": "3",
+    "at_inclusive_TTL_boundary_not_expired": true,
+    "importance_assessed": false
+  },
+  "direct_relation_capacity_deletions": {
+    "unscored_candidates": 13,
+    "accepted_hypotheses": 0,
+    "source_seconds": [
+      "15"
+    ]
+  },
+  "deletion_table": [
+    {
+      "kind": "descriptor",
+      "reason": "endpoint_removed_descriptor",
+      "root_cause": "capacity",
+      "association_class": null,
+      "count": 6
+    },
+    {
+      "kind": "descriptor",
+      "reason": "endpoint_removed_descriptor",
+      "root_cause": "source_ttl",
+      "association_class": null,
+      "count": 18
+    },
+    {
+      "kind": "observation",
+      "reason": "evicted_observation",
+      "root_cause": "capacity",
+      "association_class": null,
+      "count": 6
+    },
+    {
+      "kind": "observation",
+      "reason": "expired_observation",
+      "root_cause": "source_ttl",
+      "association_class": null,
+      "count": 18
+    },
+    {
+      "kind": "relation",
+      "reason": "endpoint_removed_relation",
+      "root_cause": "capacity",
+      "association_class": "accepted_hypothesis",
+      "count": 1
+    },
+    {
+      "kind": "relation",
+      "reason": "endpoint_removed_relation",
+      "root_cause": "capacity",
+      "association_class": "unscored_candidate",
+      "count": 74
+    },
+    {
+      "kind": "relation",
+      "reason": "endpoint_removed_relation",
+      "root_cause": "source_ttl",
+      "association_class": "unscored_candidate",
+      "count": 179
+    },
+    {
+      "kind": "relation",
+      "reason": "evicted_relation",
+      "root_cause": "capacity",
+      "association_class": "unscored_candidate",
+      "count": 13
+    }
+  ],
+  "conservation": {
+    "relations_created": 702,
+    "relations_deleted": 267,
+    "live_relations": 435,
+    "observations_created": 83,
+    "observation_capacity_deletions": 6,
+    "observation_TTL_deletions": 18,
+    "live_observations": 59,
+    "geometry_descriptors_created": 83,
+    "endpoint_cascade_descriptor_deletions": 24,
+    "live_descriptors": 59
+  },
+  "interpretation": {
+    "accepted_loss_due_to_701_candidates_directly_displacing_it": false,
+    "actual_retention_failure_path": "observation capacity -> previous endpoint removal -> relation removal",
+    "qualification_failure_path": "nonadjacent ingested frames already at relation ingest; independent of deletion",
+    "accepted_relation_TTL_deletions_observed": 0,
+    "priority_or_relation_capacity_change_justified_for_this_loss": false,
+    "observation_retention_design_review_supported": true,
+    "recognition_gain_supported": false,
+    "accuracy": null,
+    "event_unknown": 83
+  },
+  "limits": [
+    "One published bbox-only replay, not original media or human truth",
+    "701 candidates is total enumeration, not simultaneous occupancy or verified associations",
+    "Deletion causes are observed paths, not evidence of relation importance",
+    "No capacity, priority, TTL, source or gate was altered; no counterfactual configuration was run",
+    "No new trajectory links, model inference, pixel/HSV evidence or real negative labels",
+    "Retention review is conditional on needing within-TTL availability; TTL currently gives an upper bound only"
+  ]
+}

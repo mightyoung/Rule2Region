@@ -1,0 +1,46 @@
+{
+  "method": "Independent dictionary join on camera, original PTS/time-base, exact bbox; no qualification.py imports",
+  "source_commit": "95242a7529f1d1581b760b370216191b711d12d2",
+  "counts": {
+    "observations": 83,
+    "geometry_reuse_eligible": 36,
+    "observations_without_old_endpoint": 47,
+    "old_relation_candidates": 531,
+    "endpoint_qualified_relation_candidates": 243,
+    "accepted_endpoint_hypotheses": 1,
+    "accepted_dense_adjacent_links": 0
+  },
+  "event_unknown": 83,
+  "remote_files_byte_equal": [
+    {
+      "path": "research/cache-qualification-20261011/MANIFEST.json",
+      "sha256": "943d99d9e42547e5cb7a40ded2a2cc2923e6c44666f5b049cef32d186c3f2099",
+      "bytes": 2357
+    },
+    {
+      "path": "research/cache-qualification-20261011/README.md",
+      "sha256": "f1f620ac815d12d666d9b8a07682355f6b1d70692243b50fe19dfaffe9b0172a",
+      "bytes": 5596
+    },
+    {
+      "path": "research/cache-qualification-20261011/VALIDATION.json",
+      "sha256": "0a30c6595166da515b74677444717277548742e9a23305a4517e9c81c19cf443",
+      "bytes": 2448
+    },
+    {
+      "path": "research/cache-qualification-20261011/qualification.py",
+      "sha256": "4bafe22c6bc3e67e48373478e2b6c7a880654398b0537d8ea0500834a23fd493",
+      "bytes": 9878
+    },
+    {
+      "path": "research/cache-qualification-20261011/qualification_results.json",
+      "sha256": "3e8e86f57fd08da6e52809d4794d021296e31956b6e4342da784f638ac0fa9e9",
+      "bytes": 228648
+    },
+    {
+      "path": "research/cache-qualification-20261011/test_qualification.py",
+      "sha256": "f74db01c3eec293d68d5e18014e23d6353677785a5eed34dd017ff5618cc6c1e",
+      "bytes": 4257
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "scope": "synthetic software development only; no nine-frame image or recognition replay",
+  "retained_sparse_endpoint_hypotheses": [
+    {
+      "previous_id": "a",
+      "current_id": "b",
+      "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "endpoint_bindings": [
+        {
+          "observation_id": "a",
+          "camera": "cam",
+          "viewRevision": "v1",
+          "pts": 0,
+          "time_base": "1/1",
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "received_at": "0",
+          "available_at": "0"
+        },
+        {
+          "observation_id": "b",
+          "camera": "cam",
+          "viewRevision": "v1",
+          "pts": 2,
+          "time_base": "1/1",
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "received_at": "2",
+          "available_at": "2"
+        }
+      ],
+      "received_at": "2",
+      "available_at": "2",
+      "upstream_available_at": "2",
+      "span_seconds": "2",
+      "intervening_ingested_frames": 1,
+      "intermediate_association_status": "not_established",
+      "motion_status": "unknown_motion",
+      "motion_missing_inputs": [
+        "nonadjacent_frames"
+      ],
+      "motion_descriptor_available": false,
+      "direction_continuity": "unknown",
+      "identity_verified": false,
+      "event_status": "unknown"
+    }
+  ],
+  "qualified_continuous_history_count": 0,
+  "motion_descriptor_count": 0,
+  "event_status": "unknown",
+  "deletion_stream_examples": {
+    "relation_capacity_first_unknown": [
+      {
+        "status": "evicted_relation",
+        "kind": "relation",
+        "item": [
+          "cam",
+          "v1",
+          "a",
+          "b"
+        ],
+        "now": "2",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "relation",
+          "reason": "evicted_relation",
+          "root_cause": "capacity",
+          "root_reason": "evicted_relation",
+          "association_class": "unscored_candidate",
+          "descriptor_kind": null,
+          "counts_before": {
+            "observations": 3,
+            "relations": 2,
+            "descriptors": 3
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 3,
+            "relations": 1,
+            "descriptors": 3
+          }
+        }
+      }
+    ],
+    "relation_capacity_first_accepted_hypothesis": [
+      {
+        "status": "relation_removed_descriptor",
+        "kind": "descriptor",
+        "item": "8ec380db3a672eed61a1f4148628f99c5e00192e11bf5fe264cbf7a3ba4c2b3b",
+        "now": "2",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "descriptor",
+          "reason": "relation_removed_descriptor",
+          "root_cause": "capacity",
+          "root_reason": "evicted_relation",
+          "association_class": "accepted_hypothesis",
+          "descriptor_kind": "motion",
+          "counts_before": {
+            "observations": 3,
+            "relations": 2,
+            "descriptors": 4
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 3,
+            "relations": 2,
+            "descriptors": 3
+          }
+        }
+      },
+      {
+        "status": "evicted_relation",
+        "kind": "relation",
+        "item": [
+          "cam",
+          "v1",
+          "a",
+          "b"
+        ],
+        "now": "2",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "relation",
+          "reason": "evicted_relation",
+          "root_cause": "capacity",
+          "root_reason": "evicted_relation",
+          "association_class": "accepted_hypothesis",
+          "descriptor_kind": null,
+          "counts_before": {
+            "observations": 3,
+            "relations": 2,
+            "descriptors": 4
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 3,
+            "relations": 1,
+            "descriptors": 3
+          }
+        }
+      }
+    ],
+    "valid_query_TTL_maintenance": [
+      {
+        "status": "endpoint_removed_descriptor",
+        "kind": "descriptor",
+        "item": "3d1f28a18a78faaed62fd9d10100c04a0bbb34c48c05de95f9824aec26c7d8d2",
+        "now": "4",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "descriptor",
+          "reason": "endpoint_removed_descriptor",
+          "root_cause": "source_ttl",
+          "root_reason": "expired_observation",
+          "association_class": null,
+          "descriptor_kind": "geometry",
+          "counts_before": {
+            "observations": 2,
+            "relations": 1,
+            "descriptors": 2
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 2,
+            "relations": 1,
+            "descriptors": 1
+          }
+        }
+      },
+      {
+        "status": "expired_observation",
+        "kind": "observation",
+        "item": [
+          "cam",
+          "v1",
+          "a"
+        ],
+        "now": "4",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "observation",
+          "reason": "expired_observation",
+          "root_cause": "source_ttl",
+          "root_reason": "expired_observation",
+          "association_class": null,
+          "descriptor_kind": null,
+          "counts_before": {
+            "observations": 2,
+            "relations": 1,
+            "descriptors": 2
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 1,
+            "relations": 1,
+            "descriptors": 1
+          }
+        }
+      },
+      {
+        "status": "endpoint_removed_relation",
+        "kind": "relation",
+        "item": [
+          "cam",
+          "v1",
+          "a",
+          "b"
+        ],
+        "now": "4",
+        "deletion": {
+          "schema_version": 1,
+          "kind": "relation",
+          "reason": "endpoint_removed_relation",
+          "root_cause": "source_ttl",
+          "root_reason": "expired_observation",
+          "association_class": "accepted_hypothesis",
+          "descriptor_kind": null,
+          "counts_before": {
+            "observations": 1,
+            "relations": 1,
+            "descriptors": 1
+          },
+          "event_status": "unknown",
+          "importance_assessed": false,
+          "counts_after": {
+            "observations": 1,
+            "relations": 0,
+            "descriptors": 1
+          }
+        }
+      }
+    ]
+  },
+  "unchanged_default_capacities": {
+    "observations_per_view": 64,
+    "relations_per_view": 512,
+    "descriptors_per_view": 128,
+    "ttl_source_seconds": "3"
+  },
+  "limits": [
+    "small capacities are explicit synthetic pressure tests, not changed defaults",
+    "no assertion that a real important relation was evicted",
+    "stream ownership/backpressure/durability remain caller responsibilities",
+    "accepted endpoint hypotheses are not person identity or event GT"
+  ],
+  "model_calls": 0,
+  "new_installations": 0,
+  "accuracy": null
+}

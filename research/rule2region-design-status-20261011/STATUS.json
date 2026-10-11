@@ -1,0 +1,32 @@
+{
+  "baseline": "1ba7d24fd9e36ed2840762f52b871952df67ef35",
+  "status": "ARCHITECTURE_DISCUSSION_NOT_FINAL",
+  "previous_on_demand_cascade_is_final_user_scheme": false,
+  "previous_gate_record": "research/chokepoint-contiguous-source-20261011/REASSESSMENT_GATE.json",
+  "previous_gate_record_preserved": true,
+  "current_options_under_discussion": [
+    "unified temporal decision layer over declared perception evidence",
+    "end-to-end perception and decision model"
+  ],
+  "temporal_consistency_concern": "user raised cross-model sequence consistency as a design concern; not an empirically demonstrated failure in this execution",
+  "architecture_selected": null,
+  "training_authorized_or_started": false,
+  "new_models_or_dependencies_acquired": false,
+  "new_model_forward_calls": 0,
+  "physical_event_GT_definition_changed": false,
+  "centre_membership": "candidate possible-condition evidence only",
+  "continuous_source_preparation_blocked_by_design_discussion": false,
+  "completed_source_preparation": {
+    "original_span": [112, 332],
+    "decoded_hashed_original_JPEGs": 221,
+    "original_filename_axis_complete": true,
+    "native_PTS_or_actual_FPS_verified": false,
+    "human_annotation_rows_pending": 221,
+    "human_event_GT_created": false,
+    "qualified_trajectory_or_direction_created": false
+  },
+  "existing_source_and_model_outputs_modified": false,
+  "Library_retry": false,
+  "public_media": false,
+  "Mac_delivery_claimed": false
+}

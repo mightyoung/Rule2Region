@@ -1,0 +1,380 @@
+{
+  "source_commit": "6b12baa67e72a544a1c445c546ebc73da1ddfdb4",
+  "main_commit": "cf22ddd8e46ee83ddd9565b058e1df4e362377ea",
+  "source_results_sha256": "a6eba7b097e0ccff6be9e3838d68e441b80a6b9dfbefd8f176a5d91da276b716",
+  "branches_queried": [
+    "main",
+    "task/research-handoff-v1"
+  ],
+  "tags_found": [],
+  "complete_history_not_shallow": true,
+  "commits_examined": [
+    "6b12baa67e72a544a1c445c546ebc73da1ddfdb4",
+    "95242a7529f1d1581b760b370216191b711d12d2",
+    "74f6ad2b40afe8dda44f327037253957daaea8a0",
+    "715c1019b8d420581c292120416fe2fc87934d27",
+    "36a73fb80d7506a06f44b7c9b9d9f1822407328c",
+    "5dbd4daf5c6e55b9fa64505338f264d49ea796ac",
+    "ffac1415299e1e9fea4aeb1863bf569eb59fecf1",
+    "688abfebc9cd6349f8c67c42fa59ea086300f421",
+    "cf22ddd8e46ee83ddd9565b058e1df4e362377ea"
+  ],
+  "commit_count": 9,
+  "failed_test_count": 52,
+  "primary_missing_path_count": 24,
+  "failure_categories": {
+    "unpublished_historical_JSON_or_manifest": 42,
+    "unpublished_protocol_or_claims_document": 5,
+    "unpublished_skill_body": 2,
+    "unpublished_remote_launcher": 3
+  },
+  "missing_path_groups": [
+    {
+      "missing_path": ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g0/g0-execution-scope-v2.json",
+      "blocked_tests": [
+        "tests.test_evidencegate_execution_config::test_real_g0_scope_compiles_deterministic_execution_identities",
+        "tests.test_evidencegate_execution_config::test_bf16_and_nf4_have_distinct_canonical_model_layer_identities",
+        "tests.test_evidencegate_execution_config::test_execution_config_serializes_without_nonfinite_or_implicit_fields",
+        "tests.test_evidencegate_formal_manifest::test_formal_manifest_preserves_unit_ids_and_resolves_plugin_conditions",
+        "tests.test_evidencegate_runner::test_cli_consumes_real_g0_scope_manifest",
+        "tests.test_g3_latency_contract::test_real_latency_cells_expand_to_frozen_896_attempts",
+        "tests.test_g3_latency_contract::test_latency_summary_excludes_warmup_and_reports_cell_completeness",
+        "tests.test_g3_latency_contract::test_latency_summary_fails_terminal_coverage_without_inventing_values",
+        "tests.test_g3_latency_contract::test_latency_attempt_resume_binds_frozen_attempt_index"
+      ],
+      "blocked_test_count": 9,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g0/g0-video-scope.json",
+      "blocked_tests": [
+        "tests.test_evidencegate_codec_manifest::test_codec_manifest_verifier_closes_all_50_windows_and_binds_execution_config",
+        "tests.test_evidencegate_codec_manifest::test_codec_manifest_verifier_rejects_semantically_invalid_probe"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g1/g1-execution-config-v6.json",
+      "blocked_tests": [
+        "tests.test_g2_smoke_contract::test_g2_runner_accepts_only_final_v6_and_closed_smoke_identities"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g2/g2-formal-execution-config-v8.json",
+      "blocked_tests": [
+        "tests.test_g3_formal_contract::test_real_frozen_g3_contract_validates"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/goals/autoresearch/execute-evidencegate-engineering-paper-plan-v2-f/artifacts/g2/g2-prompt-adjustment-v1.json",
+      "blocked_tests": [
+        "tests.test_g3_formal_contract::test_real_frozen_contract_rejects_formal_sample_adjustment"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/camera-catalog-010111-v1/decision-catalog.json",
+      "blocked_tests": [
+        "tests.test_qwen_typed_fact_expert::test_zero_precision_camera_is_uninformative_and_not_ranked"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/camera-catalog-010204-v1/decision-catalog.json",
+      "blocked_tests": [
+        "tests.test_build_qwen_multirole_evidence_packages::test_proposal_is_calibration_only_and_holdout_is_physically_separate",
+        "tests.test_build_qwen_multirole_evidence_packages::test_role_assignment_enforces_abstention_and_authority",
+        "tests.test_build_qwen_multirole_evidence_packages::test_detection_ledger_contains_only_ten_calibration_frames",
+        "tests.test_build_qwen_multirole_evidence_packages::test_eligible_ids_and_tracker_receipt_are_exact",
+        "tests.test_build_qwen_multirole_evidence_packages::test_output_directory_must_be_new",
+        "tests.test_build_qwen_multirole_evidence_packages::test_validated_run_only_makes_visual_roles_execution_eligible",
+        "tests.test_build_qwen_multirole_evidence_packages::test_tampered_visual_case_cannot_enable_roles",
+        "tests.test_evaluate_qwen_camera_ranking::test_qwen_camera_ranking_is_pareto_valid_but_not_incremental",
+        "tests.test_qwen_business_profile_mapper::test_profiles_compile_deterministically_on_only_eligible_camera",
+        "tests.test_qwen_scene_expert_v2::test_camera_role_inputs_are_domain_isolated_and_withhold_evaluation",
+        "tests.test_qwen_scene_expert_v2::test_camera_prompts_bind_only_eligible_ids",
+        "tests.test_qwen_typed_fact_expert::test_typed_fact_bundle_separates_business_semantics_and_holdout",
+        "tests.test_qwen_typed_fact_expert::test_typed_domain_parser_rejects_semantic_misclassification",
+        "tests.test_qwen_typed_fact_expert::test_business_parser_requires_recall_mapping_before_precision_gate",
+        "tests.test_qwen_typed_fact_expert::test_typed_unified_requires_abstention_without_preregistered_utility"
+      ],
+      "blocked_test_count": 15,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/candidate-config-catalog-v1/catalog.json",
+      "blocked_tests": [
+        "tests.test_enrich_qwen_candidate_catalog_with_replay::test_camera_decision_view_withholds_evaluation_and_marks_eligible_configs",
+        "tests.test_enrich_qwen_candidate_catalog_with_replay::test_zero_precision_cameras_are_not_promoted_as_safe"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/evidence-router-010204-v2/proposal-evidence.json",
+      "blocked_tests": [
+        "tests.test_qwen_scene_expert_v2::test_multirole_router_gives_subagent_only_its_package_and_main_only_report_manifest"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-blind-v1/blind-cards.json",
+      "blocked_tests": [
+        "tests.test_qwen_business_profile_mapper::test_blind_cards_are_label_free_and_independent_labels_agree",
+        "tests.test_qwen_business_profile_mapper::test_no_registered_profile_abstention_is_legal"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-v1/business-cards.json",
+      "blocked_tests": [
+        "tests.test_business_profile_baselines::test_postblind_baselines_are_train_only_and_report_diagnostic_status",
+        "tests.test_qwen_business_profile_mapper::test_profile_response_contract_and_gold_label"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": ".omx/specs/autoresearch-qwen-cross-domain-scene-expert-v2/preference-profile-v1/profile-registry.json",
+      "blocked_tests": [
+        "tests.test_qwen_business_profile_mapper::test_rule_baseline_matches_all_development_cards"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "artifacts/data/dataset-expansion-audit-20260820-v4/inventory.json",
+      "blocked_tests": [
+        "tests.test_analyze_current_dataset::test_current_dataset_summary_matches_audited_artifacts"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "artifacts/data/virat-official-diva-kpf-missing-20260820-v1/package/manifest.json",
+      "blocked_tests": [
+        "tests.test_validate_virat_kpf_supplement::test_downloaded_kpf_supplement_validates"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "artifacts/data/virat-videos00-media-audit-development-20260820-v1/result.json",
+      "blocked_tests": [
+        "tests.test_audit_virat_official_kpf_supplement::test_downloaded_official_kpf_supplement_is_complete_and_bounded"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "artifacts/sceneconfig/e2-20260813-v2/e2-result.json",
+      "blocked_tests": [
+        "tests.test_validate_sceneconfig_mainline_validation::test_current_e2_e3_form_a_validated_rejection"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_historical_JSON_or_manifest",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "docs/handoff/paper-eval-dossier-20260819/16-results-and-claims-ledger.md",
+      "blocked_tests": [
+        "tests.test_v6_future_qualification_prereg::test_claims_ledger_forbids_promoting_failed_h1"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_protocol_or_claims_document",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "docs/plans/2026-08-19-camera-execution-stack-preregistration.md",
+      "blocked_tests": [
+        "tests.test_execution_policy_stack::test_stack_plan_mentions_coco_pretrain_only"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_protocol_or_claims_document",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "docs/plans/2026-08-19-h1-rehearsal-gate-confirmatory.md",
+      "blocked_tests": [
+        "tests.test_h1_rehearsal_gate_confirmatory_plan::test_confirmatory_h1_protocol_freezes_gate_claim_and_pass_set"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_protocol_or_claims_document",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "docs/plans/2026-08-20-future-qualification-v6-preregistration.md",
+      "blocked_tests": [
+        "tests.test_execution_policy_v6::test_v6_prereg_and_runner_forbid_official_on_seen_pack",
+        "tests.test_v6_future_qualification_prereg::test_v6_prereg_does_not_reopen_v5_or_change_h1"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_protocol_or_claims_document",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "research_tools/execution_policy/skills/file_browse/SKILL.md",
+      "blocked_tests": [
+        "tests.test_execution_policy_e4::test_context_writes_other_history_boxes_and_withholds_observer",
+        "tests.test_execution_policy_e4::test_context_aggregates_two_sequences_of_one_camera"
+      ],
+      "blocked_test_count": 2,
+      "category": "unpublished_skill_body",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "research_tools/remote/bootstrap_yolo26_depth_runtime.sh",
+      "blocked_tests": [
+        "tests.test_bootstrap_yolo26_depth_runtime::test_bootstrap_is_isolated_pinned_and_auditable"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_remote_launcher",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "research_tools/remote/launch_single_pass_spatial_threshold.sh",
+      "blocked_tests": [
+        "tests.test_single_pass_spatial_threshold::test_launcher_contract"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_remote_launcher",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    },
+    {
+      "missing_path": "research_tools/remote/launch_yolo26_native_batch_feasibility.sh",
+      "blocked_tests": [
+        "tests.test_yolo26_native_batch_feasibility::test_launcher_is_development_only_and_pins_gpu_one"
+      ],
+      "blocked_test_count": 1,
+      "category": "unpublished_remote_launcher",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "restoration_status": "no_committed_bytes_found_no_substitute_created"
+    }
+  ],
+  "collection_errors": [
+    {
+      "file": "tests/test_build_codec_derivatives.py",
+      "test_functions": [
+        "test_encode_command_freezes_declared_h264_contract",
+        "test_encode_resume_requires_matching_immutable_receipt",
+        "test_encode_rejects_orphan_and_identity_conflict",
+        "test_write_atomic_refuses_manifest_overwrite",
+        "test_probe_reports_real_bframe_packet_and_mv_receipts"
+      ],
+      "reason": "research_tools.remote absent from source publication"
+    },
+    {
+      "file": "tests/test_build_development_video_receipt.py",
+      "test_functions": [
+        "test_development_transcode_matches_frozen_codec_contract"
+      ],
+      "reason": "research_tools.remote absent from source publication"
+    }
+  ],
+  "secondary_code_dependencies": [
+    {
+      "missing_path": "research_tools/execution_policy/skills/count_schedule/SKILL.md",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "role": "unexecuted_import_or_next_required_skill_not_reached"
+    },
+    {
+      "missing_path": "research_tools/remote/build_codec_derivatives.py",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "role": "unexecuted_import_or_next_required_skill_not_reached"
+    },
+    {
+      "missing_path": "research_tools/remote/build_development_video_receipt.py",
+      "commits_containing_exact_path": [],
+      "same_basename_candidates": [],
+      "role": "unexecuted_import_or_next_required_skill_not_reached"
+    }
+  ],
+  "version_intent_evidence": {
+    "publication_root_commit": "cf22ddd8e46ee83ddd9565b058e1df4e362377ea",
+    "publication_checks": "docs/publication-checks.md",
+    "source_manifest": "SOURCE_MANIFEST.json",
+    "source_history_included": false,
+    "published_snapshot_excludes_remote_launchers_and_original_research_evidence": true
+  },
+  "limits": [
+    "First failing paths only; resolving a root may reveal more transitive files",
+    "No original repository history, private artifacts, GT or licenses inferred",
+    "Same basename is not same version or same evidence; no alternate is substituted"
+  ],
+  "restored_historical_files": 0,
+  "assertions_modified": false,
+  "gates_modified": false
+}

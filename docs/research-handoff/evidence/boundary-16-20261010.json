@@ -1,0 +1,351 @@
+{
+  "schema_version": "rule2region-public-evidence-index.v1",
+  "generated_at_utc": "2026-10-10T03:26:50.991263+00:00",
+  "publication_scope": "metadata_only; originals, tensors, raw logs, private paths/links and conversation records omitted",
+  "artifacts": [
+    {
+      "artifact_id": "boundary-expansion-review-archive",
+      "sha256": "5934e72dd58344c829de2c8af1e4a8cd44cc039d58e9046147045cf875e2da6e",
+      "bytes": 16737023,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen 16-image review subset and provenance; original media not published."
+      }
+    },
+    {
+      "artifact_id": "boundary-run-review-archive",
+      "sha256": "24f0717b67f65ae8dca703a710475a5ba95a811948e78a34f8c72764da4b4b67",
+      "bytes": 12852517,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen execution review archive; model weights excluded; bytes not published."
+      }
+    },
+    {
+      "artifact_id": "frozen-candidate-manifest",
+      "sha256": "f02bf27a42dbe5cec1448b969c29d447cd469a6bc2b2fda218b5e7e51acb3578",
+      "bytes": 44660,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Frozen selection/source identities, 16 development images."
+      }
+    },
+    {
+      "artifact_id": "frozen-run-config",
+      "sha256": "89c7d95dcf331aaf9569db5928b2087f0f20c9c3d86eeb637886544bd88639f5",
+      "bytes": 90011,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Original detector/ROI/input configuration, including private runtime paths; contents withheld."
+      }
+    },
+    {
+      "artifact_id": "run-manifest",
+      "sha256": "8b15a575094ee83da8a7bab7e43c67e1ca1424ab440d1ef55ea48e33a67d2a08",
+      "bytes": 3219,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Execution summary as recorded before appended business-scope confirmation."
+      }
+    },
+    {
+      "artifact_id": "predictions",
+      "sha256": "52087e347fd3e650664a445e6d595c0f990428cfbfabda68f3aab954155f5862",
+      "bytes": 25646,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "16 full-frame prediction records; AI prelabels, not GT."
+      }
+    },
+    {
+      "artifact_id": "routing",
+      "sha256": "69e19e63198a448d1a26c5abb7afeaa32b2a4b5e1d4ec64723525e29c0a66e43",
+      "bytes": 144761,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "140 unchanged first-run F/H/M candidate routing records."
+      }
+    },
+    {
+      "artifact_id": "metrics",
+      "sha256": "9017fef7c5c3dec252b627f974587c7f0afb8f8f1d83422fa7e9c1dae3ac997d",
+      "bytes": 2521,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Descriptive counts and null GT-dependent metrics."
+      }
+    },
+    {
+      "artifact_id": "verification-summary",
+      "sha256": "2bbfcb405c61933b24a4e2c53bfdcd8a36d3245fe7216640b2067992616a34b2",
+      "bytes": 6373,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Original validation receipt, not a new experiment."
+      }
+    },
+    {
+      "artifact_id": "independent-review",
+      "sha256": "693dc69979c152e62a839cded07f3226a85026ea182b8610ff2ace2a0cfe64ea",
+      "bytes": 5811,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "AI execution/method audit; not human GT."
+      }
+    },
+    {
+      "artifact_id": "scope-confirmation",
+      "sha256": "8c35fbcaca5d280fd8aeacba32663b226b6a26bc21f3f40a896bea02442b39a2",
+      "bytes": 2221,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Post-run business-scope evidence; private conversation details withheld."
+      }
+    },
+    {
+      "artifact_id": "post-scope-interpretations",
+      "sha256": "83d5dd282f4f75788dbea44edbafd3072e3cda7e12858e3cd704b312f91e9079",
+      "bytes": 5375,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Appended interpretation; frozen raw routing preserved."
+      }
+    },
+    {
+      "artifact_id": "unknowns-and-failures",
+      "sha256": "9fd1027dd4e082128dfba7c9f48edc6a9a8cc735942ad19fc22812848a6f63fd",
+      "bytes": 1341,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Historical first-run unknowns; C scope later confirmed separately."
+      }
+    },
+    {
+      "artifact_id": "site-batch-receipt",
+      "sha256": "647ff7c5c2eda6d9a679b01aa47d57cbd15b8b178db0f28e2b09b84f9b9ce5d2",
+      "bytes": 1768,
+      "visibility": "restricted",
+      "availability": "metadata_only",
+      "provenance": {
+        "source": "Retained research artifact; public source references are listed in the progress report.",
+        "license": "No redistribution of underlying artifact is granted by this index.",
+        "split": "development_candidate_exposed",
+        "derivation": "Read-back receipt for owner-only site assets; private URLs/IDs withheld."
+      }
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "D13-S120",
+      "image_sha256": "219f771156d662d26489ccfce27b1c5bae058a96e9ec65cce89f760cf7f2d918",
+      "decoded_RGB_sha256": "68c1e868d01d671213619d5f4c80b9e45fa5ff67972a49cc21232d8101616f8b",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 2,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D13-S06",
+      "image_sha256": "99cbd66e58c5a6d25fc5d0a8a6b23ce93c56cc1b18f6da0046789593bf87e5c3",
+      "decoded_RGB_sha256": "a0184831b3006668f4e44d7e753d31ad7f4f728ad9c9ba498e8b6db98dba39e9",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 2,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D13-S05",
+      "image_sha256": "580461556b75698d1349adc8679470e081c914c84c32a141ffd4c4b308fa46fa",
+      "decoded_RGB_sha256": "67399a7d69c9a0d4ba6ebee7741e1023d042b8a47b5381a6d02cca46313f397b",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D13-S121",
+      "image_sha256": "ff3c74e06940fc554d69797113907aef30323611f6bcfc2572818770fb07b0e6",
+      "decoded_RGB_sha256": "a3412eeeb6f3512744347cb093d3ab47fe964e087d160a7807ba54ed7e76e128",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D13-S02",
+      "image_sha256": "8d7ebc75c9b1b434a2436aaa9976eb5a717f05d9857bfdb122f094c1c522a5c4",
+      "decoded_RGB_sha256": "18d22af63122609fcd23ea19500df284d5540c05d841ac49ca733e2c1c429560",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D13-S130",
+      "image_sha256": "c4d7cf8930ff0d34992f35164f4de11cb5bda28482c74a6b8ba132c2718cbf67",
+      "decoded_RGB_sha256": "44cf659f71ff826191893e1da852184f0dddd699e39c59d888ef87ef733a017d",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "CAV-F0100",
+      "image_sha256": "eb24623d12ee3f930b74af4bae7ecf70b31f4078e4a558d214220df30b9f78e4",
+      "decoded_RGB_sha256": "fb395d3c3e3d12ae18a79088325bdd12200358f9ca014b33001982f13e56f6df",
+      "cache_mode": "reused_identical_decoded_RGB",
+      "F_candidates": 6,
+      "H_available": true,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "CAV-F0300",
+      "image_sha256": "434769d0ceca025fbcac8514fb20766f3a67fa339415984f2dccfbd85def66f4",
+      "decoded_RGB_sha256": "ab39b1cf81237096337a6accf7a34037e4cb98b0a7a280da86b3143bef73fcfa",
+      "cache_mode": "reused_identical_decoded_RGB",
+      "F_candidates": 7,
+      "H_available": true,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "CAV-F0075",
+      "image_sha256": "e81cba3256c0238c7ad0ed2083d3ba6052d7998ee3ca3657c5965bcb7834922f",
+      "decoded_RGB_sha256": "e9c28660c1d3b9e582429bb822bf0326c73188767e1c5701b9c5b98cd590ac78",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 6,
+      "H_available": true,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "CAV-F0150",
+      "image_sha256": "cc362d728c8cb442b9b5b0cadc1454c8d933603a32f2c8275127c2006b6ff318",
+      "decoded_RGB_sha256": "43aba8a718466c424a609ffe750611f836c9c085c154d1aa4d9df9023c544d05",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 7,
+      "H_available": true,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D06-S05",
+      "image_sha256": "974da484fa52a06886b84e9f8e88f79f9829f4a5faab29c488bde2da92d70257",
+      "decoded_RGB_sha256": "87e29235809e339ff69315df0d256770f7e5551b076a3d39097569301ba2ff1c",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 9,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D06-S09",
+      "image_sha256": "10eac71f8651fe6a5a409054e4b23def22109fcfe215b13228a8a88c70354eff",
+      "decoded_RGB_sha256": "a49b3c89c2da4f23af404a0db25db3089d0e7c6eeeec8c19e8857770800575d2",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 9,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D20-S06",
+      "image_sha256": "008044865eab02f0975f96d9d871683429bfecff14321e644ba804ef5cc76e71",
+      "decoded_RGB_sha256": "b98f7037844f02cc625e71fd236715b43a5f6d29a7162aea113689bb81fb2987",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 2,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D20-S35",
+      "image_sha256": "dddd51d1c924a4af4ccb0838afed8777363acf85da2f72dfca2668f5bbad3100",
+      "decoded_RGB_sha256": "ada8bd92418409067e295d5d313177cb91980d3a803fb5cf1889907847a43fdc",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 2,
+      "H_available": false,
+      "M_available": true,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D15-S02",
+      "image_sha256": "af7314e6c54466b1cfae9f7b80c5fa5b8cdfbfe3d436ec0527c6eb162f4d12bb",
+      "decoded_RGB_sha256": "588e39c74b895aa4a7c5d8d1110256f9d5284c63795d1bcbb82ca49f7feee926",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": false,
+      "human_person_annotation_complete": false
+    },
+    {
+      "sample_id": "D15-S08",
+      "image_sha256": "ace657b78841e4623c6d8a2f1f829a6881b2ac6fd751b1294eb5b777a690c925",
+      "decoded_RGB_sha256": "ccc825ac93daa3e950aa803e690e44b53c63b3f61b9e16fc2682fa0abde8e1cd",
+      "cache_mode": "new_full_original_forward",
+      "F_candidates": 1,
+      "H_available": false,
+      "M_available": false,
+      "human_person_annotation_complete": false
+    }
+  ]
+}

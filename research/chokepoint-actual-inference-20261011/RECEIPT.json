@@ -1,0 +1,275 @@
+{
+  "baseline": "6f21b83f719712d855c36227a1044c7eeadeeaf7",
+  "status": "FOUR_FRAME_ACTUAL_FROZEN_PERSON_INFERENCE_COMPLETED",
+  "development_exposed": true,
+  "independent_human_gt": false,
+  "accuracy_recall_precision": null,
+  "configuration": {
+    "model_id": "IDEA-Research/grounding-dino-tiny",
+    "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "prompt": "person.",
+    "box_threshold": 0.25,
+    "text_threshold": 0.25,
+    "classwise_nms_iou": 0.7,
+    "nms_convention": "suppress when IoU > threshold; confidence desc then prediction_id",
+    "max_detections": null,
+    "class_mapping": {
+      "person": "person"
+    },
+    "processor_size": {
+      "shortest_edge": 800,
+      "longest_edge": 1333
+    },
+    "processor_implementation": "GroundingDinoImageProcessor use_fast=False; bundled normalize/rescale/bilinear/pad",
+    "color_space": "PIL_RGB",
+    "bbox_coordinate_system": "continuous original image edges xyxy; raw preserved; clipping audited",
+    "device": "cpu",
+    "dtype": "float32",
+    "batch_size": 1,
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "seed": 0,
+    "warmup_calls": 0,
+    "image_read_window": "full_original",
+    "roi_masks_applied_to_detector": false,
+    "threshold_tuning": "none",
+    "network": "offline only",
+    "trust_remote_code": false
+  },
+  "actual_versions": {
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.1",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.35.3",
+    "Pillow": "12.3.0",
+    "numpy": "2.5.4"
+  },
+  "torchvision_used": false,
+  "processor_backend": "PIL slow use_fast=False",
+  "environment_matches_historical_byte_for_byte": false,
+  "environment_differences": "optional torchvision omitted; existing NumPy 2.5.4/Pillow 12.3.0 retained versus historical NumPy 2.5.2/Pillow 11.3.0; resolved auxiliary dependency versions recorded privately",
+  "model_weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "model_snapshot_files": [
+    {
+      "name": "README.md",
+      "bytes": 2580,
+      "sha256": "cf46f74c7b6850f1d5cbe406028324d8798148726016d46a69a365b4a2d3e89f"
+    },
+    {
+      "name": "added_tokens.json",
+      "bytes": 82,
+      "sha256": "909e96cb32d92ce728a01bc99850cbba26196d74115c17ebeb019275412588f2"
+    },
+    {
+      "name": "config.json",
+      "bytes": 1644,
+      "sha256": "eec82c5ab66e16df12a9a212e68ac011779927c2536cf9078658e35d85f0c67a"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 689359096,
+      "sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 457,
+      "sha256": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 711396,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1237,
+      "sha256": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56"
+    },
+    {
+      "name": "vocab.txt",
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  ],
+  "model_import_seconds": 7.690758595999796,
+  "processor_and_model_load_seconds": 1.117207861996576,
+  "hardware": {
+    "device": "cpu",
+    "cuda_available": false,
+    "torch_threads": 4,
+    "interop_threads": 1,
+    "cpu_model": "Intel Xeon Platinum 8573C",
+    "logical_cpus_visible": 5
+  },
+  "frame_aggregates": [
+    {
+      "frame_index": 0,
+      "status": "completed",
+      "raw_query_count": 900,
+      "thresholded_count": 0,
+      "kept_count": 0,
+      "processed_pixel_values_shape": [
+        1,
+        3,
+        800,
+        1066
+      ],
+      "timing_phase": "first_forward_no_warmup",
+      "preprocess_seconds": 0.05844472800163203,
+      "forward_seconds": 20.33453773400106,
+      "postprocess_seconds": 0.0022596720009460114,
+      "total_image_seconds_including_raw_serialization_and_overlay": 20.625994221001747
+    },
+    {
+      "frame_index": 142,
+      "status": "completed",
+      "raw_query_count": 900,
+      "thresholded_count": 1,
+      "kept_count": 1,
+      "processed_pixel_values_shape": [
+        1,
+        3,
+        800,
+        1066
+      ],
+      "timing_phase": "subsequent_forward_no_repeat_benchmark",
+      "preprocess_seconds": 0.04185161300119944,
+      "forward_seconds": 8.178665883999201,
+      "postprocess_seconds": 0.0015613969990226906,
+      "total_image_seconds_including_raw_serialization_and_overlay": 8.456155136002053
+    },
+    {
+      "frame_index": 262,
+      "status": "completed",
+      "raw_query_count": 900,
+      "thresholded_count": 2,
+      "kept_count": 2,
+      "processed_pixel_values_shape": [
+        1,
+        3,
+        800,
+        1066
+      ],
+      "timing_phase": "subsequent_forward_no_repeat_benchmark",
+      "preprocess_seconds": 0.05041882300065481,
+      "forward_seconds": 13.346105875996727,
+      "postprocess_seconds": 0.0014443430009123404,
+      "total_image_seconds_including_raw_serialization_and_overlay": 13.649136890999216
+    },
+    {
+      "frame_index": 312,
+      "status": "completed",
+      "raw_query_count": 900,
+      "thresholded_count": 1,
+      "kept_count": 1,
+      "processed_pixel_values_shape": [
+        1,
+        3,
+        800,
+        1066
+      ],
+      "timing_phase": "subsequent_forward_no_repeat_benchmark",
+      "preprocess_seconds": 0.03894185199897038,
+      "forward_seconds": 12.86363941700256,
+      "postprocess_seconds": 0.004545067000435665,
+      "total_image_seconds_including_raw_serialization_and_overlay": 13.220995216997835
+    }
+  ],
+  "forward_calls": 4,
+  "warmup_calls": 0,
+  "threshold_tuning": false,
+  "human_or_AI_corrected_boxes": 0,
+  "runtime_error_count": 0,
+  "miss_or_false_positive_count": null,
+  "miss_status": "no independent GT; separate limited AI diagnostic retained privately, not exhaustive validation",
+  "raw_output_integrity": {
+    "status": "passed",
+    "checks": [
+      {
+        "frame_index": 0,
+        "original_hash_matches_frozen_admission": true,
+        "raw_JSON_matches_exact_safetensors": true,
+        "complete_900_queries": true,
+        "actual_tensor_shape": [
+          1,
+          3,
+          800,
+          1066
+        ],
+        "negative_infinite_logit_count": 226800,
+        "nan_logit_count": 0,
+        "all_outputs_retained": true
+      },
+      {
+        "frame_index": 142,
+        "original_hash_matches_frozen_admission": true,
+        "raw_JSON_matches_exact_safetensors": true,
+        "complete_900_queries": true,
+        "actual_tensor_shape": [
+          1,
+          3,
+          800,
+          1066
+        ],
+        "negative_infinite_logit_count": 226800,
+        "nan_logit_count": 0,
+        "all_outputs_retained": true
+      },
+      {
+        "frame_index": 262,
+        "original_hash_matches_frozen_admission": true,
+        "raw_JSON_matches_exact_safetensors": true,
+        "complete_900_queries": true,
+        "actual_tensor_shape": [
+          1,
+          3,
+          800,
+          1066
+        ],
+        "negative_infinite_logit_count": 226800,
+        "nan_logit_count": 0,
+        "all_outputs_retained": true
+      },
+      {
+        "frame_index": 312,
+        "original_hash_matches_frozen_admission": true,
+        "raw_JSON_matches_exact_safetensors": true,
+        "complete_900_queries": true,
+        "actual_tensor_shape": [
+          1,
+          3,
+          800,
+          1066
+        ],
+        "negative_infinite_logit_count": 226800,
+        "nan_logit_count": 0,
+        "all_outputs_retained": true
+      }
+    ]
+  },
+  "trajectory_associations_executed": false,
+  "event_classifier_executed": false,
+  "event_status": "unknown/unassessed, never safe",
+  "door_detection_executed": false,
+  "door_ROI_source": "separate earlier AI illustration; not part of model-only output",
+  "AI_query_ids_are_person_identity": false,
+  "model_output_media_public": false,
+  "private_figure_delivery": "local cloud image and private ZIP available; Library upload failed before app call with HTTP 401; no new file ID",
+  "model_download_bytes": 690308125,
+  "dependency_install_wheel_bytes": 22896995,
+  "dependency_metadata_dry_run_also_downloaded_wheels": true,
+  "duplicate_torch_or_CUDA_downloads": false,
+  "credentials_or_paid_API_used": false,
+  "model_network_at_inference": false,
+  "mac_delivery_verified": false,
+  "legacy_failure_status": "52 historical failures and 2 collection errors retained; repository-wide suite not rerun",
+  "library_save_succeeded": false,
+  "publisher_small_file_blob_verification": "8/8 passed",
+  "pip_check": "passed"
+}

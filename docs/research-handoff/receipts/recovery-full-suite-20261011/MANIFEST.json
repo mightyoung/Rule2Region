@@ -1,0 +1,35 @@
+{
+  "scope": "public validation methods, sanitized outcomes and public file hashes; excludes this manifest",
+  "files": [
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/README.md",
+      "bytes": 7488,
+      "sha256": "eddbd5519b240fdf318d0db8845625be6ad051c55b33c76f6d4ceba16a09f97f"
+    },
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/VALIDATION.json",
+      "bytes": 3847,
+      "sha256": "0d0ca20557cec3f26e8f5b057724c77a248874b39ee1b5e2838fb04c1b0f3e84"
+    },
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/additional-test-results.json",
+      "bytes": 3858,
+      "sha256": "e92ada6f02e4926d8516b94c3cbe659d9bdf60791490eb5184629fceb01e2b67"
+    },
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/environment-packages.txt",
+      "bytes": 449,
+      "sha256": "41a167efc9ffa8f60a9a0631c42a489450bd686a809aedf91b880ba57eac9e0d"
+    },
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/independent-verification.json",
+      "bytes": 1670,
+      "sha256": "6f9cf1b6c274d58c3f714fe3672f28b40691a0a35ff2be8f16799522fc9d6d16"
+    },
+    {
+      "path": "docs/research-handoff/receipts/recovery-full-suite-20261011/repository-test-results.json",
+      "bytes": 88439,
+      "sha256": "a6eba7b097e0ccff6be9e3838d68e441b80a6b9dfbefd8f176a5d91da276b716"
+    }
+  ]
+}

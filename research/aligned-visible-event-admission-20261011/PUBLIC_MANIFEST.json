@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "INCLUSION_PROTOCOL.json",
+      "bytes": 2556,
+      "sha256": "f89432abe90ef4bd180f90ec7c79d5bd123c812d2bb44542493774e3209d34ec"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2049,
+      "sha256": "bb81a3c1dd0dc7ba565f485c840e747f56775c652a932ca3d609bcb7db41a00b"
+    },
+    {
+      "path": "RECEIPT.json",
+      "bytes": 1197,
+      "sha256": "a319e865e29bdd1b81e959c32e5d719ef6b85a1efade137331653780ab72ed7e"
+    }
+  ],
+  "scope": "Only public methods, aggregate receipt and source-scope evidence; no private media or person-level labels."
+}

@@ -1,0 +1,93 @@
+{
+  "date_utc": "2026-10-11",
+  "source_commit": "1e434a82ed163d1c6579efe6eed3c29cdbc67d58",
+  "environment": {
+    "execution": "cloud /workspace/Rule2Region",
+    "python": "3.12.14",
+    "validation_environment": "previously authorized isolated venv; no installation in this step",
+    "packages_receipt": "docs/research-handoff/receipts/recovery-full-suite-20261011/environment-packages.txt"
+  },
+  "root_pytest": {
+    "command": "python -m pytest --continue-on-collection-errors --junitxml=<local_receipt>",
+    "exit_code": 1,
+    "passed": 409,
+    "failed": 52,
+    "collection_errors": 2,
+    "unexecuted_functions": 6,
+    "skipped": 0,
+    "identity_and_status_set_equal_to_initial_full_suite_and_previous_receipt": true,
+    "failure_set_unchanged": true
+  },
+  "additional_pytest": {
+    "passed": 22,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "unittests": {
+    "old_cache": 64,
+    "qualification": 13,
+    "coverage": 12,
+    "new_nine_frame_conditional": 7,
+    "all_passed": true
+  },
+  "replays": {
+    "old_cache": "exact match",
+    "qualification": "exact match",
+    "coverage": "exact match",
+    "new_conditional": "exact JSON-native match after documented serialization fix"
+  },
+  "overall_executed_cases": 579,
+  "overall_passed": 527,
+  "overall_failed": 52,
+  "attempted_test_files": 127,
+  "manifest_entries_verified": 52,
+  "unchanged_manifests": [
+    "research/continuous-cache-20261010/PUBLIC_MANIFEST.json",
+    "research/cache-qualification-20261011/MANIFEST.json",
+    "docs/research-handoff/receipts/recovery-full-suite-20261011/MANIFEST.json",
+    "docs/research-handoff/receipts/failure-trace-20261011/MANIFEST.json",
+    "research/public-coverage-audit-20261011/MANIFEST.json"
+  ],
+  "development_failure": {
+    "first_repeat_replay": "failed: tuple endpoint keys in memory differed from JSON arrays",
+    "recursive_comparison": "exactly four type differences across two branches; JSON-normalized values equal",
+    "regression_test_before_fix": "failed JSON-native roundtrip assertion",
+    "fix": "convert only exported legacy endpoint keys a/b to lists",
+    "final_tests": 7,
+    "final_replay_exit": 0,
+    "original_fixtures_and_cache_code_unchanged": true
+  },
+  "raw_local_log_sha256": {
+    "final-tests": "9da702441a06da480130d0d316c647ae85a68fc38e05033ed579e3ce0fee1005",
+    "final-replay": "b184b826c177b044b669fd4271b0adb923014f1c68c60cb9ca9c9713fac177eb",
+    "final-root": "43001161519c8a9e6bd1eec09d23cbc87dcd8481ee6c4cb4edb8b13b075b6f3a",
+    "extra": "e2289c230135b682d66e48107f8caab30f5b37878e8daf2e9fb92df9aebb1375",
+    "old-cache": "de2c04e15a3e8b8d35776b847eeeefcb1e60c11efff6b90ed2436a59103b9751",
+    "old-replay": "f2c3efa2c2fe3aa7c10dd72b16c9dd9642c78769cf2bee82878fd66f964582fd",
+    "old-qualification": "13b40c59a08be910700fce773e5a7c5371509e59515861892ba05a893b2363fd",
+    "old-qualification-replay": "9748a770ccd07d9315dfe968da2c1a7a39e7be1cbbed58bf1a9bfbd4b3b4dd60",
+    "old-coverage": "bc6db4b4248bc0ead6524b73bc9010ad2c0413f16ae6731b8044af383253c504",
+    "old-coverage-replay": "18594f97429c0249f51b721a2f6b98c27c11f516a87a80dec353167387b8eb6b",
+    "serialization-red": "cd9a450078e53fd64e0361857a55767ebdd7f8c4b16a5ee2135c794db4ef91b7"
+  },
+  "source_restoration": {
+    "readable_native_texts": 8,
+    "additional_prior_workbench_text_read": 1,
+    "historical_exact_title_queries": 5,
+    "exact_title_matches": 0,
+    "image_report_bytes_recovered": 0,
+    "large_html_reads": "Transport closed",
+    "official_Library_materializer": "HTTP 401",
+    "credentials_changed": false,
+    "Mac_transfer_completed": false
+  },
+  "authorization_limits": {
+    "new_model_calls": 0,
+    "judgment_engine_calls": 0,
+    "paid_calls": 0,
+    "new_installs": 0,
+    "weight_or_media_downloads": 0,
+    "private_material_publications": 0
+  },
+  "interpretation": "all 83 event unknown; proxy conditional feature retrieval only; no classifier validation or recognition gain; AI is not human GT; unknown is not safe"
+}

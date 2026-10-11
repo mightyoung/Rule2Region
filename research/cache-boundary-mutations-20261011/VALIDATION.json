@@ -1,0 +1,75 @@
+{
+  "source_commit": "2baf16615b61bd7c04193b7c8b06b81b056aa06d",
+  "date_utc": "2026-10-11",
+  "scope": "synthetic pure-software boundary/mutation validation",
+  "real_implementation_bugs_found": 0,
+  "production_code_changed": false,
+  "boundary_methods_passed": 8,
+  "mutation_validation": {
+    "hand_authored_mutants": 9,
+    "each_run_boundary_methods": 8,
+    "all_detected_by_assertion": true,
+    "unexpected_errors": 0,
+    "receipt_repeat_exact": true,
+    "not_exhaustive": true,
+    "intentional_failures_excluded_from_ordinary_test_counts": true,
+    "initial_variant_secondary_errors": 2,
+    "initial_variant_fix": "renew predecessor only, preserve requested target timestamp"
+  },
+  "root_pytest": {
+    "passed": 409,
+    "failed": 52,
+    "collection_errors": 2,
+    "exit": 1,
+    "same_module_test_status_set": true,
+    "unexecuted_functions": 6,
+    "complete_failure_identity_reference": "research/nine-frame-conditional-replay-20261011/repository-test-statuses.json"
+  },
+  "additional_tools_passed": 22,
+  "existing_unittests_passed": {
+    "old_cache": 64,
+    "qualification": 13,
+    "coverage": 12,
+    "nine_frame": 7,
+    "development_adapter": 17
+  },
+  "existing_replays": {
+    "original_real": "exact match",
+    "qualification": "exact match",
+    "coverage": "exact match",
+    "nine_frame_real": "exact match",
+    "synthetic_development": "exact match"
+  },
+  "ordinary_executed_methods_cases": 604,
+  "ordinary_passed": 552,
+  "ordinary_failed": 52,
+  "prior_manifest_entries_verified": 64,
+  "raw_local_log_sha256": {
+    "r2r-boundary-extra.log": "e3036cd49b0d7f7d554bc7a9a8910f03948c1fb8068c51229dd962195988666b",
+    "r2r-boundary-frozen-tests-0.log": "7c262a3b28c75c22a5c774144decd3b0733490f4c7ae031853c427108c4dbd8a",
+    "r2r-boundary-frozen-tests-1.log": "796f20bdb68f1cb7f910e6b3e21382b885c997c87c191584430a3f26c4fbe821",
+    "r2r-boundary-frozen-tests-2.log": "90a729e7f1b9c9174256cc970282f9db65916a43857df7c15b453553986020af",
+    "r2r-boundary-frozen-tests-3.log": "38719349ebe0ad2113ef0084688643339d469506dd108f8fefd572b19c6bcd3e",
+    "r2r-boundary-frozen-tests-4.log": "49bfbaf1ed4fb1b994ebbf5d8ee62e66ec27fe12532d37cd23c60254bf33969a",
+    "r2r-boundary-mutation-final.log": "59d7ebfcb1f37e5a14c2a77299c5e3d76388b2121054993bfe6084672289a917",
+    "r2r-boundary-mutation-generate.log": "dbe485b073792697a7b8c672940c459efeb6d6a11db4bb766837415cb3d184a9",
+    "r2r-boundary-mutation-replay.log": "59d7ebfcb1f37e5a14c2a77299c5e3d76388b2121054993bfe6084672289a917",
+    "r2r-boundary-replay-coverage.log": "18594f97429c0249f51b721a2f6b98c27c11f516a87a80dec353167387b8eb6b",
+    "r2r-boundary-replay-nine.log": "b184b826c177b044b669fd4271b0adb923014f1c68c60cb9ca9c9713fac177eb",
+    "r2r-boundary-replay-old.log": "f2c3efa2c2fe3aa7c10dd72b16c9dd9642c78769cf2bee82878fd66f964582fd",
+    "r2r-boundary-replay-qualification.log": "9748a770ccd07d9315dfe968da2c1a7a39e7be1cbbed58bf1a9bfbd4b3b4dd60",
+    "r2r-boundary-replay-software.log": "3071281e12cc99f9ba32852c40068911d946fe9b547e60a5881f9380ede591ff",
+    "r2r-boundary-root.log": "2f8e970129dc426181000b12565ca3d9664738bd67e8c640946248c90acc6b4f",
+    "r2r-boundary-tests.log": "8ac9b9e95166a45b61ce6de03234972de3a790a5015492ae17e1d48eddf15043"
+  },
+  "initial_mutation_receipt_sha256": "06fde4defbf0884064f6225df35bb6911b68d228d211d460c38c11ce0132459b",
+  "limits": {
+    "new_installs_models_paid_calls_media": 0,
+    "private_material_publications": 0,
+    "default_capacities_changed": false,
+    "Mac_save_claimed": false,
+    "recognition_gain_claimed": false,
+    "accuracy": null,
+    "human_truth_created": false
+  }
+}

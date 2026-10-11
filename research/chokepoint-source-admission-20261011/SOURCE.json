@@ -1,0 +1,109 @@
+{
+  "dataset": "CHOKEPOINT",
+  "purpose": "independent noncommercial development-source admission, not G420 recovery",
+  "source_baseline_commit": "7b7a6a148980fb8e78c295109915a1f3bd1e27cb",
+  "official_url": "https://arma.sourceforge.net/chokepoint/",
+  "publisher_record_url": "https://zenodo.org/records/815657",
+  "publisher_metadata": {
+    "api_url": "https://zenodo.org/api/records/815657",
+    "http_status": 200,
+    "record_id": 815657,
+    "doi": "10.5281/zenodo.815657",
+    "metadata": {
+      "title": "ChokePoint Dataset",
+      "version": null,
+      "publication_date": "2017-06-22",
+      "license": {
+        "id": "cc-by-nc-4.0"
+      },
+      "access_right": "open",
+      "access_conditions": null
+    },
+    "record_created": "2017-06-22T07:39:30.988925+00:00",
+    "record_modified": "2020-01-24T19:25:48.171341+00:00",
+    "selected_file": {
+      "id": "1d5cdf78-b954-450a-a1ca-609fbd682b94",
+      "key": "P1E_S1.tar.xz",
+      "size": 385315324,
+      "checksum": "md5:195191772856c1a62650a1d47e897b2a",
+      "links": {
+        "self": "https://zenodo.org/api/records/815657/files/P1E_S1.tar.xz/content"
+      }
+    }
+  },
+  "displayed_release_version": "v1",
+  "download": {
+    "http_status": 200,
+    "final_url": "https://zenodo.org/api/records/815657/files/P1E_S1.tar.xz/content",
+    "bytes_received": 385315324,
+    "sha256": "3e310249afa86309175a13a04eb3e5cbea60f38e4018f9e4b8bd3fd80e39fcba",
+    "md5": "195191772856c1a62650a1d47e897b2a",
+    "publisher_checksum_match": true,
+    "complete": true
+  },
+  "disk_free_before_bytes": 32016711680,
+  "license": {
+    "publisher_api_id": "cc-by-nc-4.0",
+    "official_noncommercial_conditions_retained_privately": true,
+    "licence_notice_copy_HTTP": 200,
+    "terms_acceptance_or_login_observed": false,
+    "obligations": [
+      "noncommercial only",
+      "NICTA and Wong et al. 2011 attribution",
+      "original licence notice retained",
+      "altered/derivative material explicitly marked"
+    ],
+    "commercial_permission_claimed": false
+  },
+  "C1": {
+    "nested_C1_bytes": 125805716,
+    "nested_C1_sha256": "23bb285929056603e387fc6898d56c0a5cdfa64ebd717e8060682d13afd36201",
+    "C1_jpeg_count": 2292,
+    "source_frame_first": 0,
+    "source_frame_last": 4409,
+    "source_axis_gap_count": 25,
+    "missing_axis_indices_total": 2118,
+    "gap_first_example": {
+      "missing_first": 100,
+      "missing_last": 111
+    },
+    "selected_original_jpeg_count": 107,
+    "selected_all_decode_verified": true,
+    "other_camera_members_extracted": 0
+  },
+  "visual_admission": {
+    "method": "assistant direct full-frame visual inspection; no detector/new external model/face matching/biometric identity",
+    "images_actually_viewed": [
+      0,
+      50,
+      99,
+      112,
+      142,
+      172,
+      212,
+      262,
+      312
+    ],
+    "publisher_background_claim": "first 100 frames described as background; extracted original indices 0..99; no full manual truth annotation",
+    "background_visual_subset": [
+      0,
+      50,
+      99
+    ],
+    "background_subset_observation": "no visible people in these three viewed samples",
+    "passage_observation": "visible fixed corridor/framing and rear interior door opening with human passage; projected door structures can be annotated for geometry development",
+    "limitations": [
+      "foreground portal lower threshold partly outside image; designated portal versus rear interior doorway requires explicit definition",
+      "occlusion and near-camera truncation prevent direct complete physical-side/threshold truth",
+      "original member timeline is sparse; no continuous interpolation or identity links permitted",
+      "frame 262 visibly contains two people; publisher single-subject overview is not a per-frame occupancy guarantee",
+      "no event/identity GT, polygon truth, body boxes or human matching labels produced"
+    ],
+    "scene_admission": "PASS_ORIGINAL_SOURCE_NONCOMMERCIAL_DEVELOPMENT_ONLY; CONDITIONAL_GEOMETRY_USE; NOT_FORMAL_EVENT_VALIDATION",
+    "not_G420_restoration": true,
+    "Mac_save_completed": false
+  },
+  "other_media_packages_downloaded": 0,
+  "raw_media_published": false,
+  "Mac_saved": false
+}

@@ -1,0 +1,63 @@
+{
+  "scope": "public input and new output files only; original pixels and private source mapping unavailable",
+  "baseline_commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+  "inputs": [
+    {
+      "path": "research/continuous-cache-20261010/cache/bbox_fixture.json",
+      "bytes": 12707,
+      "sha256": "9c20d67d71262e7a714d0ed9b0f9af7010429cff6b13d9b5615612f99aa5f920"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/geometry_fixture.json",
+      "bytes": 1070,
+      "sha256": "5297d0c3a6e6e6f7ea73cef3c1bfb282a155f561936d2d41123e048ff23cbbab"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/relation_fixture.json",
+      "bytes": 67933,
+      "sha256": "30e93a8dd54bba5a4882b61e8bcb8a9e2309c94d9a6e992933d6cdc41acae0ee"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/public_descriptors.json",
+      "bytes": 355795,
+      "sha256": "43ac261cf5f161fa030bf5be56a807f2517da2bb1e7eeb5afdc0ecddc041d60b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/detection/nine_frame_bbox_inventory.json",
+      "bytes": 26793,
+      "sha256": "64c1e48e329d55a535413e6e09035312569e6fb1f19a828530dc730d37562623"
+    },
+    {
+      "path": "research/continuous-cache-20261010/PUBLIC_MANIFEST.json",
+      "bytes": 8610,
+      "sha256": "14ee60f09e12c2c6a56affc7f19797e49fa513c563a81f14cd9690d319191da5"
+    }
+  ],
+  "files": [
+    {
+      "path": "research/cache-qualification-20261011/README.md",
+      "bytes": 5596,
+      "sha256": "f1f620ac815d12d666d9b8a07682355f6b1d70692243b50fe19dfaffe9b0172a"
+    },
+    {
+      "path": "research/cache-qualification-20261011/VALIDATION.json",
+      "bytes": 2448,
+      "sha256": "0a30c6595166da515b74677444717277548742e9a23305a4517e9c81c19cf443"
+    },
+    {
+      "path": "research/cache-qualification-20261011/qualification.py",
+      "bytes": 9878,
+      "sha256": "4bafe22c6bc3e67e48373478e2b6c7a880654398b0537d8ea0500834a23fd493"
+    },
+    {
+      "path": "research/cache-qualification-20261011/qualification_results.json",
+      "bytes": 228648,
+      "sha256": "3e8e86f57fd08da6e52809d4794d021296e31956b6e4342da784f638ac0fa9e9"
+    },
+    {
+      "path": "research/cache-qualification-20261011/test_qualification.py",
+      "bytes": 4257,
+      "sha256": "f74db01c3eec293d68d5e18014e23d6353677785a5eed34dd017ff5618cc6c1e"
+    }
+  ]
+}
