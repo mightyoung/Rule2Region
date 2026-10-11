@@ -2,9 +2,14 @@
   "scope": "companion code, software tests and redacted sample metadata only; no original media/private geometry/person coordinates/host paths",
   "files": [
     {
+      "path": "I1_FIX_RECEIPT.json",
+      "bytes": 2141,
+      "sha256": "b082c535ff7b5566f3d858802a3aa30b18d73e8b30682c8875530ee0c6d694b1"
+    },
+    {
       "path": "README.md",
-      "bytes": 5574,
-      "sha256": "474fd2c011dc7c3cd72e0fd516877c2e75f6afdd620527cb8f95ce6c644bd80c"
+      "bytes": 6795,
+      "sha256": "013ce8ae4073ff20d77026c2f61e80aebbed17a65460044a3acdb7a774f29f74"
     },
     {
       "path": "REAL_FOUR_SAMPLE_INDEX.json",
@@ -23,13 +28,13 @@
     },
     {
       "path": "admission.py",
-      "bytes": 12625,
-      "sha256": "fcdfcd93ff06331de1682a8da8b28e5824871e58e242c18997834c399112d1f2"
+      "bytes": 13823,
+      "sha256": "1b1b94f0dbbf8a4bdf02061d0f5069ec7946a4260e2b40e0711a3801b8dfcd78"
     },
     {
       "path": "tests/test_admission.py",
-      "bytes": 12573,
-      "sha256": "db61f1d3ecadb5618d130c2bed951335a21ff3716ec38775d18049d1e414be16"
+      "bytes": 15547,
+      "sha256": "52f1daefe25146a1a0c1760a040f5c54d1593633814d1c4f10a91518c6b00639"
     }
   ]
 }

@@ -149,6 +149,21 @@ def admit_supervision(manifest, index):
     require(manifest.get('samples'), 'empty supervision')
     prepared = {s['sample_id']: s for s in index['samples']}
     require(len(prepared) == len(index['samples']), 'duplicate index sample')
+    # Validate the entire declared index before admitting any selected subset.
+    # Otherwise train/test calls made separately cannot see omitted neighbors.
+    declared_source_splits, unassigned_sources = {}, set()
+    for prepared_sample in index['samples']:
+        component = prepared_sample['source_component']
+        require(all(nonempty(component.get(k)) for k in ('dataset', 'sequence')), 'source sequence binding')
+        token = (component['dataset'], component['sequence'])
+        split = prepared_sample['boundary_v1_template']['split']
+        require(split is None or split in ('train', 'calibration', 'test'), 'source sequence declared split invalid')
+        if split is None:
+            unassigned_sources.add(token)
+            continue
+        require(token not in declared_source_splits or declared_source_splits[token] == split,
+                'source sequence cross-split leakage in full index')
+        declared_source_splits[token] = split
     source_owners = {}
     for row in manifest['samples']:
         require(row['id'] in prepared, 'sample not in preparation index')
@@ -165,6 +180,8 @@ def admit_supervision(manifest, index):
         component = p['source_component']
         require(all(nonempty(component.get(k)) for k in ('dataset', 'sequence')), 'source sequence binding')
         token = (component['dataset'], component['sequence'])
+        require(token not in unassigned_sources, 'source sequence has unassigned index members; do not supervise subset')
+        require(declared_source_splits[token] == row['split'], 'source sequence declared split binding')
         require(token not in source_owners or source_owners[token] == row['split'], 'source sequence cross-split leakage')
         source_owners[token] = row['split']
     validate_manifest(manifest) # Original unchanged f23 contract, including evidence/versions/permission/labels.

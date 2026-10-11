@@ -107,6 +107,50 @@ class AdmissionTests(unittest.TestCase):
         validate_manifest(m) # Original f23 cannot detect different media and renamed IDs by itself.
         with self.assertRaisesRegex(ValueError,'source sequence.*cross-split'):a.admit_supervision(m,index)
 
+    def two_frame_software_index(self, second_split, same_sequence=True):
+        a=self.adapter();p=reviewed_software(synthetic_preparation())
+        second=copy.deepcopy(p['samples'][0]);second['sample_id']='software:frame1';second['frame_index']=1
+        second['source_file'].update(sha256='b'*64,ref='private-other.jpg')
+        second['input_draft']['views'][0].update(asset_ref='private-other.jpg',sha256='b'*64)
+        second['existing_person_model_output']['source_sha256']='b'*64
+        second['grouping'].update(building_id='software:building1',layout_family_id='software:layout1',
+            physical_door_ids=['software:physicaldoor1'],variant_family_id='software:variant1',split=second_split)
+        if not same_sequence:second['grouping']['sequence']='different-software-sequence'
+        p['samples'].append(second);index=a.adapt_preparation(p)
+        rows=[copy.deepcopy(x['boundary_v1_template']) for x in index['samples']]
+        for row in rows:row['source']['permission_status']='verified'
+        return a,index,rows
+
+    def test_I1_conflicting_full_index_rejects_train_only_subset(self):
+        a,index,rows=self.two_frame_software_index('test')
+        with self.assertRaisesRegex(ValueError,'source sequence.*cross-split'):
+            a.admit_supervision({'schema_version':'boundary-v1','purpose':'real_research','samples':[rows[0]]},index)
+
+    def test_I1_conflicting_full_index_rejects_test_only_subset(self):
+        a,index,rows=self.two_frame_software_index('test')
+        with self.assertRaisesRegex(ValueError,'source sequence.*cross-split'):
+            a.admit_supervision({'schema_version':'boundary-v1','purpose':'real_research','samples':[rows[1]]},index)
+
+    def test_I1_same_source_unassigned_neighbor_blocks_selected_train(self):
+        a,index,rows=self.two_frame_software_index(None)
+        with self.assertRaisesRegex(ValueError,'source sequence.*unassigned'):
+            a.admit_supervision({'schema_version':'boundary-v1','purpose':'real_research','samples':[rows[0]]},index)
+
+    def test_I1_consistent_full_index_allows_two_separate_subsets(self):
+        a,index,rows=self.two_frame_software_index('train')
+        for row in rows:
+            with self.subTest(sample=row['id']):
+                result=a.admit_supervision({'schema_version':'boundary-v1','purpose':'real_research','samples':[row]},index)
+                self.assertEqual(set(result['label_indices']),{row['id']})
+                self.assertEqual(result['source_components'],1)
+
+    def test_I1_unrelated_unassigned_component_is_not_supervised(self):
+        a,index,rows=self.two_frame_software_index(None,same_sequence=False)
+        manifest={'schema_version':'boundary-v1','purpose':'real_research','samples':[rows[0]]}
+        self.assertEqual(set(a.admit_supervision(manifest,index)['label_indices']),{rows[0]['id']})
+        manifest['samples']=[rows[1]]
+        with self.assertRaises(ValueError):a.admit_supervision(manifest,index)
+
     def test_same_sequence_all_in_one_split_allowed_software_case(self):
         a,index,m=self.ready();second=copy.deepcopy(m['samples'][0]);second['id']='software:frame1';second['input']['views'][0]['sha256']='b'*64
         idx=copy.deepcopy(index['samples'][0]);idx['sample_id']='software:frame1';idx['boundary_v1_template']=copy.deepcopy(second);idx['input_fingerprint']=fingerprint(second['input']);index['samples'].append(idx);m['samples'].append(second)

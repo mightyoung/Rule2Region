@@ -1,0 +1,62 @@
+{
+  "issue": "I1_subset_manifest_bypassed_source_split_guard",
+  "affected_adapter_commit": "a8eeb1d8363e6ce37ebda7eb06c220d0724d1e1a",
+  "unchanged_learning_base_commit": "f23d587de0e8d82b4a823173359d3f34b0990d77",
+  "before_fix_red": {
+    "test_only_subset": "expected refusal missing; labels returned",
+    "train_only_subset": "expected refusal missing; labels returned",
+    "same_source_null_neighbor_omitted": "expected refusal missing; labels returned",
+    "failures": 3,
+    "test_exit_code": 1
+  },
+  "fix": "Check all index source components and declared splits before admitting manifest subset; conflicting assigned components reject globally. A selected component containing any unassigned member cannot supervise. Unrelated null components remain excluded.",
+  "after_fix_adapter_suite": {
+    "pass": 28,
+    "fail": 0,
+    "skip": 0,
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "learning_adapter/tests",
+      "-v"
+    ]
+  },
+  "after_fix_original_learning_suite": {
+    "pass": 16,
+    "fail": 0,
+    "skip": 4,
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "learning/tests",
+      "-v"
+    ],
+    "scope": "No torch or software optimizer steps in this run."
+  },
+  "original_learning_source_manifest": {
+    "files": 23,
+    "sha256": "e22ee8ffa5c4a658a7db65c99bb73685fb6d90fb68d8ffd308e44e3cdfd78f95"
+  },
+  "existing_API_changed": false,
+  "real_four_sample_index_byte_unchanged": true,
+  "real_samples_unreviewed": 4,
+  "actual_real_subset_calls_rejected": 4,
+  "training_steps": 0,
+  "new_model_calls": 0,
+  "new_downloads": 0,
+  "raw_logs_published": false,
+  "private_log_sha256": {
+    "I1_SUBSET_RED.log": "430b4916834edfa95f62b3ecc0d23c006aa1ac69793d324bcb230ea7aa86a342",
+    "I1_FULL_GREEN.log": "0c587f731619b45e0be154cc6609d7e56b8dc93f9632ed2076a45aaf5e92d424",
+    "I1_F23_UNCHANGED.log": "3e0a62372fd9f36d6f3b7ff24b02b536c59a48661ea7d3d3118719b437c5be0d",
+    "I1_F23_MANIFEST.log": "2d967feae779c8a83096df05b619116bcfa2917efd750a1504cbc8c5a5e7a418"
+  }
+}

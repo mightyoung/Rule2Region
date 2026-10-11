@@ -55,3 +55,11 @@ metadata = public_index(index)
 ```
 
 本轮有软件/索引适配结果，仍没有真实训练或模型效果结果；素材交付认证阻断未解决，未重试Library或尝试替代上传渠道。
+
+## I1独审修复：子集调用前核验完整索引
+
+初版提交 `a8eeb1d8363e6ce37ebda7eb06c220d0724d1e1a` 只检查manifest选中的行。同index中同源帧声明train/test，分别单样本调用曾各自返回标签，合并调用才拒绝。此行为已用两个单样本调用RED复现；同源未分配邻帧被遗漏的第三项RED也复现。初版23/23结果和原回执保留，不能据此宣称覆盖了此漏洞。
+
+现在先遍历完整index的所有声明，检查每个dataset+sequence组件的已分配split一致性；任何已声明跨split冲突在子集准入前拒绝。选中组件若有任何null未分配成员，也拒绝该组件的监督子集。未分配的其他组件不进入标签输出，不妨碍一个独立、完整一致的已分配组件。已有参数/返回值、f23 schema、标签语义均不变。
+
+新增5个回归测试，适配全套现在28 pass / 0 fail / 0 skip；原learning本轮16 pass / 4 dynamic skip，原23文件manifest仍相同。真实四图的split=null、review=pending、truth=null及公开索引未改，单图准入仍4/4拒绝；训练步骤0。详见 `I1_FIX_RECEIPT.json`。原始RED与GREEN日志仅私留，公开记录只含摘要与哈希。
