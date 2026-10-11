@@ -1,0 +1,66 @@
+{
+  "baseline_commit": "74f6ad2b40afe8dda44f327037253957daaea8a0",
+  "python_version": "3.12.14",
+  "date_utc": "2026-10-11",
+  "commands": [
+    {
+      "name": "existing_public_tests",
+      "command": "python3 -m unittest discover -v",
+      "cwd_relative": "research/continuous-cache-20261010/cache",
+      "exit_code": 0,
+      "output_sha256": "ffe72fa8438a15a99e0ff50e6b5fdaf873c0945c9f54ca4c757f0c7c43727494"
+    },
+    {
+      "name": "existing_public_replay",
+      "command": "python3 replay_public.py",
+      "cwd_relative": "research/continuous-cache-20261010/cache",
+      "exit_code": 0,
+      "output_sha256": "f2c3efa2c2fe3aa7c10dd72b16c9dd9642c78769cf2bee82878fd66f964582fd"
+    },
+    {
+      "name": "qualification_tests",
+      "command": "python3 -m unittest discover -s research/cache-qualification-20261011 -v",
+      "cwd_relative": ".",
+      "exit_code": 0,
+      "output_sha256": "7a8fb0bc07e48d71acc3bae54b9f891c0eb3708ba5d6b5d5904c215464d97cb2"
+    },
+    {
+      "name": "qualification_replay",
+      "command": "python3 research/cache-qualification-20261011/qualification.py",
+      "cwd_relative": ".",
+      "exit_code": 0,
+      "output_sha256": "9748a770ccd07d9315dfe968da2c1a7a39e7be1cbbed58bf1a9bfbd4b3b4dd60"
+    },
+    {
+      "name": "repository_pytest",
+      "command": "python3 -m pytest -q",
+      "cwd_relative": ".",
+      "exit_code": 1,
+      "output_sha256": "a638fde482278dbb4e0085e3a8dffd741f866654f77984dfc6e25d536fdae37a",
+      "failure": "No module named pytest; suite did not start; no installation attempted"
+    }
+  ],
+  "old_manifest_entries_verified": 32,
+  "original_private_scalar_comparison_reverified": false,
+  "new_model_calls": 0,
+  "composite_queries": 0,
+  "publication_scope": "existing public bytes and derived method/summary only",
+  "development_failures": [
+    {
+      "stage": "branch_checkout",
+      "detail": "Tracking ref absent after narrow fetch; checkout recovered from verified FETCH_HEAD; main untouched"
+    },
+    {
+      "stage": "test_import",
+      "detail": "qualification module not yet present; no output produced"
+    },
+    {
+      "stage": "test_placeholder",
+      "detail": "13 tests developed from 11 missing-implementation checks"
+    },
+    {
+      "stage": "relation_source_counterexample",
+      "detail": "1 of 13 tests failed when a changed relation-source hash was initially allowed; fixed binding and reran all 13 successfully"
+    }
+  ]
+}
