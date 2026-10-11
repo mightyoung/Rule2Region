@@ -1,0 +1,15 @@
+{
+  "origin": "explicit user research-design clarification",
+  "implementation_scope": "future gate declaration only; no new model, framework, full-span inference or training",
+  "normal_evidence_case": "direct rule evaluation when required observations are sufficient and mutually consistent",
+  "conflicting_or_ambiguous_case": "optional on-demand reassessment layer; never default all-frame calls",
+  "missing_observation_case": "unknown remains allowed; a model verdict does not manufacture missing observations",
+  "current_source_and_event_work_waits_for_new_model": false,
+  "physical_event_GT_definition_changed": false,
+  "model_prediction_is_human_event_GT": false,
+  "model_choice_committed": null,
+  "new_model_calls_in_this_step": 0,
+  "training_started": false,
+  "source_trajectory_direction_or_side_evidence_missing": "unknown pending qualified association/independent review",
+  "same_RGB_features_treated_as_independent_sources": false
+}
