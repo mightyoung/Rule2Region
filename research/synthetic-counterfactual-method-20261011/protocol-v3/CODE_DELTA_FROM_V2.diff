@@ -1,0 +1,51 @@
+--- protocol/protocol.py
++++ protocol-v3/protocol.py
+@@ -9,2 +9,2 @@
+-VERSION='r2r-counterfactual-empty-dev-v2'
+-PROFILES=('I0','I1-R','I1-E','I1-E-no-RGB')
++VERSION='r2r-counterfactual-empty-dev-v3'
++PROFILES=('I0','I1-R','I1-R-no-RGB','I1-E','I1-E-no-RGB')
+@@ -26,0 +27 @@
++            'I1-R-no-RGB':{**{k:c['I1-R'][k] is not None for k in ('map','B_config','camera_registration')},'rgb':False},
+@@ -115,0 +117,14 @@
++def validate_base_input(base):
++    keys(base,('rgb','generic_task','neutral_door_roi'),'I0 input');keys(base['rgb'],('reference','decoded_rgb_sha256'),'RGB reference')
++    rgb=base['rgb'];require((rgb['reference'] is None)==(rgb['decoded_rgb_sha256'] is None),'RGB reference/hash must be paired')
++    if rgb['reference'] is not None:
++        require(nonempty(rgb['reference']) and isinstance(rgb['decoded_rgb_sha256'],str) and len(rgb['decoded_rgb_sha256'])==64 and all(c in '0123456789abcdef' for c in rgb['decoded_rgb_sha256']),'invalid RGB reference/hash')
++    require(base['generic_task']==TASK,'generic task cannot include target answer')
++    roi=base['neutral_door_roi']
++    if roi is not None:require(isinstance(roi,list) and len(roi)==4 and all(type(x) in (int,float) and 0<=x<=1 for x in roi) and roi[0]<roi[2] and roi[1]<roi[3],'neutral ROI must be normalized rectangle only')
++
++def validate_execution_input(e):
++    if e is None:return
++    keys(e,('B_version','endpoint_B_membership'),'I1-E configuration')
++    require(nonempty(e['B_version']) and isinstance(e['endpoint_B_membership'],list) and len(e['endpoint_B_membership'])==2 and all(type(x) is str and x in ('inside','outside',UNKNOWN) for x in e['endpoint_B_membership']),'invalid execution configuration')
++
+@@ -134,7 +149 @@
+-        keys(r['input'],('rgb','generic_task','neutral_door_roi'),'I0 input');keys(r['input']['rgb'],('reference','decoded_rgb_sha256'),'RGB reference')
+-        rgb=r['input']['rgb'];require((rgb['reference'] is None)==(rgb['decoded_rgb_sha256'] is None),'RGB reference/hash must be paired')
+-        if rgb['reference'] is not None:
+-            require(nonempty(rgb['reference']) and isinstance(rgb['decoded_rgb_sha256'],str) and len(rgb['decoded_rgb_sha256'])==64 and all(c in '0123456789abcdef' for c in rgb['decoded_rgb_sha256']),'invalid RGB reference/hash')
+-        require(r['input']['generic_task']==TASK,'generic task cannot include target answer')
+-        roi=r['input']['neutral_door_roi']
+-        if roi is not None:require(isinstance(roi,list) and len(roi)==4 and all(type(x) in (int,float) and 0<=x<=1 for x in roi) and roi[0]<roi[2] and roi[1]<roi[3],'neutral ROI must be normalized rectangle only')
++        validate_base_input(r['input'])
+@@ -143,4 +152 @@
+-        e=r['context']['I1-E']
+-        if e is not None:
+-            keys(e,('B_version','endpoint_B_membership'),'I1-E configuration')
+-            require(nonempty(e['B_version']) and isinstance(e['endpoint_B_membership'],list) and len(e['endpoint_B_membership'])==2 and all(x in ('inside','outside',UNKNOWN) for x in e['endpoint_B_membership']),'invalid execution configuration')
++        validate_execution_input(r['context']['I1-E'])
+@@ -169 +175 @@
+-    keys(r['input'],('rgb','generic_task','neutral_door_roi'),'export input')
++    validate_base_input(r['input'])
+@@ -172 +178 @@
+-    if profile=='I1-R':
++    if profile in ('I1-R','I1-R-no-RGB'):
+@@ -175 +181,4 @@
+-        base['operational_context']=copy.deepcopy(r['context']['I1-R']);return base
++        base['operational_context']=copy.deepcopy(r['context']['I1-R'])
++        if profile=='I1-R-no-RGB':base.pop('rgb')
++        return base
++    validate_execution_input(r['context']['I1-E'])

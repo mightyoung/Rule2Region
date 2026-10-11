@@ -1,0 +1,66 @@
+{
+  "scope": "software-only v3 revision; no media/model inference",
+  "base_commit": "84ac6127d9ccc728e4433465b692578f6191e4a1",
+  "red": {
+    "suite_tests": 41,
+    "failures_including_subtests": 7,
+    "errors": 2,
+    "reproduced": "Missing I1-R-no-RGB plus direct nested RGB/ROI answer passthrough"
+  },
+  "additional_leaf_E_red": {
+    "suite_tests": 42,
+    "failures_including_subtests": 2,
+    "errors": 0,
+    "reproduced": "Direct E export accepts extra configuration field"
+  },
+  "green": {
+    "tests_passed": 42,
+    "tests_failed": 0,
+    "tests_skipped": 0
+  },
+  "template_validation": {
+    "status": "pass",
+    "records": 16,
+    "declared_source_components": 4,
+    "independent_sample_count": null,
+    "reviewed_images": 0,
+    "decisions": 0,
+    "training_admitted": 0,
+    "effect_rows": 0,
+    "declared_unique_rgb_hash_count": 0,
+    "classification": "software protocol checks only, not visual performance"
+  },
+  "profiles_per_record": 5,
+  "same_sixteen_slots_as_v2": true,
+  "frozen_v2_files": [
+    {
+      "path": "protocol/DEV_TEMPLATES_16.json",
+      "sha256": "bdb44439b8993d783530286d9497504935f6b51faa97e1e4cccb72d4386cb65b"
+    },
+    {
+      "path": "protocol/EMPTY_PROFILE_EXPORTS_16.json",
+      "sha256": "fa111c81e55731dd812a417d236d7d107855a0da7c9f53f71dbd57493230e309"
+    },
+    {
+      "path": "protocol/README.md",
+      "sha256": "a86366ab87a951f3582dde9becd3b0d265a7abba6e19859c36f6dc7c18258713"
+    },
+    {
+      "path": "protocol/VALIDATION_RECEIPT.json",
+      "sha256": "c065159ab19ed48bc830a79c5b663801a4c8371d910eeea085e274c331a9d9f8"
+    },
+    {
+      "path": "protocol/protocol.py",
+      "sha256": "dfd871a7162bcfa930cb054ff381d0f93caec4a2ddaa6384d0fa56869624a729"
+    },
+    {
+      "path": "protocol/test_protocol.py",
+      "sha256": "cd6eb9bbfd5b51ce82a622980b2bdc6ec8c358d849b2aee134111f4ab3e45252"
+    }
+  ],
+  "new_images": 0,
+  "new_model_runs": 0,
+  "new_training_runs": 0,
+  "new_media_transfers": 0,
+  "parent_image_review": "still blocked by Library401; not retried"
+}

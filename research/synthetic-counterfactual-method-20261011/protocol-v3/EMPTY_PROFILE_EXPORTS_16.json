@@ -1,0 +1,773 @@
+{
+  "schema_version": "r2r-counterfactual-empty-dev-v3-input-profiles",
+  "records": [
+    {
+      "sample_id": "4c965db31c0ea57c5049",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "dee682d55bb9b5d9160f",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "018a2d4f7f5e198e4294",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "325d951b6d614a2fafe4",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "7855fb0003d53dfec8ab",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "e0e0e2500dd42b81d157",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "0d18c25621da7e8dfe39",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "6c8265c4028e0fa16041",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "be975441f50c6ecf2683",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "69de08976f697a4148e0",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "724c41b55902ceea3d79",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "5335b22624c296c61adb",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "6bc199e1094a92f8182f",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "c48228e4e0e03263df22",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "350ad7c3bfbbdbe50947",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    },
+    {
+      "sample_id": "1445701e5fab5c50c8a6",
+      "profiles": {
+        "I0": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null
+        },
+        "I1-R": {
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-R-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "neutral_door_roi": null,
+          "operational_context": {
+            "map": null,
+            "B_config": null,
+            "camera_registration": null
+          }
+        },
+        "I1-E": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null,
+          "rgb": {
+            "reference": null,
+            "decoded_rgb_sha256": null
+          },
+          "neutral_door_roi": null
+        },
+        "I1-E-no-RGB": {
+          "generic_task": "Assess the specified doorway relation for the selected counting boundary; abstain if required evidence or boundary configuration is unavailable.",
+          "configuration": null
+        }
+      }
+    }
+  ]
+}

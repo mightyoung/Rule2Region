@@ -1,5 +1,5 @@
 {
-  "scope": "Only public text, protocol code and empty development JSON in this directory recursively; excludes manifest itself; no media or private source mapping",
+  "scope": "Only public text, protocol code and empty development JSON recursively, including frozen v2 and separate v3; excludes manifest itself; no media/private source mapping",
   "files": [
     {
       "path": "COUNTERFACTUAL_V2_ONE_PAGE.md",
@@ -12,9 +12,14 @@
       "sha256": "12e9995e8e0f74a4b289791a51f619773da14c5f4ed060f79ace95a70a0fc1dd"
     },
     {
+      "path": "PROTOCOL_REVISION_V3.md",
+      "bytes": 1112,
+      "sha256": "ea0cfbfddfc960ede18699913e35196df320a2fbcfc22a806beebde669f8340d"
+    },
+    {
       "path": "README.md",
-      "bytes": 4702,
-      "sha256": "2597361907f439fc32de9b6c2641b55a53ea5d4e7ed6c702b169e261d3c0db2a"
+      "bytes": 5035,
+      "sha256": "411e3616e4eef69d339c7a4e340d3b35702ad09851c6b7875e543fb846cff989"
     },
     {
       "path": "V1_POSITION_AND_SHORTCUTS.md",
@@ -55,6 +60,41 @@
       "path": "protocol/test_protocol.py",
       "bytes": 8939,
       "sha256": "cd6eb9bbfd5b51ce82a622980b2bdc6ec8c358d849b2aee134111f4ab3e45252"
+    },
+    {
+      "path": "protocol-v3/CODE_DELTA_FROM_V2.diff",
+      "bytes": 3663,
+      "sha256": "2c36ad3efd829970dbd2d25c984bb5fcfaa34a7713fd779daf94226259285c74"
+    },
+    {
+      "path": "protocol-v3/DEV_TEMPLATES_16.json",
+      "bytes": 43485,
+      "sha256": "9ae15df7363e7793884a1fb46ef37660a5ed643b26fe77d984c1fc538426ef84"
+    },
+    {
+      "path": "protocol-v3/EMPTY_PROFILE_EXPORTS_16.json",
+      "bytes": 30604,
+      "sha256": "28f0f6fc40fab408713b0dae66e8f8128370373699efb76eb6556276bdbdd892"
+    },
+    {
+      "path": "protocol-v3/README.md",
+      "bytes": 2666,
+      "sha256": "cc9a1c07b49f15f5c1096df5fabac4c8950e99b7fafde5ae20e8ef2aa7bd5c6d"
+    },
+    {
+      "path": "protocol-v3/VALIDATION_RECEIPT.json",
+      "bytes": 2046,
+      "sha256": "1871a26ccf5c7e6ad9ac1c76d1ab39c759495086b1a0e4efe99b6a4dc5cce4fd"
+    },
+    {
+      "path": "protocol-v3/protocol.py",
+      "bytes": 15817,
+      "sha256": "3dd1a9685621c25ff145ce5e95400220a946eb86eea13d104bb36f1a0248aad1"
+    },
+    {
+      "path": "protocol-v3/test_protocol.py",
+      "bytes": 11940,
+      "sha256": "8248be3c0b28a62c0bce11f20f12432bc77ae5ce212076f02e5076a95763e02d"
     }
   ]
 }
