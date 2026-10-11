@@ -1,0 +1,74 @@
+{
+  "scope": "opt-in code, synthetic guardrails and public aggregate summaries only; excludes self",
+  "baseline_commit": "5977bd4267ae0c75c480b90b63cbd6701fd671ab",
+  "protocol_commit": "e66ca5f0f463d3d1a2f79d4ecde52392faaf1c2b",
+  "files": [
+    {
+      "path": "research/retention-budget-trial-20261011/PROTOCOL.md",
+      "bytes": 6293,
+      "sha256": "ce4bf7d15798469fb5d2607f0174bcb42301adc2432b6a9a71a5d9de8b5c4dd6"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/README.md",
+      "bytes": 8491,
+      "sha256": "27646a022124ff8bb0196cc9467200b6fcc0178433a09b370181e2ca3ba2b272"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/VALIDATION.json",
+      "bytes": 3794,
+      "sha256": "9c44a46cd3a182640f6f9a4216507d6f392f45e94de0009cbb36352c70e6a4e2"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/experimental_cache.py",
+      "bytes": 1989,
+      "sha256": "605c080e9251ffca8d0d850f57d31b12d490366899473df3e8f8a4ea1b5424a0"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/run_trial.py",
+      "bytes": 13395,
+      "sha256": "5103abe13a35d68306ce0fdb16aef7745bdc1b907b865b45ddc78a908c9bfada"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/test_experiment.py",
+      "bytes": 2625,
+      "sha256": "d67d6001c9447f849ac7e7595f11d4b46229155260a9fb9ab5830f2c7bf6bfce"
+    },
+    {
+      "path": "research/retention-budget-trial-20261011/trial_results.json",
+      "bytes": 56168,
+      "sha256": "cf8f007cca02d31e512530e20d233941d47b5227db9b3551a2125a4e91cf3c5c"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/cache-diagnostics-dev-20261011/development_cache.py",
+      "bytes": 5622,
+      "sha256": "d73d761d1fe504d91aff588a0bc485800c7b611d7f115155ce67bc333eebb9bc"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/continuous_cache.py",
+      "bytes": 19449,
+      "sha256": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/base_cache.py",
+      "bytes": 10657,
+      "sha256": "ee43f450f070629245d4c04c09ae212214a76bef56f67462158f0db34c0eb254"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_continuous_cache.py",
+      "bytes": 11503,
+      "sha256": "086c593810eb565b40a91940c2ef9f9d6515019a9a40e54c2833fa71ae12413e"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/conditional_replay.py",
+      "bytes": 8472,
+      "sha256": "7833c280c83434ab7b565d7c7b4e03517e5ba62da33923fe0ecf3a32022f8588"
+    },
+    {
+      "path": "research/nine-frame-conditional-replay-20261011/conditional_results.json",
+      "bytes": 99271,
+      "sha256": "e9907f0c9e6342f7631d311f626eb5ab228bcbc818f0f87c337ed9da202d746a"
+    }
+  ]
+}
