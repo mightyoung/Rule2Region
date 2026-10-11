@@ -1,0 +1,63 @@
+{
+  "source_commit": "26a58781decff0c18fe735cdfb10113cd95260d3",
+  "scope": "public development code, synthetic tests and summaries only; excludes self",
+  "files": [
+    {
+      "path": "research/cache-diagnostics-dev-20261011/README.md",
+      "bytes": 6456,
+      "sha256": "ae05035139fdbd927b803cbae233eb56f9cf84257b7d508973ba5dbcc6be1fe4"
+    },
+    {
+      "path": "research/cache-diagnostics-dev-20261011/VALIDATION.json",
+      "bytes": 12629,
+      "sha256": "d190b297c24af635c2b63faeda9e6fdaeb0ab40357efb9e8f5fd514e446c83b3"
+    },
+    {
+      "path": "research/cache-diagnostics-dev-20261011/development_cache.py",
+      "bytes": 5622,
+      "sha256": "d73d761d1fe504d91aff588a0bc485800c7b611d7f115155ce67bc333eebb9bc"
+    },
+    {
+      "path": "research/cache-diagnostics-dev-20261011/software_results.json",
+      "bytes": 7324,
+      "sha256": "49560d2ad0620c8f37d7984fbadab5ef78ac3f8ece58c9e57e794884d5ca41ad"
+    },
+    {
+      "path": "research/cache-diagnostics-dev-20261011/software_scenarios.py",
+      "bytes": 3077,
+      "sha256": "71995aa7bfc96c5495b0c52ba3e80ae620e29b61b5beeda64a30fdd7eed56424"
+    },
+    {
+      "path": "research/cache-diagnostics-dev-20261011/test_development_cache.py",
+      "bytes": 10484,
+      "sha256": "b90c1e2c6d7f0d8c0c9b7916cb53551c243f2d7a25da18e38446c101f0b99079"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/continuous-cache-20261010/cache/continuous_cache.py",
+      "bytes": 19449,
+      "sha256": "e31296548c9cab1bb89b0888f383cc9fcbb0f78c731518eeb0b5d38b37bedd7b"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/ablation.py",
+      "bytes": 2901,
+      "sha256": "9524fb06c22bfd9edb9d680741eb5bcb32a06cc9c519b47b7ddfe5e25f7797d9"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/base_cache.py",
+      "bytes": 10657,
+      "sha256": "ee43f450f070629245d4c04c09ae212214a76bef56f67462158f0db34c0eb254"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/vendor/roi_core.py",
+      "bytes": 13063,
+      "sha256": "1a49e7ed3188f5cc1a9c0253cd3d9eaa0bd48bb7d389e37e5f088de2160fa2b0"
+    },
+    {
+      "path": "research/continuous-cache-20261010/cache/test_continuous_cache.py",
+      "bytes": 11503,
+      "sha256": "086c593810eb565b40a91940c2ef9f9d6515019a9a40e54c2833fa71ae12413e"
+    }
+  ]
+}

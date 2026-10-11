@@ -1,0 +1,354 @@
+{
+  "source_commit": "26a58781decff0c18fe735cdfb10113cd95260d3",
+  "date_utc": "2026-10-11",
+  "scope": "pure Python synthetic software development; not recognition experiment",
+  "environment": {
+    "execution": "cloud",
+    "python": "3.12.14",
+    "new_installations": 0,
+    "dependency_receipt": "docs/research-handoff/receipts/recovery-full-suite-20261011/environment-packages.txt"
+  },
+  "initial_negative_tests": {
+    "tests": 14,
+    "expected_assertion_failures": 13,
+    "existing_behavior_pass": 1,
+    "baseline": "frozen ContinuousCache alias before implementation"
+  },
+  "final_development_tests": {
+    "passed": 17,
+    "failed": 0,
+    "exit": 0
+  },
+  "software_scenario_replay": "exact match",
+  "root_pytest": {
+    "command": "python -m pytest --continue-on-collection-errors --junitxml=<receipt>",
+    "exit": 1,
+    "passed": 409,
+    "failed": 52,
+    "collection_errors": 2,
+    "unexecuted_functions": 6,
+    "module_test_status_set_equal_to_previous_receipt": true
+  },
+  "additional_tools": {
+    "passed": 22,
+    "failed": 0,
+    "exit": 0
+  },
+  "frozen_unittests": {
+    "cache": 64,
+    "qualification": 13,
+    "coverage": 12,
+    "nine_frame": 7,
+    "all_exit_codes": 0
+  },
+  "frozen_replays": {
+    "original_public": "exact match",
+    "qualification": "exact match",
+    "coverage": "exact match",
+    "nine_frame_conditional": "exact match"
+  },
+  "frozen_manifest_entries_verified": 58,
+  "attempted_test_files": 128,
+  "overall_executed_cases": 596,
+  "overall_passed": 544,
+  "overall_failed": 52,
+  "remaining_failures_and_collection_errors": [
+    {
+      "module": "",
+      "test": "tests.test_build_codec_derivatives",
+      "status": "collection_error"
+    },
+    {
+      "module": "",
+      "test": "tests.test_build_development_video_receipt",
+      "status": "collection_error"
+    },
+    {
+      "module": "tests.test_analyze_current_dataset",
+      "test": "test_current_dataset_summary_matches_audited_artifacts",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_audit_virat_official_kpf_supplement",
+      "test": "test_downloaded_official_kpf_supplement_is_complete_and_bounded",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_bootstrap_yolo26_depth_runtime",
+      "test": "test_bootstrap_is_isolated_pinned_and_auditable",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_proposal_is_calibration_only_and_holdout_is_physically_separate",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_role_assignment_enforces_abstention_and_authority",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_detection_ledger_contains_only_ten_calibration_frames",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_eligible_ids_and_tracker_receipt_are_exact",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_output_directory_must_be_new",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_validated_run_only_makes_visual_roles_execution_eligible",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_build_qwen_multirole_evidence_packages",
+      "test": "test_tampered_visual_case_cannot_enable_roles",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_business_profile_baselines",
+      "test": "test_postblind_baselines_are_train_only_and_report_diagnostic_status",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_enrich_qwen_candidate_catalog_with_replay",
+      "test": "test_camera_decision_view_withholds_evaluation_and_marks_eligible_configs",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_enrich_qwen_candidate_catalog_with_replay",
+      "test": "test_zero_precision_cameras_are_not_promoted_as_safe",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evaluate_qwen_camera_ranking",
+      "test": "test_qwen_camera_ranking_is_pareto_valid_but_not_incremental",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_codec_manifest",
+      "test": "test_codec_manifest_verifier_closes_all_50_windows_and_binds_execution_config",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_codec_manifest",
+      "test": "test_codec_manifest_verifier_rejects_semantically_invalid_probe",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_execution_config",
+      "test": "test_real_g0_scope_compiles_deterministic_execution_identities",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_execution_config",
+      "test": "test_bf16_and_nf4_have_distinct_canonical_model_layer_identities",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_execution_config",
+      "test": "test_execution_config_serializes_without_nonfinite_or_implicit_fields",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_formal_manifest",
+      "test": "test_formal_manifest_preserves_unit_ids_and_resolves_plugin_conditions",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_evidencegate_runner",
+      "test": "test_cli_consumes_real_g0_scope_manifest",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_execution_policy_e4",
+      "test": "test_context_writes_other_history_boxes_and_withholds_observer",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_execution_policy_e4",
+      "test": "test_context_aggregates_two_sequences_of_one_camera",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_execution_policy_stack",
+      "test": "test_stack_plan_mentions_coco_pretrain_only",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_execution_policy_v6",
+      "test": "test_v6_prereg_and_runner_forbid_official_on_seen_pack",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g2_smoke_contract",
+      "test": "test_g2_runner_accepts_only_final_v6_and_closed_smoke_identities",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_formal_contract",
+      "test": "test_real_frozen_g3_contract_validates",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_formal_contract",
+      "test": "test_real_frozen_contract_rejects_formal_sample_adjustment",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_latency_contract",
+      "test": "test_real_latency_cells_expand_to_frozen_896_attempts",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_latency_contract",
+      "test": "test_latency_summary_excludes_warmup_and_reports_cell_completeness",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_latency_contract",
+      "test": "test_latency_summary_fails_terminal_coverage_without_inventing_values",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_g3_latency_contract",
+      "test": "test_latency_attempt_resume_binds_frozen_attempt_index",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_h1_rehearsal_gate_confirmatory_plan",
+      "test": "test_confirmatory_h1_protocol_freezes_gate_claim_and_pass_set",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_business_profile_mapper",
+      "test": "test_rule_baseline_matches_all_development_cards",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_business_profile_mapper",
+      "test": "test_profile_response_contract_and_gold_label",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_business_profile_mapper",
+      "test": "test_profiles_compile_deterministically_on_only_eligible_camera",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_business_profile_mapper",
+      "test": "test_blind_cards_are_label_free_and_independent_labels_agree",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_business_profile_mapper",
+      "test": "test_no_registered_profile_abstention_is_legal",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_scene_expert_v2",
+      "test": "test_camera_role_inputs_are_domain_isolated_and_withhold_evaluation",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_scene_expert_v2",
+      "test": "test_camera_prompts_bind_only_eligible_ids",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_scene_expert_v2",
+      "test": "test_multirole_router_gives_subagent_only_its_package_and_main_only_report_manifest",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_typed_fact_expert",
+      "test": "test_typed_fact_bundle_separates_business_semantics_and_holdout",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_typed_fact_expert",
+      "test": "test_typed_domain_parser_rejects_semantic_misclassification",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_typed_fact_expert",
+      "test": "test_business_parser_requires_recall_mapping_before_precision_gate",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_typed_fact_expert",
+      "test": "test_typed_unified_requires_abstention_without_preregistered_utility",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_qwen_typed_fact_expert",
+      "test": "test_zero_precision_camera_is_uninformative_and_not_ranked",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_single_pass_spatial_threshold",
+      "test": "test_launcher_contract",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_v6_future_qualification_prereg",
+      "test": "test_v6_prereg_does_not_reopen_v5_or_change_h1",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_v6_future_qualification_prereg",
+      "test": "test_claims_ledger_forbids_promoting_failed_h1",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_validate_sceneconfig_mainline_validation",
+      "test": "test_current_e2_e3_form_a_validated_rejection",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_validate_virat_kpf_supplement",
+      "test": "test_downloaded_kpf_supplement_validates",
+      "status": "failed"
+    },
+    {
+      "module": "tests.test_yolo26_native_batch_feasibility",
+      "test": "test_launcher_is_development_only_and_pins_gpu_one",
+      "status": "failed"
+    }
+  ],
+  "raw_local_log_sha256": {
+    "r2r-development-cache.log": "37c500697e0d8b47706393a370a127be06feba8e0f427f7a76c6dad1e49b1a0f",
+    "r2r-development-coverage-replay.log": "18594f97429c0249f51b721a2f6b98c27c11f516a87a80dec353167387b8eb6b",
+    "r2r-development-coverage.log": "90a729e7f1b9c9174256cc970282f9db65916a43857df7c15b453553986020af",
+    "r2r-development-extra.log": "9c88a1618a6e9e8b5c45e0e4267be74ec226503ae388afe2508f822e18d9216e",
+    "r2r-development-final.log": "1cd1f205ef4186e44dcfc3c3e6310c0c0738113adc55ec13a3682d9c64ab1450",
+    "r2r-development-green.log": "a0ffdc2d7a4cd6c7fb6a00e7a199ef035a32835b22935878835e6cb04e1eeb2c",
+    "r2r-development-nine-replay.log": "b184b826c177b044b669fd4271b0adb923014f1c68c60cb9ca9c9713fac177eb",
+    "r2r-development-nine.log": "13767f400e78cf187b1819dcb265ca70c1bd7a5d537d6b9877295a59b0378ab0",
+    "r2r-development-old-replay.log": "f2c3efa2c2fe3aa7c10dd72b16c9dd9642c78769cf2bee82878fd66f964582fd",
+    "r2r-development-qualification-replay.log": "9748a770ccd07d9315dfe968da2c1a7a39e7be1cbbed58bf1a9bfbd4b3b4dd60",
+    "r2r-development-qualification.log": "6bd9691c8a783b0d22dadbb369da145ca92611cd90f274ed0d09f0fa88a28963",
+    "r2r-development-red.log": "0179015aee909b55c7bd403888c026c38fd0d643a8e4ae6f5b593637ddb5385e",
+    "r2r-development-root.log": "e3452ab51f45436f2b56c5dfa0c138d1e786acdb7ab9f9746598f9c7612830c7",
+    "r2r-development-scenarios-generate.log": "3071281e12cc99f9ba32852c40068911d946fe9b547e60a5881f9380ede591ff",
+    "r2r-development-scenarios-replay.log": "3071281e12cc99f9ba32852c40068911d946fe9b547e60a5881f9380ede591ff"
+  },
+  "limits": {
+    "old_cache_or_experiments_edited": false,
+    "new_models_or_paid_calls": 0,
+    "new_media_or_installs": 0,
+    "private_material_publications": 0,
+    "default_capacities_increased": false,
+    "Mac_persistence_completed": false,
+    "accuracy": null,
+    "unknown_is_safe": false
+  }
+}
