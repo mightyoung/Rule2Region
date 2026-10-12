@@ -1,0 +1,25 @@
+{
+  "scope": "Public method/AI observation and overlap aggregates only, no media, tensors, exact private candidate labels or private paths",
+  "files": [
+    {
+      "path": "AUDIT_RECEIPT.json",
+      "bytes": 1406,
+      "sha256": "b8455c569f6c0d207773725f51319a9c4178f2d6731681f71ccb6f5627627562"
+    },
+    {
+      "path": "NEXT_RUN_LOGGING.md",
+      "bytes": 1616,
+      "sha256": "13a78305ccfdfeb4330289c1c348a8c0e1dd8469b47fabd591e4cc06cf1f9d75"
+    },
+    {
+      "path": "OVERLAP_ANALYSIS.json",
+      "bytes": 1787,
+      "sha256": "df646eb458cccc4d2a7c807aee2f2af4306852bd34919e2ca790d7fa0605622b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4285,
+      "sha256": "694116410cc4d4025d4875e4d75353bd87f662f4a75bd4095ac3dd235e12d386"
+    }
+  ]
+}

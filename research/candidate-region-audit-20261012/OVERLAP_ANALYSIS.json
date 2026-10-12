@@ -1,0 +1,58 @@
+{
+  "annotation_status": "AI_analysis_pending_human_review",
+  "door_same_frame_pair": {
+    "iou": 0.040704620020528465,
+    "intersection_area_pixels2": 15296.37490325619,
+    "fraction_of_first": 1.0,
+    "fraction_of_second": 0.040704620020528465
+  },
+  "door_candidate_image_area_fractions": [
+    0.03186744771511706,
+    0.7828951037755769
+  ],
+  "same_frame_cross_prompt": {
+    "same_original_sha": true,
+    "person_prompt": "person.",
+    "door_prompt": "door. doorway.",
+    "person_count": 0,
+    "door_count": 2,
+    "overlap_matrix": [
+      [],
+      []
+    ],
+    "explanation": "No above-threshold historical person candidates; IoU matrix has two rows and zero columns, not numeric zero IoU or an accuracy result",
+    "overlap_matrix_shape": [
+      2,
+      0
+    ]
+  },
+  "token_gate_summary": {
+    "door_above_threshold_query_count": 1,
+    "doorway_above_threshold_query_count": 2,
+    "common_query_count": 1,
+    "union_query_count": 2,
+    "common_query_same_bbox_iou": 1,
+    "caveat": "word-level gates within one combined prompt; not separate prompt executions"
+  },
+  "cross_frame_reference_summary": [
+    {
+      "candidate_scope": "small rear reference",
+      "iou": 0.3100718909849003,
+      "person_box_coverage": 0.7455636389910162,
+      "not_registered_or_tracked": true
+    },
+    {
+      "candidate_scope": "large near reference",
+      "iou": 0.018931940951540268,
+      "person_box_coverage": 1.0,
+      "not_registered_or_tracked": true
+    }
+  ],
+  "new_model_calls": 0,
+  "new_truth_labels": 0,
+  "exact_per_candidate_records_published": false,
+  "exact_records_saved_privately": true,
+  "source_permission_reference": "../chokepoint-source-admission-20261011/README.md",
+  "B_scope_confirmed": true,
+  "B_endpoint_membership": "unknown"
+}

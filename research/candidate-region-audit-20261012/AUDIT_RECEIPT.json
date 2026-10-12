@@ -1,0 +1,33 @@
+{
+  "scope": "Reused-output candidate screening and numeric overlap, not inference or human truth",
+  "saved_figures": [
+    {
+      "name": "OVERLAY_FRAME_000.png",
+      "bytes": 638162,
+      "sha256": "8d36566cb2accf33580a7ce8dfa03ef6d1d8946264f5e52181bc30a8b302e030",
+      "availability": "private workspace only; no canonical Library delivery or Mac persistence confirmed"
+    },
+    {
+      "name": "OVERLAY_FRAME_142.png",
+      "bytes": 685872,
+      "sha256": "dfa340dc3b5a3488c13143bdeac0ea955dd654c1b0f176829ceb4d9ce1e8b2c7",
+      "availability": "private workspace only; no canonical Library delivery or Mac persistence confirmed"
+    }
+  ],
+  "source_image_count": 2,
+  "new_source_images": 0,
+  "new_overlay_figures": 2,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "new_human_labels": 0,
+  "new_media_transfers": 0,
+  "B_scope_confirmed": true,
+  "B_image_endpoint_assignment": "unknown",
+  "S_image_assignment": "unknown",
+  "outputs_or_originals_modified": false,
+  "same_frame_cross_prompt_comparison": "old person prompt frame0 vs combined door/doorway prompt frame0; zero person detections gives empty IoU matrix",
+  "word_gate_caveat": "door vs doorway gates are from one combined forward, not independent prompt ablations",
+  "execution_log_backfill": false,
+  "exact_per_candidate_records_public": false,
+  "exact_records_and_coordinate_mapping_retained_privately": true
+}
