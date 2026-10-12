@@ -1,0 +1,22 @@
+{
+  "status": "CPU offline smoke and validator passed; CUDA not executed",
+  "synthetic_contract_tests": 10,
+  "real_forward_calls": 2,
+  "first_smoke_validation": "rejected normal padded -inf logits; corrected validator; first run preserved",
+  "second_smoke_validation": "passed",
+  "tamper_test": "appended synthetic bytes to actual stdout; rejected hash mismatch; restored bytes then validator passed",
+  "source_import_frames": 3,
+  "second_smoke_source_id": "C1-f00000000",
+  "second_smoke_kept_count": 2,
+  "second_smoke_forward_seconds": 18.02108650899754,
+  "second_smoke_raw_sha256": "da3262a9e07244d46c2012859bd973bddb64565f743fd373587ffd4f35c5876e",
+  "CPU_environment": "Python3.12.14 torch2.8.0+cpu transformers4.57.1",
+  "GPU_validated": false,
+  "accuracy_metrics": null,
+  "decision": "unknown",
+  "human_GT": false,
+  "scope": "execution checks only; no complete ROI/event accuracy validation",
+  "private_path_guard": "reject actual git checkout; tolerate platform non-repository .git placeholder",
+  "model_downloads": 0,
+  "paid_calls": 0
+}

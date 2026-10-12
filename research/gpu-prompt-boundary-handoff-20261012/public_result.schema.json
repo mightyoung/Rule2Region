@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "kind",
+    "device",
+    "git_commit",
+    "decision",
+    "human_GT",
+    "source_manifest_sha256",
+    "model_revision",
+    "completed_forward_calls",
+    "trials",
+    "limitations",
+    "accuracy_metrics"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "enum": [
+        "real_cpu_smoke",
+        "real_prompt_probe"
+      ]
+    },
+    "device": {
+      "enum": [
+        "cpu",
+        "cuda"
+      ]
+    },
+    "git_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "decision": {
+      "const": "unknown"
+    },
+    "human_GT": {
+      "const": false
+    },
+    "source_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "model_revision": {
+      "type": "string"
+    },
+    "completed_forward_calls": {
+      "enum": [
+        1,
+        9
+      ]
+    },
+    "trials": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "arm",
+          "kept_count",
+          "image_edge_touch_or_overrun_count",
+          "forward_seconds",
+          "peak_cuda_bytes"
+        ],
+        "properties": {
+          "source_id": {
+            "enum": [
+              "C1-f00000000",
+              "C2-f00000000",
+              "C3-f00000000"
+            ]
+          },
+          "arm": {
+            "enum": [
+              "combined",
+              "door_only",
+              "doorway_only"
+            ]
+          },
+          "kept_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "image_edge_touch_or_overrun_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "forward_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "peak_cuda_bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "accuracy_metrics": {
+      "type": "null"
+    }
+  }
+}
