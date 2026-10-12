@@ -1,5 +1,7 @@
 # 可照做执行入口（Linux x86_64）
 
+CPU服务器正式批量任务优先使用 [CPU_SERVER.md](CPU_SERVER.md) 与 run_cpu_server.sh：4核、单任务串行九次、GPU可选，资源/时长的实测与估计分别列明。
+
 本包是**三机位×固定提示词候选敏感性对照**，不是完整ROI效果实验。9次前向，无训练、付费服务或新标注。GPU可选；现有CPU已能执行。请只在你获授权、非商业使用的算力环境运行。
 
 ## 1. 检出任务分支，固定实际提交
@@ -26,7 +28,7 @@ PY="$PRIVATE_RUN/venv/bin/python"
 # CPU预检或CPU全矩阵：
 "$PY" -m pip install --no-deps --require-hashes --index-url https://download.pytorch.org/whl/cpu -r research/inference-runtime-recovery-20261012/CPU_TORCH.lock
 "$PY" -m pip install --no-deps --require-hashes -r research/inference-runtime-recovery-20261012/PYPI_DEPENDENCIES.lock
-# 若运行CUDA，替代上一行：官方CUDA 12.8构建，CUDA依赖由此精确torch版本声明固定。
+# 若运行CUDA，替代上面两条CPU安装命令：官方CUDA 12.8构建，CUDA依赖由此精确torch版本声明固定。
 # "$PY" -m pip install 'torch==2.8.0+cu128' --index-url https://download.pytorch.org/whl/cu128
 # "$PY" -m pip install --no-deps --require-hashes -r research/inference-runtime-recovery-20261012/PYPI_DEPENDENCIES.lock
 "$PY" -m pip check

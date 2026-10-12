@@ -1,0 +1,17 @@
+{
+  "bash_syntax_exit_code": 0,
+  "missing_arguments_exit_code": 2,
+  "existing_output_rejected_exit_code": 2,
+  "additional_cloud_forward_calls": 0,
+  "server_connected": false,
+  "user_compute_started": false,
+  "scope": "shell entry checks only; no full matrix or scheduler execution",
+  "observations_from_prior_CPU_smoke": {
+    "forward_seconds": 18.02108650899754,
+    "child_wall_seconds": 26.937711209000554,
+    "output_bytes": 18338811,
+    "peak_RSS": null
+  },
+  "estimated_nine_child_seconds": 242.43940088100499,
+  "estimates_are_not_server_measurements": true
+}
