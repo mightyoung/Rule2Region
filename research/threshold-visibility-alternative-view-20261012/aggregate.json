@@ -1,0 +1,42 @@
+[
+  {
+    "camera": "C2",
+    "source_frame_index": 0,
+    "source_sha256": "9328693b7ce95812f4619f93e91e3db64742127e5d221793ce1e28f8760a4778",
+    "native_pts": null,
+    "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "forward_seconds": 6.9760832540014235,
+    "kept_count": 2,
+    "raw_tensor_sha256": "b8696d6eb14ed34b94a3b17c4e0e754ddd06294e632598dcf5d915fcb9e9e8b0",
+    "real_forward_passes": 1,
+    "model_snapshot_hash_checks": 9,
+    "exit_code": 0,
+    "AI_pending_human": true,
+    "S": "unknown",
+    "B": "unknown",
+    "events": "unknown",
+    "trajectory": "unknown",
+    "direction": "unknown"
+  },
+  {
+    "camera": "C3",
+    "source_frame_index": 0,
+    "source_sha256": "cb4ac1fd96e58b7a0368e0536c709099ea54ed972233ec74ec92df91c71a95af",
+    "native_pts": null,
+    "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "forward_seconds": 6.848666846999549,
+    "kept_count": 1,
+    "raw_tensor_sha256": "9846ce25ae9b76c661801dbecab777b36f81b707f84aeac17f4a30d5801bc067",
+    "real_forward_passes": 1,
+    "model_snapshot_hash_checks": 9,
+    "exit_code": 0,
+    "AI_pending_human": true,
+    "S": "unknown",
+    "B": "unknown",
+    "events": "unknown",
+    "trajectory": "unknown",
+    "direction": "unknown"
+  }
+]
