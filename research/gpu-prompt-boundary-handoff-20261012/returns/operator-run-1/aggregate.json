@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "kind": "real_prompt_probe",
+  "device": "cuda",
+  "git_commit": "2f199f8f7f7bf5b2ed383ea2fd1596132cd1c203",
+  "decision": "unknown",
+  "human_GT": false,
+  "accuracy_metrics": null,
+  "source_manifest_sha256": "29cc7ecabb7fdfb62e3c749ab87d6b889e61c29b645c0a7bfaa7286434422b31",
+  "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "completed_forward_calls": 9,
+  "trials": [
+    {
+      "source_id": "C1-f00000000",
+      "arm": "combined",
+      "kept_count": 2,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 1.8041725382208824,
+      "peak_cuda_bytes": 1842145792
+    },
+    {
+      "source_id": "C1-f00000000",
+      "arm": "door_only",
+      "kept_count": 1,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8252771240659058,
+      "peak_cuda_bytes": 1838700032
+    },
+    {
+      "source_id": "C1-f00000000",
+      "arm": "doorway_only",
+      "kept_count": 2,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8426362718455493,
+      "peak_cuda_bytes": 1838700032
+    },
+    {
+      "source_id": "C2-f00000000",
+      "arm": "combined",
+      "kept_count": 2,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8279894194565713,
+      "peak_cuda_bytes": 1842145792
+    },
+    {
+      "source_id": "C2-f00000000",
+      "arm": "door_only",
+      "kept_count": 1,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8241937789134681,
+      "peak_cuda_bytes": 1838700032
+    },
+    {
+      "source_id": "C2-f00000000",
+      "arm": "doorway_only",
+      "kept_count": 1,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8414609069004655,
+      "peak_cuda_bytes": 1838700032
+    },
+    {
+      "source_id": "C3-f00000000",
+      "arm": "combined",
+      "kept_count": 1,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8311710362322628,
+      "peak_cuda_bytes": 1842145792
+    },
+    {
+      "source_id": "C3-f00000000",
+      "arm": "door_only",
+      "kept_count": 2,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8273936063051224,
+      "peak_cuda_bytes": 1839372800
+    },
+    {
+      "source_id": "C3-f00000000",
+      "arm": "doorway_only",
+      "kept_count": 1,
+      "image_edge_touch_or_overrun_count": 0,
+      "forward_seconds": 0.8425037460401654,
+      "peak_cuda_bytes": 1838700032
+    }
+  ],
+  "limitations": [
+    "no complete ROI GT",
+    "image-edge count is not physical threshold validity",
+    "no cross-camera registration",
+    "not held-out confirmation",
+    "GPU arithmetic need not equal CPU bytewise"
+  ]
+}
