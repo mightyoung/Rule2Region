@@ -1,0 +1,77 @@
+{
+  "status": "new_forward_completed",
+  "frame_index": 142,
+  "model_id": "IDEA-Research/grounding-dino-tiny",
+  "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "versions": {
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.1",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.35.3",
+    "numpy": "2.5.4",
+    "Pillow": "12.3.0"
+  },
+  "device": "cpu",
+  "dtype": "float32",
+  "torch_threads": 4,
+  "torch_interop_threads": 1,
+  "prompt": "person.",
+  "box_threshold": 0.25,
+  "text_threshold": 0.25,
+  "full_original_dimensions": [
+    800,
+    600
+  ],
+  "processed_pixel_values_shape": [
+    1,
+    3,
+    800,
+    1066
+  ],
+  "logits_shape": [
+    1,
+    900,
+    256
+  ],
+  "pred_boxes_shape": [
+    1,
+    900,
+    4
+  ],
+  "new_forward_passes": 1,
+  "new_training_runs": 0,
+  "new_model_downloads": 0,
+  "network_model_access": "offline/local_files_only/token=False/trust_remote_code=False",
+  "load_seconds": 0.7978768529999343,
+  "preprocess_seconds": 0.048229235000007975,
+  "forward_seconds": 7.0665590610001345,
+  "thresholded_count": 1,
+  "comparison_to_historical": {
+    "input_ids_equal": true,
+    "processed_shape_matches_historical": true,
+    "candidate_ids_equal": true,
+    "new_candidate_ids": [
+      0
+    ],
+    "historical_candidate_ids": [
+      0
+    ],
+    "scores_max_absolute_error": 0.0,
+    "boxes_max_absolute_error_pixels": 0.0,
+    "finite_mask_equal": true,
+    "finite_logits_max_absolute_error": 0.0,
+    "raw_boxes_max_absolute_error": 0.0,
+    "raw_logits_equal": true,
+    "raw_boxes_equal": true
+  },
+  "event_decision": "unknown",
+  "S_image_relation": "unknown",
+  "B_image_relation": "unknown",
+  "human_GT": false,
+  "AI_annotation_status": "model_output_pending_human_review",
+  "trajectory": "unknown",
+  "direction": "unknown",
+  "accuracy_metrics": null
+}

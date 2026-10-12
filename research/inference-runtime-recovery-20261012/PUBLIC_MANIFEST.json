@@ -1,0 +1,55 @@
+{
+  "scope": "Public text/code/locks/aggregate receipts only; no media/weights/tensors/private paths",
+  "files": [
+    {
+      "path": "CPU_TORCH.lock",
+      "bytes": 96,
+      "sha256": "7f5ecdce536ac7e7a2f3641a6af499f64e75121dfef38cfa55614fbbdff81855"
+    },
+    {
+      "path": "DOOR_PROBE_RECEIPT.json",
+      "bytes": 1595,
+      "sha256": "3b46458e7802b3c4b47761391b8f1a6257ea938f657d99523800afa4db64f0fd"
+    },
+    {
+      "path": "NEW_FORWARD_RECEIPT.json",
+      "bytes": 1948,
+      "sha256": "764ea46f97dacac604f8c357e0336a8bfd95da33deee59fd781c722e32ce0dd2"
+    },
+    {
+      "path": "PYPI_DEPENDENCIES.lock",
+      "bytes": 2403,
+      "sha256": "9286839be64466ebf5a54aba1bda8e3ef631185f2bd1d3a5921261f10c042d01"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4784,
+      "sha256": "ded3d30bc975c90956cfd8b98e47f67af81ba774e779deebb9bc15ef08628211"
+    },
+    {
+      "path": "RECOVERY_RECEIPT.json",
+      "bytes": 1295,
+      "sha256": "d107d779944fc97eadc87ddee4ef067cdc753091925d7e1d4e3113244270bae7"
+    },
+    {
+      "path": "REQUIREMENTS_RESTORED.lock",
+      "bytes": 2499,
+      "sha256": "bddcd4cd944c8a73e3b905fbaff292c3e31126a4ee847a150ab8d5f662d5f54e"
+    },
+    {
+      "path": "WHEEL_MANIFEST.json",
+      "bytes": 7733,
+      "sha256": "20f299e0ec6ba605ae4d287cfb465a3249063fbab573111393ffefab079317ea"
+    },
+    {
+      "path": "one_door_probe.py",
+      "bytes": 4535,
+      "sha256": "c3ab3ec64c7c1847c81341345fb391b854eec44a9b4d8dbb68414812ba1950eb"
+    },
+    {
+      "path": "one_real_forward.py",
+      "bytes": 6309,
+      "sha256": "11157624b532e7c78bd20889315cf9bf49d1da2f15811f9950685a1d27e347dc"
+    }
+  ]
+}

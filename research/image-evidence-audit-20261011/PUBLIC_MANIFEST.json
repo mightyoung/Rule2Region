@@ -1,5 +1,5 @@
 {
-  "scope": "Public code, AI audit narrative and aggregate receipts only; no media/private paths/hidden per-image geometry labels",
+  "scope": "Public text/code/locks/aggregate receipts only; excludes manifest itself; no media/model/tensors/private paths",
   "files": [
     {
       "path": "AUDIT_RECEIPT.json",
@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5890,
-      "sha256": "9328fa84813ecb2e1e2107e3c18f8ceafc475c0d500d85bf624b342f2bed84a6"
+      "bytes": 6453,
+      "sha256": "a8de59c75fb1559da3851cdef8d33fb0ffea746fad09e64450ee02ac78b7cf1a"
     },
     {
       "path": "replay_saved_tensors.py",

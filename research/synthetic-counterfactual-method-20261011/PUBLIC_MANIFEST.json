@@ -1,5 +1,5 @@
 {
-  "scope": "Public method text and frozen v2/v3 protocol code/empty JSON only; excludes manifest itself; no media/private source mapping",
+  "scope": "Public text/code/locks/aggregate receipts only; excludes manifest itself; no media/model/tensors/private paths",
   "files": [
     {
       "path": "COUNTERFACTUAL_V2_ONE_PAGE.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5379,
-      "sha256": "d6ef1f1f51f1c145b19953206a7b87daf7a8caeba8a88e3af9026c2770f43e3d"
+      "bytes": 5967,
+      "sha256": "983cefd3641232b47f8b218fd0a147b75f01c2088825a0c3ec53b79f9fe31947"
     },
     {
       "path": "V1_POSITION_AND_SHORTCUTS.md",

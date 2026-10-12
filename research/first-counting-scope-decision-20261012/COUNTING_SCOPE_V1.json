@@ -1,0 +1,27 @@
+{
+  "policy_version": "first-counting-scope-v1-20261012",
+  "registered_date": "2026-10-12",
+  "decision_source": "User accepted the stated first-version scope with reply 可以; registration of scope only, not per-image adjudication",
+  "business_scope_confirmed": true,
+  "scope": {
+    "target": "enclosed indoor spaces belonging to the selected single building",
+    "exclude": [
+      "open-air yards",
+      "open-sided or open-air connecting walkways"
+    ],
+    "atrium_rule": "include only when it belongs to the building's enclosed indoor space; open-air atria are excluded",
+    "future_custom_boundary": "possible later, not enabled by this decision"
+  },
+  "selected_building_id": null,
+  "versioned_region_union": null,
+  "region_membership_assignments": [],
+  "camera_registration": null,
+  "door_endpoint_memberships": null,
+  "source_geometry_truth_changed": false,
+  "image_labels_confirmed_by_this_decision": 0,
+  "image_evidence_updates": [],
+  "historical_protocol_files_overwritten": false,
+  "training_admission_changed": false,
+  "effect_claim": null,
+  "interpretation": "B scope rule is confirmed; concrete region/door assignments remain unknown until a selected-building map and evidence are reviewed. S physical enclosing volume and B chosen-building counting union remain distinct."
+}

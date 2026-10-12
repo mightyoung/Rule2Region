@@ -1,0 +1,26 @@
+{
+  "scope": "authorized dependency restoration and two genuine new offline CPU forwards, plus separate scope-policy decision",
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "packages_locked": 26,
+  "wheel_total_bytes": 241278725,
+  "venv_disk_usage_approx_GiB": 1.1,
+  "pip_check": "no broken requirements found after complete installation",
+  "new_model_weights_downloaded": 0,
+  "existing_snapshot_files_verified": 9,
+  "historical_additions_hashes_verified": 13,
+  "failures_preserved": [
+    "early additions command before venv pip bootstrap finished: No module named pip",
+    "first offline installation: missing setuptools on Python>=3.12; repaired with historical setuptools==78.1.0"
+  ],
+  "new_forward_calls": 2,
+  "new_training_runs": 0,
+  "new_renderer_runs": 0,
+  "new_media_upload_attempts": 0,
+  "human_confirmed_image_labels": 0,
+  "S_image_membership": "unknown",
+  "B_business_scope": "confirmed closed indoor selected-building space, separate incremental policy",
+  "B_image_or_door_membership": "unknown: concrete topology/map/registration not adjudicated",
+  "media_delivery": "historical Library401 unresolved for upload route; no retry or alternate channel; private new tensors/figure retained, no Mac persistence claimed",
+  "training_or_effect_claim": null
+}

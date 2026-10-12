@@ -1,0 +1,20 @@
+{
+  "scope": "Public text/code/locks/aggregate receipts only; excludes manifest itself; no media/model/tensors/private paths",
+  "files": [
+    {
+      "path": "COUNTING_SCOPE_V1.json",
+      "bytes": 1314,
+      "sha256": "21b187b6117571c4ce8b5725abeeafdcb77bfcc5457e68a55aab7f4865f9c3e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2130,
+      "sha256": "d6dc28355b730d84d17bc55b5e2a786f3a34d7597bc035c7b11f3057971aed9c"
+    },
+    {
+      "path": "VALIDATION_RECEIPT.json",
+      "bytes": 242,
+      "sha256": "7e3434bf0a9f6b2fbd3b29eccd6019d1cb5fc598c0eb1c7d06795bae1d44cf7a"
+    }
+  ]
+}

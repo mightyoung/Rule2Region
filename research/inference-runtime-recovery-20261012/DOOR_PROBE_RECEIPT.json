@@ -1,0 +1,46 @@
+{
+  "status": "new_fixed_prompt_door_probe_completed",
+  "frame_index": 0,
+  "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "prompt": "door. doorway.",
+  "box_threshold": 0.25,
+  "text_threshold": 0.25,
+  "classwise_nms_iou": 0.7,
+  "nms_convention": "same text label; suppress when IoU>0.7; score desc then prediction ID; no class-synonym merge",
+  "queries": 900,
+  "forward_seconds": 7.276477118999992,
+  "thresholded_count": 2,
+  "kept_count": 2,
+  "annotation_status": "AI_model_candidates_pending_human_review",
+  "physical_door_count": null,
+  "S_image_relation": "unknown",
+  "B_image_relation": "unknown",
+  "event_decision": "unknown",
+  "trajectory": "unknown",
+  "direction": "unknown",
+  "human_GT": false,
+  "accuracy_metrics": null,
+  "new_forward_passes": 1,
+  "new_model_downloads": 0,
+  "new_training_runs": 0,
+  "historical_person_prompt_comparison": "not applicable: different query, not a historical-replay claim",
+  "candidate_summary": [
+    {
+      "prediction_id": "q000",
+      "score": 0.47360363602638245,
+      "model_text_label": "door doorway"
+    },
+    {
+      "prediction_id": "q001",
+      "score": 0.4204466938972473,
+      "model_text_label": "doorway"
+    }
+  ],
+  "AI_visual_review": {
+    "q000": "small rear doorway/panel candidate; pending human review",
+    "q001": "large near-aperture candidate covering most of image; not an independently confirmed physical gate",
+    "visual_ground_truth": false,
+    "diagnostic_media_published": false
+  }
+}

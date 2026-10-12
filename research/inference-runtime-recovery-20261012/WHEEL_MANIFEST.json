@@ -1,0 +1,215 @@
+{
+  "wheels": [
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "file": "certifi-2026.7.22-py3-none-any.whl",
+      "bytes": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "file": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 257601,
+      "sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.3",
+      "file": "filelock-3.32.3-py3-none-any.whl",
+      "bytes": 98901,
+      "sha256": "7f0ca4bcc0e181c60dbbd8aa9ab5b120ebb99e4e064e83636340056f833a1f09",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0",
+      "file": "fsspec-2026.7.0-py3-none-any.whl",
+      "bytes": 206583,
+      "sha256": "b57ddbafedfaef7018c1ecab32aa200a9d7ca26b77965f64e48b70061249d279",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0",
+      "file": "hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 4212180,
+      "sha256": "2814a6e999d13464c4d679b788cc5d784eb5a4edfc638a31f10e9a11ab531ef8",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "0.35.3",
+      "file": "huggingface_hub-0.35.3-py3-none-any.whl",
+      "bytes": 564262,
+      "sha256": "0e3a01829c19d86d03793e4577816fe3bdfc1602ac62c7fb220d593d351224ba",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "file": "idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "file": "jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "file": "markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 22947,
+      "sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "file": "mpmath-1.3.0-py3-none-any.whl",
+      "bytes": 536198,
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "file": "networkx-3.6.1-py3-none-any.whl",
+      "bytes": 2068504,
+      "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "file": "numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 16727283,
+      "sha256": "fbde6962867ee75b48b0ee29b2b9372ec5d617799dbaf38e82dc0596f2f7738a",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "file": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "file": "pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 6940830,
+      "sha256": "78cb2c6865a35ab8ff8b75fd122f6033b92a62c82801110e48ddd6c936a45d91",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "file": "pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 807870,
+      "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "file": "regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 807783,
+      "sha256": "39ab5894d971f9ac68baa6eca5c50387db579cfcacf36ae8df3feceb1815e6d0",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "file": "requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.6.2",
+      "file": "safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 485835,
+      "sha256": "8045db2c872db8f4cbe3faa0495932d89c38c899c603f21e9b6486951a5ecb8f",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "setuptools",
+      "version": "78.1.0",
+      "file": "setuptools-78.1.0-py3-none-any.whl",
+      "bytes": 1256108,
+      "sha256": "3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "file": "sympy-1.14.0-py3-none-any.whl",
+      "bytes": 6299353,
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "file": "tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3274982,
+      "sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "torch",
+      "version": "2.8.0+cpu",
+      "file": "torch-2.8.0+cpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 183914597,
+      "sha256": "cb9a8ba8137ab24e36bf1742cb79a1294bd374db570f09fc15a5e1318160db4e",
+      "source_index": "https://download.pytorch.org/whl/cpu"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "file": "tqdm-4.70.1-py3-none-any.whl",
+      "bytes": 80199,
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "transformers",
+      "version": "4.57.1",
+      "file": "transformers-4.57.1-py3-none-any.whl",
+      "bytes": 11990925,
+      "sha256": "b10d05da8fa67dc41644dbbf9bc45a44cb86ae33da6f9295f5fbf5b7890bd267",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "file": "typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "source_index": "https://pypi.org/simple"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "file": "urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "source_index": "https://pypi.org/simple"
+    }
+  ],
+  "total_bytes": 241278725,
+  "new_model_bytes_downloaded": 0,
+  "additional_historical_dependency": "setuptools==78.1.0 required by torch on Python>=3.12"
+}
