@@ -1,0 +1,89 @@
+{
+  "device": "cpu",
+  "peak_cuda_bytes": null,
+  "status": "new_fixed_prompt_door_probe_completed",
+  "frame_index": 0,
+  "source_sha256": "67ebae5828a20b540cfd0241789ea5881c00c244a838f649f59b21228b4bc998",
+  "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "prompt": "door. doorway.",
+  "box_threshold": 0.25,
+  "text_threshold": 0.25,
+  "classwise_nms_iou": 0.7,
+  "nms_convention": "same text label; suppress when IoU>0.7; score desc then prediction ID; no class-synonym merge",
+  "queries": 900,
+  "forward_seconds": 11.486029276624322,
+  "thresholded_count": 2,
+  "kept_count": 2,
+  "model_candidates_before_nms": [
+    {
+      "prediction_id": "q000",
+      "query_index": 0,
+      "score": 0.47360363602638245,
+      "text_label": "door doorway",
+      "bbox_xyxy_original_unclipped": [
+        244.20797729492188,
+        59.05820846557617,
+        329.0511474609375,
+        239.34820556640625
+      ]
+    },
+    {
+      "prediction_id": "q001",
+      "query_index": 1,
+      "score": 0.4204466938972473,
+      "text_label": "doorway",
+      "bbox_xyxy_original_unclipped": [
+        56.12764358520508,
+        1.6798853874206543,
+        686.7086181640625,
+        597.621826171875
+      ]
+    }
+  ],
+  "model_candidates_after_nms": [
+    {
+      "prediction_id": "q000",
+      "query_index": 0,
+      "score": 0.47360363602638245,
+      "text_label": "door doorway",
+      "bbox_xyxy_original_unclipped": [
+        244.20797729492188,
+        59.05820846557617,
+        329.0511474609375,
+        239.34820556640625
+      ]
+    },
+    {
+      "prediction_id": "q001",
+      "query_index": 1,
+      "score": 0.4204466938972473,
+      "text_label": "doorway",
+      "bbox_xyxy_original_unclipped": [
+        56.12764358520508,
+        1.6798853874206543,
+        686.7086181640625,
+        597.621826171875
+      ]
+    }
+  ],
+  "suppression_decisions": [],
+  "full_original_dimensions": [
+    800,
+    600
+  ],
+  "annotation_status": "AI_model_candidates_pending_human_review",
+  "physical_door_count": null,
+  "S_image_relation": "unknown",
+  "B_image_relation": "unknown",
+  "event_decision": "unknown",
+  "trajectory": "unknown",
+  "direction": "unknown",
+  "human_GT": false,
+  "accuracy_metrics": null,
+  "new_forward_passes": 1,
+  "new_model_downloads": 0,
+  "new_training_runs": 0,
+  "historical_person_prompt_comparison": "not applicable: different query, not a historical-replay claim",
+  "raw_tensor_sha256": "da3262a9e07244d46c2012859bd973bddb64565f743fd373587ffd4f35c5876e"
+}

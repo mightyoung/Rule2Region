@@ -1,0 +1,65 @@
+{
+  "device": "cuda",
+  "peak_cuda_bytes": 1838700032,
+  "status": "new_fixed_prompt_door_probe_completed",
+  "frame_index": 0,
+  "source_sha256": "9328693b7ce95812f4619f93e91e3db64742127e5d221793ce1e28f8760a4778",
+  "weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "prompt": "doorway.",
+  "box_threshold": 0.25,
+  "text_threshold": 0.25,
+  "classwise_nms_iou": 0.7,
+  "nms_convention": "same text label; suppress when IoU>0.7; score desc then prediction ID; no class-synonym merge",
+  "queries": 900,
+  "forward_seconds": 0.8414609069004655,
+  "thresholded_count": 1,
+  "kept_count": 1,
+  "model_candidates_before_nms": [
+    {
+      "prediction_id": "q000",
+      "query_index": 0,
+      "score": 0.5755594968795776,
+      "text_label": "doorway",
+      "bbox_xyxy_original_unclipped": [
+        88.75598907470703,
+        1.3210952281951904,
+        712.118408203125,
+        597.7378540039062
+      ]
+    }
+  ],
+  "model_candidates_after_nms": [
+    {
+      "prediction_id": "q000",
+      "query_index": 0,
+      "score": 0.5755594968795776,
+      "text_label": "doorway",
+      "bbox_xyxy_original_unclipped": [
+        88.75598907470703,
+        1.3210952281951904,
+        712.118408203125,
+        597.7378540039062
+      ]
+    }
+  ],
+  "suppression_decisions": [],
+  "full_original_dimensions": [
+    800,
+    600
+  ],
+  "annotation_status": "AI_model_candidates_pending_human_review",
+  "physical_door_count": null,
+  "S_image_relation": "unknown",
+  "B_image_relation": "unknown",
+  "event_decision": "unknown",
+  "trajectory": "unknown",
+  "direction": "unknown",
+  "human_GT": false,
+  "accuracy_metrics": null,
+  "new_forward_passes": 1,
+  "new_model_downloads": 0,
+  "new_training_runs": 0,
+  "historical_person_prompt_comparison": "not applicable: different query, not a historical-replay claim",
+  "raw_tensor_sha256": "60e762437f999a9ace38958b938584f91635410e4112b6437f7628ee2b155d23"
+}

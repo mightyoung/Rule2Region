@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "kind": "sanitized_prompt_probe_receipts",
+  "publication_policy": "Publication scope deliberately limited to path-free probe receipts. Source frames, processed input tensors, raw model tensors, candidate renders, run logs and the licence copy remain private return material per RUNBOOK / RETURN_SCHEMA.",
+  "content_guarantee": "Each file is byte-identical to the validated DOOR_PROBE_RECEIPT_PRIVATE.json of the corresponding trial. Verified to contain no local filesystem path, no user or host name, no private IP, no credential, no email, no image and no input tensor.",
+  "scope": [
+    "decision unknown",
+    "human_GT false",
+    "no complete ROI GT",
+    "candidate counts and boxes are not accuracy or event truth",
+    "no cross-camera registration",
+    "not held-out confirmation"
+  ],
+  "decision": "unknown",
+  "human_GT": false,
+  "accuracy_metrics": null,
+  "runs": {
+    "cpu-matrix": {
+      "git_commit": "3502616f9eca5c99ca05871daa4479058fad6ef1",
+      "device": "cpu",
+      "receipt_count": 9,
+      "receipts": [
+        {
+          "path": "cpu-matrix/C1-f00000000--combined.json",
+          "source_id": "C1-f00000000",
+          "arm": "combined",
+          "device": "cpu",
+          "prompt": "door. doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 11.486029276624322,
+          "peak_cuda_bytes": null,
+          "bytes": 2600,
+          "sha256": "86818188248370540328085f6434596ccf97b4cdfed14bdb1bc2ce8a33dc85e1"
+        },
+        {
+          "path": "cpu-matrix/C1-f00000000--door_only.json",
+          "source_id": "C1-f00000000",
+          "arm": "door_only",
+          "device": "cpu",
+          "prompt": "door.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 11.244668564759195,
+          "peak_cuda_bytes": null,
+          "bytes": 1991,
+          "sha256": "cf7b2a8801ec856e6ad1b0c91c19d9091a5cacbd1dcd94e74189671b16565d45"
+        },
+        {
+          "path": "cpu-matrix/C1-f00000000--doorway_only.json",
+          "source_id": "C1-f00000000",
+          "arm": "doorway_only",
+          "device": "cpu",
+          "prompt": "doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 11.034063739702106,
+          "peak_cuda_bytes": null,
+          "bytes": 2572,
+          "sha256": "84ba84cd2dceab78dfb450610c9d83163de74cef7e1211734c09f6bded103296"
+        },
+        {
+          "path": "cpu-matrix/C2-f00000000--combined.json",
+          "source_id": "C2-f00000000",
+          "arm": "combined",
+          "device": "cpu",
+          "prompt": "door. doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 11.315171658061445,
+          "peak_cuda_bytes": null,
+          "bytes": 2572,
+          "sha256": "366b8671016ce800759f4fee4f8a3ad8dbc0b359b33f5286429d79f3e6ee8a99"
+        },
+        {
+          "path": "cpu-matrix/C2-f00000000--door_only.json",
+          "source_id": "C2-f00000000",
+          "arm": "door_only",
+          "device": "cpu",
+          "prompt": "door.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 11.203410480637103,
+          "peak_cuda_bytes": null,
+          "bytes": 1995,
+          "sha256": "2d3587c3c49849c5faee81b76c36210398e2c7f1df98880dcc24e70580dfeb05"
+        },
+        {
+          "path": "cpu-matrix/C2-f00000000--doorway_only.json",
+          "source_id": "C2-f00000000",
+          "arm": "doorway_only",
+          "device": "cpu",
+          "prompt": "doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 11.27321242634207,
+          "peak_cuda_bytes": null,
+          "bytes": 2001,
+          "sha256": "726d71796bccad911699ccf2bf91b933afa467a72dec2f3b9144f55b46a7fd9f"
+        },
+        {
+          "path": "cpu-matrix/C3-f00000000--combined.json",
+          "source_id": "C3-f00000000",
+          "arm": "combined",
+          "device": "cpu",
+          "prompt": "door. doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 11.191067207138985,
+          "peak_cuda_bytes": null,
+          "bytes": 2018,
+          "sha256": "c81e44bd6317f2cc955f01838558368242b8786cfffba885e8175f412ca61ece"
+        },
+        {
+          "path": "cpu-matrix/C3-f00000000--door_only.json",
+          "source_id": "C3-f00000000",
+          "arm": "door_only",
+          "device": "cpu",
+          "prompt": "door.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 11.289625890552998,
+          "peak_cuda_bytes": null,
+          "bytes": 2575,
+          "sha256": "78d8cde88b0a8445e335720ca365a6bde23b07223b6decb272fb074085cc92c6"
+        },
+        {
+          "path": "cpu-matrix/C3-f00000000--doorway_only.json",
+          "source_id": "C3-f00000000",
+          "arm": "doorway_only",
+          "device": "cpu",
+          "prompt": "doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 11.212134882807732,
+          "peak_cuda_bytes": null,
+          "bytes": 2002,
+          "sha256": "afe5d600529447567f965732e4796799451056126405be589afaf65f9e2fb96d"
+        }
+      ]
+    },
+    "gpu-matrix": {
+      "git_commit": "2f199f8f7f7bf5b2ed383ea2fd1596132cd1c203",
+      "device": "cuda",
+      "receipt_count": 9,
+      "receipts": [
+        {
+          "path": "gpu-matrix/C1-f00000000--combined.json",
+          "source_id": "C1-f00000000",
+          "arm": "combined",
+          "device": "cuda",
+          "prompt": "door. doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 1.8041725382208824,
+          "peak_cuda_bytes": 1842145792,
+          "bytes": 2607,
+          "sha256": "1def5318ef1e072b78ca1a39a93dd4e89d9cca38d9d17dbce3b0b179a226aff5"
+        },
+        {
+          "path": "gpu-matrix/C1-f00000000--door_only.json",
+          "source_id": "C1-f00000000",
+          "arm": "door_only",
+          "device": "cuda",
+          "prompt": "door.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 0.8252771240659058,
+          "peak_cuda_bytes": 1838700032,
+          "bytes": 2002,
+          "sha256": "8635bb3398960e2315ac3906c898052565b5275f2970abaf959d7bcb4c5868f9"
+        },
+        {
+          "path": "gpu-matrix/C1-f00000000--doorway_only.json",
+          "source_id": "C1-f00000000",
+          "arm": "doorway_only",
+          "device": "cuda",
+          "prompt": "doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 0.8426362718455493,
+          "peak_cuda_bytes": 1838700032,
+          "bytes": 2593,
+          "sha256": "bc2318c975f72e69caf18f74c6963c1a7edecfed17ae07f8cd437de0516473b3"
+        },
+        {
+          "path": "gpu-matrix/C2-f00000000--combined.json",
+          "source_id": "C2-f00000000",
+          "arm": "combined",
+          "device": "cuda",
+          "prompt": "door. doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 0.8279894194565713,
+          "peak_cuda_bytes": 1842145792,
+          "bytes": 2583,
+          "sha256": "0b1dc49a9a1cd065e1467fa39232c8e48aeff2096e526a9e771b2fa5c0f05b49"
+        },
+        {
+          "path": "gpu-matrix/C2-f00000000--door_only.json",
+          "source_id": "C2-f00000000",
+          "arm": "door_only",
+          "device": "cuda",
+          "prompt": "door.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 0.8241937789134681,
+          "peak_cuda_bytes": 1838700032,
+          "bytes": 1996,
+          "sha256": "f85c633f2ed88491b304c2de2f2059394f5107ee26e546d82ec90af620aaaa94"
+        },
+        {
+          "path": "gpu-matrix/C2-f00000000--doorway_only.json",
+          "source_id": "C2-f00000000",
+          "arm": "doorway_only",
+          "device": "cuda",
+          "prompt": "doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 0.8414609069004655,
+          "peak_cuda_bytes": 1838700032,
+          "bytes": 2007,
+          "sha256": "0d451317d9c29b1a49dc6b6823a41026a201d7bd1da0184f77d9ac0babe6029d"
+        },
+        {
+          "path": "gpu-matrix/C3-f00000000--combined.json",
+          "source_id": "C3-f00000000",
+          "arm": "combined",
+          "device": "cuda",
+          "prompt": "door. doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 0.8311710362322628,
+          "peak_cuda_bytes": 1842145792,
+          "bytes": 2023,
+          "sha256": "e33a2a736c596b21f58fca0dbb10ed8b6585993c23c37482dd81bfea58c630b7"
+        },
+        {
+          "path": "gpu-matrix/C3-f00000000--door_only.json",
+          "source_id": "C3-f00000000",
+          "arm": "door_only",
+          "device": "cuda",
+          "prompt": "door.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 0.8273936063051224,
+          "peak_cuda_bytes": 1839372800,
+          "bytes": 2580,
+          "sha256": "8474a72e0e485d65daba570e53c7c1bd213c5032c5bc08495c5f7945c7df769c"
+        },
+        {
+          "path": "gpu-matrix/C3-f00000000--doorway_only.json",
+          "source_id": "C3-f00000000",
+          "arm": "doorway_only",
+          "device": "cuda",
+          "prompt": "doorway.",
+          "kept_count": 1,
+          "thresholded_count": 1,
+          "forward_seconds": 0.8425037460401654,
+          "peak_cuda_bytes": 1838700032,
+          "bytes": 2009,
+          "sha256": "36399250250dbf9469a91d76f62e6a807e49d0bed69b51b31eaee28058340302"
+        }
+      ]
+    },
+    "cpu-smoke": {
+      "git_commit": "2f199f8f7f7bf5b2ed383ea2fd1596132cd1c203",
+      "device": "cpu",
+      "receipt_count": 1,
+      "receipts": [
+        {
+          "path": "cpu-smoke/C1-f00000000--combined.json",
+          "source_id": "C1-f00000000",
+          "arm": "combined",
+          "device": "cpu",
+          "prompt": "door. doorway.",
+          "kept_count": 2,
+          "thresholded_count": 2,
+          "forward_seconds": 10.197298254817724,
+          "peak_cuda_bytes": null,
+          "bytes": 2600,
+          "sha256": "a03a7705a815a498a949baffff3da4c13b3b2a79178fd45ed05bb677af81efda"
+        }
+      ]
+    }
+  }
+}
