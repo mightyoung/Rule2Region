@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "58c266fc36182230a0f8fef976fd835e353f40e5",
+  "purpose": "fixed-prompt boundary candidate sensitivity; not ROI accuracy or entry recognition",
+  "prompts": {
+    "combined": "door. doorway.",
+    "door_only": "door.",
+    "doorway_only": "doorway."
+  },
+  "baseline_prompt": "combined",
+  "box_threshold": 0.25,
+  "text_threshold": 0.25,
+  "nms_iou": 0.7,
+  "nms_same_exact_label": true,
+  "seed": 0,
+  "dtype": "float32",
+  "batch_size": 1,
+  "max_forward_calls": 9,
+  "decision": "unknown",
+  "human_GT": false
+}
