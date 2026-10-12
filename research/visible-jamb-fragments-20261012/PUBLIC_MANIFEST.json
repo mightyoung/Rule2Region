@@ -1,0 +1,25 @@
+{
+  "scope": "Only new non-neural method code and aggregate results/delivery facts; no images/private coordinates/private Site links/asset IDs/auth credentials",
+  "files": [
+    {
+      "path": "PRIVATE_DELIVERY_SUMMARY.json",
+      "bytes": 1203,
+      "sha256": "e45b149eea6c469f40a74ee246c012b4035e63eb4ac9ed0d1be6d4158e70df88"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3779,
+      "sha256": "55c952b914c91befd1cdde6d8b7d20591f3bfda0b419e62b6695fe4269155aaa"
+    },
+    {
+      "path": "REFINEMENT_RECEIPT.json",
+      "bytes": 1740,
+      "sha256": "d1e4c114f99526d95ea2f111b9ba5227b619a3a6b5b0dcc1e691fc801e205f3e"
+    },
+    {
+      "path": "refine_visible_fragments.py",
+      "bytes": 4902,
+      "sha256": "60b4b3034e2490cc018f76aa73f0d764bfe5ef4f86126e68d12299550ef3de61"
+    }
+  ]
+}

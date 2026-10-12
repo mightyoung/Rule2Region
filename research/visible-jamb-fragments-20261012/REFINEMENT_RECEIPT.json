@@ -1,0 +1,46 @@
+{
+  "operation": "New non-neural visible jamb fragment extraction; old model candidates reused explicitly",
+  "frames_analyzed": 2,
+  "pixel_gradient_definition": "horizontal RGB [-1,0,1] finite difference L2 norm; five-row mean; max within AI-selected search windows",
+  "search_windows_x": {
+    "left": [
+      30,
+      140
+    ],
+    "right": [
+      600,
+      730
+    ]
+  },
+  "sample_rows_y": [
+    50,
+    100,
+    200,
+    300,
+    400,
+    500
+  ],
+  "matching_selected_peak_positions": 12,
+  "positions_per_frame": 12,
+  "old_model_bbox_modified": false,
+  "closed_counting_roi_emitted": false,
+  "crossing_line_emitted": false,
+  "reason": "top lintel and bottom sill/plane not fully localized from images; no artificial closure at bbox/frame edge",
+  "interpretation": "Agreement of selected visible edge peaks supports local structural stability only, not whole-image registration, camera calibration, physical gate identity or counting membership",
+  "annotation_status": "AI_proposals_pending_human_review",
+  "S_membership": "unknown",
+  "B_membership": "unknown",
+  "B_scope_policy_confirmed": true,
+  "new_model_calls": 0,
+  "new_weight_downloads": 0,
+  "new_training_runs": 0,
+  "human_GT": false,
+  "execution_started_utc": "2026-10-12T04:03:21.634446+00:00",
+  "execution_ended_utc": "2026-10-12T04:03:24.221168+00:00",
+  "execution_exit_code": 0,
+  "execution_script_sha256": "60b4b3034e2490cc018f76aa73f0d764bfe5ef4f86126e68d12299550ef3de61",
+  "source_model_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "source_model_weight_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "private_exact_proposals_and_figure": true,
+  "public_media_or_private_label_publication": false
+}
