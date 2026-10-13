@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "total_offline_tests": 18,
+  "new_human_review_contract_tests": 11,
+  "tests_passed": 18,
+  "actual_unedited_template_CLI_exit_code": 0,
+  "actual_template_unreviewed_records": 13,
+  "new_human_confirmations": 0,
+  "original_private_bundle_received": false,
+  "formal_model_matrix_reruns": 0,
+  "publication_attempted": false,
+  "scope": "schema/provenance checks and synthetic invalid edits only; no research outcome or ROI GT",
+  "pending_publication": "local-only increment; existing quota denial not retried"
+}

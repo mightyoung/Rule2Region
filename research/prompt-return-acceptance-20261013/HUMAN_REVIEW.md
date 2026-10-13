@@ -12,3 +12,17 @@
 第一轮优先检查C2的combined小框是否关门板、近侧大框是否仍下界截断；C3 door_only增加的第二候选指向何处。它们是已有提示敏感性结果的区分性人工检查，不新跑矩阵，不预设哪一候选正确。所有结论必须由对应原图/用户审阅产生，当前只是待复核清单。
 
 资料仅进入原授权私有站点或私有附件；不能把人审内容/原图发布GitHub。若尚缺私有包，停在待复核入口，明确缺件，不向用户展示由本工具伪造的“已审图”。
+
+## 填表后离线合同检查（2026-10-13增量）
+
+保留原HUMAN_REVIEW_TEMPLATE_PRIVATE.json，复制为新的私有review文件后填写，禁止覆写原模板或原站点记录。原图实际尚未收到时不填任何人工确认。校验器允许局部可见边沿复核；完整ROI、物理门身份、门槛定位和事件尚未获本批证据准入，均保持unknown/false。原C1派生图既有确认不由此工具更改，也不批量迁移为13条新确认。
+
+```bash
+python3 research/prompt-return-acceptance-20261013/validate_human_review.py \
+  --repo "$PWD" --run-name cpu-matrix \
+  --template /absolute/private/HUMAN_REVIEW_TEMPLATE_PRIVATE.json \
+  --review /absolute/private/HUMAN_REVIEW_FILLED_PRIVATE.json \
+  --out /absolute/private/NEW_REVIEW_CONTRACT_REPORT.json
+```
+
+工具核固定Git回执生成的原始模板、不可变AI/原帧身份、候选集合、实际UTC/审阅者/原图SHA、AI辅助暴露状态；不可见或未知边界禁止坐标，图片底边不能代替门槛。所有字段未改的模板可通过，报告明确列未审数，**通过合同校验不等于已人审或审阅内容为真**。原图/底界/GT及原始包缺口继续保留。输出只新建、必须在真实git checkout外；不写私有站点、不发布、不执行模型。GPU模板用--run-name gpu-matrix，不能拿CPU模板冒充GPU模板。
