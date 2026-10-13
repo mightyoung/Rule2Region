@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "status": "public_git_bytes_and_internal_consistency_verified",
+  "pins": {
+    "cpu-matrix": "2b85946e48cdc46ca780d2659ab8cffa3cb664c8",
+    "gpu-matrix": "c09db0d147ed1d1a9426f14dfc2337ea08a8da80",
+    "receipts": "7151e4b321f2cda87d9c99ace729c39e16015c40"
+  },
+  "receipt_manifest_sha256": "3d70c9f0763033a2aca84262367eceb2d7467b87cd5a239f500668c42e9867b6",
+  "source_manifest_sha256": "29cc7ecabb7fdfb62e3c749ab87d6b889e61c29b645c0a7bfaa7286434422b31",
+  "verified_receipts": 19,
+  "CPU_GPU_count_equal_trials": 9,
+  "private_original_package_verified": false,
+  "human_GT": false,
+  "decision": "unknown",
+  "accuracy_metrics": null,
+  "rows": [
+    {
+      "run": "cpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "86818188248370540328085f6434596ccf97b4cdfed14bdb1bc2ce8a33dc85e1",
+      "raw_tensor_declared_sha256": "da3262a9e07244d46c2012859bd973bddb64565f743fd373587ffd4f35c5876e",
+      "kept_count": 2
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "cf7b2a8801ec856e6ad1b0c91c19d9091a5cacbd1dcd94e74189671b16565d45",
+      "raw_tensor_declared_sha256": "eb7730dee2d78b915e4ba05f52c1ff4d9fc25d150b98251fa50cab1fd55a7e37",
+      "kept_count": 1
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "84ba84cd2dceab78dfb450610c9d83163de74cef7e1211734c09f6bded103296",
+      "raw_tensor_declared_sha256": "9e1b61068588123f42db1af7087e9f060e9f1379e1905360750a6557808450bd",
+      "kept_count": 2
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "366b8671016ce800759f4fee4f8a3ad8dbc0b359b33f5286429d79f3e6ee8a99",
+      "raw_tensor_declared_sha256": "b8696d6eb14ed34b94a3b17c4e0e754ddd06294e632598dcf5d915fcb9e9e8b0",
+      "kept_count": 2
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "2d3587c3c49849c5faee81b76c36210398e2c7f1df98880dcc24e70580dfeb05",
+      "raw_tensor_declared_sha256": "0f22b8f910fee8ca689cd27e59dcf80c843501b467a5d85e7744f0e68dd1ddfa",
+      "kept_count": 1
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "726d71796bccad911699ccf2bf91b933afa467a72dec2f3b9144f55b46a7fd9f",
+      "raw_tensor_declared_sha256": "5e3f1644c1882d38e7df88a62926cc61259952ac5ef4791b9b4d5310d2a5bb12",
+      "kept_count": 1
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "c81e44bd6317f2cc955f01838558368242b8786cfffba885e8175f412ca61ece",
+      "raw_tensor_declared_sha256": "9846ce25ae9b76c661801dbecab777b36f81b707f84aeac17f4a30d5801bc067",
+      "kept_count": 1
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "78d8cde88b0a8445e335720ca365a6bde23b07223b6decb272fb074085cc92c6",
+      "raw_tensor_declared_sha256": "e514ee0edcc44aad1b2f97aa85a30be7a66e51df9bdd1f856afcbdf8ddafc766",
+      "kept_count": 2
+    },
+    {
+      "run": "cpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "afe5d600529447567f965732e4796799451056126405be589afaf65f9e2fb96d",
+      "raw_tensor_declared_sha256": "0a7bed194a1bd999bd2ba7e71218359b5533748c928de481b0482631b6932524",
+      "kept_count": 1
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "1def5318ef1e072b78ca1a39a93dd4e89d9cca38d9d17dbce3b0b179a226aff5",
+      "raw_tensor_declared_sha256": "4a898ead5925456bb15e97de7b5d24de4653e50de88964d652bd3b4b117d0a39",
+      "kept_count": 2
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "8635bb3398960e2315ac3906c898052565b5275f2970abaf959d7bcb4c5868f9",
+      "raw_tensor_declared_sha256": "719f37935aede6b1b5230cbb1bc92e357737adc1911662dd5ffb2c051b6c5a74",
+      "kept_count": 1
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C1-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "bc2318c975f72e69caf18f74c6963c1a7edecfed17ae07f8cd437de0516473b3",
+      "raw_tensor_declared_sha256": "7e92ba1c267114e586c2a9a5aafdf37947fb2d814a3d1d1eedc406115681cbb2",
+      "kept_count": 2
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "0b1dc49a9a1cd065e1467fa39232c8e48aeff2096e526a9e771b2fa5c0f05b49",
+      "raw_tensor_declared_sha256": "164de918e90544e456b116a052d9855aad9201d2f5a5ab3f9f4c3ca280b77c9f",
+      "kept_count": 2
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "f85c633f2ed88491b304c2de2f2059394f5107ee26e546d82ec90af620aaaa94",
+      "raw_tensor_declared_sha256": "212e8d01a0c54a2d4f64bcfe4eaa15b4082b4f2b6a841a1fb60d577a56c69789",
+      "kept_count": 1
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C2-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "0d451317d9c29b1a49dc6b6823a41026a201d7bd1da0184f77d9ac0babe6029d",
+      "raw_tensor_declared_sha256": "60e762437f999a9ace38958b938584f91635410e4112b6437f7628ee2b155d23",
+      "kept_count": 1
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "e33a2a736c596b21f58fca0dbb10ed8b6585993c23c37482dd81bfea58c630b7",
+      "raw_tensor_declared_sha256": "524e3a1cec80d3c5339c72944de341408fb52a04b68fe1f421a28f49bf75e774",
+      "kept_count": 1
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "door_only",
+      "receipt_sha256": "8474a72e0e485d65daba570e53c7c1bd213c5032c5bc08495c5f7945c7df769c",
+      "raw_tensor_declared_sha256": "5b18b7c9612e28e762b6b12228a51936f6b58b4ed4b6492dc491e24c7b3bec89",
+      "kept_count": 2
+    },
+    {
+      "run": "gpu-matrix",
+      "source_id": "C3-f00000000",
+      "arm": "doorway_only",
+      "receipt_sha256": "36399250250dbf9469a91d76f62e6a807e49d0bed69b51b31eaee28058340302",
+      "raw_tensor_declared_sha256": "0a3b5809fcdee2b0a3059e6c331e8d5305b5ba2102ba55c319632eed4146f577",
+      "kept_count": 1
+    },
+    {
+      "run": "cpu-smoke",
+      "source_id": "C1-f00000000",
+      "arm": "combined",
+      "receipt_sha256": "a03a7705a815a498a949baffff3da4c13b3b2a79178fd45ed05bb677af81efda",
+      "raw_tensor_declared_sha256": "727fba594bc6493c5b82a7094cbba5d0b5fdd6394c6aafe1104a97751775e846",
+      "kept_count": 2
+    }
+  ],
+  "missing_return_evidence": [
+    "operator original source JPEG bytes",
+    "operator raw/processed tensors",
+    "operator candidate PNG renders",
+    "operator RUN_PRIVATE actual argv/PID/UTC/environment and stdout/stderr/resource logs",
+    "operator retained original source license bytes",
+    "complete physical doorway/threshold human GT (not created)"
+  ]
+}

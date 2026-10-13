@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "offline_public_audit_receipts": 19,
+  "synthetic_corruption_and_contract_tests": 7,
+  "tests_passed": 7,
+  "private_missing_CPU_checker_exit": 2,
+  "private_missing_GPU_checker_exit": 2,
+  "necessary_missing_file_positions_per_unreceived_matrix": 69,
+  "private_human_review_template_records_per_matrix": 13,
+  "private_original_package_received": false,
+  "private_tensor_and_full_bundle_success_path_tested": false,
+  "new_model_forward_calls": 0,
+  "unknown_preserved": true,
+  "raw_artifacts_publicly_published": false,
+  "user_server_connected": false,
+  "paid_calls": 0,
+  "scope": "public Git bytes verified; private-byte acceptance pending; no GT or accuracy validation"
+}
