@@ -1,5 +1,5 @@
 """Synthetic review edits only; no actual reviewer or newly confirmed geometry."""
-import copy,datetime,unittest
+import copy,datetime,unittest,json,subprocess,sys
 import validate_human_review as h
 import audit_returns,check_private_return
 from pathlib import Path
@@ -14,6 +14,32 @@ class ReviewContract(unittest.TestCase):
  def edited(self):
   x=copy.deepcopy(self.template);r=x['records'][0];r.update(review_status='partial_review',reviewer='SYNTHETIC TEST ONLY',reviewed_utc='2026-10-13T00:00:00Z',viewed_original_sha256=r['source_sha256'],seen_AI_candidates=True,note='Synthetic partial visibility, not research outcome',left_visibility='visible',bottom_visibility='not_visible');return x
  def check(self,x):return h.validate(self.template,x,datetime.datetime(2026,10,13,1,tzinfo=datetime.timezone.utc))
+ def integrity_fixture(self):
+  return {'run_name':'cpu-matrix','status':'private_bytes_and_original_validator_checks_passed','missing':[],'raw_and_processed_tensor_validation':'passed; normal padded -inf logits allowed','public_receipts_verified':True,'human_GT':False,'decision':'unknown','scientific_ROI_admission':False}
+ def test_review_requires_private_integrity_report(self):
+  with self.assertRaisesRegex(ValueError,'integrity report'):h.check_review_readiness(self.edited(),'cpu-matrix',None)
+ def test_review_rejects_missing_raw_failed_or_running_return(self):
+  for state in ['incomplete_private_return','failed_private_return']:
+   r=self.integrity_fixture();r['status']=state
+   with self.assertRaises(ValueError):h.check_review_readiness(self.edited(),'cpu-matrix',r)
+  for field,value in [('missing',['original/C1-f00000000.jpg']),('raw_and_processed_tensor_validation','not_run_missing_bytes')]:
+   r=self.integrity_fixture();r[field]=value
+   with self.assertRaises(ValueError):h.check_review_readiness(self.edited(),'cpu-matrix',r)
+ def test_review_rejects_other_matrix_or_GT_escalation(self):
+  for field,value in [('run_name','gpu-matrix'),('human_GT',True),('scientific_ROI_admission',True),('decision','safe')]:
+   r=self.integrity_fixture();r[field]=value
+   with self.assertRaises(ValueError):h.check_review_readiness(self.edited(),'cpu-matrix',r)
+ def test_synthetic_passed_integrity_allows_partial_contract_only(self):
+  self.assertEqual(h.check_review_readiness(self.edited(),'cpu-matrix',self.integrity_fixture()),'report_checked_for_partial_review')
+  r=self.check(self.edited());self.assertFalse(r['scientific_ROI_admission']);self.assertFalse(r['human_GT'])
+ def test_unedited_template_needs_no_materials_and_stays_unreviewed(self):
+  self.assertEqual(h.check_review_readiness(self.template,'cpu-matrix',None),'not_required_for_unreviewed_template')
+ def test_CLI_rejects_filled_review_without_integrity_before_writing(self):
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t);template=root/'template.json';review=root/'review.json';out=root/'report.json'
+   template.write_text(json.dumps(self.template));review.write_text(json.dumps(self.edited()))
+   result=subprocess.run([sys.executable,str(Path(h.__file__)), '--repo',str(REPO),'--run-name','cpu-matrix','--template',str(template),'--review',str(review),'--out',str(out)],capture_output=True,text=True)
+   self.assertNotEqual(result.returncode,0);self.assertIn('require a private integrity report',result.stderr);self.assertFalse(out.exists())
  def test_bind_template_to_actual_pinned_receipts(self):
   h.bind_template(copy.deepcopy(self.template),REPO,'cpu-matrix')
   x=copy.deepcopy(self.template);x['records'][0]['AI_score']=.999
