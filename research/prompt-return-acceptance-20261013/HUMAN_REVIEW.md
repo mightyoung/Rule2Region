@@ -18,14 +18,22 @@
 保留原HUMAN_REVIEW_TEMPLATE_PRIVATE.json，复制为新的私有review文件后填写，禁止覆写原模板或原站点记录。原图实际尚未收到时不填任何人工确认。校验器允许局部可见边沿复核；完整ROI、物理门身份、门槛定位和事件尚未获本批证据准入，均保持unknown/false。原C1派生图既有确认不由此工具更改，也不批量迁移为13条新确认。
 
 ```bash
-python3 research/prompt-return-acceptance-20261013/validate_human_review.py \
+# 使用已有CPU验收venv（torch/safetensors），非模型执行环境启动命令。
+PY=/absolute/private/venv/bin/python
+"$PY" research/prompt-return-acceptance-20261013/validate_human_review.py \
   --repo "$PWD" --run-name cpu-matrix \
   --template /absolute/private/HUMAN_REVIEW_TEMPLATE_PRIVATE.json \
   --review /absolute/private/HUMAN_REVIEW_FILLED_PRIVATE.json \
-  --integrity-report /absolute/private/cpu-acceptance-v1/PRIVATE_INTEGRITY_REPORT.json \
+  --run /absolute/private/returned-package/cpu-matrix \
+  --source-data /absolute/private/returned-package/data \
+  --license /absolute/private/returned-package/data/SOURCE_LICENSE_ORIGINAL.html \
   --out /absolute/private/NEW_REVIEW_CONTRACT_REPORT.json
 ```
 
 工具核固定Git回执生成的原始模板、不可变AI/原帧身份、候选集合、实际UTC/审阅者/原图SHA、AI辅助暴露状态；不可见或未知边界禁止坐标，图片底边不能代替门槛。所有字段未改的模板可通过，报告明确列未审数，**通过合同校验不等于已人审或审阅内容为真**。原图/底界/GT及原始包缺口继续保留。输出只新建、必须在真实git checkout外；不写私有站点、不发布、不执行模型。GPU模板用--run-name gpu-matrix，不能拿CPU模板冒充GPU模板。
 
-新增人工填写的接收门槛：任何partial_review/needs_more_evidence记录必须提供同一矩阵的PRIVATE_INTEGRITY_REPORT.json，状态为private_bytes_and_original_validator_checks_passed、missing为空且raw/processed tensors已验。缺原图/许可/原始张量、运行失败或错矩阵时停止接收已审记录；不能手改报告伪装通过。全未审的原始模板仍可不提供报告作合同检查，但报告明确为未审、没有人工确认。报告门槛核软件流程声明，不是签名证明或审阅内容真实性证明。原13条AI字段与图像SHA仍不可变，完整ROI/GT/事件/门槛位置仍禁止升级。人工审阅完成后的私有回传应同时附原模板、新填表文件、对应完整性报告与新合同报告；不上传GitHub，不改写既有站点确认。
+新增人工填写的实际接收门槛：任何partial_review/needs_more_evidence记录必须由本次CLI接收实际--run、--source-data、--license（可选--model），现场调用check_private_return.inspect。只有该次原图/许可/回执/张量/日志/源码与配置身份验收成功且运行完成，才继续局部人审合同检查。缺原图、原始张量或失败/错版本矩阵停止，不写合同通过报告。只读原包，张量校验在临时副本中进行，不forward、不请求GPU、不联网外发、不改原站点。
+
+743ffe的JSON报告门槛仅核自填声明，不能证明实际包已验，独立反例已确认；现已替换。--integrity-report只可选对照已有报告，与本次inspect结果不一致会拒绝；单独提供成功JSON从来不能放行。无需远程签名、密钥或授权扩展。
+
+全未审模板仍可省略实际目录作纯合同检查，不读取私有素材；报告明确为未审、没有人工确认。原13条AI字段与图像SHA仍不可变，完整ROI/GT/事件/门槛位置仍禁止升级。人工填写后的私有回传附原模板、新填表文件、验收材料和新合同报告；不上传GitHub，不改写既有局部确认。真实私有包成功路径与审阅内容真实性仍待独立验证，本轮只做合成/mock接缝及缺包CLI反例。
