@@ -74,3 +74,32 @@ PRIVATE_RETURN=/absolute/private/returned-package
 原私有验收器现在在其他文件缺失前先检查已有RUN_PRIVATE的schema、运行源码/配置哈希、执行版本、设备、unknown范围及试验集合。status=failed时保留真实失败类型/原因/部分trial与退出码，CLI退出3；running/incomplete仍退出2；completed但试验不全被拒绝。原包不覆写，不把失败伪装成成功或已人审。不存在的原始运行记录不补造。
 
 测试仅用微小合成文件/失败状态和已有公共Git对象，28项通过（原18+新增10）；没有任何模型forward、真实私有包验收或新人工确认。原图/张量/日志/许可和GT真实缺口继续如上，完整tensor验收成功路径仍待真实包。
+
+## 操作者现有入口与恢复停点
+
+完整性验收已是一条命令，无需另写执行器。在既有CPU验收venv中，将PRIVATE_RETURN设为已获授权、已核归档SHA并安全解包的私有根目录；新输出目录不能已存在。CPU或GPU仅改MATRIX值，张量验证均在CPU只读进行，不forward、不网络外发：
+
+```bash
+PY=/absolute/private/venv/bin/python
+PRIVATE_RETURN=/absolute/private/returned-package
+MATRIX=cpu-matrix
+"$PY" research/prompt-return-acceptance-20261013/check_private_return.py \
+  --repo "$PWD" --run "$PRIVATE_RETURN/$MATRIX" --run-name "$MATRIX" \
+  --source-data "$PRIVATE_RETURN/data" \
+  --license "$PRIVATE_RETURN/data/SOURCE_LICENSE_ORIGINAL.html" \
+  --out "$PRIVATE_RETURN/$MATRIX-acceptance-v2"
+```
+
+原始69件的精确对应：data/C1-f00000000.jpg、C2-f00000000.jpg、C3-f00000000.jpg；data/SOURCE_LICENSE_ORIGINAL.html；<matrix>/RUN_PRIVATE.json、MODEL_ENV_PRIVATE.json；3个source_id×3个arm各含SOURCE_PRIVATE.json、stdout.log、stderr.log、DOOR_RAW_OUTPUT.safetensors、PROCESSED_INPUT.safetensors、DOOR_PROBE_RECEIPT_PRIVATE.json、AI_PENDING_HUMAN.png。可选freeze/资源/驱动日志不计入69必需件，缺日志须如实说明。这个清单不证明用户的旧包实际缺件。
+
+| 操作终态 | 操作者下一步 |
+|---|---|
+| 退出0、私有字节及原验证器通过 | 从生成的模板source_sha256定位原图，在原授权私有界面人工逐项复核，再用HUMAN_REVIEW.md命令重新只读验收实际目录与填表合同；不是评分通过 |
+| 退出2、incomplete | 读取PRIVATE_INTEGRITY_REPORT.missing逐项补交实际保存的同次产物；无tensor/原图时停在未审模板。后补合法源图/许可须说明来源，不伪造原运行记录；完整性再验用新输出目录 |
+| 退出3、failed_private_return | 保留原RUN失败状态/错误和已有日志，回传现存部分包（pack --allow-partial仍要求合法三原图与许可）；不把failed改completed、不改汇总、不自动再跑矩阵 |
+| 哈希、版本、范围错误，保存PRIVATE_FAILURE后非零 | 保留收到的包及错误，要求操作员从原始同次运行副本重新交付正确字节；不改manifest或阈值迁就坏包、不重建丢失张量/日志 |
+| 只有全未审模板合同通过 | 仍无人工确认，不放行已审记录，不计准确率 |
+
+这条链的人工步骤不能“一键”代审。人工填表CLI必须接收实际--run/--source-data/--license（可选--model），重新调用inspect，旧成功JSON只能对照；当前HUMAN_REVIEW.md命令已包含所有必要参数。回传原模板、新填表、原始证据和新合同报告，只走原授权私有交付，不公开坐标/图片。
+
+评分停点：scientific_ROI_admission=false、human_GT=false、accuracy_metrics=null、decision=unknown。当前13个AI候选及局部可见性人审不构成完整开口/物理门身份/S/B或进出GT；没有可直接运行的正式评分命令，也不新造评分脚本。若这类独立合法真值后续获得，需另核适用范围与冻结协议，不能从本批数量一致或局部确认推算识别增益。

@@ -1,6 +1,6 @@
 # 私有人工复核清单：不补造看不见的底界
 
-先确认 PRIVATE_INTEGRITY_REPORT 的原图SHA和具体source_id，打开私有原图与对应AI_PENDING_HUMAN图。保持原图原尺寸，不使用增强/裁剪替代原证据，不把图片下边或候选框下边当作物理门槛。记录看过AI=true；这种复核不是盲GT。
+先从 HUMAN_REVIEW_TEMPLATE_PRIVATE.json 每条记录的 source_id、source_sha256 定位原图；对应固定 input_manifest.json 的 frames[].id、frames[].sha256。PRIVATE_INTEGRITY_REPORT 当前只列检查项名称，不含可供查找的原图SHA字段；它用于确认本次字节验收状态，不是原图身份查找表。实际原图为 data/<source_id>.jpg，AI图为 <matrix>/<source_id>--<arm>/AI_PENDING_HUMAN.png；prediction_id 只在该source_id与arm下定位候选，不是物理门身份。打开私有原图与对应AI_PENDING_HUMAN图。保持原图原尺寸，不使用增强/裁剪替代原证据，不把图片下边或候选框下边当作物理门槛。记录看过AI=true；这种复核不是盲GT。
 
 1. **视野是否充分**：分开记录top/left/right/bottom可见性（visible、not_visible、occluded、unknown）。需要时保持unknown。不可见阈值只标threshold_not_visible；不能解释为物理不存在、负类或安全。完整开口所需边界缺任何一项，full_opening_geometry_confirmed保持false。
 2. **候选指向什么**：按source_id、arm、prediction_id逐项复核，区分关门板、近侧被截开口、室内不同深度开口、其他/无法判断。AI框不是开口多边形，候选数不是门数；不同机位没有注册或已确认物理门身份。
