@@ -94,8 +94,10 @@ CUDA环境不能运行固定cpu-build smoke检查；CPU smoke使用单独CPU ven
 ```bash
 # 上一步validate成功才会产生PUBLIC_AGGREGATE.json。
 # private目录包含许可与所有输出；gzip包仅通过已批准私有站点或私有附件回传：
-tar -czf "$PRIVATE_RUN/private-results.tgz" -C "$PRIVATE_RUN" gpu-matrix data/SOURCE_LICENSE_ORIGINAL.html environment.freeze.txt
-sha256sum "$PRIVATE_RUN/private-results.tgz" > "$PRIVATE_RUN/private-results.tgz.sha256"
+"$PY" research/prompt-return-acceptance-20261013/pack_private_return.py \
+  --root "$PRIVATE_RUN" --run-name gpu-matrix \
+  --out "$PRIVATE_RUN/gpu-private-results-v2.tgz"
+sha256sum "$PRIVATE_RUN/gpu-private-results-v2.tgz" > "$PRIVATE_RUN/gpu-private-results-v2.tgz.sha256"
 # 公开回传分支，只copy允许的汇总，不git add整个private目录：
 git switch -c task/gpu-prompt-results-20261012
 mkdir -p research/gpu-prompt-boundary-handoff-20261012/returns/operator-run-1
@@ -111,3 +113,5 @@ git ls-remote origin refs/heads/task/gpu-prompt-results-20261012
 ```
 
 运行ID/分支已存在时选新名字，不强推。检查暂存文件只有汇总JSON且无本机路径、秘钥、私有URL、坐标/图像。失败时不运行上述成功汇总命令；私有回传失败RUN/logs，公开只手写审阅后的错误类别、unknown及未完成次数。Mac落盘仍须用户实测确认。
+
+2026-10-14：新打包入口还强制加入matrix之外的三张data/C{1,2,3}-f00000000.jpg原图（逐SHA核验），避免旧tar命令漏列。只新建私有归档并记录成员SHA，不覆写旧包/原日志/张量；清单齐全不等于包内容已验收。缺图会拒绝，显式--allow-partial仅允许保存已有失败矩阵产物和缺件记录，原图/许可仍必需。原图只私有回传，绝不提交公开仓库。不据此推断旧服务器包实际缺图。

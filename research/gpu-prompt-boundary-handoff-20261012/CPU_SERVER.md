@@ -41,9 +41,10 @@ bash "$TASK/run_cpu_server.sh" "$PWD" "$PY" \
 
 ```bash
 # 全产物私有附件/原已授权私有站点上传；绝不GitHub/LFS公开。
-tar -czf "$PRIVATE_RUN/cpu-private-results.tgz" -C "$PRIVATE_RUN" \
-  cpu-matrix cpu-matrix.server-logs data/SOURCE_LICENSE_ORIGINAL.html
-sha256sum "$PRIVATE_RUN/cpu-private-results.tgz" > "$PRIVATE_RUN/cpu-private-results.tgz.sha256"
+"$PY" research/prompt-return-acceptance-20261013/pack_private_return.py \
+  --root "$PRIVATE_RUN" --run-name cpu-matrix \
+  --out "$PRIVATE_RUN/cpu-private-results-v2.tgz"
+sha256sum "$PRIVATE_RUN/cpu-private-results-v2.tgz" > "$PRIVATE_RUN/cpu-private-results-v2.tgz.sha256"
 # 公开分支只接收严格验证器生成的无图像/坐标/私有路径汇总。
 git switch -c task/cpu-prompt-results-20261012
 mkdir -p research/gpu-prompt-boundary-handoff-20261012/returns/cpu-operator-run-1
@@ -59,3 +60,5 @@ git ls-remote origin refs/heads/task/cpu-prompt-results-20261012
 ```
 
 已有同名分支/目录时换新运行ID，不强推。私有包与SHA侧车可用于分析核验，不含秘密或服务令牌。CPU/GPU汇总都不能变成完整ROI识别效果或人工真值；S/B、事件、轨迹/方向仍unknown，unknown不等于安全。Mac落盘需用户另行确认。
+
+2026-10-14打包修正：旧命令只列matrix/日志/许可，未列matrix之外的data/C1-f00000000.jpg、C2-f00000000.jpg、C3-f00000000.jpg。新入口强制包含并核三原图及许可哈希，保留原日志/张量，仅新建v2归档，不覆写旧包。此命令缺口不证明用户已经回传的包少图。失败矩阵若源图/许可仍齐全，用显式--allow-partial保留现有失败证据与缺件清单；不能作为成功验收，也不补造缺件。

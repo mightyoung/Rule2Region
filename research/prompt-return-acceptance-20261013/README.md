@@ -66,3 +66,11 @@ PRIVATE_RETURN=/absolute/private/returned-package
 工具为单矩阵13个AI候选生成私有模板（不是13扇物理门）。推荐CPU作为首次人审主视图，GPU同场同提示作数值对应附件，不做第二份独立GT。步骤详见[HUMAN_REVIEW.md](HUMAN_REVIEW.md)。C1已有左右派生图贴合确认、顶部/底部证据图threshold_not_visible，保留其限定作用域；不自动扩展到C2/C3/别的提示候选，更不再问同图不可见门槛位置。
 
 先验收原图/渲染后才请用户在原授权私有页面复核。模板未完成前review_status=unreviewed、坐标null、全闭合确认false，S/B/事件/轨迹/方向unknown。方向变化只是证据，模糊目标才调用复合研判，unknown不等于安全。无新增模型调用/训练/付费或用户服务器连接。
+
+## 2026-10-14失败回传与打包增量
+
+新增pack_private_return.py强制三原图与许可，并逐列矩阵原产物；默认拒绝缺件，显式--allow-partial保留已有失败材料的缺件清单。输出独占新建，不覆盖旧包。归档成员清单只说明字节库存，artifact_contents_validated=false，不是模型或ROI验收通过。GPU/CPU原打包命令已修，位置见各RUNBOOK/CPU_SERVER。
+
+原私有验收器现在在其他文件缺失前先检查已有RUN_PRIVATE的schema、运行源码/配置哈希、执行版本、设备、unknown范围及试验集合。status=failed时保留真实失败类型/原因/部分trial与退出码，CLI退出3；running/incomplete仍退出2；completed但试验不全被拒绝。原包不覆写，不把失败伪装成成功或已人审。不存在的原始运行记录不补造。
+
+测试仅用微小合成文件/失败状态和已有公共Git对象，28项通过（原18+新增10）；没有任何模型forward、真实私有包验收或新人工确认。原图/张量/日志/许可和GT真实缺口继续如上，完整tensor验收成功路径仍待真实包。

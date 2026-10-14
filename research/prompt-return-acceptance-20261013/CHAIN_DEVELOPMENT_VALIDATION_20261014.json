@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "base_commit": "31e2075bd4c3710448b39a25395ba57729fc8c7f",
+  "existing_tests": 18,
+  "new_synthetic_tests": 10,
+  "total_passed": 28,
+  "test_first_observation": "6 return-state tests initially failed: 2 assertions + 4 absent-function errors; all passed after fix",
+  "archive_fixtures": "small synthetic non-image/non-tensor bytes; never model results",
+  "coverage": [
+    "each of three missing originals rejects archive creation",
+    "source hash mismatch rejected",
+    "old archive bytes preserved",
+    "explicit partial bundle retains missing list without successful content acceptance",
+    "failed RUN preserved despite missing artifacts",
+    "wrong RUN schema/git version/config hash rejected before tensor loading",
+    "unknown/GT scopes and duplicate or incomplete matrix rejected"
+  ],
+  "real_private_bundle_received": false,
+  "real_full_tensor_acceptance_validated": false,
+  "new_model_forward_calls": 0,
+  "new_human_truth_records": 0,
+  "old_CPU_GPU_aggregates_not_new_progress": true,
+  "publication_scope": "code, synthetic tests, method corrections only; no original images or tensors"
+}
