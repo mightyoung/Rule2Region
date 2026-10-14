@@ -115,3 +115,5 @@ git ls-remote origin refs/heads/task/gpu-prompt-results-20261012
 运行ID/分支已存在时选新名字，不强推。检查暂存文件只有汇总JSON且无本机路径、秘钥、私有URL、坐标/图像。失败时不运行上述成功汇总命令；私有回传失败RUN/logs，公开只手写审阅后的错误类别、unknown及未完成次数。Mac落盘仍须用户实测确认。
 
 2026-10-14：新打包入口还强制加入matrix之外的三张data/C{1,2,3}-f00000000.jpg原图（逐SHA核验），避免旧tar命令漏列。只新建私有归档并记录成员SHA，不覆写旧包/原日志/张量；清单齐全不等于包内容已验收。缺图会拒绝，显式--allow-partial仅允许保存已有失败矩阵产物和缺件记录，原图/许可仍必需。原图只私有回传，绝不提交公开仓库。不据此推断旧服务器包实际缺图。
+
+可选GPU驱动日志补齐：新打包入口会纳入PRIVATE_RUN/nvidia-smi.txt（私有白名单项）。未采集时manifest及CLI明确标missing_not_fabricated、optional_missing，不生成假日志、不将必需文件验收升级为驱动已核。CPU包不要求/纳入GPU日志。输出只供原授权私有回传，不公开驱动或主机信息。

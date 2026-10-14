@@ -25,10 +25,16 @@ def pack(root,run_name,out,*,source_spec=None,license_sha=LICENSE_SHA,allow_part
   if not p.is_file():missing.append(rel);continue
   require(not p.is_symlink(),'symlink artifact rejected: '+rel);paths.append(rel)
  require(allow_partial or not missing,'incomplete matrix; preserve failure and use explicit --allow-partial')
- for rel in [run_name+'/PUBLIC_AGGREGATE.json','environment.freeze.txt']+[run_name+'.server-logs/'+f for f in ['environment.freeze.txt','pip-check.log','run-resource.txt','run.stdout.log','run.stderr.log','validate-resource.txt','validate.stdout.log','validate.stderr.log']]:
+ optional_missing=[];driver_status='not_applicable_cpu'
+ optional_paths=[]
+ if run_name=='gpu-matrix':
+  optional_paths=['nvidia-smi.txt']
+  if (root/'nvidia-smi.txt').is_file():driver_status='included'
+  else:driver_status='missing_not_fabricated';optional_missing.append('nvidia-smi.txt')
+ for rel in [run_name+'/PUBLIC_AGGREGATE.json','environment.freeze.txt']+optional_paths+[run_name+'.server-logs/'+f for f in ['environment.freeze.txt','pip-check.log','run-resource.txt','run.stdout.log','run.stderr.log','validate-resource.txt','validate.stdout.log','validate.stderr.log']]:
   p=root/rel
   if p.is_file():require(not p.is_symlink(),'symlink log rejected');paths.append(rel)
- manifest={'schema_version':1,'kind':'private_return_archive_inventory','matrix':run_name,'complete_required_file_set':not missing,'allow_partial':allow_partial,'missing':missing,'human_GT':False,'decision':'unknown','artifact_contents_validated':False,'files':[{'path':rel,'bytes':(root/rel).stat().st_size,'sha256':sha(root/rel)} for rel in paths]}
+ manifest={'schema_version':1,'kind':'private_return_archive_inventory','matrix':run_name,'complete_required_file_set':not missing,'allow_partial':allow_partial,'missing':missing,'optional_missing':optional_missing,'driver_log_status':driver_status,'human_GT':False,'decision':'unknown','artifact_contents_validated':False,'files':[{'path':rel,'bytes':(root/rel).stat().st_size,'sha256':sha(root/rel)} for rel in paths]}
  # Exclusive create prevents racing or silently replacing an older archive.
  with out.open('xb') as stream:
   with tarfile.open(fileobj=stream,mode='w:gz') as archive:
@@ -39,4 +45,4 @@ if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--run-name',choices=['cpu-matrix','gpu-matrix'],required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--allow-partial',action='store_true');a=p.parse_args()
  sys.path.insert(0,str(REPO/BASE));import handoff
  handoff.outside_git(a.out);m=pack(a.root,a.run_name,a.out,allow_partial=a.allow_partial)
- print(json.dumps({'archive_sha256':sha(a.out),'required_files_complete':m['complete_required_file_set'],'missing_count':len(m['missing']),'content_acceptance':'not_run','decision':'unknown'}))
+ print(json.dumps({'archive_sha256':sha(a.out),'required_files_complete':m['complete_required_file_set'],'missing_count':len(m['missing']),'optional_missing':m['optional_missing'],'driver_log_status':m['driver_log_status'],'content_acceptance':'not_run','decision':'unknown'}))
