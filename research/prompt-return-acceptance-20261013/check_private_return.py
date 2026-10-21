@@ -1,19 +1,35 @@
 """Offline inspection of an already-unpacked authorized private return.
 Does not extract archives, fetch, execute logs, run forward passes or create GT.
 """
-import argparse,hashlib,json,sys,shutil,tempfile
+import argparse,hashlib,json,math,sys,shutil,tempfile
 from pathlib import Path
 from audit_returns import BASE,audit,require,digest,blob
 ARTIFACTS=['SOURCE_PRIVATE.json','stdout.log','stderr.log','DOOR_RAW_OUTPUT.safetensors','PROCESSED_INPUT.safetensors','DOOR_PROBE_RECEIPT_PRIVATE.json','AI_PENDING_HUMAN.png']
 LICENSE_SHA='d18e672f3d402615178b8f586d587d5071259c819b13db9558c4e725ad76fcb6'
+def read_run_state(path):
+ """Reject ambiguous JSON instead of silently using its last duplicate key."""
+ def unique_object(pairs):
+  result={}
+  for key,value in pairs:
+   require(key not in result,'duplicate JSON key in run state')
+   result[key]=value
+  return result
+ def nonfinite(value):
+  raise ValueError('nonfinite JSON constant in run state')
+ def finite_float(value):
+  parsed=float(value)
+  require(math.isfinite(parsed),'nonfinite JSON number in run state')
+  return parsed
+ return json.loads(Path(path).read_text(),object_pairs_hook=unique_object,parse_constant=nonfinite,parse_float=finite_float)
 def sha(p):
  h=hashlib.sha256()
  with Path(p).open('rb') as f:
   for b in iter(lambda:f.read(1048576),b''):h.update(b)
  return h.hexdigest()
 def validate_return_state(r, expected, hashes):
- require(r.get('schema_version')==1,'run schema version mismatch')
- require(r.get('status') in {'running','failed','completed'},'unknown run status')
+ require(isinstance(r,dict),'run state must be a JSON object')
+ require(type(r.get('schema_version')) is int and r['schema_version']==1,'run schema version mismatch')
+ require(isinstance(r.get('status'),str) and r['status'] in {'running','failed','completed'},'unknown run status')
  require(r.get('kind')=='real_prompt_probe','unexpected run kind')
  require(r.get('device')==expected['device'] and r.get('git_commit')==expected['git_commit'],'run device/version mismatch')
  require(r.get('decision')=='unknown' and r.get('human_GT') is False,'run scope escalation')
@@ -21,9 +37,13 @@ def validate_return_state(r, expected, hashes):
  trials=r.get('trials');require(isinstance(trials,list),'missing trial state')
  expected_pairs={(x['source_id'],x['arm']) for x in expected['trials']};pairs=[]
  for x in trials:
-  require(isinstance(x,dict),'invalid trial state');pair=(x.get('source_id'),x.get('arm'));pairs.append(pair)
+  require(isinstance(x,dict),'invalid trial state')
+  require(isinstance(x.get('source_id'),str) and isinstance(x.get('arm'),str),'invalid trial identity')
+  pair=(x['source_id'],x['arm']);pairs.append(pair)
   require(pair in expected_pairs and x.get('decision')=='unknown','trial identity/scope drift')
-  require(x.get('status') in {'running','completed','failed'},'unknown trial status')
+  require(isinstance(x.get('status'),str) and x['status'] in {'running','completed','failed'},'unknown trial status')
+  if 'exit_code' in x:require(type(x['exit_code']) is int,'trial exit code must be an integer')
+  if x['status']=='completed':require(x.get('exit_code')==0,'completed trial requires exit code zero')
  require(len(pairs)==len(set(pairs)),'duplicate trial state')
  if r['status']=='completed':
   require(set(pairs)==expected_pairs and all(x.get('status')=='completed' and x.get('exit_code')==0 for x in trials),'incomplete completed matrix')
@@ -34,7 +54,7 @@ def inspect(repo,run,name,data=None,license_path=None,model=None):
  state=None
  if (run/'RUN_PRIVATE.json').is_file():
   hashes={f:digest(blob(repo,aggregates[name]['git_commit'],BASE+f)) for f in ['input_manifest.json','model_manifest.json','experiment.json','forward.py','handoff.py']}
-  state=validate_return_state(json.loads((run/'RUN_PRIVATE.json').read_text()),aggregates[name],hashes)
+  state=validate_return_state(read_run_state(run/'RUN_PRIVATE.json'),aggregates[name],hashes)
  for f in ['RUN_PRIVATE.json','MODEL_ENV_PRIVATE.json']:
   if not (run/f).is_file():missing.append('run/'+f)
  model_manifest=json.loads((repo/BASE/'model_manifest.json').read_text());sources=json.loads((repo/BASE/'input_manifest.json').read_text())['frames']

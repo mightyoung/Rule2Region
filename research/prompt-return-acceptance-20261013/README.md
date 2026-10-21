@@ -1,5 +1,11 @@
 # 已返回矩阵验收与人工复核入口
 
+2026-10-21独立增量：[执行与复审报告](INTEGRITY_DEVELOPMENT_REPORT_20261021.md)、
+[逐命令终态](INTEGRITY_DEVELOPMENT_VALIDATION_20261021.json)、
+[五项评分建议及影响（全部待批准）](SCORING_DECISION_RECOMMENDATIONS_20261021.md)。
+RUN_PRIVATE读取新增重复字段/非有限数值拒绝及严格整数门禁；52项软件测试通过，
+不代表真实私有包、GT或正式评分通过。
+
 2026-10-13，继续原任务，不重复请求或运行CPU/GPU矩阵。已fetch并核远端完整SHA：
 
 | 证据 | 精确Git提交 | 验收层级 |

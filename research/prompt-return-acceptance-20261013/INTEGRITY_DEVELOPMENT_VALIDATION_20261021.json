@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-21T16:14:20.919027+00:00",
+  "kind": "development_synthetic_software_validation",
+  "baseline_commit": "2125cbb09b36ae3737412d208612df2aa36a6ae0",
+  "branch": "task/acceptance-integrity-20261021",
+  "results": [
+    {
+      "label": "baseline_reproduction",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-c",
+        "import pathlib,subprocess,sys,types,unittest\narea=pathlib.Path('research/prompt-return-acceptance-20261013')\nsys.path.insert(0,str(area.resolve()))\nm=types.ModuleType('check_private_return');m.__file__=str((area/'check_private_return.py').resolve())\nexec(compile(subprocess.check_output(['git','show','2125cbb09b36ae3737412d208612df2aa36a6ae0:research/prompt-return-acceptance-20261013/check_private_return.py']),m.__file__,'exec'),m.__dict__)\nsys.modules['check_private_return']=m\nsuite=unittest.defaultTestLoader.discover(str(area),pattern='test_strict_return.py')\nr=unittest.TextTestRunner(verbosity=2).run(suite)\nsys.exit(not r.wasSuccessful())\n"
+      ],
+      "exit_code": 1,
+      "output_sha256": "f169176d9da9e8c5cb69626a98ea6f75ad2af27fe0e7ba864c889ea617f2e8a3",
+      "output_tail": [
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 9 tests in 0.534s",
+        "",
+        "FAILED (failures=19, errors=6)"
+      ]
+    },
+    {
+      "label": "acceptance_suite",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/prompt-return-acceptance-20261013/",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_sha256": "138630ebeef69d14a6a9b9b115306fa6bdafb1f8c71e854f361b7188c566b44d",
+      "output_tail": [
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 52 tests in 1.336s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "label": "public_audit",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "research/prompt-return-acceptance-20261013/audit_returns.py",
+        "--repo",
+        ".",
+        "--out",
+        "/tmp/rule2region-acceptance-20261021/public-audit-final.json"
+      ],
+      "exit_code": 0,
+      "output_sha256": "49dc9385e6c2337449746a4fa44fc6b36a0005386fb259fdf0739490fcfcea0a",
+      "output_tail": [
+        "{\"verified_receipts\": 19, \"private_original_package_verified\": false, \"decision\": \"unknown\"}"
+      ]
+    },
+    {
+      "label": "repository_suite",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "output_sha256": "a638fde482278dbb4e0085e3a8dffd741f866654f77984dfc6e25d536fdae37a",
+      "output_tail": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3: No module named pytest"
+      ]
+    },
+    {
+      "label": "diff_whitespace",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_tail": []
+    }
+  ],
+  "human_GT": false,
+  "scientific_ROI_admission": false,
+  "accuracy_metrics": null,
+  "decision": "unknown",
+  "not_executed": [
+    "real private original bundle acceptance",
+    "model forward or training",
+    "formal scoring",
+    "new human annotation",
+    "frozen v2/v3 test suites (no files changed)"
+  ],
+  "limitations": [
+    "pytest unavailable; no dependency installation attempted",
+    "read_run_state strict JSON applies only to RUN_PRIVATE.json; not a repository-wide JSON validator",
+    "state validation alone does not establish byte integrity, honest execution or scientific validity"
+  ]
+}
