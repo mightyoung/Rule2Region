@@ -1,0 +1,151 @@
+{
+  "contract_version": "person-roi-retention.v1",
+  "kind": "synthetic_software_fixture",
+  "preregistered_units": [
+    "synthetic-u1"
+  ],
+  "units": [
+    {
+      "unit_id": "synthetic-u1",
+      "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "camera_id": "synthetic-camera",
+      "source_version": "synthetic-v1",
+      "arm": "synthetic-arm",
+      "width": 100,
+      "height": 100,
+      "split": "development",
+      "lineage_ids": [
+        "synthetic-family-1"
+      ],
+      "input_layer": "I0",
+      "task": "person_roi_retention",
+      "counterfactual_family": "none",
+      "target_answers_supplied": false,
+      "source_geometry_substitutes_observability": false,
+      "fixture_admission": {
+        "source_authorized": true,
+        "bundle_integrity": true,
+        "independent_full_frame_labels": true,
+        "roi_reviewed": true,
+        "camera_registered": true,
+        "policy_bound": true,
+        "observability_reviewed": true,
+        "stable_ids_frozen": true,
+        "preregistered_before_results": true
+      },
+      "roi": {
+        "version": "synthetic-roi-v1",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            50,
+            0
+          ],
+          [
+            50,
+            100
+          ],
+          [
+            0,
+            100
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "policy_version": "synthetic-policy-v1",
+      "labels": {
+        "status": "complete",
+        "annotation_complete": true,
+        "scope": "full_frame_visible_person",
+        "fixture_reviewed": true,
+        "binding": {
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "camera_id": "synthetic-camera",
+          "source_version": "synthetic-v1",
+          "roi_version": "synthetic-roi-v1",
+          "policy_version": "synthetic-policy-v1"
+        },
+        "objects": [
+          {
+            "id": "g1",
+            "category": "person",
+            "bbox": [
+              10,
+              10,
+              20,
+              20
+            ],
+            "truncated": false
+          },
+          {
+            "id": "g2",
+            "category": "person",
+            "bbox": [
+              40,
+              10,
+              60,
+              20
+            ],
+            "truncated": false
+          },
+          {
+            "id": "g3",
+            "category": "person",
+            "bbox": [
+              25,
+              30,
+              35,
+              40
+            ],
+            "truncated": false
+          }
+        ],
+        "ignore": []
+      },
+      "predictions": [
+        {
+          "id": "p1",
+          "category": "person",
+          "bbox": [
+            10,
+            10,
+            20,
+            20
+          ],
+          "truncated": false,
+          "route": "keep"
+        },
+        {
+          "id": "p2",
+          "category": "person",
+          "bbox": [
+            40,
+            10,
+            60,
+            20
+          ],
+          "truncated": false,
+          "route": "suppress"
+        },
+        {
+          "id": "p3",
+          "category": "person",
+          "bbox": [
+            70,
+            10,
+            80,
+            20
+          ],
+          "truncated": false,
+          "route": "suppress"
+        }
+      ]
+    }
+  ]
+}

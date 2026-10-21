@@ -1,5 +1,11 @@
 # 已返回矩阵验收与人工复核入口
 
+2026-10-21后续：用户已批准五项建议，见[有来源的批准记录](SCORING_APPROVAL_20261021.json)。
+新增[确定性评分契约v1](SCORING_CONTRACT_V1.md)及[执行/独立复审报告](SCORING_DEVELOPMENT_REPORT_20261021.md)：
+精确匹配、冻结基线配对、四项分母与失败关闭已实现；当前仅运行synthetic软件fixture，
+验收目录79项通过，真实原包/完整人工GT未验，准确率仍null。
+原待决清单与建议文件为此前历史快照，其“待批准”状态由本次批准记录承接，未回写历史。
+
 2026-10-21独立增量：[执行与复审报告](INTEGRITY_DEVELOPMENT_REPORT_20261021.md)、
 [逐命令终态](INTEGRITY_DEVELOPMENT_VALIDATION_20261021.json)、
 [五项评分建议及影响（全部待批准）](SCORING_DECISION_RECOMMENDATIONS_20261021.md)。

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "kind": "user_approval_record",
+  "contract_version": "person-roi-retention.v1",
+  "recorded_date_utc": "2026-10-21",
+  "source_message_timestamp": null,
+  "authority": "user",
+  "evidence_channel": "trusted transcript supplied in the continuation delegation",
+  "evidence_assistant_context": "Rule2Region：批准或调整五项评分建议，包括IoU≥0.50、固定匹配规则、指标分母及未知值阻断；还需真实包和人工GT。",
+  "evidence_user_quote": "均批准按照建议执行，并行执行三个研究任务的下一步吧",
+  "approved_recommendations_commit": "d87bdb2221187bcf4ba5405a8b1501898cbae561",
+  "approved_recommendations_path": "research/prompt-return-acceptance-20261013/SCORING_DECISION_RECOMMENDATIONS_20261021.md",
+  "decisions": [
+    {
+      "number": 1,
+      "topic": "对象与作用域",
+      "status": "approved_as_recommended"
+    },
+    {
+      "number": 2,
+      "topic": "候选边与阈值",
+      "status": "approved_as_recommended",
+      "iou_min_inclusive": "1/2"
+    },
+    {
+      "number": 3,
+      "topic": "唯一分配与同分",
+      "status": "approved_as_recommended"
+    },
+    {
+      "number": 4,
+      "topic": "四项计数账本",
+      "status": "approved_as_recommended"
+    },
+    {
+      "number": 5,
+      "topic": "准入与反事实适用性",
+      "status": "approved_as_recommended"
+    }
+  ],
+  "authorized_work": [
+    "deterministic scoring contract and implementation",
+    "synthetic software tests",
+    "independent review",
+    "push existing independent task branch"
+  ],
+  "does_not_establish": [
+    "original private bundle received or validated",
+    "complete independent human GT",
+    "closed ROI or physical identity",
+    "specific S/B correspondence",
+    "formal research effect or accuracy"
+  ],
+  "human_GT": false,
+  "scientific_ROI_admission": false,
+  "accuracy_metrics": null,
+  "decision": "unknown",
+  "approved_recommendations_sha256": "066b13f637b83422ffd11160cc5b2ee502c53e2e8abbbec530f4ee29415494e6"
+}

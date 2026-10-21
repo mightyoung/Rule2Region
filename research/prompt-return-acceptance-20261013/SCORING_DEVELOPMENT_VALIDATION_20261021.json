@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-21T17:16:13.330713+00:00",
+  "kind": "synthetic_software_validation",
+  "baseline_commit": "d87bdb2221187bcf4ba5405a8b1501898cbae561",
+  "contract_version": "person-roi-retention.v1",
+  "results": [
+    {
+      "label": "scoring_suite",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/prompt-return-acceptance-20261013",
+        "-p",
+        "test_scoring*.py",
+        "-v"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "output_sha256": "89dde66b3b1e93bd71aa3981c0cb71eb48381b32a1638c96bb9cab712b87bfa7",
+      "output_tail": [
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 27 tests in 0.302s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "label": "acceptance_suite",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/prompt-return-acceptance-20261013",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "output_sha256": "67fa763905a050df0177b44ff55c31b832d5a883f9940c8c52b61c198101ff95",
+      "output_tail": [
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 79 tests in 1.726s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "label": "repository_light_suite",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "tests/test_selectors.py",
+        "tests/test_features.py",
+        "tests/test_admission.py",
+        "tests/test_parsing_analysis.py",
+        "tests/test_alignment.py",
+        "tests/test_labels.py",
+        "tests/test_roi_structure_protocol.py",
+        "tests/test_evidencegate_core.py"
+      ],
+      "environment_overrides": {
+        "PYTHONPATH": "/tmp/rule2region-scoring-20261021/testdeps"
+      },
+      "exit_code": 0,
+      "output_sha256": "d8b31a5d00a109c18a094798e2301e8220fcb60f7c39ec6925b3413e1baefb2c",
+      "output_tail": [
+        "....................................................                     [100%]",
+        "52 passed in 0.30s"
+      ]
+    },
+    {
+      "label": "public_return_audit",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "research/prompt-return-acceptance-20261013/audit_returns.py",
+        "--repo",
+        ".",
+        "--out",
+        "/tmp/rule2region-scoring-20261021/public-audit.json"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "output_sha256": "49dc9385e6c2337449746a4fa44fc6b36a0005386fb259fdf0739490fcfcea0a",
+      "output_tail": [
+        "{\"verified_receipts\": 19, \"private_original_package_verified\": false, \"decision\": \"unknown\"}"
+      ]
+    },
+    {
+      "label": "synthetic_scoring_cli",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "research/prompt-return-acceptance-20261013/scoring_contract.py",
+        "--input",
+        "research/prompt-return-acceptance-20261013/SCORING_SYNTHETIC_FIXTURE.json",
+        "--out",
+        "/tmp/rule2region-scoring-20261021/fixture-final-result.json"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "output_sha256": "437c68a05c201965d52cbeca78da2def03fa07f24db9eded296880968331272f",
+      "output_tail": [
+        "{\"status\": \"synthetic_scored\", \"kind\": \"synthetic_software_validation\", \"accuracy_metrics\": null}"
+      ]
+    },
+    {
+      "label": "diff_whitespace",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_tail": []
+    }
+  ],
+  "full_repository_attempt": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "pytest"
+    ],
+    "environment_overrides": {
+      "PYTHONPATH": "/tmp/rule2region-scoring-20261021/testdeps"
+    },
+    "exit_code": 2,
+    "status": "collection_interrupted",
+    "errors": [
+      "tests/test_audit_virat_videos00_media.py",
+      "tests/test_build_codec_derivatives.py",
+      "tests/test_build_development_video_receipt.py",
+      "tests/test_codec_fixture.py",
+      "tests/test_evidencegate_smoke_inputs.py",
+      "tests/test_g2_smoke_contract.py",
+      "tests/test_g3_formal_contract.py",
+      "tests/test_g3_latency_contract.py",
+      "tests/test_g4_build.py"
+    ],
+    "reason": [
+      "cv2 unavailable",
+      "av unavailable",
+      "research_tools.remote not included in published source"
+    ],
+    "output_sha256": "873a64408885f96740cc57c832061cf116f70e430c2f6d00bdfe7fc603e84f19"
+  },
+  "initial_test_environment": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "pytest"
+    ],
+    "exit_code": 1,
+    "reason": "No module named pytest",
+    "remedy": {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "pip",
+        "install",
+        "--target",
+        "/tmp/rule2region-scoring-20261021/testdeps",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "scope": "isolated /tmp only; no repository dependency changes",
+      "installed_pytest": "9.1.1"
+    }
+  },
+  "test_first_observations": [
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/prompt-return-acceptance-20261013",
+        "-p",
+        "test_scoring_contract.py",
+        "-v"
+      ],
+      "stage": "before implementation",
+      "exit_code": 1,
+      "tests": 15,
+      "failures": 15
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/prompt-return-acceptance-20261013",
+        "-p",
+        "test_scoring_oracle.py",
+        "-v"
+      ],
+      "stage": "before implementation; independently executed",
+      "exit_code": 1,
+      "tests": 6,
+      "failures": 6
+    },
+    {
+      "stage": "first implementation CLI output boundary",
+      "tests": 21,
+      "exit_code": 1,
+      "failures": 1,
+      "reason": "synthetic mounted /tmp/.git marker mistaken for real checkout; corrected using git rev-parse"
+    },
+    {
+      "stage": "review feedback regression before fixes",
+      "tests": 18,
+      "exit_code": 1,
+      "failures": 1,
+      "errors": 2
+    },
+    {
+      "stage": "shared reference content regression before fix",
+      "exit_code": 1,
+      "output_sha256": "fd910941bd36d86bc0dc1d941a76d8ff1610708e5ab17739498c64caa92a400e",
+      "output_tail": [
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 20 tests in 0.214s",
+        "",
+        "FAILED (failures=4)"
+      ]
+    }
+  ],
+  "artifact_sha256": {
+    "scoring_contract.py": "31ce4a97943cddc5f7b58b8257bf367fcdf273c104d7108c2dd0f2e08c09aa4d",
+    "test_scoring_contract.py": "8c5aa25a093d1b9f5ce361cca1e05588341ba51a05896da5ec36874c09bdab84",
+    "test_scoring_oracle.py": "2e7923e75c537371526866d0d7009c4b435f7025d6f62b17ce70aa6eb85688df",
+    "SCORING_APPROVAL_20261021.json": "26c26db9d8266a91a132a501a7bb53e39274ccfe4a63f3dc0dab4666a4b676cf",
+    "SCORING_CONTRACT_V1.md": "6e9e36251ad97f729e9f31ab7eb74ded9215711d08d1b91f163b062609da08b3",
+    "SCORING_SYNTHETIC_FIXTURE.json": "8e3c68f112f4ae2d1a228131ef725f5de5db17a0a147a8734b9eb926d45e17ff"
+  },
+  "not_executed": [
+    "real original private bundle acceptance",
+    "real-source scoring",
+    "human GT creation or validation",
+    "model forward/training",
+    "deployment or merge"
+  ],
+  "human_GT": false,
+  "scientific_ROI_admission": false,
+  "accuracy_metrics": null,
+  "decision": "unknown"
+}
